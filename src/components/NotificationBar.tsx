@@ -14,9 +14,9 @@ export const NotificationBar: React.FC<NotificationBarProps> = ({ onOpenBooking 
             <Sparkles className="w-3 h-3 text-yellow-400" /> Port Elizabeth Exclusive
           </span>
           <span className="hidden sm:inline text-black">
-            Get a high-converting website & top Google Maps rank in <strong className="underline decoration-black decoration-2">7 Days</strong>.
+            Get a high-converting website & top Google Maps rank with a <strong className="underline decoration-black decoration-2">fast turnaround time</strong>.
           </span>
-          <span className="sm:hidden text-black">7-Day Local PE Web & Google SEO Turnaround</span>
+          <span className="sm:hidden text-black">Fast Local PE Web & Google SEO Turnaround</span>
         </div>
 
         <div className="flex items-center gap-3">

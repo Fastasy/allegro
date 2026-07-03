@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
                 <Phone className="w-3.5 h-3.5 text-yellow-400" /> 041 581 0920
               </a>
               <a
-                href="https://wa.me/27821234567"
+                href="https://wa.me/27823006996"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 hover:bg-yellow-300 text-black px-3 py-2 rounded-lg flex items-center gap-1.5 font-black text-xs transition-all shadow"
@@ -57,7 +57,6 @@ export const Footer: React.FC = () => {
               <li><a href="#calculator" className="hover:text-yellow-400 transition-colors">PE Revenue Calculator</a></li>
               <li><a href="#why-us" className="hover:text-yellow-400 transition-colors">3-Step Growth Engine</a></li>
               <li><a href="#demos" className="hover:text-yellow-400 transition-colors">Live Industry Demos</a></li>
-              <li><a href="#testimonials" className="hover:text-yellow-400 transition-colors">Client Case Studies</a></li>
               <li><a href="#pricing" className="hover:text-yellow-400 transition-colors">Fixed SA Pricing</a></li>
               <li><a href="#faq" className="hover:text-yellow-400 transition-colors">FAQ</a></li>
             </ul>
@@ -69,12 +68,11 @@ export const Footer: React.FC = () => {
               Services Offered
             </h4>
             <ul className="space-y-2 text-zinc-400">
-              <li>• Port Elizabeth Custom Web Design</li>
-              <li>• Google Maps & Business Profile Setup</li>
-              <li>• Mobile 1-Tap Tap-To-Call Integration</li>
-              <li>• Automated WhatsApp Chat Leads</li>
-              <li>• Local Search Engine Optimization (SEO)</li>
-              <li>• High Speed SA Cloud Web Hosting</li>
+              <li>• Custom Web Design</li>
+              <li>• Google Maps Optimization</li>
+              <li>• Google SEO</li>
+              <li>• High Speed Cloud Hosting</li>
+              <li>• Professional Domains</li>
             </ul>
           </div>
 
@@ -114,7 +112,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-1">
             <span>© {new Date().getFullYear()} Allegro Digital (Pty) Ltd. Made with</span>
             <Heart className="w-3 h-3 text-yellow-400 fill-yellow-400 inline" />
-            <span>in Baakens Valley, Port Elizabeth.</span>
+            <span>in Summerstrand, Port Elizabeth.</span>
           </div>
 
           <div className="flex items-center gap-4">

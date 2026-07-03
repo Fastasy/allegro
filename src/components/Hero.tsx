@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-zinc-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              We build ultra-fast, high-converting websites for PE businesses without one. We optimize your Google Business Profile & deliver local phone calls and WhatsApp enquiries straight to your smartphone in <strong className="text-yellow-400 underline decoration-yellow-400 decoration-2">7 days</strong>.
+              We build ultra-fast, high-converting websites for PE businesses without one. We optimize your Google Business Profile & deliver local phone calls and website enquiries straight to your smartphone with a <strong className="text-yellow-400 underline decoration-yellow-400 decoration-2">fast turnaround time</strong>.
             </p>
 
             {/* Key Value Pillars Checklist */}
@@ -64,7 +64,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                 <div className="w-5 h-5 rounded-full bg-yellow-400/20 text-yellow-400 flex items-center justify-center flex-shrink-0 font-bold">
                   <Check className="w-3.5 h-3.5" />
                 </div>
-                <span>Instant WhatsApp & Call routing</span>
+                <span>Instant Lead & Call routing</span>
               </div>
               <div className="flex items-center gap-2 justify-center lg:justify-start">
                 <div className="w-5 h-5 rounded-full bg-yellow-400/20 text-yellow-400 flex items-center justify-center flex-shrink-0 font-bold">
@@ -102,15 +102,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
 
             {/* Social Proof Bar under CTAs */}
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 text-xs text-zinc-400 border-t border-zinc-800">
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                ))}
-                <span className="font-bold text-white ml-1">4.9/5</span>
-              </div>
-              <span className="hidden sm:inline text-zinc-600">•</span>
               <span className="text-zinc-300">
-                Trusted by 45+ Businesses across <strong className="text-white">Walmer, Summerstrand, Newton Park & Lorraine</strong>
+                Locally Based in <strong className="text-white">Port Elizabeth</strong> • Dedicated to Small Business Growth
               </span>
             </div>
 
@@ -149,11 +142,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
               {/* Main Preview Screen Frame */}
               <div className={`mx-auto transition-all duration-300 rounded-2xl glass-panel p-3 border border-zinc-800 shadow-2xl relative overflow-hidden ${activeDevice === 'mobile' ? 'max-w-sm' : 'w-full'}`}>
                 
-                {/* Live Floating Hot Badge */}
-                <div className="absolute top-6 right-6 z-20 bg-black/90 border border-yellow-400 text-yellow-400 px-3 py-1 rounded-full text-xs font-bold shadow-lg flex items-center gap-1.5 animate-bounce">
-                  <Flame className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
-                  <span>+18 Leads This Week</span>
-                </div>
+
 
                 {/* Simulated Webpage Header */}
                 <div className="bg-zinc-900 rounded-xl p-3 border border-zinc-800 mb-2 flex items-center justify-between">
@@ -169,7 +158,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                     </div>
                   </div>
                   <div className="bg-yellow-400/10 text-yellow-400 text-[10px] font-bold px-2 py-0.5 rounded border border-yellow-400/30">
-                    ★ 4.9 (84 Reviews)
+                    Verified PE Business
                   </div>
                 </div>
 
@@ -208,7 +197,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                     className="bg-zinc-900 hover:bg-zinc-800 text-white font-bold text-xs py-2.5 px-3 rounded-lg border border-zinc-700 flex items-center justify-center gap-1.5 cursor-pointer"
                   >
                     <MessageSquare className="w-3.5 h-3.5 text-yellow-400" />
-                    <span>WhatsApp Quote</span>
+                    <span>Website Quote</span>
                   </button>
                 </div>
 
@@ -245,10 +234,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
               {/* Decorative Corner Floating Card */}
               <div className="hidden sm:flex absolute -bottom-6 -right-6 bg-zinc-900/95 border border-yellow-500/30 p-3 rounded-xl shadow-2xl items-center gap-3 backdrop-blur-xl animate-float">
                 <div className="w-10 h-10 rounded-lg bg-yellow-400 text-black flex items-center justify-center font-black text-lg">
-                  7
+                  ⚡
                 </div>
                 <div>
-                  <h6 className="text-xs font-bold text-white">Days From Start To Live</h6>
+                  <h6 className="text-xs font-bold text-white">Fast Setup To Live</h6>
                   <p className="text-[10px] text-zinc-400">Zero tech stress for your business</p>
                 </div>
               </div>

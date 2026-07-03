@@ -71,8 +71,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
                 </div>
                 <div>
                   <span className="text-[10px] text-zinc-400 uppercase font-bold block">Instant WhatsApp Enquiries</span>
-                  <a href="https://wa.me/27821234567" target="_blank" rel="noopener noreferrer" className="text-lg font-extrabold text-yellow-400 hover:underline">
-                    082 123 4567 (Tap to Chat)
+                  <a href="https://wa.me/27823006996" target="_blank" rel="noopener noreferrer" className="text-lg font-extrabold text-yellow-400 hover:underline">
+                    082 300 6996 (Tap to Chat)
                   </a>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
                 <div>
                   <span className="text-[10px] text-zinc-400 uppercase font-bold block">Physical Location</span>
                   <span className="text-xs font-bold text-zinc-200">
-                    Baakens Valley Creative Hub, Lower Valley Rd, Port Elizabeth, 6001
+                    Summerstrand, Port Elizabeth, 6001
                   </span>
                 </div>
               </div>

@@ -9,7 +9,7 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({ onOpenBooking 
   const comparisonItems = [
     {
       feature: 'Delivery Speed',
-      allegro: '🚀 7 Days Turnaround',
+      allegro: '🚀 Fast Turnaround Time',
       traditional: '🐢 2 to 4 Months',
       allegroHighlight: true
     },
@@ -126,14 +126,14 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({ onOpenBooking 
                 Don't waste 3 months waiting for an agency that delivers zero leads.
               </h4>
               <p className="text-xs text-zinc-400">
-                Get your Port Elizabeth business online and ranking on Google in 7 days.
+                Get your Port Elizabeth business online and ranking on Google with a fast turnaround time.
               </p>
             </div>
             <button
               onClick={onOpenBooking}
               className="shimmer-btn text-black font-black text-xs sm:text-sm px-6 py-3 rounded-xl shadow-lg flex items-center gap-2 flex-shrink-0 cursor-pointer border border-yellow-300"
             >
-              <span>Get Started In 7 Days</span>
+              <span>Get Started With Fast Turnaround</span>
               <ArrowRight className="w-4 h-4 text-black" />
             </button>
           </div>

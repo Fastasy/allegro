@@ -39,7 +39,7 @@ export const ProcessEngine: React.FC<ProcessEngineProps> = ({ onOpenBooking }) =
       description: 'No more missed phone calls or lost enquiries. When a client submits a form or requests a consultation, you get an instant alert on your phone with full client details.',
       bullets: [
         'Online Calendar Booking Widget included',
-        'Instant WhatsApp & Email Lead Notifications',
+        'Instant Email Lead Notifications',
         'Turnkey setup - 100% managed by Allegro'
       ]
     }
@@ -107,7 +107,7 @@ export const ProcessEngine: React.FC<ProcessEngineProps> = ({ onOpenBooking }) =
 
               <div className="pt-2">
                 <span className="text-[11px] text-zinc-400 flex items-center gap-1 font-semibold">
-                  <ShieldCheck className="w-3.5 h-3.5 text-yellow-400" /> Execution in 7 Days
+                  <ShieldCheck className="w-3.5 h-3.5 text-yellow-400" /> Fast Turnaround Time
                 </span>
               </div>
             </div>

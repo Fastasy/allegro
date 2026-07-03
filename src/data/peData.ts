@@ -110,47 +110,7 @@ export const PE_INDUSTRIES: IndustryDemo[] = [
   }
 ];
 
-export const TESTIMONIALS: Testimonial[] = [
-  {
-    id: '1',
-    name: 'Johan van der Merwe',
-    role: 'Owner & Head Electrician',
-    company: 'Algoa Power & Electrical',
-    suburb: 'Walmer, PE',
-    rating: 5,
-    quote: 'Before Allegro Digital, we relied 100% on word-of-mouth. Within 12 days of launching our new site and Google Maps setup, phone calls went from 3 a week to over 22 qualified calls every week. They literally transformed my business.',
-    beforeLeads: '3 leads/week',
-    afterLeads: '22 leads/week',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=250&q=80',
-    badge: '⚡ +630% Revenue Growth'
-  },
-  {
-    id: '2',
-    name: 'Nompumelelo Dlamini',
-    role: 'Managing Director',
-    company: 'Ocean Breeze Luxury Suites',
-    suburb: 'Summerstrand, PE',
-    rating: 5,
-    quote: 'Booking.com was taking 18% commission on every guest! Allegro built us a stunning direct-booking website with Google local SEO. Now over 60% of our bookings come directly through our own site commission-free.',
-    beforeLeads: 'R15k Direct/mo',
-    afterLeads: 'R82k Direct/mo',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=250&q=80',
-    badge: '🏨 Saved R18,000/mo Fees'
-  },
-  {
-    id: '3',
-    name: 'David Robertson',
-    role: 'Senior Attorney',
-    company: 'Robertson & Associates Legal',
-    suburb: 'Newton Park, PE',
-    rating: 5,
-    quote: 'We had an old website from 2012 that didn’t work on smartphones. Allegro Digital launched our sleek new site in 6 days and got us to #1 on Google for "conveyancers Port Elizabeth". The quality of new legal enquiries has been phenomenal.',
-    beforeLeads: '1 enquiry/mo',
-    afterLeads: '14 enquiries/mo',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=250&q=80',
-    badge: '🏆 #1 Google Search Rank'
-  }
-];
+export const TESTIMONIALS: Testimonial[] = [];
 
 export const PRICING_PLANS: PricingPlan[] = [
   {
@@ -162,7 +122,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     features: [
       'Custom 3-Page Modern Mobile Website',
       'Google Business Profile Setup & Optimization',
-      '1-Tap Direct WhatsApp & Call Buttons',
+      '1-Tap Direct Call Buttons',
       'Lightning Fast SA Cloud Hosting Included',
       'Google Maps Local Setup (PE Radius)',
       'SSL Certificate & Professional Domain',
@@ -183,7 +143,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Up to 7 High-Converting Custom Pages',
       'Top 3 Google Maps Ranking Strategy',
       'Interactive Online Booking & Calendar Widget',
-      'Instant Lead Alerts via WhatsApp & Email',
+      'Instant Lead Alerts via Email',
       'Localized PE SEO Keyword Targeting (Walmer, Newton Park, etc.)',
       'Google Reviews Generator Integration',
       '30-Day Managed Lead Growth Guarantee'
@@ -201,9 +161,8 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Everything in Growth Dominator +',
       'Unlimited Pages & Custom Web Portal',
       'Multi-Suburb Local SEO (PE, Kariega, Despatch)',
-      'Automated WhatsApp Chatbot & Lead Qualifier',
-      'Google Ads Campaign Setup & Management',
-      'Monthly Lead Analytics & Strategy Meetings',
+      'Advanced Google Maps Optimization',
+      'Monthly Analytics & Strategy',
       'Priority 24/7 VIP Local PE Support'
     ],
     ctaText: 'Get Market Leader',

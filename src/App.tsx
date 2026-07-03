@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { SplashSection } from './components/SplashSection';
 import { NotificationBar } from './components/NotificationBar';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -7,7 +8,6 @@ import { SocialProof } from './components/SocialProof';
 import { ProcessEngine } from './components/ProcessEngine';
 import { ProductShowcase } from './components/ProductShowcase';
 import { ComparisonTable } from './components/ComparisonTable';
-import { Testimonials } from './components/Testimonials';
 import { Pricing } from './components/Pricing';
 import { Faq } from './components/Faq';
 import { ContactSection } from './components/ContactSection';
@@ -49,6 +49,9 @@ export function App() {
   return (
     <div className="min-h-screen bg-black text-zinc-100 selection:bg-yellow-400 selection:text-black font-sans">
       
+      {/* Splash Intro Section */}
+      <SplashSection />
+
       {/* Top Urgent Notification Banner */}
       <NotificationBar onOpenBooking={handleOpenBooking} />
 
@@ -77,9 +80,6 @@ export function App() {
 
       {/* Allegro Digital vs Traditional PE Agencies */}
       <ComparisonTable onOpenBooking={handleOpenBooking} />
-
-      {/* Local PE Client Success Stories & Review Metric Cards */}
-      <Testimonials onOpenBooking={handleOpenBooking} />
 
       {/* Transparent Fixed SA Rand Pricing (Once-off vs Monthly Toggle) */}
       <Pricing onSelectPlan={handleSelectPlan} />

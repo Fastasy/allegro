@@ -63,6 +63,10 @@ export const BookingModal: React.FC<BookingModalProps> = ({
         spread: 70,
         origin: { y: 0.6 }
       });
+      
+      const message = `*New Website Enquiry*\n\n*Name:* ${fullName}\n*Business:* ${businessName}\n*Phone:* ${phone}\n*Date & Time:* ${selectedDate} @ ${selectedTime}\n*Suburb:* ${suburb}\n*Industry:* ${industry}\n*Notes:* ${notes || 'None'}`;
+      window.open(`https://wa.me/27823006996?text=${encodeURIComponent(message)}`, '_blank');
+      
       setStep(3);
     }
   };
@@ -320,12 +324,12 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href={`https://wa.me/27821234567?text=Hi%20Allegro%20Digital,%20I%20just%20booked%20a%20strategy%20call%20for%20${encodeURIComponent(businessName)}%20in%20${encodeURIComponent(suburb)}.`}
+                href={`https://wa.me/27823006996?text=${encodeURIComponent(`*New Website Enquiry*\n\n*Name:* ${fullName}\n*Business:* ${businessName}\n*Phone:* ${phone}\n*Date & Time:* ${selectedDate} @ ${selectedTime}\n*Suburb:* ${suburb}\n*Industry:* ${industry}\n*Notes:* ${notes || 'None'}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-black text-xs py-3.5 rounded-xl transition-colors flex items-center justify-center gap-2 shadow"
               >
-                <span>Chat On WhatsApp Now</span>
+                <span>Open WhatsApp Again</span>
               </a>
               <button
                 onClick={resetAndClose}
@@ -337,7 +341,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
             <div className="text-[10px] text-zinc-400 flex items-center justify-center gap-1 font-medium">
               <ShieldCheck className="w-3 h-3 text-yellow-400" />
-              <span>Allegro Digital • Baakens Valley Creative Quarter, Port Elizabeth</span>
+              <span>Allegro Digital • Summerstrand, Port Elizabeth</span>
             </div>
           </div>
         )}

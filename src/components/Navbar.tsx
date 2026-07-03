@@ -104,7 +104,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2 pb-2 border-b border-zinc-800 text-xs text-zinc-400">
               <CheckCircle className="w-4 h-4 text-yellow-400" />
-              <span>Gqeberha Local Office: Walmer & Baakens Valley</span>
+              <span>Gqeberha Local Office: Summerstrand</span>
             </div>
             {navLinks.map((link) => (
               <a

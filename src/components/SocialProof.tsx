@@ -38,56 +38,7 @@ export const SocialProof: React.FC<SocialProofProps> = ({ onOpenBooking }) => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Metric Stats Banner */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-          <div className="glass-panel p-5 rounded-2xl text-center border border-zinc-800 hover:border-yellow-400 transition-all">
-            <div className="text-3xl sm:text-4xl font-extrabold text-white font-heading gradient-text-accent">
-              98.4%
-            </div>
-            <div className="text-xs text-zinc-400 font-medium mt-1">
-              Google Maps Visibility Boost
-            </div>
-            <div className="text-[10px] text-yellow-400 mt-1 flex items-center justify-center gap-1 font-bold">
-              <Trophy className="w-3 h-3" /> Top 3 Search Focus
-            </div>
-          </div>
 
-          <div className="glass-panel p-5 rounded-2xl text-center border border-zinc-800 hover:border-yellow-400 transition-all">
-            <div className="text-3xl sm:text-4xl font-extrabold text-white font-heading">
-              3.4x
-            </div>
-            <div className="text-xs text-zinc-400 font-medium mt-1">
-              Average Monthly Lead Volume
-            </div>
-            <div className="text-[10px] text-zinc-300 mt-1 flex items-center justify-center gap-1">
-              <Users className="w-3 h-3 text-yellow-400" /> Calls & WhatsApp Enquiries
-            </div>
-          </div>
-
-          <div className="glass-panel p-5 rounded-2xl text-center border border-zinc-800 hover:border-yellow-400 transition-all">
-            <div className="text-3xl sm:text-4xl font-extrabold text-yellow-400 font-heading">
-              7 Days
-            </div>
-            <div className="text-xs text-zinc-400 font-medium mt-1">
-              Average Turnaround Time
-            </div>
-            <div className="text-[10px] text-zinc-300 mt-1 flex items-center justify-center gap-1">
-              <Clock className="w-3 h-3 text-yellow-400" /> Design to Live Website
-            </div>
-          </div>
-
-          <div className="glass-panel p-5 rounded-2xl text-center border border-zinc-800 hover:border-yellow-400 transition-all">
-            <div className="text-3xl sm:text-4xl font-extrabold text-white font-heading">
-              R4.2M+
-            </div>
-            <div className="text-xs text-zinc-400 font-medium mt-1">
-              New Revenue Generated for PE Clients
-            </div>
-            <div className="text-[10px] text-yellow-400 mt-1 flex items-center justify-center gap-1 font-bold">
-              <ShieldCheck className="w-3 h-3" /> Verified Local Results
-            </div>
-          </div>
-        </div>
 
         {/* Local PE Sector Cards */}
         <div className="text-center max-w-2xl mx-auto mb-10">
