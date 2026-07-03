@@ -8,19 +8,44 @@ export const LeadMagnetPopup: React.FC = () => {
   const [downloaded, setDownloaded] = useState(false);
 
   useEffect(() => {
-    // Show popup after 20 seconds or user scroll
-    const timer = setTimeout(() => {
-      const hasSeen = sessionStorage.getItem('allegro_lead_magnet_seen');
-      if (!hasSeen) {
+    let triggered = false;
+
+    const showPopup = () => {
+      const hasSeen = sessionStorage.getItem('allegro_lead_magnet_seen_v2');
+      if (!hasSeen && !triggered) {
+        triggered = true;
         setIsOpen(true);
       }
-    }, 18000);
+    };
 
-    return () => clearTimeout(timer);
+    // Show popup after 20 seconds
+    const timer = setTimeout(() => {
+      showPopup();
+    }, 20000);
+
+    // Or show popup on scroll
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+      
+      // Trigger when scrolled halfway down the page
+      if (scrollPosition > (documentHeight - windowHeight) / 2) {
+        showPopup();
+        window.removeEventListener('scroll', handleScroll);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   const handleClose = () => {
-    sessionStorage.setItem('allegro_lead_magnet_seen', 'true');
+    sessionStorage.setItem('allegro_lead_magnet_seen_v2', 'true');
     setIsOpen(false);
   };
 

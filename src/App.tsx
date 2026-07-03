@@ -14,6 +14,8 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
 import { LeadMagnetPopup } from './components/LeadMagnetPopup';
+import { CustomCursor } from './components/CustomCursor';
+import { RevealOnScroll } from './components/RevealOnScroll';
 import { PricingPlan } from './data/peData';
 
 export function App() {
@@ -65,30 +67,46 @@ export function App() {
       />
 
       {/* Interactive PE Revenue Loss & Lead Calculator Micro-App */}
-      <RevenueCalculator
-        onOpenBookingWithDetails={handleOpenBookingWithDetails}
-      />
+      <RevealOnScroll>
+        <RevenueCalculator
+          onOpenBookingWithDetails={handleOpenBookingWithDetails}
+        />
+      </RevealOnScroll>
 
       {/* Social Proof, PE Suburbs Marquee, Stats & Sector Cards */}
-      <SocialProof onOpenBooking={handleOpenBooking} />
+      <RevealOnScroll>
+        <SocialProof onOpenBooking={handleOpenBooking} />
+      </RevealOnScroll>
 
       {/* The 3-Step Allegro Growth Framework */}
-      <ProcessEngine onOpenBooking={handleOpenBooking} />
+      <RevealOnScroll>
+        <ProcessEngine onOpenBooking={handleOpenBooking} />
+      </RevealOnScroll>
 
       {/* Interactive Live Web Preview Sandbox & Before/After Comparison */}
-      <ProductShowcase onOpenBooking={handleOpenBooking} />
+      <RevealOnScroll>
+        <ProductShowcase onOpenBooking={handleOpenBooking} />
+      </RevealOnScroll>
 
       {/* Allegro Digital vs Traditional PE Agencies */}
-      <ComparisonTable onOpenBooking={handleOpenBooking} />
+      <RevealOnScroll>
+        <ComparisonTable onOpenBooking={handleOpenBooking} />
+      </RevealOnScroll>
 
       {/* Transparent Fixed SA Rand Pricing (Once-off vs Monthly Toggle) */}
-      <Pricing onSelectPlan={handleSelectPlan} />
+      <RevealOnScroll>
+        <Pricing onSelectPlan={handleSelectPlan} />
+      </RevealOnScroll>
 
       {/* Frequently Asked Questions */}
-      <Faq />
+      <RevealOnScroll>
+        <Faq />
+      </RevealOnScroll>
 
       {/* Direct Contact & Quick Consultation Request Form */}
-      <ContactSection onOpenBooking={handleOpenBooking} />
+      <RevealOnScroll>
+        <ContactSection onOpenBooking={handleOpenBooking} />
+      </RevealOnScroll>
 
       {/* Localized Footer */}
       <Footer />
@@ -104,6 +122,9 @@ export function App() {
 
       {/* Free Local SEO Playbook Popup */}
       <LeadMagnetPopup />
+
+      {/* Custom Bee-Themed Cursor (Desktop Only) */}
+      <CustomCursor />
 
     </div>
   );

@@ -16,6 +16,15 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
   }
+
+  @media (min-width: 768px) {
+    *, *::before, *::after {
+      cursor: none !important;
+    }
+    input, textarea, [contenteditable="true"] {
+      cursor: text !important;
+    }
+  }
 }
 
 /* Custom Utilities for High-Contrast Black, White & Yellow Polish */
@@ -109,8 +118,49 @@
   animation: marquee 25s linear infinite;
 }
 
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-float-slow {
+  animation: floatSlow 3s ease-in-out infinite;
+}
+
+@keyframes autoScroll {
+  0%, 15%, 100% { transform: translateY(0); }
+  45%, 65% { transform: translateY(-45px); }
+}
+
+.animate-auto-scroll {
+  animation: autoScroll 8s ease-in-out infinite;
+}
+
 .animate-marquee:hover {
   animation-play-state: paused;
+}
+
+@keyframes bounceDown {
+  0%, 100% { transform: translateY(0); animation-timing-function: cubic-bezier(0.8, 0, 1, 1); }
+  50% { transform: translateY(35%); animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+}
+
+@keyframes fadeScaleIn {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animate-bounce-down {
+  animation: bounceDown 1.5s infinite;
+}
+
+.animate-fade-scale {
+  animation: fadeScaleIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
 }
 
 /* Black & Yellow Shimmer Button */
