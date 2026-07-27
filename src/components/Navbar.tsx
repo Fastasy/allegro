@@ -21,7 +21,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
     { name: 'Calculator', href: '#calculator' },
     { name: 'Why Allegro', href: '#why-us' },
     { name: 'Live Demos', href: '#demos' },
-    { name: 'PE Stories', href: '#testimonials' },
     { name: 'Pricing', href: '#pricing' },
     { name: 'FAQ', href: '#faq' }
   ];
@@ -68,13 +67,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
           {/* Right Action CTA */}
           <div className="hidden sm:flex items-center gap-3">
             <a
-              href="tel:0415810920"
-              className="flex items-center gap-2 px-3 py-2 text-zinc-300 hover:text-yellow-400 transition-colors text-xs font-semibold rounded-lg hover:bg-zinc-900 border border-transparent hover:border-zinc-800"
+              href="tel:0823006996"
+              className="hidden lg:flex items-center gap-3 bg-zinc-900 border border-zinc-700 px-4 py-2 rounded-xl hover:border-yellow-400/50 transition-colors"
             >
-              <Phone className="w-4 h-4 text-yellow-400 animate-bounce" />
-              <div className="text-left">
-                <span className="block text-[10px] text-zinc-400 leading-tight">Call PE Team</span>
-                <span className="text-xs font-extrabold text-white">041 581 0920</span>
+              <div className="w-8 h-8 rounded-lg bg-black border border-zinc-800 flex items-center justify-center">
+                <Phone className="w-3.5 h-3.5 text-yellow-400" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-[9px] text-zinc-400 font-bold uppercase tracking-widest">Questions?</span>
+                <span className="text-xs font-extrabold text-white">082 300 6996</span>
               </div>
             </a>
 
@@ -118,10 +119,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
             ))}
             <div className="pt-4 border-t border-zinc-800 flex flex-col gap-3">
               <a
-                href="tel:0415810920"
-                className="flex items-center justify-center gap-2 py-3 bg-zinc-900 border border-zinc-700 rounded-xl font-bold text-sm text-yellow-400"
+                href="tel:0823006996"
+                className="w-full bg-zinc-900 border border-zinc-700 text-white font-bold text-xs py-3.5 rounded-xl hover:bg-zinc-800 transition-colors flex items-center justify-center gap-2"
               >
-                <Phone className="w-4 h-4" /> Call PE Office: 041 581 0920
+                <Phone className="w-4 h-4" /> Call PE Office: 082 300 6996
               </a>
               <button
                 onClick={() => {

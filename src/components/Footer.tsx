@@ -32,10 +32,10 @@ export const Footer: React.FC = () => {
 
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="tel:0415810920"
-                className="bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-zinc-200 px-3 py-2 rounded-lg flex items-center gap-1.5 font-bold text-xs hover:border-yellow-400 transition-all"
+                href="tel:0823006996"
+                className="flex items-center gap-2 text-zinc-400 hover:text-yellow-400 transition-colors text-sm"
               >
-                <Phone className="w-3.5 h-3.5 text-yellow-400" /> 041 581 0920
+                <Phone className="w-3.5 h-3.5 text-yellow-400" /> 082 300 6996
               </a>
               <a
                 href="https://wa.me/27823006996"

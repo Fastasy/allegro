@@ -10,7 +10,7 @@ export const Faq: React.FC = () => {
   };
 
   return (
-    <section id="faq" className="py-20 bg-black text-white relative overflow-hidden border-t border-zinc-800">
+    <section id="faq" className="py-20 text-white relative overflow-hidden border-t border-zinc-800">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Header */}
@@ -66,11 +66,11 @@ export const Faq: React.FC = () => {
             </p>
           </div>
           <a
-            href="tel:0415810920"
-            className="bg-yellow-400 hover:bg-yellow-300 text-black font-black text-xs px-5 py-3 rounded-xl transition-colors flex items-center gap-2 flex-shrink-0 shadow"
+            href="tel:0823006996"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 bg-zinc-900 border border-zinc-700 hover:border-yellow-400 rounded-xl text-white font-bold text-sm transition-all hover:bg-zinc-800"
           >
-            <Phone className="w-4 h-4 fill-black" />
-            <span>Call PE Strategist: 041 581 0920</span>
+            <Phone className="w-4 h-4 text-yellow-400" />
+            <span>Call PE Strategist: 082 300 6996</span>
           </a>
         </div>
 

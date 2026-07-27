@@ -14,7 +14,7 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onOpenBooking 
   const [activeTab, setActiveTab] = useState<'after' | 'before'>('after');
 
   return (
-    <section id="demos" className="py-20 bg-black text-white relative overflow-hidden">
+    <section id="demos" className="py-20 text-white relative overflow-hidden">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         

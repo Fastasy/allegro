@@ -28,7 +28,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
   };
 
   return (
-    <section id="contact" className="py-20 bg-black text-white relative overflow-hidden border-t border-zinc-800">
+    <section id="contact" className="py-20 text-white relative overflow-hidden border-t border-zinc-800">
       
       {/* Glow */}
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-yellow-400/10 rounded-full blur-[140px] pointer-events-none" />
@@ -58,9 +58,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
                   <Phone className="w-6 h-6 animate-pulse" />
                 </div>
                 <div>
-                  <span className="text-[10px] text-zinc-400 uppercase font-bold block">PE Office Landline</span>
-                  <a href="tel:0415810920" className="text-lg font-extrabold text-white hover:text-yellow-400 transition-colors">
-                    041 581 0920
+                  <span className="text-[10px] text-zinc-400 uppercase font-bold block">PE Office Direct</span>
+                  <a href="tel:0823006996" className="text-lg font-extrabold text-white hover:text-yellow-400 transition-colors">
+                    082 300 6996
                   </a>
                 </div>
               </div>

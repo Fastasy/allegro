@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Search, Zap, PhoneCall, CheckCircle, ArrowRight, ShieldCheck, Cpu } from 'lucide-react';
+import { Layout, Search, Zap, Phone, CheckCircle, ArrowRight, ShieldCheck, Cpu } from 'lucide-react';
 
 interface ProcessEngineProps {
   onOpenBooking: () => void;
@@ -46,7 +46,7 @@ export const ProcessEngine: React.FC<ProcessEngineProps> = ({ onOpenBooking }) =
   ];
 
   return (
-    <section id="why-us" className="py-20 bg-black text-white relative overflow-hidden">
+    <section id="why-us" className="py-20 text-white relative overflow-hidden">
       
       {/* Glow Effects */}
       <div className="absolute top-1/4 left-10 w-80 h-80 bg-yellow-400/10 rounded-full blur-[130px] pointer-events-none" />
@@ -135,11 +135,11 @@ export const ProcessEngine: React.FC<ProcessEngineProps> = ({ onOpenBooking }) =
             </button>
             
             <a
-              href="tel:0415810920"
-              className="w-full sm:w-auto bg-black border border-zinc-700 text-zinc-200 hover:text-white font-bold text-sm px-5 py-3.5 rounded-xl flex items-center justify-center gap-2 hover:border-yellow-400 transition-colors"
+              href="tel:0823006996"
+              className="flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 bg-zinc-900 border border-zinc-700 hover:border-yellow-400 rounded-xl text-white font-bold text-sm transition-all hover:bg-zinc-800 shadow-xl"
             >
-              <PhoneCall className="w-4 h-4 text-yellow-400" />
-              <span>041 581 0920</span>
+              <Phone className="w-4 h-4 text-yellow-400" />
+              <span>082 300 6996</span>
             </a>
           </div>
         </div>

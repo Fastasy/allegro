@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
   const [activeDevice, setActiveDevice] = useState<'mobile' | 'desktop'>('mobile');
 
   return (
-    <section className="relative pt-6 pb-20 md:pt-12 md:pb-28 overflow-hidden bg-black text-white">
+    <section className="relative pt-6 pb-20 md:pt-12 md:pb-28 overflow-hidden text-white">
       {/* Background Radial Glow Effects */}
       <div className="hero-glow bg-yellow-400/15 top-10 left-1/2 -translate-x-1/2" />
       <div className="hero-glow bg-yellow-500/10 top-1/3 -right-20" />
@@ -189,7 +189,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                   {/* Direct Action Call Buttons Mockup */}
                   <div className="grid grid-cols-2 gap-2 mb-3">
                     <a
-                      href="tel:0415810920"
+                      href="tel:0823006996"
                       onClick={(e) => { e.preventDefault(); onOpenBooking(); }}
                       className="bg-yellow-400 hover:bg-yellow-300 text-black font-extrabold text-xs py-2.5 px-3 rounded-lg flex items-center justify-center gap-1.5 shadow transition-transform active:scale-95 cursor-pointer"
                     >

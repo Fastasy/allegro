@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight, PhoneCall } from 'lucide-react';
+import { Sparkles, ArrowRight, Phone } from 'lucide-react';
 
 interface NotificationBarProps {
   onOpenBooking: () => void;
@@ -21,11 +21,11 @@ export const NotificationBar: React.FC<NotificationBarProps> = ({ onOpenBooking 
 
         <div className="flex items-center gap-3">
           <a
-            href="tel:0415810920"
-            className="hidden md:flex items-center gap-1 text-black font-extrabold hover:underline text-xs"
+            href="tel:0823006996"
+            className="flex items-center gap-1.5 hover:text-white transition-colors"
           >
-            <PhoneCall className="w-3.5 h-3.5 text-black" />
-            <span>041 581 0920</span>
+            <Phone className="w-3.5 h-3.5" />
+            <span>082 300 6996</span>
           </a>
           <button
             onClick={onOpenBooking}

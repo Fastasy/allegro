@@ -15,6 +15,7 @@ import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
 import { LeadMagnetPopup } from './components/LeadMagnetPopup';
 import { CustomCursor } from './components/CustomCursor';
+import { AnimatedBackground } from './components/AnimatedBackground';
 import { RevealOnScroll } from './components/RevealOnScroll';
 import { PricingPlan } from './data/peData';
 
@@ -49,7 +50,8 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-zinc-100 selection:bg-yellow-400 selection:text-black font-sans">
+    <div className="min-h-screen text-zinc-100 font-sans selection:bg-yellow-400 selection:text-black relative">
+      <AnimatedBackground />
       
       {/* Splash Intro Section */}
       <SplashSection />

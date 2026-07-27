@@ -64,7 +64,8 @@ export const BookingModal: React.FC<BookingModalProps> = ({
         origin: { y: 0.6 }
       });
       
-      const message = `*New Website Enquiry*\n\n*Name:* ${fullName}\n*Business:* ${businessName}\n*Phone:* ${phone}\n*Date & Time:* ${selectedDate} @ ${selectedTime}\n*Suburb:* ${suburb}\n*Industry:* ${industry}\n*Notes:* ${notes || 'None'}`;
+      const planText = initialPlan ? `\n*Selected Package:* ${initialPlan}` : '';
+      const message = `*New Website Enquiry*\n\n*Name:* ${fullName}\n*Business:* ${businessName}\n*Phone:* ${phone}\n*Date & Time:* ${selectedDate} @ ${selectedTime}\n*Suburb:* ${suburb}\n*Industry:* ${industry}${planText}\n*Notes:* ${notes || 'None'}`;
       window.open(`https://wa.me/27823006996?text=${encodeURIComponent(message)}`, '_blank');
       
       setStep(3);
@@ -324,7 +325,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href={`https://wa.me/27823006996?text=${encodeURIComponent(`*New Website Enquiry*\n\n*Name:* ${fullName}\n*Business:* ${businessName}\n*Phone:* ${phone}\n*Date & Time:* ${selectedDate} @ ${selectedTime}\n*Suburb:* ${suburb}\n*Industry:* ${industry}\n*Notes:* ${notes || 'None'}`)}`}
+                href={`https://wa.me/27823006996?text=${encodeURIComponent(`*New Website Enquiry*\n\n*Name:* ${fullName}\n*Business:* ${businessName}\n*Phone:* ${phone}\n*Date & Time:* ${selectedDate} @ ${selectedTime}\n*Suburb:* ${suburb}\n*Industry:* ${industry}${initialPlan ? `\n*Selected Package:* ${initialPlan}` : ''}\n*Notes:* ${notes || 'None'}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-black text-xs py-3.5 rounded-xl transition-colors flex items-center justify-center gap-2 shadow"
