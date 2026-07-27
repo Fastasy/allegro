@@ -65,7 +65,7 @@ export const LeadMagnetPopup: React.FC = () => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md animate-in fade-in duration-200 text-white">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/95 animate-in fade-in duration-200 text-white">
       <div className="bg-zinc-950 border border-yellow-400/40 rounded-3xl max-w-md w-full p-6 shadow-2xl relative overflow-hidden text-left">
         
         <button
