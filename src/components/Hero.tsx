@@ -42,17 +42,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
               </span>
             </div>
 
-            {/* Core Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
-              <span className="inline-block animate-fade-scale" style={{ animationDelay: '100ms' }}>Stop Losing&nbsp;</span>
-              <span className="inline-block animate-fade-scale gradient-text-accent" style={{ animationDelay: '300ms' }}>Port Elizabeth&nbsp;</span>
+              <span className="inline-block animate-fade-scale" style={{ animationDelay: '100ms' }}>Professional Web Design in</span>
               <br className="hidden lg:block" />
-              <span className="inline-block animate-fade-scale" style={{ animationDelay: '500ms' }}>Customers To Competitors On Google.</span>
+              <span className="inline-block animate-fade-scale gradient-text-accent" style={{ animationDelay: '300ms' }}>Port Elizabeth (Gqeberha)</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-zinc-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              We build ultra-fast, high-converting websites for PE businesses without one. We optimize your Google Business Profile & deliver local phone calls and website enquiries straight to your smartphone with a <strong className="text-yellow-400 underline decoration-yellow-400 decoration-2">fast turnaround time</strong>.
+              Looking for professional <strong className="text-white">web design port elizabeth</strong>? We build ultra-fast, high-converting websites to help local businesses dominate Google. Whether you need complete <strong className="text-white">website design gqeberha</strong> or <strong className="text-white">affordable website design packages</strong>, we deliver local phone calls and online enquiries straight to your smartphone with a fast turnaround time.
             </p>
 
             {/* Key Value Pillars Checklist */}
@@ -61,7 +59,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                 <div className="w-5 h-5 rounded-full bg-yellow-400/20 text-yellow-400 flex items-center justify-center flex-shrink-0 font-bold">
                   <Check className="w-3.5 h-3.5" />
                 </div>
-                <span>Top 3 Google Maps local ranking</span>
+                <span>Google Maps local ranking</span>
               </div>
               <div className="flex items-center gap-2 justify-center lg:justify-start">
                 <div className="w-5 h-5 rounded-full bg-yellow-400/20 text-yellow-400 flex items-center justify-center flex-shrink-0 font-bold">
@@ -79,7 +77,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                 <div className="w-5 h-5 rounded-full bg-yellow-400/20 text-yellow-400 flex items-center justify-center flex-shrink-0 font-bold">
                   <Check className="w-3.5 h-3.5" />
                 </div>
-                <span>30-Day Leads Strategy</span>
+                <span>Local Leads Strategy</span>
               </div>
             </div>
 

@@ -104,7 +104,7 @@ export const Pricing: React.FC<PricingProps> = ({ onSelectPlan }) => {
                 <div className="space-y-5 text-sm">
                   <div>
                     <strong className="text-white block mb-1 text-xs uppercase tracking-wide">What You Get:</strong>
-                    <p className="text-zinc-300 leading-relaxed">Guaranteed uptime, secure hosting, SSL certificate, regular backups, essential updates, and proactive security monitoring. Your website stays online, safe, and functional—no tech headaches for you.</p>
+                    <p className="text-zinc-300 leading-relaxed">Reliable uptime, secure hosting, SSL certificate, regular backups, essential updates, and proactive security monitoring. Your website stays online, safe, and functional—no tech headaches for you.</p>
                   </div>
                   <div>
                     <strong className="text-yellow-400 block mb-1 text-xs uppercase tracking-wide">Your Advantage:</strong>

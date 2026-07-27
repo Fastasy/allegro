@@ -76,17 +76,21 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Col 4: Suburbs Covered (3 cols) */}
+          {/* Col 4: Map Embed (3 cols) */}
           <div className="lg:col-span-3 space-y-3">
             <h4 className="text-sm font-extrabold text-white uppercase tracking-wider font-heading flex items-center gap-1">
-              <MapPin className="w-3.5 h-3.5 text-yellow-400" /> Port Elizabeth Suburbs
+              <MapPin className="w-3.5 h-3.5 text-yellow-400" /> Based in Summerstrand
             </h4>
-            <div className="flex flex-wrap gap-1.5 pt-1">
-              {PE_SUBURBS.map((suburb) => (
-                <span key={suburb} className="bg-zinc-900 border border-zinc-800 text-[10px] text-zinc-300 px-2 py-1 rounded">
-                  {suburb}
-                </span>
-              ))}
+            <div className="pt-1 w-full h-32 rounded-xl overflow-hidden border border-zinc-800">
+              <iframe
+                title="Allegro Digital Location"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                allowFullScreen
+                src="https://maps.google.com/maps?q=Summerstrand,%20Port%20Elizabeth&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              ></iframe>
             </div>
           </div>
 

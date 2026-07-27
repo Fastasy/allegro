@@ -67,7 +67,7 @@ export const PE_INDUSTRIES: IndustryDemo[] = [
     primaryService: 'Geyser Repair & Drain Unblocking',
     avgLeadValue: 1850,
     monthlySearchesPE: 2400,
-    features: ['1-Tap Emergency WhatsApp Button', 'Instant Quote Calculator', 'Google Maps Top 3 Ranker']
+    features: ['1-Tap Emergency WhatsApp Button', 'Instant Quote Calculator', 'Google Maps Local Ranker']
   },
   {
     id: 'hospitality',
@@ -129,7 +129,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       '7-Day Delivery Turnaround'
     ],
     ctaText: 'Get Starter Package',
-    guarantee: '100% Mobile Optimized Guarantee'
+    guarantee: '100% Mobile Optimized'
   },
   {
     id: 'growth',
@@ -141,15 +141,15 @@ export const PRICING_PLANS: PricingPlan[] = [
     features: [
       'Everything in Starter +',
       'Up to 7 High-Converting Custom Pages',
-      'Top 3 Google Maps Ranking Strategy',
+      'Google Maps Ranking Strategy',
       'Interactive Online Booking & Calendar Widget',
       'Instant Lead Alerts via Email',
       'Localized PE SEO Keyword Targeting (Walmer, Newton Park, etc.)',
       'Google Reviews Generator Integration',
-      '30-Day Managed Lead Growth Guarantee'
+      'Managed Lead Growth Strategy'
     ],
     ctaText: 'Claim Growth Package',
-    guarantee: '10 Local Leads Guaranteed in 30 Days'
+    guarantee: 'Local Leads Strategy'
   },
   {
     id: 'market-leader',

@@ -22,7 +22,7 @@ export const ProcessEngine: React.FC<ProcessEngineProps> = ({ onOpenBooking }) =
     {
       step: '02',
       title: 'Google Maps & Local PE SEO Ranking',
-      subtitle: 'Dominate Top 3 Local Search Results in Walmer, Newton Park & PE',
+      subtitle: 'Dominate Local Search Results in Walmer, Newton Park & PE',
       icon: <Search className="w-6 h-6 text-yellow-400" />,
       description: 'When Gqeberha locals search for your services on Google, you will show up right at the top with glowing reviews, your address, phone number, and a direct link to your site.',
       bullets: [
