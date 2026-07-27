@@ -81,6 +81,30 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
               </div>
             </div>
 
+            {/* Disruptive Pricing Banner */}
+            <div className="bg-yellow-400/10 border border-yellow-400/30 rounded-xl p-4 sm:p-5 max-w-xl mx-auto lg:mx-0 mt-6 mb-2 shadow-lg shadow-yellow-400/5 relative overflow-hidden">
+              <div className="absolute top-0 right-0 bg-yellow-400 text-black text-[10px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                PE Market Disrupter
+              </div>
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div>
+                  <div className="flex items-baseline gap-1">
+                    <span className="text-3xl font-black text-white">R1,499</span>
+                    <span className="text-sm font-medium text-zinc-400">once-off design</span>
+                  </div>
+                  <div className="flex items-baseline gap-1 mt-0.5">
+                    <span className="text-xl font-bold text-yellow-400">+ R800</span>
+                    <span className="text-xs text-zinc-400">/mo hosting & maintenance</span>
+                  </div>
+                </div>
+                <div className="h-10 w-px bg-zinc-700 hidden sm:block"></div>
+                <div className="text-xs text-zinc-300 max-w-[200px]">
+                  <span className="line-through text-zinc-500 mr-1">R15,000+ agency fees</span><br />
+                  Get a world-class website without the ridiculous traditional upfront costs.
+                </div>
+              </div>
+            </div>
+
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-3">
               <button
@@ -204,12 +228,20 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                   </div>
 
                   {/* Interactive Simulated Lead Form */}
-                  <div className="bg-zinc-900 rounded-xl p-3 border border-zinc-800 text-left">
-                    <div className="flex items-center justify-between mb-2">
+                  <div className="bg-zinc-900 rounded-xl p-3 border border-zinc-800 text-left relative overflow-hidden group/form">
+                    
+                    {/* Clear Demo Label Overlay */}
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px] flex items-center justify-center opacity-0 group-hover/form:opacity-100 transition-opacity z-10">
+                      <span className="bg-yellow-400 text-black text-[10px] font-black px-3 py-1 rounded shadow-lg uppercase tracking-wider">
+                        Interactive Visual Demo
+                      </span>
+                    </div>
+
+                    <div className="flex items-center justify-between mb-2 opacity-70">
                       <span className="text-[11px] font-bold text-zinc-200">Request Instant Callback in PE</span>
                       <span className="text-[10px] text-yellow-400 font-mono">⚡ 3 Min Response</span>
                     </div>
-                    <div className="space-y-1.5">
+                    <div className="space-y-1.5 opacity-70">
                       <input
                         type="text"
                         readOnly
@@ -220,7 +252,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                         onClick={onOpenBooking}
                         className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-black text-xs py-2 rounded shadow transition-colors cursor-pointer"
                       >
-                        Book Free Consultation Slot
+                        Test Demo Form (Opens Booking)
                       </button>
                     </div>
                   </div>
