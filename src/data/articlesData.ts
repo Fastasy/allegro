@@ -533,5 +533,100 @@ export const articles: Article[] = [
         </p>
       </div>
     `
+  },
+  {
+    slug: 'how-to-start-a-small-business-south-africa-guide',
+    title: 'The Ultimate South African Startup Launch Guide: Get Legal and Get Online (On a Budget)',
+    summary: 'Starting a business in SA? Learn how to register your company with CIPC, get a bank account, and launch a professional business website on a budget.',
+    metaDescription: 'Starting a business in SA? Learn how to register your company with CIPC, get a bank account, and launch a professional business website on a budget.',
+    date: 'Jul 29, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '6 min read',
+    category: 'Startup Guide',
+    tags: ['start-a-business-sa', 'cipc-registration', 'business-website', 'sa-startup'],
+    imageUrl: '/images/sa_startup_launch_guide.jpg',
+    keyTakeaways: [
+      'Register your Pty Ltd directly on BizPortal for only R175, bypassing expensive consulting agents.',
+      'Open a zero-fee digital business bank account (TymeBank, Lula, or FNB) to isolate corporate finances.',
+      'Access your tax compliance PIN for free via SARS eFiling to immediately pitch for corporate contracts.',
+      'Launch a fast, single-page website to establish professional trust without high agency costs.'
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Starting a new business in South Africa is an incredibly exciting journey, but it can also feel like navigating a bureaucratic minefield.
+      </p>
+
+      <p class="mb-6">
+        As a new entrepreneur, you are suddenly hit with a dozen questions: <em>How do I register with CIPC? What is a tax clearance certificate? Do I need a business bank account? How do I get a domain and a website without blowing my entire startup capital?</em>
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">💡 Budget Launch Strategy</p>
+        <p class="text-zinc-300 text-sm">
+          Worse yet, many service providers preying on new startups will charge you astronomical fees (upwards of R10,000) just to get your basic legal paperwork and website set up. You don't need to overspend.
+        </p>
+      </div>
+
+      <p class="mb-8">
+        This step-by-step 2026 startup blueprint shows you exactly how to get your new business legally compliant and professionally online in South Africa for under <strong>R3,500 total</strong>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Step 1: Legal Registration with CIPC (Cost: R175)
+      </h2>
+      <p class="mb-6">Do not pay a consultant R1,500 to register your company. You can do it yourself directly through the CIPC (Companies and Intellectual Property Commission) portal:</p>
+      <ol class="space-y-3 pl-6 list-decimal mb-8 text-zinc-350">
+        <li><strong>Register on BizPortal:</strong> BizPortal (<a href="https://bizportal.gov.za" class="text-yellow-400 underline">bizportal.gov.za</a>) is a brilliant, official South African government website designed for small business setup.</li>
+        <li><strong>Submit Company Name Reservation:</strong> Submit up to 4 potential names. This costs <strong>R50</strong>.</li>
+        <li><strong>Register Your Private Company (Pty) Ltd:</strong> Once the name is approved, complete the company registration. This costs <strong>R125</strong>.</li>
+        <li><strong>Tax Number:</strong> The CIPC will automatically generate your official SARS Income Tax number for free upon successful registration.</li>
+      </ol>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Step 2: Open a Zero-Fee Business Bank Account (Cost: R0)
+      </h2>
+      <p class="mb-6">Under South African law, you should never run business transactions through your personal bank account. This makes bookkeeping a nightmare and risks tax compliance issues. Fortunately, digital bank choices require no monthly fee:</p>
+      <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+        <li><strong>TymeBank Business:</strong> R0 monthly fee, free EFTs, and easy cash deposits at Boxer or Pick n Pay.</li>
+        <li><strong>FNB First Business:</strong> A solid entry-level business account with a R0 monthly fee and access to FNB's legendary digital ecosystem.</li>
+        <li><strong>Lulalend / Lula:</strong> Specifically built for SA startups, offering modern cash flow dashboards and quick access to credit.</li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Step 3: Get Your SARS Tax Compliance (Cost: R0)
+      </h2>
+      <p class="mb-6">To pitch for corporate clients or submit government tenders, you must have a <strong>Tax Clearance Certificate (TCS)</strong>:</p>
+      <ol class="space-y-3 pl-6 list-decimal mb-8 text-zinc-350">
+        <li>Log into SARS eFiling using the tax number generated during your CIPC registration.</li>
+        <li>Request your "Tax Compliance Status."</li>
+        <li>As long as your filings are up to date, SARS will issue a real-time Tax Compliance PIN for free, which you can share with potential clients.</li>
+      </ol>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Step 4: Get Professionally Online (The Modular Setup)
+      </h2>
+      <p class="mb-6">Now that you are legally registered and have a bank account, you need to establish credibility. In 2026, <strong>if your business doesn't have a website, it doesn't exist to high-value customers</strong>.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h4 class="font-bold text-white mb-2">1. Register a .co.za Domain Name</h4>
+          <p class="text-zinc-450 text-sm">Your domain is your digital address (e.g., <code>yourbusiness.co.za</code>). This costs <strong>R150 to R300 per year</strong> and can be secured through local hosting companies or via your web designer.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h4 class="font-bold text-white mb-2">2. Launch a Single-Page Conversion Site</h4>
+          <p class="text-zinc-450 text-sm">Choose a modular single-page website model. This lets you look highly professional while protecting your cash flow. Include a clear statement of services, your logo, and a direct click-to-call link with a floating WhatsApp Business button.</p>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">The Allegro Digital "Startup Starter Kit"</h4>
+        <p class="text-zinc-300 text-sm mb-3">We are passionate about helping South African startups launch and scale sustainably. We understand that every Rand matters when you are building your runway.</p>
+        <ul class="text-zinc-300 text-xs space-y-1">
+          <li>• <strong>Custom Logo Design:</strong> R1,500 once-off (2-3 custom vector concepts).</li>
+          <li>• <strong>Base Web Design & Launch:</strong> R1,499 once-off (custom-coded, ultra-fast single-page site).</li>
+          <li>• <strong>Mandatory High-Speed Hosting & Support:</strong> R800/month.</li>
+        </ul>
+      </div>
+    `
   }
 ];
