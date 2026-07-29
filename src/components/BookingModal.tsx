@@ -35,17 +35,30 @@ export const BookingModal: React.FC<BookingModalProps> = ({
     if (initialIndustry) setIndustry(initialIndustry);
   }, [initialSuburb, initialIndustry]);
 
+  const dates = React.useMemo(() => {
+    const generated = [];
+    const current = new Date();
+    const formatter = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+    
+    let daysAdded = 0;
+    while(generated.length < 4) {
+      current.setDate(current.getDate() + 1);
+      if (current.getDay() !== 0 && current.getDay() !== 6) {
+        let label = '';
+        if (daysAdded === 0) label = 'Tomorrow';
+        else if (daysAdded === 1) label = 'Day After';
+        else label = new Intl.DateTimeFormat('en-GB', { weekday: 'long' }).format(current);
+        generated.push({ label, day: formatter.format(current) });
+        daysAdded++;
+      }
+    }
+    return generated;
+  }, []);
+
   if (!isOpen) return null;
 
-  const dates = [
-    { label: 'Tomorrow', day: 'Wed, 22 Oct' },
-    { label: 'Day After', day: 'Thu, 23 Oct' },
-    { label: 'Friday', day: 'Fri, 24 Oct' },
-    { label: 'Monday', day: 'Mon, 27 Oct' }
-  ];
 
   const timeSlots = [
-    '09:00 AM',
     '10:30 AM',
     '01:00 PM',
     '02:30 PM',
