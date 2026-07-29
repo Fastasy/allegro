@@ -1,26 +1,23 @@
 import { useState } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
+
+import { Home } from './pages/Home';
+import { ArticlesList } from './pages/ArticlesList';
+import { ArticleView } from './pages/ArticleView';
+
 import { SplashSection } from './components/SplashSection';
 import { NotificationBar } from './components/NotificationBar';
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { RevenueCalculator } from './components/RevenueCalculator';
-import { SocialProof } from './components/SocialProof';
-import { ProcessEngine } from './components/ProcessEngine';
-import { ProductShowcase } from './components/ProductShowcase';
-import { ComparisonTable } from './components/ComparisonTable';
-import { Pricing } from './components/Pricing';
-import { Faq } from './components/Faq';
-import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
 import { LeadMagnetPopup } from './components/LeadMagnetPopup';
 import { CustomCursor } from './components/CustomCursor';
 import { AnimatedBackground } from './components/AnimatedBackground';
-import { RevealOnScroll } from './components/RevealOnScroll';
 import { PricingPlan } from './data/peData';
 
 export function App() {
+  const location = useLocation();
   const [bookingOpen, setBookingOpen] = useState(false);
   const [bookingSuburb, setBookingSuburb] = useState<string>('Walmer');
   const [bookingIndustry, setBookingIndustry] = useState<string>('Trades & Emergency Services');
@@ -43,78 +40,30 @@ export function App() {
     setBookingOpen(true);
   };
 
-  const handleScrollToCalc = () => {
-    const el = document.getElementById('calculator');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="min-h-screen text-zinc-100 font-sans selection:bg-yellow-400 selection:text-black relative">
       <AnimatedBackground />
-      
-      {/* Splash Intro Section */}
-      <SplashSection />
-
-      {/* Top Urgent Notification Banner */}
+      {location.pathname === '/' && <SplashSection />}
       <NotificationBar onOpenBooking={handleOpenBooking} />
-
-      {/* Glass Sticky Navbar */}
       <Navbar onOpenBooking={handleOpenBooking} />
 
-      {/* Hero Section */}
-      <Hero
-        onOpenBooking={handleOpenBooking}
-        onScrollToCalc={handleScrollToCalc}
-      />
-
-      {/* Interactive PE Revenue Loss & Lead Calculator Micro-App */}
-      <RevealOnScroll>
-        <RevenueCalculator
-          onOpenBookingWithDetails={handleOpenBookingWithDetails}
+      <Routes>
+        <Route 
+          path="/" 
+          element={
+            <Home 
+              onOpenBooking={handleOpenBooking}
+              onOpenBookingWithDetails={handleOpenBookingWithDetails}
+              onSelectPlan={handleSelectPlan}
+            />
+          } 
         />
-      </RevealOnScroll>
+        <Route path="/articles" element={<ArticlesList />} />
+        <Route path="/articles/:slug" element={<ArticleView onOpenBooking={handleOpenBooking} />} />
+      </Routes>
 
-      {/* Social Proof, PE Suburbs Marquee, Stats & Sector Cards */}
-      <RevealOnScroll>
-        <SocialProof onOpenBooking={handleOpenBooking} />
-      </RevealOnScroll>
-
-      {/* The 3-Step Allegro Growth Framework */}
-      <RevealOnScroll>
-        <ProcessEngine onOpenBooking={handleOpenBooking} />
-      </RevealOnScroll>
-
-      {/* Interactive Live Web Preview Sandbox & Before/After Comparison */}
-      <RevealOnScroll>
-        <ProductShowcase onOpenBooking={handleOpenBooking} />
-      </RevealOnScroll>
-
-      {/* Allegro Digital vs Traditional PE Agencies */}
-      <RevealOnScroll>
-        <ComparisonTable onOpenBooking={handleOpenBooking} />
-      </RevealOnScroll>
-
-      {/* Transparent Fixed SA Rand Pricing (Once-off vs Monthly Toggle) */}
-      <RevealOnScroll>
-        <Pricing onSelectPlan={handleSelectPlan} />
-      </RevealOnScroll>
-
-      {/* Frequently Asked Questions */}
-      <RevealOnScroll>
-        <Faq />
-      </RevealOnScroll>
-
-      {/* Direct Contact & Quick Consultation Request Form */}
-      <RevealOnScroll>
-        <ContactSection onOpenBooking={handleOpenBooking} />
-      </RevealOnScroll>
-
-      {/* Localized Footer */}
       <Footer />
-
-      {/* Interactive Appointment Scheduler & Confirmation Modal */}
+      
       <BookingModal
         isOpen={bookingOpen}
         onClose={() => setBookingOpen(false)}
@@ -122,13 +71,8 @@ export function App() {
         initialIndustry={bookingIndustry}
         initialPlan={bookingPlan}
       />
-
-      {/* Free Local SEO Playbook Popup */}
       <LeadMagnetPopup />
-
-      {/* Custom Bee-Themed Cursor (Desktop Only) */}
       <CustomCursor />
-
       <Analytics />
     </div>
   );

@@ -18,11 +18,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
   }, []);
 
   const navLinks = [
-    { name: 'Calculator', href: '#calculator' },
-    { name: 'Why Allegro', href: '#why-us' },
-    { name: 'Live Demos', href: '#demos' },
-    { name: 'Pricing', href: '#pricing' },
-    { name: 'FAQ', href: '#faq' }
+    { name: 'Calculator', href: '/#calculator' },
+    { name: 'Why Allegro', href: '/#why-us' },
+    { name: 'Live Demos', href: '/#demos' },
+    { name: 'Pricing', href: '/#pricing' },
+    { name: 'FAQ', href: '/#faq' },
+    { name: 'Articles', href: '/articles' }
   ];
 
   return (
@@ -31,7 +32,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
         <div className="flex items-center justify-between">
           
           {/* Brand Logo */}
-          <a href="#" className="flex items-center gap-3 group">
+          <a href="/" className="flex items-center gap-3 group">
             <div className="w-12 h-12 rounded-xl group-hover:scale-105 transition-transform overflow-hidden flex items-center justify-center bg-white/5">
               <img src="/logo.png" alt="Allegro Digital Logo" className="w-full h-full object-contain" />
             </div>
