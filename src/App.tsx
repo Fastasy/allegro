@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { SplashSection } from './components/SplashSection';
 import { NotificationBar } from './components/NotificationBar';
 import { Navbar } from './components/Navbar';
@@ -128,6 +129,7 @@ export function App() {
       {/* Custom Bee-Themed Cursor (Desktop Only) */}
       <CustomCursor />
 
+      <Analytics />
     </div>
   );
 }
