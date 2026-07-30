@@ -52,7 +52,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        Unfortunately, many Gqeberha small businesses are completely invisible online. This article breaks down exactly why local PE businesses are losing valuable enquiries, and how you can claim your share of the local market.
+        Unfortunately, many Gqeberha small businesses are completely invisible online. This article breaks down exactly why local PE businesses are losing valuable enquiries, and how you can claim your share of the local market. For a complete cost analysis, check our transparent <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Web Design Cost Guide</a>.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
@@ -89,7 +89,7 @@ export const articles: Article[] = [
         <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
           Part 1: An Active Google My Business Profile
         </h3>
-        <p class="text-zinc-300 mb-4 text-sm sm:text-base">Your profile must be meticulously optimized:</p>
+        <p class="text-zinc-300 mb-4 text-sm sm:text-base">Your profile must be meticulously optimized. You can read our complete, step-by-step <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps Ranking Guide</a> to learn how to do this yourself.</p>
         <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
@@ -190,7 +190,7 @@ export const articles: Article[] = [
       </div>
 
       <p class="mb-8">
-        If you are a local service provider—a plumber in Port Elizabeth, an accountant in Durban, a guesthouse in George, or a contractor in Cape Town—you do not need a bloated, expensive corporate brochure. You need a <strong>lean, mean lead-generation engine</strong>.
+        If you are a local service provider—a plumber in Port Elizabeth, an accountant in Durban, a guesthouse in George, or a contractor in Cape Town—you do not need a bloated, expensive corporate brochure. You need a <strong>lean, mean lead-generation engine</strong>. Read our step-by-step <a href="/articles/how-to-start-a-small-business-south-africa-guide" class="text-yellow-400 underline hover:text-yellow-300">South African Startup Launch Guide</a> to learn how to register legally before getting online.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
@@ -223,7 +223,7 @@ export const articles: Article[] = [
       </h2>
 
       <p class="mb-6">
-        A high-converting local website is remarkably simple. It should be built as a <strong>Single-Page Website</strong> (often called a landing page), where all information flows logically from top to bottom as the user scrolls on their phone.
+        A high-converting local website is remarkably simple. It should be built as a <strong>Single-Page Website</strong> (often called a landing page), where all information flows logically from top to bottom as the user scrolls on their phone. If you are comparing quotes, check our detailed <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website Cost Guide</a> first.
       </p>
 
       <p class="mb-8">To turn traffic into cold, hard cash, your small business website must have these 5 critical elements:</p>
@@ -313,7 +313,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        This honest, no-nonsense 2026 price guide breaks down the true costs of web design in South Africa so you can make an informed decision and avoid getting ripped off.
+        This honest, no-nonsense 2026 price guide breaks down the true costs of web design in South Africa so you can make an informed decision and avoid getting ripped off. Compare this to the <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> to see what features you should skip.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
@@ -361,7 +361,7 @@ export const articles: Article[] = [
         </table>
       </div>
 
-      <p class="mb-8">Let's look at what actually goes into these price tags and where your money is going.</p>
+      <p class="mb-8">Let\'s look at what actually goes into these price tags and where your money is going. Learn about Gqeberha local lead generation in our <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Engine Guide</a>.</p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
         The Three Roads to Building a Website
@@ -461,7 +461,7 @@ export const articles: Article[] = [
       </div>
 
       <p class="mb-8">
-        If your business is not in those top three spots, you are completely invisible to high-value, ready-to-buy customers. This comprehensive guide breaks down exactly how to set up your Google Business Profile (GBP), claim your listing on Google Maps, and optimize it to rank in those coveted top three spots.
+        If your business is not in those top three spots, you are completely invisible to high-value, ready-to-buy customers. This comprehensive guide breaks down exactly how to set up your Google Business Profile (GBP), claim your listing on Google Maps, and optimize it to rank in those coveted top three spots. Read how this ties into the <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">Gqeberha Local Lead Engine</a>.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
@@ -505,7 +505,7 @@ export const articles: Article[] = [
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
           <h3 class="text-xl font-bold text-white mb-2">3. Master the Review Engine (Prominence)</h3>
           <p class="text-zinc-450 text-sm mb-3">The business with the most high-quality, positive reviews almost always dominates the map.</p>
-          <ul class="list-disc pl-6 space-y-2 text-zinc-450 text-sm">
+          <ul class="list-disc pl-6 space-y-2 text-zinc-455 text-sm">
             <li><strong>Create a Review Link:</strong> Inside your Google Business Profile dashboard, click "Ask for Reviews" and copy your unique short-link.</li>
             <li><strong>Systematize the Ask:</strong> Send this link via WhatsApp to every single customer immediately after completing a job.</li>
             <li><strong>Respond to Every Review:</strong> Google rewards active profiles. Respond to both positive and negative reviews politely, naturally injecting your primary keywords in your response.</li>
@@ -610,11 +610,11 @@ export const articles: Article[] = [
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
           <h4 class="font-bold text-white mb-2">1. Register a .co.za Domain Name</h4>
-          <p class="text-zinc-450 text-sm">Your domain is your digital address (e.g., <code>yourbusiness.co.za</code>). This costs <strong>R150 to R300 per year</strong> and can be secured through local hosting companies or via your web designer.</p>
+          <p class="text-zinc-450 text-sm">Your domain is your digital address (e.g., <code>yourbusiness.co.za</code>). This costs <strong>R150 to R300 per year</strong> and can be secured through local hosting companies or via your web designer. Read our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Website Cost Guide</a> for more details.</p>
         </div>
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
           <h4 class="font-bold text-white mb-2">2. Launch a Single-Page Conversion Site</h4>
-          <p class="text-zinc-450 text-sm">Choose a modular single-page website model. This lets you look highly professional while protecting your cash flow. Include a clear statement of services, your logo, and a direct click-to-call link with a floating WhatsApp Business button.</p>
+          <p class="text-zinc-450 text-sm">Choose a modular single-page website model. This lets you look highly professional while protecting your cash flow. Follow our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> for features you actually need.</p>
         </div>
       </div>
 
