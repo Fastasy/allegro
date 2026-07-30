@@ -18,7 +18,10 @@ export const CustomCursor: React.FC = () => {
     let isHovering = false;
 
     const onMouseMove = (e: MouseEvent) => {
-      if (!isVisible) setIsVisible(true);
+      setIsVisible((prev) => {
+        if (!prev) return true;
+        return prev;
+      });
       targetX = e.clientX;
       targetY = e.clientY;
       
@@ -87,7 +90,7 @@ export const CustomCursor: React.FC = () => {
       window.removeEventListener('mouseover', handleMouseOver);
       cancelAnimationFrame(animationFrameId);
     };
-  }, [isVisible]);
+  }, []);
 
   if (typeof window !== 'undefined' && window.innerWidth < 768) return null;
 
@@ -97,7 +100,7 @@ export const CustomCursor: React.FC = () => {
       <div
         ref={dotRef}
         className="fixed top-0 left-0 pointer-events-none z-[9999]"
-        style={{ opacity: isVisible ? 1 : 0, transform: 'translate3d(-100px, -100px, 0)' }}
+        style={{ opacity: isVisible ? 1 : 0 }}
       >
         {/* Visual Element (Handles hover scaling) */}
         <div
@@ -114,8 +117,7 @@ export const CustomCursor: React.FC = () => {
         style={{
           width: '32px',
           height: '32px',
-          opacity: isVisible ? 0.6 : 0,
-          transform: 'translate3d(-100px, -100px, 0) translate(-50%, -50%)'
+          opacity: isVisible ? 0.6 : 0
         }}
         viewBox="0 0 100 100"
       >

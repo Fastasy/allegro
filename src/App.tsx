@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { Home } from './pages/Home';
 import { ArticlesList } from './pages/ArticlesList';
 import { ArticleView } from './pages/ArticleView';
+import { BrandStudio } from './pages/BrandStudio';
 
 import { SplashSection } from './components/SplashSection';
 import { NotificationBar } from './components/NotificationBar';
@@ -60,6 +61,7 @@ export function App() {
         />
         <Route path="/articles" element={<ArticlesList />} />
         <Route path="/articles/:slug" element={<ArticleView onOpenBooking={handleOpenBooking} />} />
+        <Route path="/brand-studio" element={<BrandStudio />} />
       </Routes>
 
       <Footer />
