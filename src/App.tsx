@@ -12,7 +12,6 @@ import { NotificationBar } from './components/NotificationBar';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
-import { LeadMagnetPopup } from './components/LeadMagnetPopup';
 import { CustomCursor } from './components/CustomCursor';
 import { AnimatedBackground } from './components/AnimatedBackground';
 import { PricingPlan } from './data/peData';
@@ -73,7 +72,6 @@ export function App() {
         initialIndustry={bookingIndustry}
         initialPlan={bookingPlan}
       />
-      <LeadMagnetPopup />
       <CustomCursor />
       <Analytics />
     </div>
