@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
+import Lenis from 'lenis';
 
 import { Home } from './pages/Home';
 import { ArticlesList } from './pages/ArticlesList';
@@ -18,6 +19,28 @@ import { PricingPlan } from './data/peData';
 
 export function App() {
   const location = useLocation();
+  
+  // Initialize Lenis smooth scroll
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easeOutExpo
+      touchMultiplier: 1.5,
+      infinite: false,
+    });
+
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy();
+    };
+  }, []);
+
   const [bookingOpen, setBookingOpen] = useState(false);
   const [bookingSuburb, setBookingSuburb] = useState<string>('Walmer');
   const [bookingIndustry, setBookingIndustry] = useState<string>('Trades & Emergency Services');
