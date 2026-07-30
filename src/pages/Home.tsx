@@ -3,7 +3,6 @@ import { Hero } from '../components/Hero';
 import { RevenueCalculator } from '../components/RevenueCalculator';
 import { SocialProof } from '../components/SocialProof';
 import { ProcessEngine } from '../components/ProcessEngine';
-import { ProductShowcase } from '../components/ProductShowcase';
 import { ComparisonTable } from '../components/ComparisonTable';
 import { Pricing } from '../components/Pricing';
 import { Faq } from '../components/Faq';
@@ -46,9 +45,7 @@ export const Home: React.FC<HomeProps> = ({ onOpenBooking, onOpenBookingWithDeta
         <ProcessEngine onOpenBooking={onOpenBooking} />
       </RevealOnScroll>
 
-      <RevealOnScroll>
-        <ProductShowcase onOpenBooking={onOpenBooking} />
-      </RevealOnScroll>
+      {/* ProductShowcase is archived */}
 
       <RevealOnScroll>
         <ComparisonTable onOpenBooking={onOpenBooking} />
