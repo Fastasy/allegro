@@ -11,14 +11,16 @@ export interface Article {
   keyTakeaways?: string[];
   category?: string;
   tags?: string[];
+  metaTitle?: string;
 }
 
 export const articles: Article[] = [
   {
     slug: 'web-design-port-elizabeth-local-lead-engine',
     title: 'Dominate the Gqeberha Market: Why Local Port Elizabeth Businesses Are Losing Enquiries (And How to Fix It)',
+    metaTitle: 'Dominate Gqeberha: Why Local PE Businesses Need Web Design',
     summary: 'Looking for website design in Port Elizabeth? Discover why Gqeberha businesses are losing daily phone calls to competitors, and how our local SEO formula fixes it.',
-    metaDescription: 'Looking for website design in Port Elizabeth? Discover why Gqeberha businesses are losing daily phone calls to competitors, and how our local SEO formula fixes it.',
+    metaDescription: 'Discover why local businesses in Port Elizabeth & Gqeberha are losing high-intent customer enquiries to competitors, and the exact formula to claim your local share.',
     date: 'Jul 29, 2026',
     author: 'Allegro Digital Team',
     readTime: '5 min read',
@@ -159,8 +161,9 @@ export const articles: Article[] = [
   {
     slug: 'small-business-website-blueprint-south-africa',
     title: 'The South African Small Business Website Blueprint: What You Actually Need (And What to Skip)',
+    metaTitle: 'The Lean Small Business Website Blueprint | South Africa 2026',
     summary: 'Don\'t waste R15,000 on a bloated website. Discover the exact small business website blueprint that SA startups use to generate leads, rank on Google, and win.',
-    metaDescription: 'Don\'t waste R15,000 on a bloated website. Discover the exact small business website blueprint that SA startups use to generate leads, rank on Google, and win.',
+    metaDescription: 'Stop wasting R20,000 on bloated websites. Learn the 5 non-negotiable elements South African small businesses need to turn mobile traffic into cold hard cash.',
     date: 'Jul 29, 2026',
     author: 'Allegro Digital Team',
     readTime: '6 min read',
@@ -289,8 +292,9 @@ export const articles: Article[] = [
   {
     slug: 'how-much-does-a-website-cost-south-africa',
     title: 'How Much Does a Website Cost in South Africa? (2026 Price Guide)',
+    metaTitle: 'How Much Does a Website Cost in South Africa? (2026 Price Guide)',
     summary: 'If you are a South African business owner looking to build a new website, asking "how much does a website cost?" is a lot like asking "how much does a house cost?" Find out the true costs in 2026.',
-    metaDescription: 'If you are a South African business owner looking to build a new website, asking "how much does a website cost?" is a lot like asking "how much does a house cost?" Find out the true costs in 2026.',
+    metaDescription: 'An honest, transparent guide to South African website design costs in 2026. Compare DIY platforms, traditional agencies, and modular disruptor models.',
     date: 'Jul 29, 2026',
     author: 'Allegro Digital Team',
     readTime: '5 min read',
@@ -426,8 +430,9 @@ export const articles: Article[] = [
   {
     slug: 'how-to-get-your-sa-business-on-google-maps',
     title: 'How to Get Your SA Business on Google Maps (And Rank in the Top 3)',
+    metaTitle: 'How to Get Your SA Business on Google Maps & Rank Top 3 (2026)',
     summary: 'If you run a local business in South Africa, there is one marketing tool more powerful than Facebook, Instagram, and TikTok combined. Discover how to rank in the top 3 on Google Maps.',
-    metaDescription: 'If you run a local business in South Africa, there is one marketing tool more powerful than Facebook, Instagram, and TikTok combined. Discover how to rank in the top 3 on Google Maps.',
+    metaDescription: 'A step-by-step South African guide to setting up and optimizing your Google Business Profile. Learn how to rank in the coveted Google Maps 3-Pack.',
     date: 'Jul 29, 2026',
     author: 'Allegro Digital Team',
     readTime: '5 min read',
@@ -537,8 +542,9 @@ export const articles: Article[] = [
   {
     slug: 'how-to-start-a-small-business-south-africa-guide',
     title: 'The Ultimate South African Startup Launch Guide: Get Legal and Get Online (On a Budget)',
+    metaTitle: 'How to Start a Small Business in South Africa (Under R3,500)',
     summary: 'Starting a business in SA? Learn how to register your company with CIPC, get a bank account, and launch a professional business website on a budget.',
-    metaDescription: 'Starting a business in SA? Learn how to register your company with CIPC, get a bank account, and launch a professional business website on a budget.',
+    metaDescription: 'A complete 2026 step-by-step startup guide to registering your CIPC Pty Ltd, opening zero-fee business bank accounts, and launching your website affordably.',
     date: 'Jul 29, 2026',
     author: 'Allegro Digital Team',
     readTime: '6 min read',
@@ -627,6 +633,180 @@ export const articles: Article[] = [
           <li>• <strong>Mandatory High-Speed Hosting & Support:</strong> R800/month.</li>
         </ul>
       </div>
+    `
+  },
+  {
+    slug: 'local-lead-generation-strategy-south-africa',
+    title: 'How to Generate Consistent Local Service Leads in South Africa (Without Wasting Money)',
+    metaTitle: 'Generate Local Service Leads in South Africa | Allegro Digital',
+    summary: 'Struggling to find clients? Discover the exact local lead generation strategy that South African trades, solar installers, and local service providers use to scale.',
+    metaDescription: 'Struggling to find clients? Discover the exact local lead generation strategy that South African trades, solar installers, and local service providers use to scale.',
+    date: 'Jul 29, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '5 min read',
+    category: 'Lead Generation',
+    tags: ['lead-generation-sa', 'contractor-leads', 'local-marketing', 'small-business-sa'],
+    imageUrl: '/images/local_lead_generation_sa.jpg',
+    keyTakeaways: [
+      'Facebook & Instagram ads are low-intent and frequently yield low-quality, expensive leads for service providers.',
+      'Google Search and Google Maps capture high-intent buyers ready to make an immediate purchasing decision.',
+      'A fast, mobile-friendly landing site with frictionless call actions is essential to converting local clicks.',
+      'Targeting specific local suburbs (e.g. Walmer, Lorraine) helps outrank larger, national competitors.'
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        If you run a local service-based business in South Africa—whether you are a solar installer, an electrician, a private clinic, a lawyer, or an emergency plumber—your biggest daily headache is consistent cash flow.
+      </p>
+
+      <p class="mb-6">
+        To solve this, many small business owners make a classic, expensive mistake: they hire a generic agency to run Facebook or Instagram ads. 
+      </p>
+
+      <p class="mb-6">
+        They spend R3,000 a month on ad spend, get bombarded with un-qualified comments like <em>"how much"</em> or <em>"interested"</em> from people with zero intention of buying, waste hours chasing bad leads, and eventually conclude that online marketing doesn’t work.
+      </p>
+
+      <p class="mb-6">
+        There is a much better, cheaper, and highly profitable way. 
+      </p>
+
+      <p class="mb-8">
+        This guide outlines the exact <strong>high-intent lead generation strategy</strong> that South African service providers use to secure consistent phone calls and bookings, without wasting a single Cent on low-conversion social media ads.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        High-Intent vs. Low-Intent Leads: Why Social Media Ads Fail Local Service Businesses
+      </h2>
+
+      <p class="mb-6">
+        To understand why your marketing isn't working, you must understand <strong>Searcher Intent</strong>.
+      </p>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-6">
+        <h3 class="text-xl font-bold text-red-400 mb-2">Facebook & Instagram are "Low-Intent" Platforms</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          When people are on Facebook, they are browsing memes, looking at family photos, or catching up on news. They are <strong>not</strong> looking for an electrician. 
+          If your ad pops up offering "Solar Installations," they might click it out of mild curiosity. But they don't have an immediate budget or a pressing need. They are "browsing," resulting in a massive waste of your time and ad budget.
+        </p>
+      </div>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-6 shadow-[0_0_20px_rgba(250,204,21,0.05)]">
+        <h3 class="text-xl font-bold text-yellow-400 mb-2">Google Search & Maps are "High-Intent" Platforms</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          When someone’s geyser bursts at 9:00 PM on a Sunday in Port Elizabeth, they do not open Facebook to scroll for a plumber. 
+          They open Google and type: <em>"emergency plumber port elizabeth."</em> 
+          This is a <strong>high-intent, immediate-need searcher</strong>. They are standing in water with their credit card in hand. They do not need to be convinced; they just need a professional, trustworthy business to answer the phone.
+        </p>
+      </div>
+
+      <p class="text-xl font-bold text-white mb-6 mt-8 font-heading">
+        If your business ranks in front of these searchers, you will close <strong>8 out of 10 calls</strong>. 
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Local Lead Engine: A Step-by-Step Blueprint
+      </h2>
+
+      <p class="mb-6">
+        To capture these high-value, ready-to-buy local searchers consistently, you need to build a simple, coordinated Local Lead Engine. Here are the three components:
+      </p>
+
+      <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
+        <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
+          Step 1: Claim & Optimize Your Google Maps Presence
+        </h3>
+        <p class="text-zinc-300 mb-4 text-sm sm:text-base">Google Maps is the first thing high-intent searchers see. Ensure your Google Business Profile is 100% optimized:</p>
+        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Exact Service Category:</strong> Use your exact service category (e.g., <em>"Solar Energy Equipment Supplier"</em> or <em>"Air Conditioning Contractor"</em>).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Rich Media:</strong> Add photos of your completed local jobs and your branded team.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Review Strategy:</strong> Proactively ask every satisfied customer to leave a 5-star Google review.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
+        <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
+          Step 2: Build an Ultra-Fast, Mobile-First Landing Site
+        </h3>
+        <p class="text-zinc-300 mb-4 text-sm sm:text-base">When a customer clicks from Google Maps onto your website, you have <strong>3 seconds</strong> to capture their trust. Your site must be:</p>
+        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Fast:</strong> Hand-coded (not a heavy, bloated WordPress template) to load instantly even on weak cell signals.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Action-Oriented:</strong> A prominent, floating <strong>WhatsApp Button</strong> and a click-to-call phone link.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Trust-Focused:</strong> Display real customer reviews, safety accreditations, and pictures of your actual work.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
+        <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
+          Step 3: Run Hyper-Targeted Suburb Landing Pages
+        </h3>
+        <p class="text-zinc-300 mb-4 text-sm sm:text-base">If you are an electrician in PE, do not just target "Port Elizabeth." Target the specific suburbs where high-paying clients live. Build landing pages or content specifically targeting:</p>
+        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><em>"Electrician in Walmer"</em></span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><em>"Inverter Installations Lorraine"</em></span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><em>"Emergency Electrical Repairs Summerstrand"</em></span>
+          </li>
+        </ul>
+        <p class="text-zinc-350 text-xs mt-4">This hyper-targeted local SEO matches the exact search query of the buyer, allowing you to easily outrank national competitors who only target generic terms.</p>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What It Costs and What It Returns
+      </h2>
+
+      <p class="mb-6">
+        Let’s look at the math. A standard lead-generation agency will charge you <strong>R5,000 to R15,000+ per month</strong> just to manage your campaigns, plus ad spend.
+      </p>
+
+      <p class="mb-6">
+        At <strong>Allegro Digital</strong>, we build and manage your entire high-intent local lead engine for a fraction of that cost:
+      </p>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-4">Our Modular Pricing Breakdown:</h4>
+        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+          <li>• <strong>Your High-Converting Web Engine:</strong> <strong>R1,499</strong> upfront (once-off).</li>
+          <li>• <strong>Hosting & Standard Support:</strong> <strong>R800/month</strong>.</li>
+          <li>• <strong>Active Local SEO & GMB Optimization Add-on:</strong> <strong>R1,999/month</strong> (We manage your Google Business Profile, keyword rankings, reviews, and local suburb target optimization).</li>
+        </ul>
+      </div>
+
+      <p class="mb-6">
+        For <strong>R1,499 upfront and R2,799/month</strong>, you get a fully managed, high-performing lead generation engine that places you directly in front of Gqeberha's highest-intent buyers. If you close just <strong>one mid-sized job per month</strong> (e.g., a geyser installation or a small inverter backup), the system has already paid for itself.
+      </p>
+
+      <p class="text-xl font-bold text-white mb-6 font-heading">
+        Ready to stop chasing unqualified social media leads and start getting direct local phone calls?
+      </p>
+
+      <p class="mb-8">
+        <a href="#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Use Our Suburb Lead Calculator to Estimate Your Missing Revenue</a> or <a href="https://www.allegrodigital.co.za" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Get in touch with the Allegro Digital team today</a> to claim your free 15-minute strategy call.
+      </p>
     `
   }
 ];

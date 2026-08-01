@@ -12,9 +12,9 @@ export const SplashSection: React.FC = () => {
         <div className="w-40 h-40 rounded-3xl overflow-hidden flex items-center justify-center bg-white/5 border border-white/10 shadow-2xl glow-yellow animate-fade-scale">
           <img src="/logo.png" alt="Allegro Digital Logo" className="w-full h-full object-contain animate-float" />
         </div>
-        <h1 className="text-4xl sm:text-6xl font-extrabold text-white tracking-tight font-heading animate-fade-scale" style={{ animationDelay: '200ms' }}>
+        <h2 className="text-4xl sm:text-6xl font-extrabold text-white tracking-tight font-heading animate-fade-scale" style={{ animationDelay: '200ms' }}>
           ALLEGRO<span className="text-yellow-400">DIGITAL</span>
-        </h1>
+        </h2>
         <p className="text-zinc-400 text-lg sm:text-xl font-medium tracking-wide mt-2 animate-fade-scale" style={{ animationDelay: '400ms' }}>
           Don't just be online, <span className="text-yellow-400 font-bold italic">Bee</span> seen.
         </p>

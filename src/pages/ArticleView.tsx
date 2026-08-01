@@ -32,7 +32,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ onOpenBooking }) => {
   return (
     <div className="pt-24 pb-24 min-h-screen bg-black">
       <Helmet>
-        <title>{article.title} | Allegro Digital PE</title>
+        <title>{article.metaTitle || `${article.title} | Allegro Digital PE`}</title>
         <meta name="description" content={article.metaDescription} />
       </Helmet>
 
