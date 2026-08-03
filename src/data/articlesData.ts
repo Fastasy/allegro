@@ -815,7 +815,7 @@ export const articles: Article[] = [
     metaTitle: 'Double Enquiries with a WhatsApp Button | Allegro Digital',
     summary: 'South Africans want immediate, frictionless responses. Learn how integrating a floating WhatsApp button can double your business enquiries overnight without extra ad spend.',
     metaDescription: 'Learn how integrating a floating WhatsApp button on your website can double your business inquiries overnight. Discover SA\'s top chat-to-convert tactics.',
-    date: 'Jul 29, 2026',
+    date: 'Aug 3, 2026',
     author: 'Allegro Digital Team',
     readTime: '4 min read',
     category: 'Conversion Optimization',
