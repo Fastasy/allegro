@@ -125,6 +125,35 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ onOpenBooking }) => {
         />
       </article>
 
+      {/* FAQ Section */}
+      {article.faqs && article.faqs.length > 0 && (
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 pt-12 border-t border-zinc-850">
+          <h2 className="text-3xl font-extrabold text-white font-heading mb-8">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            {article.faqs.map((faq, idx) => (
+              <details 
+                key={idx} 
+                className="group bg-zinc-900/50 border border-zinc-800/80 rounded-2xl p-6 [&_summary::-webkit-details-marker]:hidden cursor-pointer transition-all duration-300 hover:border-yellow-400/30"
+              >
+                <summary className="flex items-center justify-between text-white font-bold text-lg select-none list-none">
+                  <span className="pr-4">{faq.question}</span>
+                  <span className="text-yellow-400 transition-transform duration-300 group-open:rotate-45 shrink-0">
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed border-t border-zinc-800/50 pt-4">
+                  {faq.answer}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Conversion Banner at Bottom */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
         <div className="bg-gradient-to-br from-zinc-900 via-zinc-900 to-black border border-yellow-400/40 rounded-3xl p-8 sm:p-12 text-center relative overflow-hidden shadow-2xl">

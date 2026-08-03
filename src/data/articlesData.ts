@@ -1,3 +1,8 @@
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 export interface Article {
   slug: string;
   title: string;
@@ -12,7 +17,9 @@ export interface Article {
   category?: string;
   tags?: string[];
   metaTitle?: string;
+  faqs?: FAQItem[];
 }
+
 
 export const articles: Article[] = [
   {
@@ -156,7 +163,21 @@ export const articles: Article[] = [
       </h2>
 
       <p class="mb-8">Your competitors are already capturing customers who should be yours. It’s time to stop losing local revenue.</p>
-    `
+    `,
+    faqs: [
+      {
+        question: "Why is a Google Business Profile alone not enough for my PE business?",
+        answer: "While a Google Business Profile is critical, linking it to a high-speed, mobile-optimized website dramatically improves your search rankings and conversion rates. It builds authority and captures users who want detailed information before they reach out."
+      },
+      {
+        question: "How does local SEO differ from general SEO?",
+        answer: "Local SEO targets geographic-specific queries (like 'plumber in Walmer' or 'builder in Lorraine') rather than broad terms. It focuses on ranking in Google's local Map Pack and capturing buyers with immediate intent nearby."
+      },
+      {
+        question: "What is the monthly hosting fee for?",
+        answer: "The R800/month hosting fee covers ultra-fast server maintenance, security monitoring, regular backups, and standard content updates to ensure your website remains online and optimized."
+      }
+    ]
   },
   {
     slug: 'small-business-website-blueprint-south-africa',
@@ -287,7 +308,21 @@ export const articles: Article[] = [
           At <strong>Allegro Digital</strong>, we build exactly what your business needs. Our base package is aggressively priced at just <strong>R1,499 upfront</strong> and <strong>R800/month</strong> hosting & maintenance.
         </p>
       </div>
-    `
+    `,
+    faqs: [
+      {
+        question: "Why should I skip a multi-page website?",
+        answer: "For most small businesses, single-page sites convert traffic better. They eliminate complex navigation, load faster, and present all essential decision-making details in a single, focused flow."
+      },
+      {
+        question: "What is the optimal website loading speed for mobile users in South Africa?",
+        answer: "Your website should load in under 1.5 seconds. With over 75% of South African internet traffic being mobile, slow load times lead directly to high bounce rates."
+      },
+      {
+        question: "Can I add more pages to the blueprint website later?",
+        answer: "Yes, our clean codebase allows you to scale and add additional subpages, suburb landing pages, or contact forms as your business and service offerings grow."
+      }
+    ]
   },
   {
     slug: 'how-much-does-a-website-cost-south-africa',
@@ -425,7 +460,21 @@ export const articles: Article[] = [
           We build ultra-fast, premium single-page websites tailored for South African small businesses for just <strong>R1,499 upfront</strong> and a mandatory <strong>R800/month</strong> hosting & maintenance retainer.
         </p>
       </div>
-    `
+    `,
+    faqs: [
+      {
+        question: "Why are there such large price variations in web design?",
+        answer: "Traditional agencies build custom or bloated CMS templates with high overheads, charging R10,000+. Freelancers might be cheap but offer poor support. Allegro Digital bridges this gap with an affordable R1,499 setup and managed monthly model."
+      },
+      {
+        question: "What are the hidden costs of building a website?",
+        answer: "Common hidden costs include domain registration, high-speed hosting renewal fees, SSL certificates, email hosting, and ongoing maintenance. Allegro Digital bundles all of these into a single transparent monthly retainer."
+      },
+      {
+        question: "Do I own my website and domain?",
+        answer: "Yes, you retain complete ownership of your domain and brand assets. If you ever choose to leave, we will transfer the domain administration to you without penalties."
+      }
+    ]
   },
   {
     slug: 'how-to-get-your-sa-business-on-google-maps',
@@ -537,7 +586,21 @@ export const articles: Article[] = [
           We handle everything for you. We build lightning-fast, high-converting websites optimized for local Google Search and fully manage your Google Business Profile to keep you ranked in Gqeberha's top spot.
         </p>
       </div>
-    `
+    `,
+    faqs: [
+      {
+        question: "How long does Google Maps verification take in South Africa?",
+        answer: "Postcard verification can take up to 2 to 6 weeks, but Google now frequently offers quicker phone, email, or video verification methods."
+      },
+      {
+        question: "How do Google reviews affect my local ranking?",
+        answer: "Reviews are a primary ranking factor. A steady stream of 5-star reviews containing keyword-rich feedback signals trustworthiness and activity to Google's ranking algorithm."
+      },
+      {
+        question: "What should I do if my competitor is using a fake address?",
+        answer: "You can use Google Maps' 'Suggest an edit' feature to flag fraudulent listings, or submit a redressal form if they are violating Google's guidelines."
+      }
+    ]
   },
   {
     slug: 'how-to-start-a-small-business-south-africa-guide',
@@ -633,7 +696,21 @@ export const articles: Article[] = [
           <li>• <strong>Mandatory High-Speed Hosting & Support:</strong> R800/month.</li>
         </ul>
       </div>
-    `
+    `,
+    faqs: [
+      {
+        question: "How long does CIPC business registration take?",
+        answer: "Usually, CIPC registration is finalized within 5 to 10 working days, depending on name approval queues and system stability."
+      },
+      {
+        question: "When do I need to register for VAT in South Africa?",
+        answer: "VAT registration is voluntary if your turnover exceeds R50,000 in the last 12 months, and mandatory once your turnover exceeds R1 million."
+      },
+      {
+        question: "What is COIDA and is it compulsory?",
+        answer: "COIDA is the Compensation for Occupational Injuries and Diseases Act. It is compulsory for any SA business employing one or more workers to register and protect them against workplace accidents."
+      }
+    ]
   },
   {
     slug: 'local-lead-generation-strategy-south-africa',
@@ -807,7 +884,21 @@ export const articles: Article[] = [
       <p class="mb-8">
         <a href="#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Use Our Suburb Lead Calculator to Estimate Your Missing Revenue</a> or <a href="https://www.allegrodigital.co.za" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Get in touch with the Allegro Digital team today</a> to claim your free 15-minute strategy call.
       </p>
-    `
+    `,
+    faqs: [
+      {
+        question: "What makes a lead high-intent?",
+        answer: "High-intent leads are active buyers searching for a specific service right now (e.g. searching Google for 'tow truck PE'). This contrasts with passive leads who just browse social media feeds."
+      },
+      {
+        question: "Why are contact forms losing popularity?",
+        answer: "They feel like admin and imply a delayed response. Modern mobile users prefer single-click, direct contact actions like WhatsApp or call buttons."
+      },
+      {
+        question: "How do you measure the ROI of local lead generation?",
+        answer: "We track call clicks, WhatsApp clicks, and Google Maps actions. By comparing lead volume and closing rates against your monthly subscription cost, calculating return on investment is simple."
+      }
+    ]
   },
   {
     slug: 'whatsapp-website-integration-south-africa',
@@ -980,6 +1071,20 @@ export const articles: Article[] = [
       <p class="mb-8">
         Try Our Free <a href="#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Port Elizabeth Revenue Loss Tool</a> or <a href="https://www.allegrodigital.co.za" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Get in touch with Allegro Digital today</a> to book your free strategy call.
       </p>
-    `
+    `,
+    faqs: [
+      {
+        question: "Will a WhatsApp button slow down my website load time?",
+        answer: "Not if it is custom-coded. Many WordPress plugins use heavy third-party scripts that slow down page speeds. Allegro Digital uses lightweight, native HTML/CSS anchors that load instantly."
+      },
+      {
+        question: "Can I use my personal WhatsApp number for the button?",
+        answer: "Yes, but we strongly recommend downloading the free WhatsApp Business app. It allows you to set up automated welcome messages, away messages, and professional business hours."
+      },
+      {
+        question: "How do pre-filled messages help convert clients?",
+        answer: "Pre-filled links remove the typing friction. When a user clicks, their text input is already filled with a clear prompt, making it effortless to send the message immediately."
+      }
+    ]
   }
 ];
