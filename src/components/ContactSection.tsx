@@ -28,7 +28,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
   };
 
   return (
-    <section id="contact" className="py-20 text-white relative overflow-hidden border-t border-zinc-800">
+    <section id="contact" className="py-20 text-white relative overflow-hidden">
       
       {/* Glow */}
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-yellow-400/10 rounded-full blur-[140px] pointer-events-none" />

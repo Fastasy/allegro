@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { mat4, quat, vec2, vec3 } from 'gl-matrix';
+import { Globe } from 'lucide-react';
 import './InfiniteMenu.css';
 
 const discVertShaderSource = `#version 300 es
@@ -763,10 +764,26 @@ class InfiniteGridMenu {
     Promise.all(
       this.items.map(
         item =>
-          new Promise<HTMLImageElement>(resolve => {
+          new Promise<HTMLImageElement | HTMLCanvasElement>(resolve => {
             const img = new Image();
             img.crossOrigin = 'anonymous';
             img.onload = () => resolve(img);
+            img.onerror = () => {
+              const fallbackCanvas = document.createElement('canvas');
+              fallbackCanvas.width = 512;
+              fallbackCanvas.height = 512;
+              const fctx = fallbackCanvas.getContext('2d');
+              if (fctx) {
+                fctx.fillStyle = '#18181b'; // Zinc 900
+                fctx.fillRect(0, 0, 512, 512);
+                fctx.fillStyle = '#facc15'; // Yellow
+                fctx.font = 'bold 40px sans-serif';
+                fctx.textAlign = 'center';
+                fctx.textBaseline = 'middle';
+                fctx.fillText(item.title || 'Allegro', 256, 256);
+              }
+              resolve(fallbackCanvas);
+            };
             img.src = item.image;
           })
       )
@@ -1003,6 +1020,7 @@ export default function InfiniteMenu({ items = [], scale = 1.0, onActiveItemChan
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [activeItem, setActiveItem] = useState<InfiniteMenuItem | null>(null);
   const [isMoving, setIsMoving] = useState(false);
+  const [hasWebGL, setHasWebGL] = useState(true);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -1018,14 +1036,22 @@ export default function InfiniteMenu({ items = [], scale = 1.0, onActiveItemChan
     };
 
     if (canvas) {
-      sketch = new InfiniteGridMenu(
-        canvas,
-        items.length ? items : defaultItems,
-        handleActiveItem,
-        setIsMoving,
-        sk => sk.run(),
-        scale
-      );
+      try {
+        sketch = new InfiniteGridMenu(
+          canvas,
+          items.length ? items : defaultItems,
+          handleActiveItem,
+          setIsMoving,
+          sk => sk.run(),
+          scale
+        );
+      } catch (e) {
+        console.error("WebGL 2 context creation failed:", e);
+        setHasWebGL(false);
+        if (items.length > 0) {
+          handleActiveItem(0);
+        }
+      }
     }
 
     const handleResize = () => {
@@ -1045,30 +1071,41 @@ export default function InfiniteMenu({ items = [], scale = 1.0, onActiveItemChan
     };
   }, [items, scale]);
 
-  const handleButtonClick = () => {
-    if (!activeItem?.link) return;
-    if (activeItem.link.startsWith('http')) {
-      window.open(activeItem.link, '_blank', 'noopener,noreferrer');
-    } else {
-      console.log('Internal route:', activeItem.link);
-    }
-  };
+  if (!hasWebGL) {
+    return (
+      <div className="w-full h-full flex flex-col items-center justify-center bg-zinc-950/50 border border-zinc-900 rounded-3xl p-6 text-center min-h-[300px]">
+        <div className="w-12 h-12 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center mb-3">
+          <Globe className="w-6 h-6 text-yellow-400" />
+        </div>
+        <p className="text-sm font-bold text-white mb-1">Interactive 3D Sphere Offline</p>
+        <p className="text-xs text-zinc-500 max-w-xs mb-4 leading-relaxed">
+          WebGL 2 is disabled or unsupported. Select a website below to view its live preview:
+        </p>
+        <div className="flex flex-wrap gap-2 justify-center max-w-sm">
+          {items.map((item, idx) => (
+            <button
+              key={idx}
+              onClick={() => {
+                setActiveItem(item);
+                if (onActiveItemChange) onActiveItemChange(item);
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all border cursor-pointer ${
+                activeItem?.title === item.title
+                  ? 'bg-yellow-400 text-black border-yellow-400 font-extrabold shadow-lg shadow-yellow-400/15'
+                  : 'bg-zinc-900 text-zinc-400 border-zinc-800 hover:text-white'
+              }`}
+            >
+              {item.title}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <canvas id="infinite-grid-menu-canvas" ref={canvasRef} />
-
-      {activeItem && (
-        <>
-          <h2 className={`face-title ${isMoving ? 'inactive' : 'active'}`}>{activeItem.title}</h2>
-
-          <p className={`face-description ${isMoving ? 'inactive' : 'active'}`}> {activeItem.description}</p>
-
-          <div onClick={handleButtonClick} className={`action-button ${isMoving ? 'inactive' : 'active'}`}>
-            <p className="action-button-icon">&#x2197;</p>
-          </div>
-        </>
-      )}
     </div>
   );
 }

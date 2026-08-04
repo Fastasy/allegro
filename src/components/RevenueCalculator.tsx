@@ -24,7 +24,7 @@ export const RevenueCalculator: React.FC<RevenueCalculatorProps> = ({ onOpenBook
   };
 
   return (
-    <section id="calculator" className="py-20 relative overflow-hidden border-y border-zinc-800 text-white">
+    <section id="calculator" className="py-20 relative overflow-hidden text-white">
       {/* Background Accent glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-yellow-400/10 rounded-full blur-[140px] pointer-events-none" />
 

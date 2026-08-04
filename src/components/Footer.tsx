@@ -4,7 +4,7 @@ import { PE_SUBURBS } from '../data/peData';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-black border-t border-zinc-800 text-zinc-400 text-xs py-16 relative overflow-hidden">
+    <footer className="bg-black text-zinc-400 text-xs py-16 relative overflow-hidden">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
         

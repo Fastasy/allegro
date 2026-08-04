@@ -35,7 +35,7 @@ export const Pricing: React.FC<PricingProps> = ({ onSelectPlan }) => {
   };
 
   return (
-    <section id="pricing" className="pt-20 pb-36 text-white relative overflow-hidden border-t border-zinc-800">
+    <section id="pricing" className="pt-20 pb-36 text-white relative overflow-hidden">
       
       {/* Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-yellow-400/10 rounded-full blur-[150px] pointer-events-none" />

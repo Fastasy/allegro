@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import InfiniteMenu, { InfiniteMenuItem } from '../components/InfiniteMenu';
-import { Sparkles, ArrowLeft, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
+import { Sparkles, ArrowLeft, ExternalLink, Globe, ShieldCheck, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
@@ -13,7 +13,7 @@ const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
   },
   {
     image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=600&h=600&fit=crop&sat=-100&auto=format',
-    link: 'https://google.com/', // Fallback, could be your other live links if any
+    link: 'https://google.com/', 
     title: 'Algoa Plumbers',
     description: 'High-converting emergency plumbing lead engine optimized for Gqeberha suburbs.'
   },
@@ -39,6 +39,12 @@ const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
 
 export const Portfolio: React.FC = () => {
   const [activeItem, setActiveItem] = useState<InfiniteMenuItem>(PORTFOLIO_ITEMS[0]);
+  const [loadPreview, setLoadPreview] = useState(false);
+
+  // Reset live preview load state whenever active item changes to keep it fast
+  useEffect(() => {
+    setLoadPreview(false);
+  }, [activeItem]);
 
   const handleActiveItemChange = (item: InfiniteMenuItem) => {
     setActiveItem(item);
@@ -79,7 +85,7 @@ export const Portfolio: React.FC = () => {
             </div>
 
             {/* Menu container */}
-            <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[420px] my-4 flex items-center justify-center">
+            <div className="relative w-full h-[300px] sm:h-[340px] lg:h-[380px] my-2 flex items-center justify-center">
               <div className="absolute inset-0 w-full h-full">
                 <InfiniteMenu 
                   items={PORTFOLIO_ITEMS} 
@@ -89,8 +95,29 @@ export const Portfolio: React.FC = () => {
               </div>
             </div>
 
+            {/* Active Item Details Card */}
+            {activeItem && (
+              <div className="bg-zinc-900 border border-zinc-800/80 rounded-2xl p-5 mb-4 animate-in fade-in slide-in-from-bottom-2 duration-300">
+                <div className="flex items-center justify-between mb-2">
+                  <h2 className="text-xl font-extrabold text-white tracking-tight font-heading">{activeItem.title}</h2>
+                  <a 
+                    href={activeItem.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="p-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-yellow-400 hover:text-yellow-300 transition-colors"
+                    title="Open Live Site"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+                <p className="text-xs text-zinc-400 leading-relaxed">
+                  {activeItem.description}
+                </p>
+              </div>
+            )}
+
             {/* Navigation and tips */}
-            <div className="flex justify-between items-center border-t border-zinc-900 pt-4">
+            <div className="flex justify-between items-center pt-4">
               <Link 
                 to="/" 
                 className="flex items-center gap-2 text-xs font-bold text-zinc-400 hover:text-yellow-400 transition-colors group"
@@ -139,7 +166,7 @@ export const Portfolio: React.FC = () => {
             {/* Embedded Iframe Area */}
             <div className="flex-grow bg-zinc-900 relative min-h-[400px]">
               
-              {activeItem.link && activeItem.link !== 'https://google.com/' ? (
+              {loadPreview && activeItem.link && activeItem.link !== 'https://google.com/' ? (
                 <iframe 
                   src={activeItem.link} 
                   title={activeItem.title}
@@ -149,21 +176,32 @@ export const Portfolio: React.FC = () => {
               ) : (
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-zinc-950">
                   <div className="w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center mb-4">
-                    <Globe className="w-8 h-8 text-zinc-500" />
+                    <Globe className="w-8 h-8 text-yellow-400 animate-pulse" />
                   </div>
-                  <h3 className="text-lg font-bold text-white mb-2">{activeItem.title} Preview</h3>
-                  <p className="text-zinc-400 text-xs max-w-sm mb-6 leading-relaxed">
-                    This website preview is currently under sandbox constraints. Click below to view the live mockup directly in a new tab.
+                  <h3 className="text-xl font-extrabold text-white mb-2 font-heading">{activeItem.title}</h3>
+                  <p className="text-zinc-400 text-xs sm:text-sm max-w-sm mb-8 leading-relaxed">
+                    Click the button below to load the live website preview directly inside this window.
                   </p>
-                  <a 
-                    href={activeItem.link}
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="px-5 py-2.5 bg-yellow-400 hover:bg-yellow-300 text-black font-extrabold text-xs rounded-xl flex items-center gap-2 transition-all hover:scale-105"
-                  >
-                    <span>Launch Website Mockup</span>
-                    <ExternalLink className="w-4 h-4" />
-                  </a>
+                  
+                  <div className="flex flex-col sm:flex-row gap-3 items-center">
+                    <button 
+                      onClick={() => setLoadPreview(true)}
+                      className="px-6 py-3 bg-yellow-400 hover:bg-yellow-300 text-black font-extrabold text-xs rounded-xl flex items-center gap-2 transition-all hover:scale-105 cursor-pointer shadow-lg shadow-yellow-400/10"
+                    >
+                      <Play className="w-3.5 h-3.5 fill-black" />
+                      <span>Load Interactive Preview</span>
+                    </button>
+                    
+                    <a 
+                      href={activeItem.link}
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="px-6 py-3 bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 font-extrabold text-xs rounded-xl flex items-center gap-2 transition-all hover:scale-105"
+                    >
+                      <span>Open Live Site</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
                 </div>
               )}
 
