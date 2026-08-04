@@ -266,7 +266,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
               </div>
 
               {/* Decorative Corner Floating Card */}
-              <div className="hidden sm:flex absolute -bottom-6 -right-6 bg-zinc-900/95 border border-yellow-500/30 p-3 rounded-xl shadow-2xl items-center gap-3 backdrop-blur-xl animate-float-slow">
+              <div className="hidden lg:flex absolute -bottom-6 -right-6 bg-zinc-900/95 border border-yellow-500/30 p-3 rounded-xl shadow-2xl items-center gap-3 backdrop-blur-xl animate-float-slow">
                 <div className="w-10 h-10 rounded-lg bg-yellow-400 text-black flex items-center justify-center font-black text-lg">
                   ⚡
                 </div>
