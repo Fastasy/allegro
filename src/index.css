@@ -271,3 +271,32 @@ html.lenis, html.lenis-pure {
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
 }
+
+/* Seamless section blending */
+#calculator, #why-us, #pricing, #faq, #contact, #demos, #social-proof {
+  position: relative;
+}
+
+#calculator::before, #why-us::before, #pricing::before, #faq::before, #contact::before, #demos::before, #social-proof::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  background: linear-gradient(to bottom, #000000 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+#calculator::after, #why-us::after, #pricing::after, #faq::after, #contact::after, #demos::after, #social-proof::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  background: linear-gradient(to top, #000000 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 5;
+}

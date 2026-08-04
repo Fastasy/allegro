@@ -18,7 +18,7 @@ export const SocialProof: React.FC<SocialProofProps> = ({ onOpenBooking }) => {
   };
 
   return (
-    <section className="py-16 bg-black text-white relative overflow-hidden">
+    <section id="social-proof" className="py-16 bg-black text-white relative overflow-hidden">
       
       {/* Top Ticker: Suburbs Marquee */}
       <div className="mb-14 overflow-hidden border-y border-zinc-800 bg-zinc-950 py-3">
