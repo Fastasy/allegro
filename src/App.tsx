@@ -42,6 +42,11 @@ export function App() {
     };
   }, []);
 
+  // Reset scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   const [bookingOpen, setBookingOpen] = useState(false);
   const [bookingSuburb, setBookingSuburb] = useState<string>('Walmer');
   const [bookingIndustry, setBookingIndustry] = useState<string>('Trades & Emergency Services');
