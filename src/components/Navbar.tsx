@@ -23,7 +23,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
     { name: 'Live Demos', href: '/#demos' },
     { name: 'Pricing', href: '/#pricing' },
     { name: 'FAQ', href: '/#faq' },
-    { name: 'Articles', href: '/articles' }
+    { name: 'Articles', href: '/articles' },
+    { name: 'Portfolio', href: '/portfolio' }
   ];
 
   return (
