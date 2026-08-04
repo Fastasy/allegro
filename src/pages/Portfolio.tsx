@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import InfiniteMenu, { InfiniteMenuItem } from '../components/InfiniteMenu';
-import { Sparkles, ArrowLeft } from 'lucide-react';
+import { Sparkles, ArrowLeft, ExternalLink, Globe, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
@@ -13,7 +13,7 @@ const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
   },
   {
     image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=600&h=600&fit=crop&sat=-100&auto=format',
-    link: 'https://google.com/',
+    link: 'https://google.com/', // Fallback, could be your other live links if any
     title: 'Algoa Plumbers',
     description: 'High-converting emergency plumbing lead engine optimized for Gqeberha suburbs.'
   },
@@ -38,13 +38,19 @@ const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
 ];
 
 export const Portfolio: React.FC = () => {
+  const [activeItem, setActiveItem] = useState<InfiniteMenuItem>(PORTFOLIO_ITEMS[0]);
+
+  const handleActiveItemChange = (item: InfiniteMenuItem) => {
+    setActiveItem(item);
+  };
+
   return (
     <>
       <Helmet>
         <title>Portfolio & Live Web Showcases | Allegro Digital Gqeberha</title>
         <meta 
           name="description" 
-          content="Explore the premium high-converting websites and lead generation engines built by Allegro Digital for South African business owners." 
+          content="Explore the premium high-converting websites and live embedded previews built by Allegro Digital for South African business owners." 
         />
       </Helmet>
 
@@ -53,38 +59,118 @@ export const Portfolio: React.FC = () => {
         {/* Subtle grid background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#242427_1px,transparent_1px),linear-gradient(to_bottom,#242427_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 pointer-events-none" />
 
-        {/* Header Header */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 pt-10 pb-4 w-full text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-yellow-500/30 text-yellow-400 text-xs font-bold uppercase tracking-wider mb-4 animate-pulse">
-            <Sparkles className="w-3.5 h-3.5" /> Interactive Showcase
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-white mb-3">
-            Our <span className="text-yellow-400">Launch Portfolio</span>
-          </h1>
-          <p className="text-zinc-400 text-sm sm:text-base max-w-xl mx-auto">
-            Click and drag the sphere to rotate through our active client sites and Gqeberha lead engines. Click the arrow button to launch the live site.
-          </p>
-        </div>
+        {/* Layout Grid */}
+        <div className="relative z-10 flex-grow grid grid-cols-1 lg:grid-cols-12 gap-6 p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto w-full items-stretch">
+          
+          {/* Left Column: Menu Selector (5 Cols) */}
+          <div className="lg:col-span-5 flex flex-col justify-between bg-zinc-950/80 border border-zinc-900 rounded-3xl p-6 relative overflow-hidden backdrop-blur-md">
+            
+            {/* Title / Description */}
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-yellow-500/30 text-yellow-400 text-xs font-bold uppercase tracking-wider mb-4 animate-pulse">
+                <Sparkles className="w-3.5 h-3.5" /> Interactive Showcase
+              </div>
+              <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-white mb-2">
+                Our <span className="text-yellow-400">Portfolio</span>
+              </h1>
+              <p className="text-zinc-400 text-xs sm:text-sm">
+                Drag the sphere to rotate through active client sites. Focused circles morph smoothly into squares. Previews load automatically on the right.
+              </p>
+            </div>
 
-        {/* Interactive Menu Canvas Container */}
-        <div className="relative flex-grow min-h-[500px] md:min-h-[600px] w-full flex items-center justify-center">
-          <div className="absolute inset-0 w-full h-full">
-            <InfiniteMenu items={PORTFOLIO_ITEMS} scale={1.1} />
-          </div>
-        </div>
+            {/* Menu container */}
+            <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[420px] my-4 flex items-center justify-center">
+              <div className="absolute inset-0 w-full h-full">
+                <InfiniteMenu 
+                  items={PORTFOLIO_ITEMS} 
+                  scale={0.9} 
+                  onActiveItemChange={handleActiveItemChange}
+                />
+              </div>
+            </div>
 
-        {/* Footer/Navigation Info */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-zinc-900 bg-black/50 backdrop-blur-sm">
-          <Link 
-            to="/" 
-            className="flex items-center gap-2 text-xs font-bold text-zinc-400 hover:text-yellow-400 transition-colors group"
-          >
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            Back to Home
-          </Link>
-          <p className="text-[10px] text-zinc-500 font-medium">
-            Drag to rotate • Pinch to zoom • Click arrow to visit website
-          </p>
+            {/* Navigation and tips */}
+            <div className="flex justify-between items-center border-t border-zinc-900 pt-4">
+              <Link 
+                to="/" 
+                className="flex items-center gap-2 text-xs font-bold text-zinc-400 hover:text-yellow-400 transition-colors group"
+              >
+                <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+                Back to Home
+              </Link>
+              <span className="text-[10px] text-zinc-500 font-medium">
+                Pinch/Scroll to zoom • Drag to rotate
+              </span>
+            </div>
+
+          </div>
+
+          {/* Right Column: Embedded Preview (7 Cols) */}
+          <div className="lg:col-span-7 flex flex-col bg-zinc-950/80 border border-zinc-900 rounded-3xl overflow-hidden backdrop-blur-md">
+            
+            {/* Browser Header Bar */}
+            <div className="flex items-center justify-between px-4 py-3 bg-zinc-900 border-b border-zinc-800">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
+                <div className="w-3 h-3 rounded-full bg-green-500/80" />
+              </div>
+
+              {/* URL Address Bar */}
+              <div className="flex items-center gap-2 bg-black px-4 py-1.5 rounded-lg border border-zinc-800 text-[11px] font-mono text-zinc-400 w-2/3 max-w-sm justify-center">
+                <Globe className="w-3 h-3 text-zinc-500" />
+                <span className="truncate">{activeItem.link.replace('https://', '')}</span>
+                <ShieldCheck className="w-3 h-3 text-emerald-500" />
+              </div>
+
+              {/* External Visit Button */}
+              <a 
+                href={activeItem.link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 text-xs font-bold text-yellow-400 hover:text-yellow-300 transition-colors"
+                title="Open in new window"
+              >
+                <span className="hidden sm:inline">Visit Site</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
+
+            {/* Embedded Iframe Area */}
+            <div className="flex-grow bg-zinc-900 relative min-h-[400px]">
+              
+              {activeItem.link && activeItem.link !== 'https://google.com/' ? (
+                <iframe 
+                  src={activeItem.link} 
+                  title={activeItem.title}
+                  className="w-full h-full border-none absolute inset-0 bg-white"
+                  sandbox="allow-scripts allow-same-origin allow-forms"
+                />
+              ) : (
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-zinc-950">
+                  <div className="w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center mb-4">
+                    <Globe className="w-8 h-8 text-zinc-500" />
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">{activeItem.title} Preview</h3>
+                  <p className="text-zinc-400 text-xs max-w-sm mb-6 leading-relaxed">
+                    This website preview is currently under sandbox constraints. Click below to view the live mockup directly in a new tab.
+                  </p>
+                  <a 
+                    href={activeItem.link}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="px-5 py-2.5 bg-yellow-400 hover:bg-yellow-300 text-black font-extrabold text-xs rounded-xl flex items-center gap-2 transition-all hover:scale-105"
+                  >
+                    <span>Launch Website Mockup</span>
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
+              )}
+
+            </div>
+
+          </div>
+
         </div>
 
       </main>

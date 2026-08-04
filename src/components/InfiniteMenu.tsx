@@ -14,6 +14,7 @@ in vec3 aModelPosition;
 in vec3 aModelNormal;
 in vec2 aModelUvs;
 in mat4 aInstanceMatrix;
+in float aInstanceMorph;
 
 out vec2 vUvs;
 out float vAlpha;
@@ -22,7 +23,18 @@ flat out int vInstanceId;
 #define PI 3.141593
 
 void main() {
-    vec4 worldPosition = uWorldMatrix * aInstanceMatrix * vec4(aModelPosition, 1.);
+    vec3 localPos = aModelPosition;
+    
+    // Morph circle (disc) to square if focused (aInstanceMorph > 0)
+    if (gl_VertexID > 0) {
+        float maxCoord = max(abs(localPos.x), abs(localPos.y));
+        if (maxCoord > 0.0001) {
+            vec3 squarePos = vec3(localPos.xy / maxCoord, localPos.z);
+            localPos = mix(localPos, squarePos, aInstanceMorph);
+        }
+    }
+
+    vec4 worldPosition = uWorldMatrix * aInstanceMatrix * vec4(localPos, 1.);
 
     vec3 centerPos = (uWorldMatrix * aInstanceMatrix * vec4(0., 0., 0., 1.)).xyz;
     float radius = length(centerPos.xyz);
@@ -532,6 +544,7 @@ interface DiscLocations {
   aModelPosition: number;
   aModelUvs: number;
   aInstanceMatrix: number;
+  aInstanceMorph: number;
   uWorldMatrix: WebGLUniformLocation | null;
   uViewMatrix: WebGLUniformLocation | null;
   uProjectionMatrix: WebGLUniformLocation | null;
@@ -569,6 +582,8 @@ class InfiniteGridMenu {
     matrices: Float32Array[];
     buffer: WebGLBuffer | null;
   };
+  morphArray!: Float32Array;
+  morphBuffer!: WebGLBuffer | null;
   worldMatrix = mat4.create();
   tex!: WebGLTexture | null;
   atlasSize!: number;
@@ -671,6 +686,7 @@ class InfiniteGridMenu {
       aModelPosition: gl.getAttribLocation(this.discProgram, 'aModelPosition'),
       aModelUvs: gl.getAttribLocation(this.discProgram, 'aModelUvs'),
       aInstanceMatrix: gl.getAttribLocation(this.discProgram, 'aInstanceMatrix'),
+      aInstanceMorph: gl.getAttribLocation(this.discProgram, 'aInstanceMorph'),
       uWorldMatrix: gl.getUniformLocation(this.discProgram, 'uWorldMatrix'),
       uViewMatrix: gl.getUniformLocation(this.discProgram, 'uViewMatrix'),
       uProjectionMatrix: gl.getUniformLocation(this.discProgram, 'uProjectionMatrix'),
@@ -702,6 +718,18 @@ class InfiniteGridMenu {
     this.instancePositions = this.icoGeo.vertices.map(v => v.position);
     this.DISC_INSTANCE_COUNT = this.icoGeo.vertices.length;
     this.initDiscInstances(this.DISC_INSTANCE_COUNT);
+
+    // Setup Morph Progress instanced buffer
+    this.morphArray = new Float32Array(this.DISC_INSTANCE_COUNT);
+    this.morphBuffer = gl.createBuffer();
+    gl.bindVertexArray(this.discVAO);
+    gl.bindBuffer(gl.ARRAY_BUFFER, this.morphBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, this.morphArray.byteLength, gl.DYNAMIC_DRAW);
+    gl.enableVertexAttribArray(this.discLocations.aInstanceMorph);
+    gl.vertexAttribPointer(this.discLocations.aInstanceMorph, 1, gl.FLOAT, false, 0, 0);
+    gl.vertexAttribDivisor(this.discLocations.aInstanceMorph, 1);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+    gl.bindVertexArray(null);
 
     this.worldMatrix = mat4.create();
     this.initTexture();
@@ -809,6 +837,20 @@ class InfiniteGridMenu {
 
     gl.bindBuffer(gl.ARRAY_BUFFER, this.discInstances.buffer);
     gl.bufferSubData(gl.ARRAY_BUFFER, 0, this.discInstances.matricesArray);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+
+    // Smoothly animate morph progress per instance
+    const activeInstanceIndex = this.nearestVertexIndex;
+    const timeScale = deltaTime / this.TARGET_FRAME_DURATION + 0.0001;
+    const morphSpeed = 0.15 * timeScale;
+    
+    for (let i = 0; i < this.DISC_INSTANCE_COUNT; ++i) {
+      const target = (i === activeInstanceIndex) ? 1.0 : 0.0;
+      this.morphArray[i] += (target - this.morphArray[i]) * morphSpeed;
+    }
+    
+    gl.bindBuffer(gl.ARRAY_BUFFER, this.morphBuffer);
+    gl.bufferSubData(gl.ARRAY_BUFFER, 0, this.morphArray);
     gl.bindBuffer(gl.ARRAY_BUFFER, null);
 
     this.smoothRotationVelocity = this.control.rotationVelocity;
@@ -944,6 +986,7 @@ export interface InfiniteMenuItem {
 interface InfiniteMenuProps {
   items?: InfiniteMenuItem[];
   scale?: number;
+  onActiveItemChange?: (item: InfiniteMenuItem) => void;
 }
 
 const defaultItems: InfiniteMenuItem[] = [
@@ -956,7 +999,7 @@ const defaultItems: InfiniteMenuItem[] = [
   }
 ];
 
-export default function InfiniteMenu({ items = [], scale = 1.0 }: InfiniteMenuProps) {
+export default function InfiniteMenu({ items = [], scale = 1.0, onActiveItemChange }: InfiniteMenuProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [activeItem, setActiveItem] = useState<InfiniteMenuItem | null>(null);
   const [isMoving, setIsMoving] = useState(false);
@@ -967,7 +1010,11 @@ export default function InfiniteMenu({ items = [], scale = 1.0 }: InfiniteMenuPr
 
     const handleActiveItem = (index: number) => {
       const itemIndex = index % items.length;
-      setActiveItem(items[itemIndex]);
+      const selectedItem = items[itemIndex];
+      setActiveItem(selectedItem);
+      if (onActiveItemChange) {
+        onActiveItemChange(selectedItem);
+      }
     };
 
     if (canvas) {
