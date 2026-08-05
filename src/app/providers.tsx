@@ -10,6 +10,7 @@ import { BookingModal } from '@/components/BookingModal';
 import { CustomCursor } from '@/components/CustomCursor';
 import { Analytics } from '@vercel/analytics/react';
 import Lenis from 'lenis';
+import '../../instrumentation-client';
 
 function AppLayoutInner({ children }: { children: React.ReactNode }) {
   const {
