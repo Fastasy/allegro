@@ -7,6 +7,7 @@ import {
   ArrowLeft, Copy, Check, Send, Sparkles, Smartphone, Monitor, RotateCcw, 
   HelpCircle, CheckCircle2, MessageSquare, PhoneCall, ShieldCheck 
 } from 'lucide-react';
+import posthog from 'posthog-js';
 
 interface Palette {
   name: string;
@@ -160,6 +161,10 @@ export const BrandStudio: React.FC = () => {
   };
 
   const handleWhatsAppSubmit = () => {
+    posthog.capture('brand_palette_submitted', {
+      has_business_name: Boolean(businessName.trim()),
+      preview_mode: previewMode,
+    });
     const shareUrl = generateShareUrl();
     const message = `Hi Allegro Digital! 🚀 I've finalized my brand colors in the Brand Studio for ${businessName || 'my business'}. Here is my custom palette link: ${shareUrl}`;
     window.open(`https://wa.me/27823006996?text=${encodeURIComponent(message)}`, '_blank');

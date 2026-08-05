@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Download, X, Check, FileText } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import posthog from 'posthog-js';
 
 export const LeadMagnetPopup: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,6 +52,9 @@ export const LeadMagnetPopup: React.FC = () => {
 
   const handleDownload = (e: React.FormEvent) => {
     e.preventDefault();
+    posthog.capture('lead_magnet_download_requested', {
+      lead_magnet: 'pe_small_business_growth_playbook',
+    });
     confetti({
       particleCount: 80,
       spread: 60,

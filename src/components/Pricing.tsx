@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Zap, ArrowRight, HelpCircle, Layout, Server, Target, CheckCircle2, Megaphone, PenTool, Plus } from 'lucide-react';
 import { PricingPlan } from '../data/peData';
+import posthog from 'posthog-js';
 
 interface PricingProps {
   onSelectPlan: (plan: PricingPlan, billingCycle: 'onceOff' | 'monthly') => void;
@@ -11,9 +12,12 @@ export const Pricing: React.FC<PricingProps> = ({ onSelectPlan }) => {
   const [selectedAddons, setSelectedAddons] = useState<string[]>([]);
 
   const toggleAddon = (addonId: string) => {
-    setSelectedAddons(prev => 
-      prev.includes(addonId) ? prev.filter(id => id !== addonId) : [...prev, addonId]
-    );
+    const isSelected = selectedAddons.includes(addonId);
+    posthog.capture('pricing_addon_toggled', {
+      addon_id: addonId,
+      selected: !isSelected,
+    });
+    setSelectedAddons(isSelected ? selectedAddons.filter(id => id !== addonId) : [...selectedAddons, addonId]);
   };
 
   const handleSelect = (name: string, cycle: 'onceOff' | 'monthly') => {

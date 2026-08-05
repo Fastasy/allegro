@@ -2,6 +2,7 @@
 
 import React, { createContext, useContext, useState } from 'react';
 import { PricingPlan } from '@/data/peData';
+import posthog from 'posthog-js';
 
 interface BookingContextType {
   bookingOpen: boolean;
@@ -26,11 +27,17 @@ export const BookingProvider: React.FC<{ children: React.ReactNode }> = ({ child
   const [bookingPlan, setBookingPlan] = useState<string | undefined>(undefined);
 
   const handleOpenBooking = () => {
+    posthog.capture('strategy_booking_started');
     setBookingPlan(undefined);
     setBookingOpen(true);
   };
 
   const handleOpenBookingWithDetails = (suburb: string, industry: string) => {
+    posthog.capture('strategy_booking_started', {
+      entry_point: 'revenue_calculator',
+      suburb,
+      industry,
+    });
     setBookingSuburb(suburb);
     setBookingIndustry(industry);
     setBookingPlan(undefined);
@@ -38,6 +45,11 @@ export const BookingProvider: React.FC<{ children: React.ReactNode }> = ({ child
   };
 
   const handleSelectPlan = (plan: PricingPlan, cycle: 'onceOff' | 'monthly') => {
+    const billingCycle = cycle === 'onceOff' ? 'once_off' : 'monthly';
+    posthog.capture('pricing_plan_selected', {
+      plan_name: plan.name,
+      billing_cycle: billingCycle,
+    });
     setBookingPlan(`${plan.name} (${cycle === 'onceOff' ? 'Once-Off' : 'Monthly'})`);
     setBookingOpen(true);
   };

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { X, Calendar as CalendarIcon, Clock, CheckCircle2, Sparkles, ShieldCheck, ArrowRight, MapPin } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { PE_SUBURBS } from '../data/peData';
+import posthog from 'posthog-js';
 
 interface BookingModalProps {
   isOpen: boolean;
@@ -77,6 +78,14 @@ export const BookingModal: React.FC<BookingModalProps> = ({
         origin: { y: 0.6 }
       });
       
+      posthog.capture('strategy_booking_confirmed', {
+        selected_date: selectedDate,
+        selected_time: selectedTime,
+        suburb,
+        industry,
+        has_selected_plan: Boolean(initialPlan),
+      });
+
       const planText = initialPlan ? `\n*Selected Package:* ${initialPlan}` : '';
       const message = `*New Website Enquiry*\n\n*Name:* ${fullName}\n*Business:* ${businessName}\n*Phone:* ${phone}\n*Date & Time:* ${selectedDate} @ ${selectedTime}\n*Suburb:* ${suburb}\n*Industry:* ${industry}${planText}\n*Notes:* ${notes || 'None'}`;
       window.open(`https://wa.me/27823006996?text=${encodeURIComponent(message)}`, '_blank');

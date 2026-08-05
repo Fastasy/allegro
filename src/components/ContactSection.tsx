@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Phone, MapPin, MessageSquare, Clock, ArrowRight, ShieldCheck, Sparkles } from 'lucide-react';
 import { PE_SUBURBS } from '../data/peData';
 import confetti from 'canvas-confetti';
+import posthog from 'posthog-js';
 
 interface ContactSectionProps {
   onOpenBooking: () => void;
@@ -19,6 +20,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    posthog.capture('quote_request_submitted', {
+      suburb: formData.suburb,
+      industry: formData.industry,
+      has_message: Boolean(formData.message.trim()),
+    });
     confetti({
       particleCount: 100,
       spread: 70,

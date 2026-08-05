@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PE_SUBURBS } from '../data/peData';
 import { Calculator, TrendingUp, ArrowRight, MapPin, Sparkles, AlertTriangle, CheckCircle2 } from 'lucide-react';
+import posthog from 'posthog-js';
 
 interface RevenueCalculatorProps {
   onOpenBookingWithDetails: (suburb: string, industry: string, estimatedLoss: number) => void;
@@ -20,6 +21,13 @@ export const RevenueCalculator: React.FC<RevenueCalculatorProps> = ({ onOpenBook
   const projectedNewRevenue = projectedNewLeads * avgCustomerValue;
 
   const handleClaimArea = () => {
+    posthog.capture('revenue_calculator_booking_requested', {
+      suburb: selectedSuburb,
+      industry,
+      average_customer_value: avgCustomerValue,
+      estimated_missed_calls_per_week: estimatedMissedCalls,
+      monthly_lost_revenue: monthlyLostRevenue,
+    });
     onOpenBookingWithDetails(selectedSuburb, industry, monthlyLostRevenue);
   };
 

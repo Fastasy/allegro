@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import InfiniteMenu, { InfiniteMenuItem } from '../components/InfiniteMenu';
 import { Sparkles, ArrowLeft, ExternalLink, Globe, ShieldCheck, Play } from 'lucide-react';
 import Link from 'next/link';
+import posthog from 'posthog-js';
 
 const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
   {
@@ -178,7 +179,12 @@ export const Portfolio: React.FC = () => {
                   
                   <div className="flex flex-col sm:flex-row gap-3 items-center">
                     <button 
-                      onClick={() => setLoadPreview(true)}
+                      onClick={() => {
+                        posthog.capture('portfolio_preview_loaded', {
+                          portfolio_item: activeItem.title,
+                        });
+                        setLoadPreview(true);
+                      }}
                       className="px-6 py-3 bg-yellow-400 hover:bg-yellow-300 text-black font-extrabold text-xs rounded-xl flex items-center gap-2 transition-all hover:scale-105 cursor-pointer shadow-lg shadow-yellow-400/10"
                     >
                       <Play className="w-3.5 h-3.5 fill-black" />
