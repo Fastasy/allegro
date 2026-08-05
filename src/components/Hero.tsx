@@ -44,9 +44,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
-              <span className="inline-block animate-fade-scale" style={{ animationDelay: '100ms' }}>Professional Web Design in</span>
+              <span className="inline-block">Professional Web Design in</span>
               <br className="hidden lg:block" />
-              <span className="inline-block animate-fade-scale gradient-text-accent" style={{ animationDelay: '300ms' }}>Port Elizabeth (Gqeberha)</span>
+              <span className="inline-block gradient-text-accent">Port Elizabeth (Gqeberha)</span>
             </h1>
 
             {/* Subheadline */}
