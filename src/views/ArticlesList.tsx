@@ -39,6 +39,7 @@ export const ArticlesList: React.FC = () => {
                       src={article.imageUrl} 
                       alt={article.title} 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
                     />
                   </div>
                 ) : (

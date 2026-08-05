@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { 
   ArrowRight, Calendar, Phone, ShieldCheck, Star, 
   MapPin, Check, Smartphone, Monitor, MessageSquare, Flame, TrendingUp
@@ -190,10 +191,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
 
                   {/* Simulated Webpage Hero Image & Banner */}
                   <div className="relative rounded-xl overflow-hidden mb-3 group">
-                    <img
+                    <Image
                       src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80"
                       alt="Port Elizabeth Emergency Plumbing Demo"
                       className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
+                      width={700}
+                      height={176}
+                      priority
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent flex flex-col justify-end p-3">
                       <span className="bg-yellow-400 text-black text-[10px] font-black px-2 py-0.5 rounded w-max mb-1">

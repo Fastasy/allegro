@@ -88,6 +88,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ onOpenBooking, slug })
               src={article.imageUrl} 
               alt={article.title} 
               className="w-full h-full object-cover"
+              fetchPriority="high"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           </div>

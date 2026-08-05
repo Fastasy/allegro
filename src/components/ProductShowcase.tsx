@@ -204,6 +204,7 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onOpenBooking 
                       src={selectedIndustry.heroImg}
                       alt={selectedIndustry.sampleBusiness}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent p-3 flex flex-col justify-end">
                       <span className="bg-yellow-400 text-black text-[10px] font-black px-2 py-0.5 rounded w-max mb-1 uppercase">
