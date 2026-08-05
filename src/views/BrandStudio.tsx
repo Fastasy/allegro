@@ -1,6 +1,8 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import { useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import { 
   ArrowLeft, Copy, Check, Send, Sparkles, Smartphone, Monitor, RotateCcw, 
   HelpCircle, CheckCircle2, MessageSquare, PhoneCall, ShieldCheck 
@@ -77,7 +79,7 @@ const PRESET_PALETTES: Palette[] = [
 ];
 
 export const BrandStudio: React.FC = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const searchParams = useSearchParams();
 
   // Color States
   const [primary, setPrimary] = useState('#facc15');
@@ -165,15 +167,10 @@ export const BrandStudio: React.FC = () => {
 
   return (
     <div className="pt-24 pb-24 min-h-screen bg-black text-zinc-100 relative">
-      <Helmet>
-        <title>Brand Color Studio | Allegro Digital</title>
-        <meta name="description" content="Design your custom brand color palette in real-time and preview how your high-converting website will look instantly." />
-      </Helmet>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Back Button & Title */}
         <div className="mb-8">
-          <Link to="/" className="inline-flex items-center gap-2 text-zinc-400 hover:text-yellow-400 transition-colors text-sm font-bold mb-6">
+          <Link href="/" className="inline-flex items-center gap-2 text-zinc-400 hover:text-yellow-400 transition-colors text-sm font-bold mb-6">
             <ArrowLeft className="w-4 h-4" /> Back to Home
           </Link>
           
@@ -323,8 +320,8 @@ export const BrandStudio: React.FC = () => {
               {/* 5. Typography Neutrals */}
               <div className="grid grid-cols-3 gap-2">
                 <div className="flex flex-col gap-1 p-2 bg-zinc-950 border border-zinc-850 rounded-xl">
-                  <div class="text-[10px] font-bold text-white">5a. Dark Neutral</div>
-                  <div class="text-[8px] text-zinc-500">Main text</div>
+                  <div className="text-[10px] font-bold text-white">5a. Dark Neutral</div>
+                  <div className="text-[8px] text-zinc-500">Main text</div>
                   <div className="flex items-center justify-between mt-1">
                     <span className="text-[9px] font-mono text-zinc-400">{darkText.toUpperCase()}</span>
                     <input 
@@ -337,8 +334,8 @@ export const BrandStudio: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col gap-1 p-2 bg-zinc-950 border border-zinc-850 rounded-xl">
-                  <div class="text-[10px] font-bold text-white">5b. Muted Text</div>
-                  <div class="text-[8px] text-zinc-500">Secondary text</div>
+                  <div className="text-[10px] font-bold text-white">5b. Muted Text</div>
+                  <div className="text-[8px] text-zinc-500">Secondary text</div>
                   <div className="flex items-center justify-between mt-1">
                     <span className="text-[9px] font-mono text-zinc-400">{mutedText.toUpperCase()}</span>
                     <input 
@@ -351,8 +348,8 @@ export const BrandStudio: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col gap-1 p-2 bg-zinc-950 border border-zinc-850 rounded-xl">
-                  <div class="text-[10px] font-bold text-white">5c. Inverse Text</div>
-                  <div class="text-[8px] text-zinc-500">Text on CTA</div>
+                  <div className="text-[10px] font-bold text-white">5c. Inverse Text</div>
+                  <div className="text-[8px] text-zinc-500">Text on CTA</div>
                   <div className="flex items-center justify-between mt-1">
                     <span className="text-[9px] font-mono text-zinc-400">{inverseText.toUpperCase()}</span>
                     <input 
@@ -433,10 +430,10 @@ export const BrandStudio: React.FC = () => {
                     {businessName.toUpperCase() || 'LOGO'}
                   </span>
                   <div className="flex items-center gap-4 text-xs font-semibold" style={{ color: mutedText }}>
-                    <span class="cursor-pointer hover:opacity-80">Home</span>
-                    <span class="cursor-pointer hover:opacity-80">Services</span>
+                    <span className="cursor-pointer hover:opacity-80">Home</span>
+                    <span className="cursor-pointer hover:opacity-80">Services</span>
                     <span 
-                      class="px-3 py-1 rounded-full text-[10px] font-bold transition-opacity cursor-pointer"
+                      className="px-3 py-1 rounded-full text-[10px] font-bold transition-opacity cursor-pointer"
                       style={{ backgroundColor: action, color: inverseText }}
                     >
                       Book Free Call
@@ -448,7 +445,7 @@ export const BrandStudio: React.FC = () => {
                 <div className="px-8 py-16 text-center relative overflow-hidden" style={{ backgroundColor: mainBg }}>
                   {/* Decorative circle glow */}
                   <div 
-                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full blur-[80px] opacity-10 pointer-events-none"
+                    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full blur-[80px] opacity-10 pointer-events-none"
                     style={{ backgroundColor: primary }}
                   />
 
@@ -508,8 +505,8 @@ export const BrandStudio: React.FC = () => {
                       <div className="w-8 h-8 rounded-lg mb-3 flex items-center justify-center" style={{ backgroundColor: `${primary}10`, color: primary }}>
                         <ShieldCheck className="w-5 h-5" />
                       </div>
-                      <h4 class="text-xs font-bold mb-1" style={{ color: darkText }}>Residential Repair</h4>
-                      <p class="text-[10px]" style={{ color: mutedText }}>Fast, accredited assistance at your doorstep.</p>
+                      <h4 className="text-xs font-bold mb-1" style={{ color: darkText }}>Residential Repair</h4>
+                      <p className="text-[10px]" style={{ color: mutedText }}>Fast, accredited assistance at your doorstep.</p>
                     </div>
 
                     <div 
@@ -519,8 +516,8 @@ export const BrandStudio: React.FC = () => {
                       <div className="w-8 h-8 rounded-lg mb-3 flex items-center justify-center" style={{ backgroundColor: `${secondary}10`, color: secondary }}>
                         <CheckCircle2 className="w-5 h-5" />
                       </div>
-                      <h4 class="text-xs font-bold mb-1" style={{ color: darkText }}>Commercial Contract</h4>
-                      <p class="text-[10px]" style={{ color: mutedText }}>Reliable maintenance retainers for offices.</p>
+                      <h4 className="text-xs font-bold mb-1" style={{ color: darkText }}>Commercial Contract</h4>
+                      <p className="text-[10px]" style={{ color: mutedText }}>Reliable maintenance retainers for offices.</p>
                     </div>
                   </div>
                 </div>
@@ -595,7 +592,7 @@ export const BrandStudio: React.FC = () => {
 
             {/* Generated Link Input */}
             <div className="mb-6">
-              <label class="block text-xs font-bold text-zinc-500 mb-2 uppercase tracking-wider">
+              <label className="block text-xs font-bold text-zinc-500 mb-2 uppercase tracking-wider">
                 Your Share Link
               </label>
               <div className="flex items-center bg-zinc-950 border border-zinc-800 rounded-xl p-1.5 pl-3">

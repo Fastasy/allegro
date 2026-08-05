@@ -1,17 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import Link from 'next/link';
 import { articles } from '../data/articlesData';
 import { ArrowRight, BookOpen, Clock } from 'lucide-react';
 
 export const ArticlesList: React.FC = () => {
   return (
     <div className="pt-32 pb-24 min-h-screen">
-      <Helmet>
-        <title>Blog & Insights | Allegro Digital PE</title>
-        <meta name="description" content="Read the latest insights on local SEO, web design, and digital marketing for businesses in Port Elizabeth and the Eastern Cape." />
-      </Helmet>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white font-heading mb-4">
@@ -35,7 +29,7 @@ export const ArticlesList: React.FC = () => {
             {articles.map((article) => (
               <Link 
                 key={article.slug} 
-                to={`/articles/${article.slug}`}
+                href={`/articles/${article.slug}`}
                 className="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-yellow-400/50 transition-all group flex flex-col shadow-xl"
               >
                 {article.imageUrl ? (

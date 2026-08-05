@@ -8,6 +8,7 @@ import { Pricing } from '../components/Pricing';
 import { Faq } from '../components/Faq';
 import { ContactSection } from '../components/ContactSection';
 import { RevealOnScroll } from '../components/RevealOnScroll';
+import { ProductShowcase } from '../components/ProductShowcase';
 import { PricingPlan } from '../data/peData';
 
 interface HomeProps {
@@ -45,7 +46,9 @@ export const Home: React.FC<HomeProps> = ({ onOpenBooking, onOpenBookingWithDeta
         <ProcessEngine onOpenBooking={onOpenBooking} />
       </RevealOnScroll>
 
-      {/* ProductShowcase is archived */}
+      <RevealOnScroll>
+        <ProductShowcase onOpenBooking={onOpenBooking} />
+      </RevealOnScroll>
 
       <RevealOnScroll>
         <ComparisonTable onOpenBooking={onOpenBooking} />

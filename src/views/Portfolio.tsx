@@ -1,8 +1,9 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
 import InfiniteMenu, { InfiniteMenuItem } from '../components/InfiniteMenu';
 import { Sparkles, ArrowLeft, ExternalLink, Globe, ShieldCheck, Play } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const PORTFOLIO_ITEMS: InfiniteMenuItem[] = [
   {
@@ -52,14 +53,6 @@ export const Portfolio: React.FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Portfolio & Live Web Showcases | Allegro Digital Gqeberha</title>
-        <meta 
-          name="description" 
-          content="Explore the premium high-converting websites and live embedded previews built by Allegro Digital for South African business owners." 
-        />
-      </Helmet>
-
       <main className="min-h-[calc(100vh-80px)] bg-black text-white relative flex flex-col justify-between overflow-hidden">
         
         {/* Subtle grid background */}
@@ -119,7 +112,7 @@ export const Portfolio: React.FC = () => {
             {/* Navigation and tips */}
             <div className="flex justify-between items-center pt-4">
               <Link 
-                to="/" 
+                href="/" 
                 className="flex items-center gap-2 text-xs font-bold text-zinc-400 hover:text-yellow-400 transition-colors group"
               >
                 <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />

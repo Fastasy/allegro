@@ -1,6 +1,9 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import { Rocket, Phone, Calendar, Menu, X, CheckCircle, MapPin, Sparkles } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 interface NavbarProps {
   onOpenBooking: () => void;
@@ -9,7 +12,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const location = useLocation();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,8 +43,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
   ];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, isRoute: boolean) => {
-    if (!isRoute && location.pathname !== '/') {
-      // If we are on a subpage and click a hash link, let React Router handle it
+    if (!isRoute && pathname !== '/') {
+      // If we are on a subpage and click a hash link, let the browser handle it
       return;
     }
     
@@ -56,8 +59,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
     }
   };
 
-  // Apply top offset below yellow announcement banner only on subpages when scrolled to the top
-  const isAtTopWithBanner = location.pathname !== '/' && !scrolled;
+  // Apply top offset below yellow announcement banner when scrolled to the top
+  const isAtTopWithBanner = !scrolled;
 
   return (
     <header className={`fixed left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl transition-all duration-500 ${
@@ -71,7 +74,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
         <div className="flex items-center justify-between gap-4">
           
           {/* Brand Logo Container */}
-          <Link to="/" className="flex items-center gap-2.5 group shrink-0">
+          <Link href="/" className="flex items-center gap-2.5 group shrink-0">
             <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl group-hover:scale-105 group-hover:rotate-3 transition-all duration-300 overflow-hidden flex items-center justify-center bg-white/5 border border-zinc-800/80 shadow-lg">
               <img src="/logo.png" alt="Allegro Digital Logo" className="w-full h-full object-contain" />
             </div>
@@ -94,11 +97,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
           <nav className="hidden lg:flex items-center bg-zinc-900/40 border border-zinc-800/50 rounded-full px-5 py-1.5 shadow-inner">
             <div className="flex items-center gap-1 sm:gap-2">
               {navLinks.map((link) => {
-                const isActive = location.pathname === link.href;
+                const isActive = pathname === link.href;
                 return link.isRoute ? (
                   <Link
                     key={link.name}
-                    to={link.href}
+                    href={link.href}
                     className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all ${
                       isActive 
                         ? 'bg-yellow-400 text-black font-extrabold shadow' 
@@ -173,11 +176,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
             
             <div className="grid grid-cols-2 gap-2">
               {mobileNavLinks.map((link) => {
-                const isActive = location.pathname === link.href;
+                const isActive = pathname === link.href;
                 return link.isRoute ? (
                   <Link
                     key={link.name}
-                    to={link.href}
+                    href={link.href}
                     onClick={() => setMobileMenuOpen(false)}
                     className={`px-4 py-2.5 rounded-xl text-sm font-bold text-center border ${
                       isActive 

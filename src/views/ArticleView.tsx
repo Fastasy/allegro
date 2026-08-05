@@ -1,15 +1,14 @@
 import React, { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import Link from 'next/link';
 import { articles } from '../data/articlesData';
 import { ArrowLeft, Calendar, User, Clock, CheckCircle2, Lightbulb, Share2 } from 'lucide-react';
 
 interface ArticleViewProps {
   onOpenBooking: () => void;
+  slug?: string;
 }
 
-export const ArticleView: React.FC<ArticleViewProps> = ({ onOpenBooking }) => {
-  const { slug } = useParams<{ slug: string }>();
+export const ArticleView: React.FC<ArticleViewProps> = ({ onOpenBooking, slug }) => {
   const article = articles.find((a) => a.slug === slug);
 
   // Scroll to top on load
@@ -22,7 +21,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ onOpenBooking }) => {
       <div className="pt-32 pb-24 min-h-screen flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-4xl font-bold text-white mb-4">Article Not Found</h1>
         <p className="text-zinc-400 mb-8">The article you are looking for does not exist or has been moved.</p>
-        <Link to="/articles" className="text-yellow-400 font-bold hover:underline inline-flex items-center gap-2">
+        <Link href="/articles" className="text-yellow-400 font-bold hover:underline inline-flex items-center gap-2">
           <ArrowLeft className="w-4 h-4" /> Back to Articles
         </Link>
       </div>
@@ -31,15 +30,10 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ onOpenBooking }) => {
 
   return (
     <div className="pt-24 pb-24 min-h-screen bg-black">
-      <Helmet>
-        <title>{article.metaTitle || `${article.title} | Allegro Digital PE`}</title>
-        <meta name="description" content={article.metaDescription} />
-      </Helmet>
-
       {/* Header Container */}
       <header className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
         <Link 
-          to="/articles" 
+          href="/articles" 
           className="inline-flex items-center gap-2 text-zinc-400 hover:text-yellow-400 transition-colors text-sm font-bold mb-8 bg-zinc-900/80 px-4 py-2 rounded-full border border-zinc-800"
         >
           <ArrowLeft className="w-4 h-4" /> Back to All Articles
