@@ -136,7 +136,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
           </div>
 
           {/* Right Column: Interactive Live Preview Mockup Card */}
-          <div className="lg:col-span-5 lg:col-start-8">
+          <div className="hidden lg:block lg:col-span-5 lg:col-start-8">
             <div className="relative">
               
               {/* Device Toggle Controls Header */}

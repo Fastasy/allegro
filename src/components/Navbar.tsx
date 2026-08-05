@@ -63,9 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
   const isAtTopWithBanner = !scrolled;
 
   return (
-    <header className={`fixed left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl transition-all duration-500 ${
-      isAtTopWithBanner ? 'top-16 lg:top-14' : 'top-4'
-    }`}>
+    <header className="relative z-40 w-[95%] max-w-7xl mx-auto pt-4 pb-2">
       <div className={`mx-auto rounded-2xl sm:rounded-3xl border transition-all duration-300 px-4 sm:px-6 lg:px-8 backdrop-blur-xl shadow-[0_20px_50px_rgba(0,0,0,0.85)] ${
         scrolled 
           ? 'py-2 bg-black/85 border-zinc-800/80' 
