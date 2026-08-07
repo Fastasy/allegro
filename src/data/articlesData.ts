@@ -1422,5 +1422,167 @@ export const articles: Article[] = [
         answer: "Google's primary goal is to provide a great user experience. If your website is slow to load, users will bounce back to the search results. Google tracks this behavior and actively demotes slow sites in favor of fast, responsive ones."
       }
     ]
+  },
+  {
+    slug: 'website-vs-facebook-page-south-africa',
+    title: 'Website vs Facebook Page for Your Business in South Africa: The Honest Answer',
+    metaTitle: 'Website vs Facebook Page for Business in South Africa | Allegro Digital',
+    summary: "Should your SA business get a website or just run a Facebook page? Here's what each one can and can't do, and how to decide without wasting money.",
+    metaDescription: "Should your SA business get a website or just run a Facebook page? Here's what each one can and can't do, and how to decide without wasting money.",
+    date: 'Aug 7, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '4 min read',
+    category: 'Web Design & Strategy',
+    tags: ['website-vs-facebook', 'small-business-sa', 'facebook-page', 'digital-marketing'],
+    imageUrl: '/images/website_vs_facebook.jpg',
+    keyTakeaways: [
+      'A Facebook page is a great conversation tool with no upfront cash cost, but you do not own it.',
+      'You are at the mercy of Facebook\'s algorithm, and your page can be shut down without explanation.',
+      'A website is your own property that gets found on Google where high-intent customers search.',
+      'The best strategy is using Facebook as a megaphone to send customers to your website home base.'
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Every week, small business owners in Port Elizabeth, Mthatha, and every town in between ask the same question: <em>"Do I really need a website, or is a Facebook page enough?"</em>
+      </p>
+
+      <p class="mb-6">
+        It's a fair question. Facebook is free. You already use it. Your customers are on it. So why spend money on a website?
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">⚖️ The Honest Answer</p>
+        <p class="text-zinc-300 text-sm">
+          A Facebook page does some things brilliantly and other things terribly. A website does the opposite. The mistake is treating them as competitors when they're actually two different tools.
+        </p>
+      </div>
+
+      <p class="text-xl font-bold text-white mb-6 font-heading">
+        Let's break down what each one is actually good at, so you can decide based on your business, not on what someone on a Facebook group told you.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a Facebook Page Does Well
+      </h2>
+
+      <p class="mb-6">
+        A Facebook page is a conversation tool. It's where your customers already hang out, which means it's where you build a following, post specials, and answer questions in real time.
+      </p>
+
+      <p class="mb-6">
+        For a business that lives on word of mouth, that's valuable. A hairdresser posting photos of finished work, a mechanic sharing a before-and-after job, a B&B showing off a room on a sunny morning. That kind of content works on Facebook because it's social. People like it, share it, tag their friends.
+      </p>
+
+      <p class="mb-8">
+        Facebook is also cheap in the one way that matters most to a small business: <strong>it costs no cash to start</strong>. You can create a page in an afternoon and post the same day.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a Facebook Page Can't Do
+      </h2>
+
+      <p class="mb-6">Here's the part nobody tells you: <strong>you don't own your Facebook page. Facebook does.</strong></p>
+
+      <div class="space-y-6 my-8">
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-red-400 mb-2">The Algorithm Trap</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            Facebook can change the algorithm tomorrow and your posts stop reaching people. It can flag your page for a rule you didn't know existed and remove it. It can shadow-ban you without a single explanation. And when that happens, your entire online presence goes with it. Your followers, your photos, your reviews, all of it. You have no appeal process that matters.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-red-400 mb-2">The Attention Problem</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            On Facebook, you're competing with videos, memes, politics, and your customers' family drama. Your carefully written special gets buried in minutes. You don't get found on Facebook by being good—you get found by being lucky with an algorithm you don't control.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-red-400 mb-2">The Friction Barrier</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            When someone actually wants to buy from you, Facebook makes them hunt. Your page doesn't have your full service list in one place, your prices, your opening hours, or your location on Google Maps. The customer has to scroll, message you, wait for a reply, and ask questions one by one. Most of them don't bother. They go to the next business.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a Website Does That Facebook Can't
+      </h2>
+
+      <p class="mb-6">
+        A website is your own property. It doesn't disappear because an algorithm changed. It works while you sleep. It answers the same questions for the tenth customer that it answered for the first, without you typing a word.
+      </p>
+
+      <p class="mb-6">
+        Think about what happens when a customer in Gqeberha searches <em>"electrician near me"</em> on Google. They don't get your Facebook page. They get Google Maps, and Google Maps links to your website, if you have one. That's where the real customers come from in South Africa right now: Google searches, not Facebook scrolling.
+      </p>
+
+      <p class="mb-8">
+        A website also builds trust in a way a Facebook page can't. Anyone can make a Facebook page in ten minutes, and customers know it. A proper website says: this business is real, it's established, and it takes itself seriously. That matters a lot when someone is about to hand over their money or their car keys.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How to Decide for Your Business
+      </h2>
+
+      <p class="mb-6">Ask yourself three simple questions to evaluate your digital footprint:</p>
+
+      <ul class="space-y-4 my-8">
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">1. How do your customers find you?</strong>
+          <span class="text-zinc-350 text-sm">If it's mostly through recommendations and people already know you, Facebook might genuinely be enough for now. If you want new customers who don't know you yet, you need to be findable on Google, and that means a website.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">2. How do you take bookings or orders?</strong>
+          <span class="text-zinc-350 text-sm">If customers message you on Facebook and you manually confirm, a page works. But if you're losing customers because you reply slowly, or because people can't see your prices and hours, a website fixes that.</span>
+        </li>
+        <li class="bg-zinc-950 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">3. What happens if your page gets taken down tomorrow?</strong>
+          <span class="text-zinc-350 text-sm">If the answer is <em>"I lose all my online business,"</em> you have a single point of failure. That's not a strategy—it's a gamble.</span>
+        </li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Way Most Successful SA Businesses Do It
+      </h2>
+
+      <p class="mb-6">
+        The businesses that grow treat Facebook and their website as one cohesive system. The website is the <strong>home base</strong>: it holds the information, builds the trust, and gets found on Google. Facebook is the <strong>megaphone</strong>: it sends people to the home base.
+      </p>
+
+      <p class="mb-6">
+        Post your work on Facebook, yes. But make sure every post points somewhere you control. That one change separates businesses that depend on an algorithm from businesses that own their customers.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Keep It Simple & Lean</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Your website doesn't need to be complicated. It needs to answer the questions your customers ask every day, load fast on the data they can afford, and make it obvious how to contact you. Get that right and the Facebook page becomes a bonus instead of a lifeline.
+        </p>
+      </div>
+
+      <p class="mb-8">
+        If you're still running your whole business on a page you don't own, start the comparison with what you're actually losing: the customers who search Google, the trust that only a proper site builds, and the peace of mind of owning your own corner of the internet.
+      </p>
+
+      <p class="mb-8">
+        <strong>Related reading:</strong> if you're early in the process, the <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">small business website blueprint</a> walks through what a starter site should include.
+      </p>
+    `,
+    faqs: [
+      {
+        question: "Is a Facebook page really free for a South African small business?",
+        answer: "While starting a Facebook page costs no cash, Facebook drastically limits organic reach. To reach a meaningful portion of your target audience or even your own followers, you are often forced to run paid ads."
+      },
+      {
+        question: "Can customers find my Facebook page when searching on Google?",
+        answer: "Facebook pages can rank on Google, but they rarely rank for localized search queries (like 'electrician Walmer' or 'plumber Mthatha'). Google prefers ranking dedicated, fast, mobile-friendly websites linked to a Google Business Profile."
+      },
+      {
+        question: "Should I close my Facebook page if I get a website?",
+        answer: "No, they work best together. Use Facebook as a conversational tool and traffic source (your megaphone) and your website as the conversion page (your home base) where users find exact prices, reviews, and maps."
+      }
+    ]
   }
 ];
