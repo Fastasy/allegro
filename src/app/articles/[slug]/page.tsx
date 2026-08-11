@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { articles } from '@/data/articlesData';
 import { ArticleViewWrapper } from './ArticleViewWrapper';
 
@@ -23,5 +24,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
+  if (!article) {
+    notFound();
+  }
   return <ArticleViewWrapper slug={slug} />;
 }

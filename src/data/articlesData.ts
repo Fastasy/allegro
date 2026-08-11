@@ -162,7 +162,7 @@ export const articles: Article[] = [
         Claim Your Competitive Edge in PE
       </h2>
 
-      <p class="mb-8">Your competitors are already capturing customers who should be yours. It’s time to stop losing local revenue.</p>
+      <p class="mb-8">Your competitors are already capturing customers who should be yours. It’s time to stop losing local revenue. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">affordable website packages</a> to start dominating local search in PE today.</p>
     `,
     faqs: [
       {
@@ -305,7 +305,7 @@ export const articles: Article[] = [
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Built for SA Startups</h4>
         <p class="text-zinc-300 text-sm">
-          At <strong>Allegro Digital</strong>, we build exactly what your business needs. Our base package is aggressively priced at just <strong>R1,499 upfront</strong> and <strong>R800/month</strong> hosting & maintenance.
+          At <strong>Allegro Digital</strong>, we build exactly what your business needs. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">pricing plans</a> to see how our base package is aggressively priced at just <strong>R1,499 upfront</strong> and <strong>R800/month</strong> hosting & maintenance.
         </p>
       </div>
     `,
@@ -457,7 +457,7 @@ export const articles: Article[] = [
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Drive Results with Allegro Digital</h4>
         <p class="text-zinc-300 text-sm">
-          We build ultra-fast, premium single-page websites tailored for South African small businesses for just <strong>R1,499 upfront</strong> and a mandatory <strong>R800/month</strong> hosting & maintenance retainer.
+          We build ultra-fast, premium single-page websites tailored for South African small businesses for just <strong>R1,499 upfront</strong> and a mandatory <strong>R800/month</strong> hosting & maintenance retainer. Explore our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">website package pricing</a> to get started.
         </p>
       </div>
     `,
@@ -583,7 +583,7 @@ export const articles: Article[] = [
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Allegro Digital Local Lead Engine</h4>
         <p class="text-zinc-300 text-sm">
-          We handle everything for you. We build lightning-fast, high-converting websites optimized for local Google Search and fully manage your Google Business Profile to keep you ranked in Gqeberha's top spot.
+          We handle everything for you. We build lightning-fast, high-converting websites optimized for local Google Search and fully manage your Google Business Profile to keep you ranked in Gqeberha's top spot. Read more about our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">local lead packages</a>.
         </p>
       </div>
     `,
@@ -689,7 +689,7 @@ export const articles: Article[] = [
 
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">The Allegro Digital "Startup Starter Kit"</h4>
-        <p class="text-zinc-300 text-sm mb-3">We are passionate about helping South African startups launch and scale sustainably. We understand that every Rand matters when you are building your runway.</p>
+        <p class="text-zinc-300 text-sm mb-3">We are passionate about helping South African startups launch and scale sustainably. We understand that every Rand matters when you are building your runway. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">Startup packages and pricing options</a>.</p>
         <ul class="text-zinc-300 text-xs space-y-1">
           <li>• <strong>Custom Logo Design:</strong> R1,500 once-off (2-3 custom vector concepts).</li>
           <li>• <strong>Base Web Design & Launch:</strong> R1,499 once-off (custom-coded, ultra-fast single-page site).</li>
@@ -882,7 +882,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        <a href="#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Use Our Suburb Lead Calculator to Estimate Your Missing Revenue</a> or <a href="https://www.allegrodigital.co.za" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Get in touch with the Allegro Digital team today</a> to claim your free 15-minute strategy call.
+        <a href="/#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Use Our Suburb Lead Calculator to Estimate Your Missing Revenue</a> or view our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300 font-bold">website and local lead packages</a> to claim your competitive advantage.
       </p>
     `,
     faqs: [
@@ -1069,7 +1069,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        Try Our Free <a href="#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Port Elizabeth Revenue Loss Tool</a> or <a href="https://www.allegrodigital.co.za" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Get in touch with Allegro Digital today</a> to book your free strategy call.
+        Try Our Free <a href="/#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Port Elizabeth Suburb Lead Calculator</a> or view our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300 font-bold">managed website packages</a> to start turning passive web traffic into real WhatsApp enquiries.
       </p>
     `,
     faqs: [
@@ -1405,7 +1405,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        <a href="https://www.allegrodigital.co.za" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Book a free 15-minute strategy call</a> or <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300 font-bold">read how to rank your business on Google Maps</a>.
+        Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300 font-bold">SEO-optimized website packages</a> or <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300 font-bold">read how to rank your business on Google Maps</a>.
       </p>
     `,
     faqs: [
@@ -1563,7 +1563,7 @@ export const articles: Article[] = [
       </div>
 
       <p class="mb-8">
-        If you're still running your whole business on a page you don't own, start the comparison with what you're actually losing: the customers who search Google, the trust that only a proper site builds, and the peace of mind of owning your own corner of the internet.
+        If you're still running your whole business on a page you don't own, start the comparison with what you're actually losing: the customers who search Google, the trust that only a proper site builds, and the peace of mind of owning your own corner of the internet. Explore our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">affordable website packages</a> to secure your digital home base.
       </p>
 
       <p class="mb-8">
@@ -1748,7 +1748,7 @@ export const articles: Article[] = [
       </h2>
 
       <p class="mb-8">
-        The most profitable booking you'll ever take is a repeat guest. Keep the email addresses and WhatsApp numbers of guests who loved their stay (with their permission, obviously) and tell them about December specials before anyone else knows. A short message to fifty past guests has a higher conversion rate than any ad you could buy.
+        The most profitable booking you'll ever take is a repeat guest. Keep the email addresses and WhatsApp numbers of guests who loved their stay (with their permission, obviously) and tell them about December specials before anyone else knows. A short message to fifty past guests has a higher conversion rate than any ad you could buy. If you want a setup built for conversions, look at our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">guest house website packages</a>.
       </p>
     `,
     faqs: [
