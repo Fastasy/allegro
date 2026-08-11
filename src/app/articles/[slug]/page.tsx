@@ -67,6 +67,7 @@ export default async function Page({ params }: Props) {
       '@id': articleUrl,
     },
     'datePublished': article.date,
+    'dateModified': '2026-08-11',
     'author': {
       '@type': 'Organization',
       'name': article.author || 'Allegro Digital Team',
@@ -81,6 +82,32 @@ export default async function Page({ params }: Props) {
       },
     },
     'image': article.imageUrl ? `https://www.allegrodigital.co.za${article.imageUrl}` : undefined,
+  };
+
+  // JSON-LD for BreadcrumbList
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      {
+        '@type': 'ListItem',
+        'position': 1,
+        'name': 'Home',
+        'item': 'https://www.allegrodigital.co.za',
+      },
+      {
+        '@type': 'ListItem',
+        'position': 2,
+        'name': 'Articles',
+        'item': 'https://www.allegrodigital.co.za/articles',
+      },
+      {
+        '@type': 'ListItem',
+        'position': 3,
+        'name': article.title,
+        'item': articleUrl,
+      },
+    ],
   };
 
   // JSON-LD for FAQPage if FAQs exist
@@ -102,6 +129,10 @@ export default async function Page({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {faqSchema && (
         <script

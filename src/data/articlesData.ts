@@ -408,6 +408,43 @@ export const articles: Article[] = [
         </table>
       </div>
 
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How Much Does a Website Cost Per Month in South Africa?
+      </h2>
+
+      <p class="mb-6">
+        Many South African business owners wonder what ongoing fees are required to keep a website active, fast, and secure. Monthly website costs depend on hosting quality, maintenance retainers, and software updates.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Monthly Service Tier</th>
+              <th class="p-4 font-bold text-white">Average Monthly Cost</th>
+              <th class="p-4 font-bold text-white">What's Included</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Self-Managed Shared Hosting</td>
+              <td class="p-4 text-zinc-300">R99 – R250/mo</td>
+              <td class="p-4 text-zinc-400">Basic server space only. You handle security, updates, and troubleshooting.</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Managed Hosting & Retainer (Allegro)</td>
+              <td class="p-4 text-zinc-300">R800/mo</td>
+              <td class="p-4 text-zinc-400">High-speed SSD hosting, SSL certificate, daily backups, security monitoring & content updates.</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Managed SEO & Local Lead Engine</td>
+              <td class="p-4 text-zinc-300">R1,999 – R3,500/mo</td>
+              <td class="p-4 text-zinc-400">Managed Google Business Profile, local keyword rankings, review solicitation & analytics reporting.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <p class="mb-8">
         Learn how local search engine optimization transforms these figures in our <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">Gqeberha Local Lead Engine Guide</a>.
       </p>
@@ -484,9 +521,20 @@ export const articles: Article[] = [
 
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Drive Results with Allegro Digital</h4>
-        <p class="text-zinc-300 text-sm leading-relaxed">
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
           We build ultra-fast, premium websites tailored for South African small businesses for just <strong>R1,499 upfront</strong> and a manageable <strong>R800/month</strong> hosting & support retainer. Explore our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">website package pricing</a> or calculate your lead potential using our <a href="/#calculator" class="text-yellow-400 underline hover:text-yellow-300">Port Elizabeth Lead Calculator</a>.
         </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Get Your Website Price in 24 Hours →
+          </a>
+        </div>
       </div>
     `,
     faqs: [
