@@ -24,29 +24,29 @@ export interface Article {
 export const articles: Article[] = [
   {
     slug: 'web-design-port-elizabeth-local-lead-engine',
-    title: 'Dominate the Gqeberha Market: Why Local Port Elizabeth Businesses Are Losing Enquiries (And How to Fix It)',
-    metaTitle: 'Dominate Gqeberha: Why Local PE Businesses Need Web Design',
-    summary: 'Looking for website design in Port Elizabeth? Discover why Gqeberha businesses are losing daily phone calls to competitors, and how our local SEO formula fixes it.',
-    metaDescription: 'Discover why local businesses in Port Elizabeth & Gqeberha are losing high-intent customer enquiries to competitors, and the exact formula to claim your local share.',
-    date: 'Jul 29, 2026',
+    title: 'Web Design & SEO Port Elizabeth: How Gqeberha Businesses Win Top Local Google Rankings',
+    metaTitle: 'Web Design & SEO Port Elizabeth (Gqeberha) | Allegro Digital',
+    summary: 'Looking for professional web design and SEO in Port Elizabeth? Discover why Gqeberha businesses are losing phone calls to competitors, and how our local SEO formula fixes it.',
+    metaDescription: 'Looking for web design & SEO in Port Elizabeth (Gqeberha)? Learn how local PE service businesses rank #1 on Google Maps, capture high-intent buyers, and win daily leads.',
+    date: 'Aug 11, 2026',
     author: 'Allegro Digital Team',
-    readTime: '5 min read',
+    readTime: '6 min read',
     category: 'Local Marketing',
-    tags: ['web-design-port-elizabeth', 'website-gqeberha', 'local-seo', 'pe-business'],
+    tags: ['seo-port-elizabeth', 'web-design-port-elizabeth', 'website-gqeberha', 'local-seo-pe', 'pe-business'],
     imageUrl: '/images/gqeberha_seo_map.jpg',
     keyTakeaways: [
       'Every day, hundreds of PE residents search Google for immediate local services with high buying intent.',
       'Relying solely on Facebook or an unclaimed Google Maps profile leaves your business invisible to active buyers.',
-      'Combining an optimized Google Business Profile with a lightning-fast mobile website is the proven local lead formula.',
+      'Combining an optimized Google Business Profile with a lightning-fast mobile website is the proven local SEO formula for PE.',
       'Allegro Digital offers a disruptive R1,499 setup + R800/mo hosting model built specifically for Gqeberha SMBs.'
     ],
     content: `
       <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
-        If you run a local service business in Gqeberha (Port Elizabeth)—whether you are an electrician in Walmer, a medical practice in Summerstrand, a builder in Lorraine, or an organic farm stall in the Baakens Valley—your potential clients are searching for you right now.
+        If you run a local service business in Gqeberha (Port Elizabeth)—whether you are an electrician in Walmer, a medical practice in Summerstrand, a builder in Lorraine, or an organic farm stall in the Baakens Valley—your potential clients are searching for <strong>web design and SEO in Port Elizabeth</strong> right now.
       </p>
 
       <p class="mb-6">
-        Every single day, hundreds of PE residents pull out their smartphones and type keywords like <em>"plumber near me,"</em> <em>"guesthouse in port elizabeth,"</em> or <em>"fresh organic produce gqeberha"</em> into Google.
+        Every single day, hundreds of PE residents pull out their smartphones and type keywords like <em>"plumber near me,"</em> <em>"SEO Port Elizabeth,"</em> <em>"guesthouse in port elizabeth,"</em> or <em>"electrician gqeberha"</em> into Google Search.
       </p>
 
       <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
@@ -57,11 +57,11 @@ export const articles: Article[] = [
       </div>
 
       <p class="text-xl font-bold text-white mb-6 font-heading">
-        The question is: When they search, are they finding you, or are they finding your closest competitors?
+        The question is: When they search for local services or Web Design & SEO in Port Elizabeth, are they finding you, or are they finding your closest competitors?
       </p>
 
       <p class="mb-8">
-        Unfortunately, many Gqeberha small businesses are completely invisible online. This article breaks down exactly why local PE businesses are losing valuable enquiries, and how you can claim your share of the local market. For a complete cost analysis, check our transparent <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Web Design Cost Guide</a>.
+        Unfortunately, many Gqeberha small businesses are completely invisible online. This article breaks down exactly why local PE businesses lose valuable enquiries, and how specialized <strong>local SEO in Port Elizabeth</strong> can claim your share of the market. For a complete cost analysis, check our transparent <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Web Design Cost Guide</a>.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
@@ -75,7 +75,7 @@ export const articles: Article[] = [
           <h3 class="text-xl font-bold text-red-400 mb-2">Mistake 1: The "No-Website" Ghost Town</h3>
           <p class="text-zinc-300 text-sm leading-relaxed">
             Many business owners rely entirely on a Facebook Page or a WhatsApp Business profile. While these are great supporting channels, they do not rank consistently on Google Search. 
-            When a resident in Mill Park has a burst pipe or needs an accountant, they don't search Facebook—they search Google. If you don't have a modern, fast website linked to Google, you are essentially a ghost to high-value customers.
+            When a resident in Mill Park has a burst pipe or needs an accountant, they don't search Facebook—they search Google. Read our guide on <a href="/articles/website-vs-facebook-page-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website vs Facebook Page for Business in SA</a> to see why owning your site is critical.
           </p>
         </div>
 
@@ -89,16 +89,16 @@ export const articles: Article[] = [
       </div>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        The Gqeberha Local Lead Formula: GMB + Speed Web
+        The Port Elizabeth Local Lead Formula: SEO + WhatsApp Conversions
       </h2>
 
       <p class="mb-6">To dominate local search results in Gqeberha, you need a coordinated two-part local lead engine:</p>
 
       <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
         <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
-          Part 1: An Active Google My Business Profile
+          Part 1: An Active Google Business Profile & Local SEO
         </h3>
-        <p class="text-zinc-300 mb-4 text-sm sm:text-base">Your profile must be meticulously optimized. You can read our complete, step-by-step <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps Ranking Guide</a> to learn how to do this yourself.</p>
+        <p class="text-zinc-300 mb-4 text-sm sm:text-base">Your profile must be meticulously optimized. Read our complete, step-by-step <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps Ranking Guide</a> and <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Generation Strategy</a> to learn how to claim top spots.</p>
         <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
@@ -106,7 +106,7 @@ export const articles: Article[] = [
           </li>
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
-            <span><strong>Target Keywords:</strong> Write a clear business description containing exact keywords like <em>"web design port elizabeth"</em> or <em>"landscaping services gqeberha."</em></span>
+            <span><strong>Target Keywords:</strong> Write a clear business description containing exact keywords like <em>"web design port elizabeth,"</em> <em>"SEO Port Elizabeth,"</em> or <em>"landscaping services gqeberha."</em></span>
           </li>
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
@@ -117,9 +117,9 @@ export const articles: Article[] = [
 
       <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
         <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
-          Part 2: A Lightning-Fast, Conversion-Optimized Website
+          Part 2: A Lightning-Fast Website with Direct WhatsApp Integration
         </h3>
-        <p class="text-zinc-300 mb-4 text-sm sm:text-base">A Google Business Profile is only half the battle. When a customer clicks "Website" on your map listing, they must arrive on a site designed to convert them instantly.</p>
+        <p class="text-zinc-300 mb-4 text-sm sm:text-base">A Google Business Profile is only half the battle. When a customer clicks "Website" on your map listing, they must arrive on a site designed to convert them instantly. Learn how <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Website Integration</a> speeds up conversions for SA clients.</p>
         <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
@@ -137,7 +137,7 @@ export const articles: Article[] = [
       </div>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        Why Allegro Digital is Gqeberha’s Local Disruptor
+        Why Allegro Digital is Gqeberha’s Leading Web Design & Local SEO Partner
       </h2>
 
       <p class="mb-6">Most web designers in Port Elizabeth charge heavy upfront fees (R7,500 to R15,000+) and use clunky WordPress templates that take weeks to launch.</p>
@@ -159,12 +159,16 @@ export const articles: Article[] = [
       </div>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        Claim Your Competitive Edge in PE
+        Claim Your Competitive Edge in Web Design & SEO in Port Elizabeth
       </h2>
 
       <p class="mb-8">Your competitors are already capturing customers who should be yours. It’s time to stop losing local revenue. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">affordable website packages</a> to start dominating local search in PE today.</p>
     `,
     faqs: [
+      {
+        question: "Why is local SEO in Port Elizabeth different from standard SEO?",
+        answer: "Local SEO in Port Elizabeth focuses specifically on geographic-intent searches like 'SEO Port Elizabeth' or 'plumber Walmer'. It optimizes your Google Business Profile and local suburb keywords to place your business at the top of Google Maps."
+      },
       {
         question: "Why is a Google Business Profile alone not enough for my PE business?",
         answer: "While a Google Business Profile is critical, linking it to a high-speed, mobile-optimized website dramatically improves your search rankings and conversion rates. It builds authority and captures users who want detailed information before they reach out."
@@ -321,6 +325,18 @@ export const articles: Article[] = [
       {
         question: "Can I add more pages to the blueprint website later?",
         answer: "Yes, our clean codebase allows you to scale and add additional subpages, suburb landing pages, or contact forms as your business and service offerings grow."
+      },
+      {
+        question: "How does a single-page blueprint site help my Google Maps rankings?",
+        answer: "Single-page blueprint sites focus domain authority into a single URL. When linked to your Google Business Profile, Google detects high user engagement, fast mobile load speeds, and location keywords, boosting map rankings."
+      },
+      {
+        question: "Is a single-page website suitable for e-commerce or selling online?",
+        answer: "Single-page sites work best for service businesses, consultants, trades, and guest houses. If you sell dozens of physical items requiring a shopping cart, an e-commerce platform like Shopify or PayFast catalog is recommended."
+      },
+      {
+        question: "How do floating WhatsApp buttons increase conversion rates on mobile?",
+        answer: "Floating WhatsApp buttons allow South African visitors to launch a chat instantly with one click, bypassing lengthy contact forms and reducing inquiry friction by up to 200%."
       }
     ]
   },
@@ -675,7 +691,7 @@ export const articles: Article[] = [
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Allegro Digital Local Lead Engine</h4>
         <p class="text-zinc-300 text-sm">
-          We handle everything for you. We build lightning-fast, high-converting websites optimized for local Google Search and fully manage your Google Business Profile to keep you ranked in Gqeberha's top spot. Read more about our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">local lead packages</a>.
+          We handle everything for you. We build lightning-fast, high-converting websites optimized for local Google Search and fully manage your Google Business Profile to keep you ranked in Gqeberha's top spot. Learn how our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Lead Integration</a> and <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Engine Strategy</a> drive real enquiries. Read more about our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">local lead packages</a>.
         </p>
       </div>
     `,
@@ -691,20 +707,32 @@ export const articles: Article[] = [
       {
         question: "What should I do if my competitor is using a fake address?",
         answer: "You can use Google Maps' 'Suggest an edit' feature to flag fraudulent listings, or submit a redressal form if they are violating Google's guidelines."
+      },
+      {
+        question: "Can I rank on Google Maps without a physical office in Port Elizabeth?",
+        answer: "Yes, you can register as a Service Area Business (SAB). You specify the suburbs you serve without publicly revealing your private residential street address."
+      },
+      {
+        question: "Why did my Google Business Profile get suspended?",
+        answer: "Common causes include keyword stuffing in the business name, using P.O. Box addresses, selecting incorrect primary categories, or having duplicate profiles for the same location."
+      },
+      {
+        question: "How does my website speed impact my Google Maps ranking?",
+        answer: "Google evaluates the website linked to your GBP. If your site is slow or poorly structured for mobile users, Google lowers your overall local Map Pack visibility."
       }
     ]
   },
   {
     slug: 'how-to-start-a-small-business-south-africa-guide',
-    title: 'The Ultimate South African Startup Launch Guide: Get Legal and Get Online (On a Budget)',
-    metaTitle: 'How to Start a Small Business in South Africa (Under R3,500)',
-    summary: 'Starting a business in SA? Learn how to register your company with CIPC, get a bank account, and launch a professional business website on a budget.',
-    metaDescription: 'A complete 2026 step-by-step startup guide to registering your CIPC Pty Ltd, opening zero-fee business bank accounts, and launching your website affordably.',
-    date: 'Jul 29, 2026',
+    title: 'How to Start a Small Business in South Africa (2026 Startup & Web Guide)',
+    metaTitle: 'How to Start a Small Business in South Africa (2026 Guide)',
+    summary: 'Starting a business in SA? Learn how to register your company with CIPC, get a bank account, set up tax compliance, and launch a professional business website on a budget.',
+    metaDescription: 'A complete 2026 step-by-step startup guide: How to start a small business in South Africa, register with CIPC for R175, open zero-fee banking, and launch a web presence.',
+    date: 'Aug 11, 2026',
     author: 'Allegro Digital Team',
-    readTime: '6 min read',
+    readTime: '7 min read',
     category: 'Startup Guide',
-    tags: ['start-a-business-sa', 'cipc-registration', 'business-website', 'sa-startup'],
+    tags: ['how-to-start-a-small-business-sa', 'cipc-registration', 'business-website-sa', 'sa-startup-guide', 'small-business-south-africa'],
     imageUrl: '/images/sa_startup_launch_guide.jpg',
     keyTakeaways: [
       'Register your Pty Ltd directly on BizPortal for only R175, bypassing expensive consulting agents.',
@@ -729,7 +757,7 @@ export const articles: Article[] = [
       </div>
 
       <p class="mb-8">
-        This step-by-step 2026 startup blueprint shows you exactly how to get your new business legally compliant and professionally online in South Africa for under <strong>R3,500 total</strong>.
+        This step-by-step 2026 startup blueprint shows you exactly <strong>how to start a small business in South Africa</strong>, get your company legally compliant, and launch professionally online for under <strong>R3,500 total</strong>.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
@@ -749,7 +777,7 @@ export const articles: Article[] = [
       <p class="mb-6">Under South African law, you should never run business transactions through your personal bank account. This makes bookkeeping a nightmare and risks tax compliance issues. Fortunately, digital bank choices require no monthly fee:</p>
       <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
         <li><strong>TymeBank Business:</strong> R0 monthly fee, free EFTs, and easy cash deposits at Boxer or Pick n Pay.</li>
-        <li><strong>FNB First Business:</strong> A solid entry-level business account with a R0 monthly fee and access to FNB's legendary digital ecosystem.</li>
+        <li><strong>FNB First Business:</strong> A solid entry-level business account with a R0 monthly fee and access to FNB's digital ecosystem.</li>
         <li><strong>Lulalend / Lula:</strong> Specifically built for SA startups, offering modern cash flow dashboards and quick access to credit.</li>
       </ul>
 
@@ -764,18 +792,22 @@ export const articles: Article[] = [
       </ol>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        Step 4: Get Professionally Online (The Modular Setup)
+        Step 4: Establish Your Digital Footprint (Domain & Web Engine)
       </h2>
-      <p class="mb-6">Now that you are legally registered and have a bank account, you need to establish credibility. In 2026, <strong>if your business doesn't have a website, it doesn't exist to high-value customers</strong>.</p>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+      <p class="mb-6">With paperwork complete, your next priority is building brand trust. In South Africa, customers verify unknown startups by searching Google. Follow these steps:</p>
+      
+      <div class="space-y-4 my-8">
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
           <h4 class="font-bold text-white mb-2">1. Register a .co.za Domain Name</h4>
-          <p class="text-zinc-450 text-sm">Your domain is your digital address (e.g., <code>yourbusiness.co.za</code>). This costs <strong>R150 to R300 per year</strong> and can be secured through local hosting companies or via your web designer. Read our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Website Cost Guide</a> for more details.</p>
+          <p class="text-zinc-350 text-sm">Your domain is your digital address (e.g., <code>yourbusiness.co.za</code>). This costs <strong>R150 to R300 per year</strong>. Read our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Website Cost Guide</a> for more details.</p>
         </div>
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
-          <h4 class="font-bold text-white mb-2">2. Launch a Single-Page Conversion Site</h4>
-          <p class="text-zinc-450 text-sm">Choose a modular single-page website model. This lets you look highly professional while protecting your cash flow. Follow our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> for features you actually need.</p>
+          <h4 class="font-bold text-white mb-2">2. Launch a High-Speed Single-Page Website</h4>
+          <p class="text-zinc-350 text-sm">Choose a modular single-page website model. This lets you look highly professional while protecting cash flow. Follow our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> for features you actually need.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h4 class="font-bold text-white mb-2">3. Set Up Direct WhatsApp & Local SEO</h4>
+          <p class="text-zinc-350 text-sm">South Africans prefer instant messaging. Read our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Integration Guide</a> and <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Strategy</a> to start converting visitors into leads immediately.</p>
         </div>
       </div>
 
@@ -792,7 +824,7 @@ export const articles: Article[] = [
     faqs: [
       {
         question: "How long does CIPC business registration take?",
-        answer: "Usually, CIPC registration is finalized within 5 to 10 working days, depending on name approval queues and system stability."
+        answer: "Usually, CIPC registration is finalized within 5 to 10 working days on BizPortal, depending on name approval queues."
       },
       {
         question: "When do I need to register for VAT in South Africa?",
@@ -801,6 +833,18 @@ export const articles: Article[] = [
       {
         question: "What is COIDA and is it compulsory?",
         answer: "COIDA is the Compensation for Occupational Injuries and Diseases Act. It is compulsory for any SA business employing one or more workers to register and protect them against workplace accidents."
+      },
+      {
+        question: "Can I run a small business in South Africa without a registered Pty Ltd?",
+        answer: "Yes, you can operate as a Sole Proprietor using your personal SARS tax number, but registering a Pty Ltd limits personal financial liability and creates a distinct legal entity."
+      },
+      {
+        question: "Do I need a business bank account immediately?",
+        answer: "Yes. Mixing personal and business expenses creates severe bookkeeping headaches. Free digital business accounts like TymeBank or FNB First Business allow you to separate finances with zero monthly account fees."
+      },
+      {
+        question: "How much capital do I need to start a small business in South Africa?",
+        answer: "With digital tools, you can register a business (R175), open a bank account (R0), and launch a high-speed website (R1,499 setup + R800/mo) for under R3,500 total startup capital."
       }
     ]
   },
@@ -905,7 +949,7 @@ export const articles: Article[] = [
         <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
           Step 2: Build an Ultra-Fast, Mobile-First Landing Site
         </h3>
-        <p class="text-zinc-300 mb-4 text-sm sm:text-base">When a customer clicks from Google Maps onto your website, you have <strong>3 seconds</strong> to capture their trust. Your site must be:</p>
+        <p class="text-zinc-300 mb-4 text-sm sm:text-base">When a customer clicks from Google Maps onto your website, you have <strong>3 seconds</strong> to capture their trust. Read our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> and <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website Cost Guide</a> to plan your build. Your site must be:</p>
         <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
@@ -913,7 +957,7 @@ export const articles: Article[] = [
           </li>
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
-            <span><strong>Action-Oriented:</strong> A prominent, floating <strong>WhatsApp Button</strong> and a click-to-call phone link.</span>
+            <span><strong>Action-Oriented:</strong> A prominent, floating <strong>WhatsApp Button</strong> and a click-to-call phone link. Read our guide on <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Website Integration</a> for implementation details.</span>
           </li>
           <li class="flex items-start gap-2">
             <span class="text-yellow-400 font-bold">•</span>
@@ -1141,11 +1185,11 @@ export const articles: Article[] = [
       </h2>
 
       <p class="mb-6">
-        At <strong>Allegro Digital</strong>, we don’t build websites just to look pretty. We build high-performance business assets designed to drive phone calls and WhatsApp enquiries directly to your smartphone.
+        At <strong>Allegro Digital</strong>, we don’t build websites just to look pretty. We build high-performance business assets designed to drive phone calls and WhatsApp enquiries directly to your smartphone. Pair this with our <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Generation Strategy</a> to capture top local rankings.
       </p>
 
       <p class="mb-6">
-        Every single website we build—including our disruptive R1,499 upfront base package—comes with a custom-coded, mobile-optimized floating WhatsApp lead capture engine included by default. No plugins, no bloated third-party code—just blazingly fast, high-converting code.
+        Every single website we build—including our disruptive R1,499 upfront base package—comes with a custom-coded, mobile-optimized floating WhatsApp lead capture engine included by default. Compare options in our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> and <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website Cost Guide</a>. No plugins, no bloated third-party code—just blazingly fast, high-converting code.
       </p>
 
       <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-8">
@@ -1664,8 +1708,32 @@ export const articles: Article[] = [
     `,
     faqs: [
       {
-        question: "Why does website speed affect SEO rankings?",
-        answer: "Google's primary goal is to provide a great user experience. If your website is slow to load, users will bounce back to the search results. Google tracks this behavior and actively demotes slow sites in favor of fast, responsive ones."
+        question: "Is a Facebook page really free for a South African small business?",
+        answer: "While starting a Facebook page costs no cash, Facebook drastically limits organic reach. To reach a meaningful portion of your target audience or even your own followers, you are often forced to run paid ads."
+      },
+      {
+        question: "Can customers find my Facebook page when searching on Google?",
+        answer: "Facebook pages can rank on Google, but they rarely rank for localized search queries (like 'electrician Walmer' or 'plumber Mthatha'). Google prefers ranking dedicated, fast, mobile-friendly websites linked to a Google Business Profile."
+      },
+      {
+        question: "Should I close my Facebook page if I get a website?",
+        answer: "No, they work best together. Use Facebook as a conversational tool and traffic source (your megaphone) and your website as the conversion page (your home base) where users find exact prices, reviews, and maps."
+      },
+      {
+        question: "Why do websites convert more visitors into paying customers than Facebook pages?",
+        answer: "Websites provide structured navigation, instant pricing details, verified Google Map location pins, and single-click WhatsApp calls without distraction or competing social feeds."
+      },
+      {
+        question: "What happens to my business if Facebook disables or flags my page?",
+        answer: "If Facebook flags, shadow-bans, or removes your page, your entire social presence, follower base, and reviews vanish overnight. Owning a website ensures you retain full control over your business digital asset."
+      },
+      {
+        question: "How much does a starter website cost compared to running Facebook Ads?",
+        answer: "A starter website from Allegro Digital costs R1,499 setup + R800/month retainer. Facebook Ads require a continuous budget (R1,500 - R5,000+/month) that stops generating leads the moment you stop paying."
+      },
+      {
+        question: "How do I direct Facebook traffic to my new website to increase sales?",
+        answer: "Add your website link to your Facebook page Bio, inclusion in every photo or project post, and set your Facebook page main Action Button to 'Visit Website' or 'Book Now'."
       }
     ]
   },
