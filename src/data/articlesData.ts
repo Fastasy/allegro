@@ -1572,16 +1572,197 @@ export const articles: Article[] = [
     `,
     faqs: [
       {
-        question: "Is a Facebook page really free for a South African small business?",
-        answer: "While starting a Facebook page costs no cash, Facebook drastically limits organic reach. To reach a meaningful portion of your target audience or even your own followers, you are often forced to run paid ads."
+        question: "Why does website speed affect SEO rankings?",
+        answer: "Google's primary goal is to provide a great user experience. If your website is slow to load, users will bounce back to the search results. Google tracks this behavior and actively demotes slow sites in favor of fast, responsive ones."
+      }
+    ]
+  },
+  {
+    slug: 'guest-house-direct-bookings',
+    title: 'How Guest Houses Get Direct Bookings (Without Booking Sites)',
+    metaTitle: 'Direct Bookings for Guest Houses: The SA Guide',
+    summary: "How B&Bs and guest houses win direct bookings and cut commission fees: Google Maps, reviews, and a website that answers questions. A practical SA guide.",
+    metaDescription: "How B&Bs and guest houses win direct bookings and cut commission fees: Google Maps, reviews, and a website that answers questions. A practical SA guide.",
+    date: 'Aug 11, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '5 min read',
+    category: 'Content & Strategy',
+    tags: ['guest-house', 'bnb', 'direct-bookings', 'local-seo', 'hospitality-sa'],
+    imageUrl: '/images/guest_house_direct_bookings.jpg',
+    keyTakeaways: [
+      'Online travel agencies (OTAs) take a 12% to 20% commission cut on guest house bookings in South Africa.',
+      'A complete, active Google Business Profile is the easiest free way to capture guests searching on Google Maps.',
+      'Your guest house website must answer critical questions (prices, cancellation policy, security) in under two minutes.',
+      'Using direct-booking incentives (like best rate guarantees or small perks) and responsive WhatsApp communication boosts conversions.'
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Every guest house owner in Jeffreys Bay knows the feeling. A booking comes through Booking.com or Airbnb, you check the rate, and the platform has already taken its cut. 
+      </p>
+
+      <p class="mb-6">
+        Typically, somewhere between <strong>12% and 20%</strong> of what the guest paid never reaches you. On a long weekend with the cottage fully booked, that's real money—a week's groceries, the water bill, or a chunk of the season's profit.
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">💡 The Direct Booking Engine</p>
+        <p class="text-zinc-300 text-sm">
+          The platforms aren't evil. They put heads in beds when you were unknown, and a good owner never cancels them. But the owners who sleep best have built something the platforms can't touch: a stream of guests who book direct, pay the full rate, and come back next year.
+        </p>
+      </div>
+
+      <p class="text-xl font-bold text-white mb-6 font-heading">
+        This guide is the practical version of how that happens. No theory, no jargon—what a guest house in South Africa can do this month to get more direct bookings and keep more of every rand.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why Direct Bookings Are Worth Fighting For
+      </h2>
+
+      <p class="mb-6">
+        It's not just the commission. <strong>Direct guests are better guests.</strong> They found you on purpose, read your website, and chose you. They ask fewer questions, respect check-in times, and are far more likely to book again or recommend you to a friend. 
+      </p>
+
+      <p class="mb-8">
+        A direct guest who loved their stay is worth more over two years than ten platform bookings with one-star-dodging expectations. The trade-off is work. You have to be findable, look trustworthy, and make booking easy. Do that and the platforms become a top-up instead of a lifeline.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Start with the Free Stuff: Google Maps
+      </h2>
+
+      <p class="mb-6">
+        Before anyone books, they search. "Guest house Jeffreys Bay" on Google, or "B&B St Francis with sea view". What shows up is Google Maps, and the businesses that win that search are the ones with a complete, active Google Business Profile.
+      </p>
+
+      <p class="mb-6">The basics sound boring and are non-negotiable:</p>
+
+      <div class="space-y-6 my-8">
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-white mb-2">📸 Honest, Real Photos</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            Upload photos that look like your place actually looks. Guests have been burned by airbrushed rooms. Ten honest photos showing the exact setup beat forty stock images.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-white mb-2">⏰ Accurate Check-in Hours</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            Keep your hours updated. Guests plan around check-in and check-out. Wrong hours or mismatched details lose bookings instantly.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-white mb-2">💬 Answer Every Review</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            Respond to every review, good and bad. A professional reply to a bad review shows you care; a warm reply to a good one shows you're active. Both help you rank higher on Google Maps and reassure potential guests.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-white mb-2">✨ Post Updates Regularly</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            Post a couple of times a month. A photo of the braai area, the sunrise from room 3, or the menu at the local spot you recommend. According to <a href="https://support.google.com/business/answer/7091?hl=en" class="text-yellow-400 underline hover:text-yellow-300" target="_blank" rel="noopener noreferrer">Google's Business Profile guidelines</a>, fresh activity signals relevancy to local searches.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Reviews Are the New Front Desk
+      </h2>
+
+      <p class="mb-6">
+        When a couple is choosing between three guest houses on the same street, the tiebreaker is reviews. Not the star rating alone—the words. <em>"Lovely hosts, loadshedding friendly, braai area was perfect"</em> beats five stars with no detail.
+      </p>
+
+      <p class="mb-8">
+        You can't buy those reviews, but you can earn them on purpose:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-zinc-350 mb-8">
+        <li><strong>Ask at the right moment:</strong> Request feedback at checkout when the guest is thanking you, not a week later via email.</li>
+        <li><strong>Keep the request simple:</strong> "If you enjoyed your stay, would you mind leaving a Google review?" Most people say yes to a specific, easy request.</li>
+        <li><strong>Reply quickly:</strong> A prompt response to past feedback shows active management and hospitality.</li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        A Website That Answers the Questions Guests Actually Ask
+      </h2>
+
+      <p class="mb-6">
+        Here's the moment most guest houses lose the direct booking: the guest finds you, likes you, and then can't find the information they need. They want to know:
+      </p>
+
+      <ul class="space-y-3 text-zinc-300 text-sm sm:text-base my-8 pl-6 list-disc">
+        <li>What the rooms look like and what each one costs</li>
+        <li>Whether breakfast is included</li>
+        <li>Check-in and check-out times</li>
+        <li>Whether there's parking and security</li>
+        <li>How to cancel without losing money</li>
+        <li>How to contact you—phone, WhatsApp, or a simple form</li>
+      </ul>
+
+      <p class="mb-8">
+        If they can't find those answers in two minutes, they bounce back to Booking.com, where all the details are one click away. That's not loyalty to the platform—it's just easier. A guest house website doesn't need to be clever. It needs to load fast, display perfectly on mobile data, and make booking obvious. If you want to check local rates, our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Web Design Cost Guide</a> walks through what a proper site should cost.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Make the Direct Booking the Obvious Choice
+      </h2>
+
+      <p class="mb-6">Nobody books direct out of charity. You have to make it worth their while:</p>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-8">
+        <ul class="space-y-4 text-zinc-300 text-sm sm:text-base">
+          <li>🏷️ <strong>The Best-Rate Promise:</strong> State it plainly: <em>"Booking direct always gets you the best rate."</em> Then mean it by offering a slightly lower rate than the OTAs.</li>
+          <li>🎁 <strong>A Small Perk:</strong> Offer a free late check-out, a welcome drink, or a complimentary bottle of wine for longer stays. Cheap for you, memorable for them.</li>
+          <li>⚡ <strong>Frictionless Payment:</strong> Make paying deposits simple via EFT, standard credit card gates, or PayShap. Every extra step is a booking you lose.</li>
+        </ul>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        WhatsApp Is the South African Booking Channel
+      </h2>
+
+      <p class="mb-6">
+        Skip this and you're fighting with one hand tied. South Africans book on WhatsApp the way they order takeaways—instantly, mid-conversation, with zero friction.
+      </p>
+
+      <p class="mb-8">
+        Keep your messaging human: <em>"Hi! Yes, room 2 is free for the 12th. R950 a night including breakfast. Want me to hold it for you?"</em> That message has closed more bookings than any booking widget ever built.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Don't Cancel the Platforms—Demote Them
+      </h2>
+
+      <p class="mb-6">
+        An honest warning: in shoulder season, or for international guests who've never heard of your town, the platforms still earn their cut. The strategy is not to unlist. It's to make sure that every guest who arrives via a platform knows how to book you directly next time. 
+      </p>
+
+      <p class="mb-8">
+        A card in the room or a line in your welcome message—<em>"next time, book direct and save"</em>—turns a platform guest into a direct guest over one stay. Let the platforms fill you when it is quiet, while your own channels quietly build your list.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Returning Guest List
+      </h2>
+
+      <p class="mb-8">
+        The most profitable booking you'll ever take is a repeat guest. Keep the email addresses and WhatsApp numbers of guests who loved their stay (with their permission, obviously) and tell them about December specials before anyone else knows. A short message to fifty past guests has a higher conversion rate than any ad you could buy.
+      </p>
+    `,
+    faqs: [
+      {
+        question: "How much commission do sites like Booking.com and Airbnb charge in South Africa?",
+        answer: "In South Africa, online travel agencies (OTAs) typically charge guest houses and B&Bs commissions ranging from 12% to 20% per booking. Preferred partner status or high-exposure options can push this fee even higher."
       },
       {
-        question: "Can customers find my Facebook page when searching on Google?",
-        answer: "Facebook pages can rank on Google, but they rarely rank for localized search queries (like 'electrician Walmer' or 'plumber Mthatha'). Google prefers ranking dedicated, fast, mobile-friendly websites linked to a Google Business Profile."
+        question: "Why is WhatsApp so important for guest house bookings in SA?",
+        answer: "South Africans prefer the immediacy and ease of WhatsApp. Offering a quick click-to-chat option on your website allows you to resolve booking questions, confirm availability, and secure reservations much faster than traditional email forms."
       },
       {
-        question: "Should I close my Facebook page if I get a website?",
-        answer: "No, they work best together. Use Facebook as a conversational tool and traffic source (your megaphone) and your website as the conversion page (your home base) where users find exact prices, reviews, and maps."
+        question: "Should I close my guest house from online booking platforms entirely?",
+        answer: "No, they work best as a discovery tool. Use them to fill vacancies during the low season, but make sure that once guests stay, they are encouraged to book directly with you for their next visit."
       }
     ]
   }
