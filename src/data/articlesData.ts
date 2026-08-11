@@ -328,151 +328,195 @@ export const articles: Article[] = [
     slug: 'how-much-does-a-website-cost-south-africa',
     title: 'How Much Does a Website Cost in South Africa? (2026 Price Guide)',
     metaTitle: 'How Much Does a Website Cost in South Africa? (2026 Price Guide)',
-    summary: 'If you are a South African business owner looking to build a new website, asking "how much does a website cost?" is a lot like asking "how much does a house cost?" Find out the true costs in 2026.',
-    metaDescription: 'An honest, transparent guide to South African website design costs in 2026. Compare DIY platforms, traditional agencies, and modular disruptor models.',
-    date: 'Jul 29, 2026',
+    summary: 'Discover the true costs of web design in South Africa for 2026. Compare freelancer rates, agency quotes, hidden domain fees, and low-cost modular models.',
+    metaDescription: 'Discover true website costs in South Africa for 2026. From R1,499 setup fees to R25,000 agency quotes—compare pricing tiers, hidden fees & retentive models.',
+    date: 'Aug 11, 2026',
     author: 'Allegro Digital Team',
-    readTime: '5 min read',
+    readTime: '6 min read',
     category: 'Pricing',
-    tags: ['website-cost-sa', 'web-design-pricing', 'south-africa', 'agency-rates'],
+    tags: ['website-cost-sa', 'web-design-pricing', 'south-africa', 'agency-rates', 'website-cost-port-elizabeth', 'how-much-is-a-website-sa', 'co-za-domain-cost'],
     imageUrl: '/images/sa_website_cost_guide.jpg',
     keyTakeaways: [
-      'Freelance websites run from R1,500 once-off, while traditional agencies charge between R15,000 and R45,000 upfront.',
-      'Watch out for USD billing on DIY platforms (Wix, Shopify) which exposes your business to Rand volatility.',
-      'Make sure SSL security certificates and mobile optimization are included by default, not billed as "extras".',
-      'A subscription model (R1,499 setup + R800/mo) keeps costs low while ensuring your site stays secure and updated.'
+      'Freelance single-page sites run from R1,500 to R5,000, while traditional agencies charge between R15,000 and R45,000 upfront.',
+      'Watch out for USD billing on DIY platforms (Wix, Shopify, Squarespace) which exposes your monthly bill to Rand volatility.',
+      'Always ensure SSL security, mobile optimization, and Google Maps integration are included by default, not billed as extras.',
+      'Allegro Digital\'s disruptive model (R1,499 setup + R800/mo retainer) eliminates heavy upfront CapEx while guaranteeing security and speed.'
     ],
     content: `
       <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
         If you are a South African business owner looking to build a new website, asking <em>"how much does a website cost?"</em> is a lot like asking <em>"how much does a house cost?"</em> The price varies wildly depending on what you actually need, who you hire, and how the site is built.
       </p>
 
+      <!-- Featured Snippet Answer Box -->
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">⚡ Quick Answer: How Much Does a Website Cost in SA? (2026)</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          In 2026, a basic small business website in South Africa costs between <strong>R1,500 and R5,000 once-off</strong> for a single-page site, <strong>R5,000 to R15,000</strong> for a standard multi-page site, and <strong>R15,000 to R50,000+</strong> for an e-commerce store. Alternatively, modular subscription models cost <strong>R1,499 setup + R800/month</strong> for full hosting, security, and maintenance.
+        </p>
+      </div>
+
       <p class="mb-6">
         Unfortunately, the website design industry in South Africa is filled with confusing jargon and massive price gaps. You will find freelancers offering "cheap websites" on Facebook Groups for R1,500 once-off, while traditional digital agencies will quote you anywhere from R15,000 to R45,000 for a standard small business site.
       </p>
 
       <p class="mb-8">
-        This honest, no-nonsense 2026 price guide breaks down the true costs of web design in South Africa so you can make an informed decision and avoid getting ripped off. Compare this to the <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> to see what features you should skip.
+        This honest, no-nonsense 2026 price guide breaks down the true costs of web design in South Africa so you can make an informed decision and avoid getting ripped off. Compare this with our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> to see what unnecessary features you can skip.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
         The South African Web Design Pricing Landscape (2026)
       </h2>
 
-      <p class="mb-6">To give you an immediate bird’s-eye view, here is what businesses can expect to pay for website design in South Africa this year:</p>
+      <p class="mb-6">To give you an immediate bird’s-eye view, here is what South African businesses can expect to pay for web design this year:</p>
 
       <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
         <table class="w-full text-left border-collapse text-sm">
           <thead>
             <tr class="border-b border-zinc-850 bg-zinc-900">
-              <th class="p-4 font-bold text-white">Website Type</th>
+              <th class="p-4 font-bold text-white">Website Package Type</th>
               <th class="p-4 font-bold text-white">Average Upfront Cost</th>
-              <th class="p-4 font-bold text-white">Typical Monthly Fee</th>
-              <th class="p-4 font-bold text-white">Best For</th>
+              <th class="p-4 font-bold text-white">Typical Monthly Retainer</th>
+              <th class="p-4 font-bold text-white">Best Suited For</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-zinc-850">
             <tr>
-              <td class="p-4 text-white font-bold">Landing / One-Page Site</td>
-              <td class="p-4 text-zinc-300">R1,500 – R8,000</td>
+              <td class="p-4 text-white font-bold">Landing / Single-Page Site</td>
+              <td class="p-4 text-zinc-300">R1,500 – R5,000</td>
               <td class="p-4 text-zinc-300">R300 – R800/mo</td>
-              <td class="p-4 text-zinc-400">Startups, local trades, single service campaigns.</td>
+              <td class="p-4 text-zinc-400">Startups, local trades, plumbers, electricians, single-service campaigns.</td>
             </tr>
             <tr>
               <td class="p-4 text-white font-bold">Standard Business Site (3-5 Pages)</td>
               <td class="p-4 text-zinc-300">R5,000 – R15,000</td>
               <td class="p-4 text-zinc-300">R500 – R1,200/mo</td>
-              <td class="p-4 text-zinc-400">Local service companies, professional consultants.</td>
+              <td class="p-4 text-zinc-400">Established local service companies, accountants, law firms.</td>
             </tr>
             <tr>
               <td class="p-4 text-white font-bold">E-Commerce Online Store</td>
-              <td class="p-4 text-zinc-300">R12,000 – R80,000+</td>
+              <td class="p-4 text-zinc-300">R12,000 – R50,000+</td>
               <td class="p-4 text-zinc-300">R1,500 – R5,000+/mo</td>
-              <td class="p-4 text-zinc-400">Retail brands selling physical products online.</td>
+              <td class="p-4 text-zinc-400">Retail brands selling physical products online with PayFast/Ozow.</td>
             </tr>
             <tr>
-              <td class="p-4 text-white font-bold">Corporate / Custom App</td>
+              <td class="p-4 text-white font-bold">Corporate / Custom Portal</td>
               <td class="p-4 text-zinc-300">R25,000 – R150,000+</td>
               <td class="p-4 text-zinc-300">Custom SLA rates</td>
-              <td class="p-4 text-zinc-400">Enterprises requiring advanced custom integrations.</td>
+              <td class="p-4 text-zinc-400">Enterprises requiring custom APIs, database integrations, and complex user roles.</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <p class="mb-8">Let\'s look at what actually goes into these price tags and where your money is going. Learn about Gqeberha local lead generation in our <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Engine Guide</a>.</p>
+      <p class="mb-8">
+        Learn how local search engine optimization transforms these figures in our <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">Gqeberha Local Lead Engine Guide</a>.
+      </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        The Three Roads to Building a Website
+        The Three Options for Building a Website in SA
       </h2>
 
       <div class="space-y-6 my-8">
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
           <h3 class="text-xl font-bold text-white mb-2">1. The DIY Route (Wix, Squarespace, Shopify)</h3>
           <p class="text-zinc-350 text-sm mb-2"><strong>Upfront Cost:</strong> R0 (your own labor)</p>
-          <p class="text-zinc-350 text-sm mb-3"><strong>Ongoing Cost:</strong> R350 to R800+ per month (billed in USD, exposing you to Rand volatility)</p>
+          <p class="text-zinc-350 text-sm mb-3"><strong>Ongoing Cost:</strong> R350 to R800+ per month (billed in USD, exposing you to Rand/Dollar volatility)</p>
           <p class="text-zinc-400 text-sm leading-relaxed">
-            <strong>The Trap:</strong> It sounds cheap, but DIY platforms are notorious for poor loading speeds, terrible local SEO capabilities, and generic designs. More importantly, <strong>your time is money</strong>. If you spend 40 hours trying to configure a template instead of working on your business, that website actually cost you thousands in lost revenue.
+            <strong>The Hidden Reality:</strong> While it sounds cheap, DIY website builders often load slowly on South African mobile networks, lack specialized local SEO structures, and look generic. More importantly, your time is money. Spending 40 hours tweaking templates instead of running your business actually costs you thousands in lost billable hours.
           </p>
         </div>
 
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
           <h3 class="text-xl font-bold text-white mb-2">2. Traditional Digital Agencies</h3>
-          <p class="text-zinc-350 text-sm mb-2"><strong>Upfront Cost:</strong> R10,000 to R25,000+</p>
+          <p class="text-zinc-350 text-sm mb-2"><strong>Upfront Cost:</strong> R10,000 to R35,000+</p>
           <p class="text-zinc-350 text-sm mb-3"><strong>Ongoing Cost:</strong> R500 to R1,500+ per month</p>
           <p class="text-zinc-400 text-sm leading-relaxed">
-            <strong>The Trap:</strong> Traditional agencies have high overheads (salaries, offices, managers). They pass these costs on to you by charging massive upfront fees. For a startup or local tradesman, paying R15,000 cash before the website even makes its first Rand is a severe cash flow killer.
+            <strong>The Hidden Reality:</strong> Traditional agencies maintain significant overheads (salaries, office space, account managers) and pass those costs directly to you as heavy upfront fees. For a growing local trade or startup, paying R20,000 before the website brings in its first client severely strains cash flow.
           </p>
         </div>
 
         <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl shadow-[0_0_20px_rgba(250,204,21,0.05)]">
-          <h3 class="text-xl font-bold text-yellow-400 mb-2">3. The Modular Disruptor Model (Allegro Digital)</h3>
-          <p class="text-zinc-300 text-sm mb-2"><strong>Upfront Cost:</strong> <strong>R1,499</strong></p>
-          <p class="text-zinc-300 text-sm mb-3"><strong>Ongoing Cost:</strong> <strong>R800/month</strong> (Hosting & Maintenance)</p>
+          <h3 class="text-xl font-bold text-yellow-400 mb-2">3. The Managed Subscription Model (Allegro Digital)</h3>
+          <p class="text-zinc-300 text-sm mb-2"><strong>Upfront Cost:</strong> <strong>R1,499</strong> (Once-off setup)</p>
+          <p class="text-zinc-300 text-sm mb-3"><strong>Ongoing Retainer:</strong> <strong>R800/month</strong> (Ultra-fast hosting, SSL & ongoing maintenance)</p>
           <p class="text-zinc-300 text-sm leading-relaxed">
-            <strong>The Advantage:</strong> This model eliminates the barrier to entry. Instead of paying massive upfront fees, you secure a custom-built website for less than the cost of a tank of petrol. It shifts your website cost from a high-risk capital expenditure (CapEx) to a predictable, tax-deductible monthly operating expense (OpEx).
+            <strong>The Advantage:</strong> This model removes the barrier to entry. Instead of risking R15,000 upfront, you launch a custom-coded, ultra-fast website for less than a tank of petrol. It shifts your website expenses from a risky capital expenditure (CapEx) into a predictable, tax-deductible monthly operating expense (OpEx).
           </p>
         </div>
       </div>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        Hidden Costs to Watch Out For
+        Hidden Web Design Costs to Watch Out For
       </h2>
 
-      <p class="mb-6">When comparing quotes from web designers in South Africa, always ask if these critical elements are included:</p>
+      <p class="mb-6">When comparing quotes from web design companies in South Africa, always verify if these essential components are included in the price:</p>
 
-      <ul class="space-y-3 list-disc pl-6 mb-8 text-zinc-350">
-        <li><strong>Domain Registration:</strong> A standard <code>.co.za</code> domain should cost <strong>R150 to R300 per year</strong>. Be wary of agencies charging admin fees of R500+ just to register a name.</li>
-        <li><strong>SSL Security Certificate:</strong> This is the padlock icon next to your URL. It is mandatory for Google ranking and user trust. Many hosting companies charge R300+ per year for this, but premium providers include a Let's Encrypt SSL <strong>for free</strong>.</li>
-        <li><strong>Mobile Optimization:</strong> Over 75% of South African internet traffic comes from mobile phones. If a designer charges you extra to make your site look good on smartphones, run. Mobile responsiveness must be non-negotiable and included by default.</li>
-        <li><strong>Software and System Bloat:</strong> Many cheap designers build on heavy, outdated WordPress systems with slow builders like Elementor. These sites take 5+ seconds to load, scaring off customers and tanking your Google rank.</li>
+      <ul class="space-y-4 my-8">
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">🌐 Domain Name Registration & Annual Renewals</strong>
+          <span class="text-zinc-350 text-sm">A standard <code>.co.za</code> domain costs <strong>R150 to R300 per year</strong>. Beware of agencies charging hidden admin fees of R500+ every year just to renew your domain name.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">🔒 SSL Security Certificate</strong>
+          <span class="text-zinc-350 text-sm">An SSL certificate displays the padlock icon next to your URL. It is mandatory for Google search rankings and customer trust. Many hosts charge R300–R600/year for this, but top-tier providers include Let's Encrypt SSL certificates <strong>for free</strong>.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">📱 Mobile Optimization</strong>
+          <span class="text-zinc-350 text-sm">Over 75% of South African web traffic is on mobile devices. If an agency lists "mobile responsiveness" as a paid add-on, walk away. Mobile optimization must be standard across all screen sizes.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">💬 Direct WhatsApp Integration</strong>
+          <span class="text-zinc-350 text-sm">South Africans prefer instant communication over filling out lengthy contact forms. See our complete guide on <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Website Integration in SA</a> to learn how one-click messaging increases leads.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">📍 Google Business Profile & Local SEO</strong>
+          <span class="text-zinc-350 text-sm">A website without SEO is like printing business cards and keeping them in your desk drawer. Learn how to pair your website with Google Maps in our <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Business Profile Ranking Guide</a>.</span>
+        </li>
       </ul>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        The Bottom Line: What is the Best Choice for Your Business?
+        The Bottom Line: What Is the Best Choice for Your Business?
       </h2>
 
-      <p class="mb-6">If you are a growing local business, you do not need a bloated, 10-page corporate website that costs a fortune. You need a <strong>fast, conversion-optimized online asset</strong> that ranks on Google Maps and drives phone calls and WhatsApp enquiries straight to your phone.</p>
+      <p class="mb-6">
+        If you are a growing local business in South Africa, you do not need a bloated corporate site with 10 empty pages. You need a <strong>fast, high-converting digital asset</strong> that ranks on Google Maps and drives phone calls and WhatsApp leads straight to your phone.
+      </p>
 
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Drive Results with Allegro Digital</h4>
-        <p class="text-zinc-300 text-sm">
-          We build ultra-fast, premium single-page websites tailored for South African small businesses for just <strong>R1,499 upfront</strong> and a mandatory <strong>R800/month</strong> hosting & maintenance retainer. Explore our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">website package pricing</a> to get started.
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          We build ultra-fast, premium websites tailored for South African small businesses for just <strong>R1,499 upfront</strong> and a manageable <strong>R800/month</strong> hosting & support retainer. Explore our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">website package pricing</a> or calculate your lead potential using our <a href="/#calculator" class="text-yellow-400 underline hover:text-yellow-300">Port Elizabeth Lead Calculator</a>.
         </p>
       </div>
     `,
     faqs: [
       {
-        question: "Why are there such large price variations in web design?",
-        answer: "Traditional agencies build custom or bloated CMS templates with high overheads, charging R10,000+. Freelancers might be cheap but offer poor support. Allegro Digital bridges this gap with an affordable R1,499 setup and managed monthly model."
+        question: "How much does a website cost in South Africa in 2026?",
+        answer: "In 2026, a basic small business website costs R1,500 to R5,000 for a single-page landing site, R5,000 to R15,000 for a standard 3-5 page business site, and R12,000 to R50,000+ for an e-commerce store. Managed subscription models start at R1,499 upfront + R800/month."
       },
       {
-        question: "What are the hidden costs of building a website?",
-        answer: "Common hidden costs include domain registration, high-speed hosting renewal fees, SSL certificates, email hosting, and ongoing maintenance. Allegro Digital bundles all of these into a single transparent monthly retainer."
+        question: "Why do web design agencies charge R15,000+ while freelancers charge R1,500?",
+        answer: "Agencies have high operational costs like office space, account managers, and specialized designers, which they pass onto clients as large upfront fees. Freelancers have low overheads but often lack ongoing technical support. Allegro Digital provides agency-level performance with a low R1,499 setup fee."
       },
       {
-        question: "Do I own my website and domain?",
-        answer: "Yes, you retain complete ownership of your domain and brand assets. If you ever choose to leave, we will transfer the domain administration to you without penalties."
+        question: "Are there monthly recurring costs after paying for a website?",
+        answer: "Yes. Every website requires domain name renewals (R150–R300/year) and web hosting (R100–R800/month). Managed retainers also cover security updates, SSL certificates, daily backups, and ongoing content updates."
+      },
+      {
+        question: "How much does a .co.za domain name cost in South Africa?",
+        answer: "A standard .co.za domain name costs between R150 and R300 per year in South Africa. Be cautious of web designers charging annual admin fees of R500+ for domain renewals."
+      },
+      {
+        question: "What is the difference between CapEx and OpEx web design models?",
+        answer: "A CapEx (Capital Expenditure) model requires a massive once-off upfront payment (R15,000+). An OpEx (Operational Expenditure) model, like Allegro Digital's R1,499 setup + R800/month model, allows you to launch quickly while keeping your initial cash flow intact and tax-deductible."
+      },
+      {
+        question: "Can I build a website myself for free using Wix or WordPress?",
+        answer: "While DIY platforms offer free or cheap entry tiers, they bill in USD (exposing you to exchange rate fluctuations), often load slowly on mobile networks, and lack proper local SEO optimization. The time spent troubleshooting usually outweighs hiring a professional."
+      },
+      {
+        question: "Do I own my domain and website if I choose a monthly subscription?",
+        answer: "Yes, you retain 100% ownership of your business domain name, brand assets, and content. If you ever decide to move, the domain administration and assets remain yours."
       }
     ]
   },
