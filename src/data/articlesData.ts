@@ -1925,5 +1925,259 @@ export const articles: Article[] = [
         answer: "No, they work best as a discovery tool. Use them to fill vacancies during the low season, but make sure that once guests stay, they are encouraged to book directly with you for their next visit."
       }
     ]
+  },
+  {
+    slug: 'gym-website-design-guide',
+    title: 'Gym Website Design South Africa: Timetables, Leads, Local Search',
+    metaTitle: 'Gym Website Design South Africa: Timetables, Leads, Local Search',
+    summary: 'What a gym or fitness studio website needs in SA — class timetables, membership pricing, lead forms, local SEO. Built to fill classes, not just look good.',
+    metaDescription: 'What a gym or fitness studio website needs in SA — class timetables, membership pricing, lead forms, local SEO. Built to fill classes, not just look good.',
+    date: 'Aug 14, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '6 min read',
+    category: 'Content & Strategy',
+    tags: ['gym', 'fitness', 'memberships', 'timetables', 'lead-generation', 'local-seo'],
+    imageUrl: '/images/gym_website_design.jpg',
+    keyTakeaways: [
+      'The class timetable is the most-visited page on any gym site; keep it current and easy to view on mobile.',
+      'Transparent membership pricing (e.g. "From R___/month") builds immediate trust over "Contact us for pricing".',
+      'High-intent local search (Google Business Profile & Map Pack) drives immediate first-session trial bookings.',
+      'Frictionless click-to-action paths like a floating WhatsApp button double enquiry conversion rates.'
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        A potential member walks past your gym three times before they Google you. By the time they land on your website, they already know roughly what they want — they just don't know if you're the place that'll give it to them.
+      </p>
+
+      <p class="mb-6">
+        They want to see the timetable, the membership options, and proof that people like them train there. If your website is a single page with a logo and a "coming soon", that person walks past a fourth time, and then they join the gym down the road. Read our guide on <a href="/articles/website-vs-facebook-page-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website vs Facebook Page for SA Business</a> to understand why a complete digital home base matters.
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">🏋️ Fitness Is a Local Business</p>
+        <p class="text-zinc-300 text-sm">
+          Your catchment area is your suburb, your town, maybe the next suburb over. A gym website isn't about being flashy — it's about answering the questions a local prospect asks before committing to a membership, and making it effortless for them to take the first step.
+        </p>
+      </div>
+
+      <p class="mb-8">
+        This article walks through what a gym or fitness studio site needs in South Africa in 2026, how to optimize for local SEO, and what costly traps to avoid. If you're planning your budget, compare pricing tiers in our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Website Cost Guide</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Primary Job of a Gym Website
+      </h2>
+
+      <p class="mb-6">
+        A gym site has one job: <strong>turn interest into a first visit</strong>. Every page should push towards that goal by answering four questions every prospect has:
+      </p>
+
+      <div class="space-y-6 my-8">
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-yellow-400 mb-2">1. What classes do you run, and when?</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            The timetable is the most-visited page on any gym site, full stop. If someone can't see the classes, the times, and the level, they can't picture themselves there. A live, up-to-date timetable — even a simple weekly grid — does more for conversions than any design flourish.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-yellow-400 mb-2">2. What does it cost?</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            Membership pricing pages are where gyms get shy, and it costs them. Prospects are comparing you against commercial gyms and home-workout apps. If your pricing isn't visible, you've already lost the comparison. A clear <em>"Membership from R___/month"</em> with what's included beats a wall of <em>"Contact us for pricing."</em>
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-yellow-400 mb-2">3. Who trains here?</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            Real members, real results, real trainers. Show photos of actual people in your gym, not stock images of models with perfect abs. Add member testimonials with names and local suburbs. This is the trust layer that gets a nervous first-timer over the line.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-yellow-400 mb-2">4. How do I start?</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            The lead form is the whole point. A simple form — name, phone, WhatsApp number, goal — and a clear <strong>"Book Your First Session"</strong> button. One tap. Pair this with our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Website Integration</a> so leads land directly on your phone, because in fitness, enthusiasm expires fast.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a Fitness Site Doesn't Need (The Money-Wasters)
+      </h2>
+
+      <p class="mb-6 font-sans">The traps in gym web design are the same ones in every other industry, just with more dumbbells. Avoid these common mistakes:</p>
+
+      <ul class="space-y-4 my-8">
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-red-400 block mb-1">❌ Auto-Playing Background Videos or Music</strong>
+          <span class="text-zinc-350 text-sm">Your prospect is probably checking your site at work or in a quiet moment. Sound that starts automatically forces them to close the tab immediately.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-red-400 block mb-1">❌ Complex Member Portals Before Earning the Lead</strong>
+          <span class="text-zinc-350 text-sm">Gym owners love building fancy login portals first. Until you have active members asking for one, your budget is better spent bringing new clients in the door.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-red-400 block mb-1">❌ 40 Pages of Empty Bloat</strong>
+          <span class="text-zinc-350 text-sm">A gym site needs surprisingly few pages: Home, Classes/Timetable, Membership, Trainers, and Contact. Read our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> to see why 5 focused pages beat 20 empty ones.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-red-400 block mb-1">❌ Generic Stock Photography</strong>
+          <span class="text-zinc-350 text-sm">Fitness is about real people doing real work in your community. Real photos of your actual facility and coaches build 10x more trust than stock models.</span>
+        </li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Local SEO: Your Catchment Area Is Everything
+      </h2>
+
+      <p class="mb-6">Gyms win or lose locally. The basics of local search engine optimization matter more for you than for almost any other business:</p>
+
+      <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
+        <h3 class="text-xl font-bold text-white mb-4 text-yellow-400">The Gym Local Search Checklist</h3>
+        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Claim Your Google Business Profile:</strong> Ensure your profile is claimed, complete with hours, photo uploads, and active reviews. Learn how in our <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps Ranking Guide</a>.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Consistent NAP (Name, Address, Phone):</strong> Match your contact details identically across your website, Google, Facebook, and Instagram.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Suburb-Specific Copy:</strong> If your gym is in Gqeberha but draws members from Walmer, Summerstrand, and Lorraine, explicitly mention those suburbs on your site. Read our <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">Port Elizabeth Web Design & SEO Guide</a> for details.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 font-bold">•</span>
+            <span><strong>Review Strategy:</strong> Ask members for reviews after completing trial sessions or milestone challenges. Ten reviews mentioning your trainers and suburb beat a hundred generic ones.</span>
+          </li>
+        </ul>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The High-Converting Gym Website Structure
+      </h2>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Page / Section</th>
+              <th class="p-4 font-bold text-white">Primary Focus</th>
+              <th class="p-4 font-bold text-white">Key Action Element</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Home</td>
+              <td class="p-4 text-zinc-300">Clear hero hook, facility photo, target audience message</td>
+              <td class="p-4 text-yellow-400 font-bold">"Start First Free Session" CTA</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Classes & Timetable</td>
+              <td class="p-4 text-zinc-300">Weekly schedule grid, class difficulty levels, what to bring</td>
+              <td class="p-4 text-zinc-400">Mobile-responsive filterable grid</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Membership & Rates</td>
+              <td class="p-4 text-zinc-300">Transparent pricing tiers, contract terms, value additions</td>
+              <td class="p-4 text-zinc-400">"Select Plan" or "Inquire Plan" button</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Coaches & Community</td>
+              <td class="p-4 text-zinc-300">Trainer qualifications, real member progress stories, trust badges</td>
+              <td class="p-4 text-zinc-400">Social proof & transformation gallery</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Contact / Trial Booking</td>
+              <td class="p-4 text-zinc-300">Simple 3-field booking form, interactive map, operating hours</td>
+              <td class="p-4 text-yellow-400 font-bold">Floating WhatsApp + Direct Call button</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What It Costs to Build a Gym Website in SA
+      </h2>
+
+      <p class="mb-6 font-sans">
+        When budgeting for a gym or fitness studio website, avoid overpriced custom agency quotes charging R15,000+ for basic setups. A modern gym website sits in the same structural family as service-based local sites.
+      </p>
+
+      <p class="mb-6 font-sans">
+        At <strong>Allegro Digital</strong>, we provide a modular subscription framework tailored for local South African businesses:
+      </p>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-4 font-heading">Our Disruptive Gym Website Model:</h4>
+        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+          <li>• <strong>Once-Off Launch & Design:</strong> <strong>R1,499</strong> (custom-coded, ultra-fast single-page or multi-section site).</li>
+          <li>• <strong>Mandatory Hosting & Support:</strong> <strong>R800/month</strong> (ultra-fast SSD hosting, SSL certificate, weekly schedule updates & maintenance).</li>
+          <li>• <strong>Optional Managed Local SEO:</strong> <strong>R1,999/month</strong> to dominate your local suburb search queries and Google Maps 3-Pack. Read our <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Generation Strategy</a> for campaign details.</li>
+        </ul>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Bottom Line
+      </h2>
+
+      <p class="mb-6">
+        Your website is the front desk that never sleeps. It answers questions, shows the timetable, proves your facility is legitimate, and collects leads while you're coaching the 6 AM class.
+      </p>
+
+      <p class="mb-8">
+        Show the classes. Show the price. Show the real people. Make booking a first session one tap away. That's how gym websites fill classes in South Africa. Explore our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">website package pricing</a> or calculate your local lead potential with our <a href="/#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Lead Calculator</a>.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Drive Membership Growth with Allegro Digital</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          Ready to build a website that fills your gym classes and captures high-intent local searchers? Get in touch with our digital strategy team today.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Get Your Gym Website Price in 24 Hours →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "Why is a live class timetable so important on a gym website?",
+        answer: "The timetable is the #1 decision-making tool for prospective gym members. If users can't instantly check whether your class times fit their work or family schedules, they will bounce to a competitor."
+      },
+      {
+        question: "Should I publish gym membership prices on my website?",
+        answer: "Yes. Concealing prices behind 'Contact us for pricing' creates friction. Displaying clear starting prices (e.g. 'From R450/month') filters out low-intent leads and builds immediate trust."
+      },
+      {
+        question: "How does local SEO help my fitness studio get more members?",
+        answer: "Most gym prospects search for 'gym near me' or 'crossfit in [suburb]'. Local SEO optimizes your Google Business Profile and website keywords to rank your gym in the top 3 Google Maps results."
+      },
+      {
+        question: "How does a floating WhatsApp button help convert gym leads?",
+        answer: "South Africans prefer quick messaging over filling out long contact forms. A floating WhatsApp button lets prospects ask quick questions about trial sessions directly from their smartphone."
+      },
+      {
+        question: "Can I update the class timetable myself after the website is built?",
+        answer: "Yes! With our managed support retainer (R800/mo), you can send schedule updates directly to our team via WhatsApp, or update your site via simple CMS tools."
+      },
+      {
+        question: "How long does it take to design and launch a gym website?",
+        answer: "Our streamlined web design process allows us to build and launch a high-converting gym landing website within 5 to 7 working days."
+      },
+      {
+        question: "What is included in Allegro Digital's R1,499 setup + R800/mo package for gyms?",
+        answer: "The package includes custom mobile design, live class timetable layout, high-speed SSD hosting, Let's Encrypt SSL certificate, floating WhatsApp integration, Google Business Profile setup, and ongoing technical maintenance."
+      }
+    ]
   }
 ];
