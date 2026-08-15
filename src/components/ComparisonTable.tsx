@@ -68,10 +68,43 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({ onOpenBooking 
           </p>
         </div>
 
-        {/* Comparison Table / Cards */}
+        {/* Mobile View: Cards */}
+        <div className="block sm:hidden space-y-4 mb-8">
+          {comparisonItems.map((item, idx) => (
+            <div key={idx} className="glass-panel p-5 rounded-2xl border border-zinc-800 space-y-3">
+              <div className="text-xs font-bold uppercase text-zinc-300 border-b border-zinc-800 pb-2">
+                {item.feature}
+              </div>
+              <div className="bg-black/80 p-3 rounded-xl border border-yellow-500/30">
+                <div className="text-[10px] font-bold text-yellow-400 uppercase tracking-wider mb-1 flex items-center gap-1">
+                  <Sparkles className="w-3 h-3 text-yellow-400" /> Allegro Digital
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 rounded-full bg-yellow-400/20 text-yellow-400 flex items-center justify-center flex-shrink-0">
+                    <Check className="w-3 h-3" />
+                  </div>
+                  <span className="text-xs font-bold text-white">{item.allegro}</span>
+                </div>
+              </div>
+              <div className="bg-zinc-950 p-3 rounded-xl border border-zinc-800">
+                <div className="text-[10px] font-bold text-zinc-300 uppercase tracking-wider mb-1 flex items-center gap-1">
+                  <ShieldAlert className="w-3 h-3 text-zinc-300" /> Traditional Agencies
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-4 h-4 rounded-full bg-zinc-800 text-zinc-300 flex items-center justify-center flex-shrink-0">
+                    <X className="w-3 h-3" />
+                  </div>
+                  <span className="text-xs text-zinc-300">{item.traditional}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Comparison Table (Desktop/Tablet) */}
         <div className="glass-panel rounded-3xl border border-zinc-800 overflow-hidden shadow-2xl">
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse min-w-[640px]">
+          <div className="hidden sm:block overflow-x-auto">
+            <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="border-b border-zinc-800 bg-zinc-900">
                   <th className="py-5 px-6 text-sm font-extrabold text-zinc-300 w-1/3">
