@@ -68,15 +68,6 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
   }
-
-  @media (min-width: 768px) {
-    *, *::before, *::after {
-      cursor: none !important;
-    }
-    input, textarea, [contenteditable="true"] {
-      cursor: text !important;
-    }
-  }
 }
 
 /* Custom Utilities for High-Contrast Black, White & Yellow Polish */
