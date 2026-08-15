@@ -68,11 +68,11 @@ export const ProcessEngine: React.FC<ProcessEngineProps> = ({ onOpenBooking }) =
         </div>
 
         {/* 3 Step Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="flex md:grid md:grid-cols-3 gap-6 md:gap-8 mb-16 overflow-x-auto snap-x snap-mandatory pb-6 md:pb-0 scrollbar-none -mx-4 px-4 md:mx-0 md:px-0">
           {steps.map((item, index) => (
             <div
               key={index}
-              className="glass-panel p-8 rounded-2xl border border-zinc-800 hover:border-yellow-400/60 transition-all hover:-translate-y-2 relative flex flex-col justify-between group"
+              className="glass-panel p-8 rounded-2xl border border-zinc-800 hover:border-yellow-400/60 transition-all hover:-translate-y-2 relative flex flex-col justify-between group min-w-[290px] md:min-w-0 w-[85vw] md:w-auto flex-shrink-0 snap-center"
             >
               <div className="absolute top-6 right-6 font-mono text-4xl font-black text-zinc-800 group-hover:text-yellow-400/30 transition-colors">
                 {item.step}

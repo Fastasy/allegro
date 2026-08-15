@@ -3,93 +3,93 @@
   <!-- Core Pages -->
   <url>
     <loc>https://www.allegrodigital.co.za/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.allegrodigital.co.za/brand-studio</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.allegrodigital.co.za/portfolio</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.allegrodigital.co.za/brand-studio</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
   <!-- Articles -->
   <url>
+    <loc>https://www.allegrodigital.co.za/articles/how-much-does-a-website-cost-south-africa</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.allegrodigital.co.za/articles/web-design-port-elizabeth-local-lead-engine</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/small-business-website-blueprint-south-africa</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.allegrodigital.co.za/articles/how-much-does-a-website-cost-south-africa</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/how-to-get-your-sa-business-on-google-maps</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/how-to-start-a-small-business-south-africa-guide</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/local-lead-generation-strategy-south-africa</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/whatsapp-website-integration-south-africa</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/what-is-seo-and-what-does-it-mean-for-your-business</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/website-vs-facebook-page-south-africa</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/guest-house-direct-bookings</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.allegrodigital.co.za/articles/gym-website-design-guide</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

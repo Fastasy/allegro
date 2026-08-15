@@ -50,11 +50,11 @@ export const SocialProof: React.FC<SocialProofProps> = ({ onOpenBooking }) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 overflow-x-auto snap-x snap-mandatory pb-6 sm:pb-0 scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0">
           {PE_INDUSTRIES.map((ind) => (
             <div
               key={ind.id}
-              className="glass-panel p-6 rounded-2xl border border-zinc-800 hover:border-yellow-400/60 transition-all hover:-translate-y-1 group flex flex-col justify-between"
+              className="glass-panel p-6 rounded-2xl border border-zinc-800 hover:border-yellow-400/60 transition-all hover:-translate-y-1 group flex flex-col justify-between min-w-[280px] sm:min-w-0 w-[85vw] sm:w-auto flex-shrink-0 snap-center"
             >
               <div>
                 <div className="w-12 h-12 rounded-xl bg-black border border-zinc-700 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
