@@ -1,7 +1,7 @@
 import React from 'react';
 import { Hero } from '../components/Hero';
 import { RevenueCalculator } from '../components/RevenueCalculator';
-import { SocialProof } from '../components/SocialProof';
+import { PortfolioSlider } from '../components/PortfolioSlider';
 import { ProcessEngine } from '../components/ProcessEngine';
 import { ComparisonTable } from '../components/ComparisonTable';
 import { Pricing } from '../components/Pricing';
@@ -39,7 +39,7 @@ export const Home: React.FC<HomeProps> = ({ onOpenBooking, onOpenBookingWithDeta
       </RevealOnScroll>
 
       <RevealOnScroll>
-        <SocialProof onOpenBooking={onOpenBooking} />
+        <PortfolioSlider />
       </RevealOnScroll>
 
       <RevealOnScroll>

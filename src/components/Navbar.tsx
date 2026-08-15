@@ -24,7 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
 
   // Responsive desktop navigation links (essential items)
   const navLinks = [
-    { name: 'Portfolio', href: '/portfolio', isRoute: true },
+    { name: 'Portfolio', href: '/#work', isRoute: false },
     { name: 'Demos', href: '/#demos', isRoute: false },
     { name: 'Calculator', href: '/#calculator', isRoute: false },
     { name: 'Pricing', href: '/#pricing', isRoute: false },
@@ -35,11 +35,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
   const mobileNavLinks = [
     { name: 'Calculator', href: '/#calculator', isRoute: false },
     { name: 'Why Allegro', href: '/#why-us', isRoute: false },
+    { name: 'Portfolio', href: '/#work', isRoute: false },
     { name: 'Live Demos', href: '/#demos', isRoute: false },
     { name: 'Pricing', href: '/#pricing', isRoute: false },
     { name: 'FAQ', href: '/#faq', isRoute: false },
-    { name: 'Articles', href: '/articles', isRoute: true },
-    { name: 'Portfolio', href: '/portfolio', isRoute: true }
+    { name: 'Articles', href: '/articles', isRoute: true }
   ];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, isRoute: boolean) => {
