@@ -162,14 +162,19 @@ export function PortfolioSlider() {
                   sizes="(max-width: 640px) 82vw, 360px"
                   className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
                 />
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/95 via-black/55 to-transparent p-5 pt-16">
-                  <p className="absolute right-4 top-4 rounded-full border border-white/15 bg-black/50 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-yellow-400 backdrop-blur-sm">
-                    Live
-                  </p>
+                
+                {/* Sleek Top-Right Badge */}
+                <div className="absolute top-3 right-3 z-10 flex items-center gap-1.5 rounded-full border border-yellow-500/30 bg-black/70 px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-yellow-400 backdrop-blur-md shadow-lg">
+                  <span className="h-1.5 w-1.5 rounded-full bg-yellow-400 animate-pulse" />
+                  <span>Live</span>
+                </div>
+
+                {/* Bottom Overlay Info */}
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent p-5 pt-16">
                   <h3 className="font-heading text-lg font-bold text-white">
                     {item.name}
                   </h3>
-                  <p className="mt-1 text-sm text-zinc-400">{item.tagline}</p>
+                  <p className="mt-1 text-sm text-zinc-300">{item.tagline}</p>
                   <p className="mt-3 inline-flex items-center gap-1.5 text-xs font-bold text-yellow-400 opacity-0 transition group-hover:opacity-100">
                     Visit site
                     <svg
