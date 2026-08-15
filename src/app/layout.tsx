@@ -17,14 +17,36 @@ const outfit = Outfit({
   display: 'swap',
 });
 
+const SITE = 'https://www.allegrodigital.co.za';
+const OG_IMAGE = `${SITE}/images/og-allegro-default.jpg`;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE),
   title: 'Web Design Port Elizabeth | Affordable Website Design | Allegro Digital',
   description: 'Get a high-converting, professional website in Port Elizabeth for just R1,499 upfront and R800/mo. Fast turnaround, mobile-optimized, and local SEO ready.',
   icons: {
     icon: '/favicon.png',
   },
-  other: {
-    'og:site_name': 'Allegro Digital',
+  openGraph: {
+    type: 'website',
+    siteName: 'Allegro Digital',
+    title: 'Web Design Port Elizabeth | Affordable Website Design | Allegro Digital',
+    description: 'Get a high-converting, professional website in Port Elizabeth for just R1,499 upfront and R800/mo. Fast turnaround, mobile-optimized, and local SEO ready.',
+    url: SITE,
+    images: [
+      {
+        url: OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: 'Allegro Digital — Web Design Port Elizabeth',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Web Design Port Elizabeth | Affordable Website Design | Allegro Digital',
+    description: 'Get a high-converting, professional website in Port Elizabeth for just R1,499 upfront and R800/mo. Fast turnaround, mobile-optimized, and local SEO ready.',
+    images: [OG_IMAGE],
   },
 };
 
@@ -43,7 +65,27 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
               'name': 'Allegro Digital',
-              'url': 'https://www.allegrodigital.co.za',
+              'url': SITE,
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              'name': 'Allegro Digital',
+              'url': SITE,
+              'logo': `${SITE}/logo.png`,
+              'description': 'Web design and local SEO agency in Port Elizabeth (Gqeberha) building high-converting websites for South African small businesses.',
+              'address': {
+                '@type': 'PostalAddress',
+                'addressLocality': 'Port Elizabeth',
+                'addressRegion': 'Eastern Cape',
+                'addressCountry': 'ZA',
+              },
+              'sameAs': ['https://www.facebook.com/allegrodigital'],
             }),
           }}
         />

@@ -97,11 +97,11 @@ export const Pricing: React.FC<PricingProps> = ({ onSelectPlan }) => {
                   </p>
                   <p className="text-zinc-300 leading-relaxed flex items-start gap-2">
                     <CheckCircle2 className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                    Fully optimized for mobile, fast loading speeds, and clear conversion paths (WhatsApp button and contact form).
+                    Fully optimized for mobile, fast loading speeds, and clear conversion paths (<a href="/articles/whatsapp-website-integration-south-africa" className="text-yellow-400 underline hover:text-yellow-300">WhatsApp button</a> and contact form).
                   </p>
                   <p className="text-zinc-300 leading-relaxed flex items-start gap-2">
                     <CheckCircle2 className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                    Google Maps integration and local directory submission.
+                    <a href="/articles/how-to-get-your-sa-business-on-google-maps" className="text-yellow-400 underline hover:text-yellow-300">Google Maps integration</a> and local directory submission.
                   </p>
                 </div>
               </div>

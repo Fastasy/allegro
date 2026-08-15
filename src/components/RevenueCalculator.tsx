@@ -47,7 +47,7 @@ export const RevenueCalculator: React.FC<RevenueCalculatorProps> = ({ onOpenBook
             How Much Revenue Is Your Business Missing In <span className="text-yellow-400">{selectedSuburb}</span>?
           </h2>
           <p className="mt-3 text-zinc-300 text-base sm:text-lg">
-            Every day in Port Elizabeth, hundreds of residents search Google Maps for local services. If you don't have a high-converting website, that business automatically goes to your closest competitors.
+            Every day in Port Elizabeth, hundreds of residents search <a href="/articles/how-to-get-your-sa-business-on-google-maps" className="text-yellow-400 underline hover:text-yellow-300">Google Maps</a> for local services. If you don't have a <a href="/articles/web-design-port-elizabeth-local-lead-engine" className="text-yellow-400 underline hover:text-yellow-300">high-converting website</a>, that business automatically goes to your closest competitors.
           </p>
         </div>
 

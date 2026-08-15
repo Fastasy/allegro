@@ -25,9 +25,9 @@ export const articles: Article[] = [
   {
     slug: 'web-design-port-elizabeth-local-lead-engine',
     title: 'Web Design & SEO Port Elizabeth: How Gqeberha Businesses Win Top Local Google Rankings',
-    metaTitle: 'Web Design & SEO Port Elizabeth (Gqeberha) | Allegro Digital',
+    metaTitle: 'Web Design & SEO Port Elizabeth | Allegro Digital',
     summary: 'Looking for professional web design and SEO in Port Elizabeth? Discover why Gqeberha businesses are losing phone calls to competitors, and how our local SEO formula fixes it.',
-    metaDescription: 'Looking for web design & SEO in Port Elizabeth (Gqeberha)? Learn how local PE service businesses rank #1 on Google Maps, capture high-intent buyers, and win daily leads.',
+    metaDescription: 'Looking for web design & SEO in Port Elizabeth (Gqeberha)? Learn how local PE businesses rank #1 on Google Maps and win daily leads.',
     date: 'Aug 11, 2026',
     author: 'Allegro Digital Team',
     readTime: '6 min read',
@@ -186,7 +186,7 @@ export const articles: Article[] = [
   {
     slug: 'small-business-website-blueprint-south-africa',
     title: 'The South African Small Business Website Blueprint: What You Actually Need (And What to Skip)',
-    metaTitle: 'The Lean Small Business Website Blueprint | South Africa 2026',
+    metaTitle: 'The Lean Small Business Website Blueprint | SA 2026',
     summary: 'Don\'t waste R15,000 on a bloated website. Discover the exact small business website blueprint that SA startups use to generate leads, rank on Google, and win.',
     metaDescription: 'Stop wasting R20,000 on bloated websites. Learn the 5 non-negotiable elements South African small businesses need to turn mobile traffic into cold hard cash.',
     date: 'Jul 29, 2026',
@@ -274,7 +274,7 @@ export const articles: Article[] = [
         <div class="bg-zinc-900/90 border border-zinc-800 p-6 rounded-2xl">
           <div class="text-yellow-400 font-extrabold text-lg mb-2">3. Frictionless Click-to-Actions</div>
           <p class="text-zinc-400 text-sm leading-relaxed">
-            Include a sticky "Call Now" button for mobile users, a floating "Chat on WhatsApp" button that opens a pre-filled message, and a clean, 3-field contact form.
+            Include a sticky "Call Now" button for mobile users, a floating "<a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Chat on WhatsApp</a>" button that opens a pre-filled message, and a clean, 3-field contact form.
           </p>
         </div>
 
@@ -291,7 +291,7 @@ export const articles: Article[] = [
           5. Seamless Local SEO Integration
         </h3>
         <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
-          Your website must link natively with your Google Business Profile (formerly GMB), use proper schema markup, and contain geo-targeted keywords that explicitly call out your service suburbs so you rank at the top of Google Maps search results.
+          Your website must link natively with your Google Business Profile (formerly GMB), use proper schema markup, and contain geo-targeted keywords that explicitly call out your service suburbs so you rank at the top of <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps</a> search results.
         </p>
       </div>
 
@@ -343,7 +343,7 @@ export const articles: Article[] = [
   {
     slug: 'how-much-does-a-website-cost-south-africa',
     title: 'How Much Does a Website Cost in South Africa? (2026 Price Guide)',
-    metaTitle: 'How Much Does a Website Cost in South Africa? (2026 Price Guide)',
+    metaTitle: 'How Much Does a Website Cost in South Africa? (2026)',
     summary: 'Discover the true costs of web design in South Africa for 2026. Compare freelancer rates, agency quotes, hidden domain fees, and low-cost modular models.',
     metaDescription: 'Discover true website costs in South Africa for 2026. From R1,499 setup fees to R25,000 agency quotes—compare pricing tiers, hidden fees & retentive models.',
     date: 'Aug 11, 2026',
@@ -587,7 +587,7 @@ export const articles: Article[] = [
   {
     slug: 'how-to-get-your-sa-business-on-google-maps',
     title: 'How to Get Your SA Business on Google Maps (And Rank in the Top 3)',
-    metaTitle: 'How to Get Your SA Business on Google Maps & Rank Top 3 (2026)',
+    metaTitle: 'How to Get Your SA Business on Google Maps (2026)',
     summary: 'If you run a local business in South Africa, there is one marketing tool more powerful than Facebook, Instagram, and TikTok combined. Discover how to rank in the top 3 on Google Maps.',
     metaDescription: 'A step-by-step South African guide to setting up and optimizing your Google Business Profile. Learn how to rank in the coveted Google Maps 3-Pack.',
     date: 'Jul 29, 2026',
@@ -727,7 +727,7 @@ export const articles: Article[] = [
     title: 'How to Start a Small Business in South Africa (2026 Startup & Web Guide)',
     metaTitle: 'How to Start a Small Business in South Africa (2026 Guide)',
     summary: 'Starting a business in SA? Learn how to register your company with CIPC, get a bank account, set up tax compliance, and launch a professional business website on a budget.',
-    metaDescription: 'A complete 2026 step-by-step startup guide: How to start a small business in South Africa, register with CIPC for R175, open zero-fee banking, and launch a web presence.',
+    metaDescription: 'A 2026 step-by-step guide: start a small business in South Africa, register with CIPC for R175, open zero-fee banking, launch a web presence.',
     date: 'Aug 11, 2026',
     author: 'Allegro Digital Team',
     readTime: '7 min read',
@@ -851,9 +851,9 @@ export const articles: Article[] = [
   {
     slug: 'local-lead-generation-strategy-south-africa',
     title: 'How to Generate Consistent Local Service Leads in South Africa (Without Wasting Money)',
-    metaTitle: 'Generate Local Service Leads in South Africa | Allegro Digital',
+    metaTitle: 'Generate Local Service Leads in SA | Allegro Digital',
     summary: 'Struggling to find clients? Discover the exact local lead generation strategy that South African trades, solar installers, and local service providers use to scale.',
-    metaDescription: 'Struggling to find clients? Discover the exact local lead generation strategy that South African trades, solar installers, and local service providers use to scale.',
+    metaDescription: 'Struggling to find clients? Discover the local lead generation strategy that SA trades, solar installers and local service providers use to scale.',
     date: 'Jul 29, 2026',
     author: 'Allegro Digital Team',
     readTime: '5 min read',
@@ -1228,7 +1228,7 @@ export const articles: Article[] = [
     title: 'What Is SEO and What Does It Mean for Your Business?',
     metaTitle: 'What Is SEO & What Does It Mean for Your SA Business?',
     summary: 'Ever wondered why competitors show up first on Google? Discover what SEO actually is, how Google ranks websites, and what it means for small businesses in South Africa.',
-    metaDescription: 'Learn what SEO means for South African small businesses. No agency jargon—just how Google crawling, indexing, and ranking work, and how to get your website to page one.',
+    metaDescription: 'Learn what SEO means for South African small businesses. No agency jargon—just how Google ranks websites and how to get yours to page one.',
     date: 'Aug 4, 2026',
     author: 'Allegro Digital Team',
     readTime: '5 min read',
@@ -1398,7 +1398,7 @@ export const articles: Article[] = [
         <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
           <h3 class="text-xl font-bold text-yellow-400 mb-2">1. Local SEO (Your Priority)</h3>
           <p class="text-zinc-300 text-sm leading-relaxed mb-4">
-            This is your starting point. It makes you visible for searches like <em>"web designer Port Elizabeth"</em> or <em>"dentist Newton Park"</em>. It revolves around your <a href="https://www.google.com/business" target="_blank" rel="noopener noreferrer" class="text-yellow-400 underline hover:text-yellow-300">Google Business Profile</a>, your reviews, and having consistent business details across the web. Local keywords have far less competition than national ones, which is why local SEO produces leads fastest.
+            This is your starting point. It makes you visible for searches like <em>"web designer Port Elizabeth"</em> or <em>"dentist Newton Park"</em>. It revolves around your <a href="https://www.google.com/business" target="_blank" rel="noopener noreferrer" class="text-yellow-400 underline hover:text-yellow-300">Google Business Profile</a>, your reviews, and having consistent business details across the web. Local keywords have far less competition than national ones, which is why <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">local SEO</a> produces leads fastest.
           </p>
           <p class="text-zinc-300 text-sm leading-relaxed">
             We wrote a full guide on <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300 font-bold">setting up and ranking your Google Maps profile</a>.
@@ -1541,7 +1541,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300 font-bold">SEO-optimized website packages</a> or <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300 font-bold">read how to rank your business on Google Maps</a>.
+        Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300 font-bold">SEO-optimized website packages</a>, see <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300 font-bold">what a website really costs in SA</a>, or <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300 font-bold">read how to rank your business on Google Maps</a>.
       </p>
     `,
     faqs: [
@@ -1562,7 +1562,7 @@ export const articles: Article[] = [
   {
     slug: 'website-vs-facebook-page-south-africa',
     title: 'Website vs Facebook Page for Your Business in South Africa: The Honest Answer',
-    metaTitle: 'Website vs Facebook Page for Business in South Africa | Allegro Digital',
+    metaTitle: 'Website vs Facebook Page in South Africa | Allegro Digital',
     summary: "Should your SA business get a website or just run a Facebook page? Here's what each one can and can't do, and how to decide without wasting money.",
     metaDescription: "Should your SA business get a website or just run a Facebook page? Here's what each one can and can't do, and how to decide without wasting money.",
     date: 'Aug 7, 2026',
@@ -1651,7 +1651,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-6">
-        Think about what happens when a customer in Gqeberha searches <em>"electrician near me"</em> on Google. They don't get your Facebook page. They get Google Maps, and Google Maps links to your website, if you have one. That's where the real customers come from in South Africa right now: Google searches, not Facebook scrolling.
+        Think about what happens when a customer in Gqeberha searches <em>"electrician near me"</em> on Google. They don't get your Facebook page. They get Google Maps, and <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps</a> links to your website, if you have one. That's where the real customers come from in South Africa right now: Google searches, not Facebook scrolling.
       </p>
 
       <p class="mb-8">
@@ -1662,7 +1662,7 @@ export const articles: Article[] = [
         How to Decide for Your Business
       </h2>
 
-      <p class="mb-6">Ask yourself three simple questions to evaluate your digital footprint:</p>
+      <p class="mb-6">Ask yourself three simple questions to evaluate your digital footprint — and <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">check what a website really costs in South Africa</a>:</p>
 
       <ul class="space-y-4 my-8">
         <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
@@ -1684,7 +1684,7 @@ export const articles: Article[] = [
       </h2>
 
       <p class="mb-6">
-        The businesses that grow treat Facebook and their website as one cohesive system. The website is the <strong>home base</strong>: it holds the information, builds the trust, and gets found on Google. Facebook is the <strong>megaphone</strong>: it sends people to the home base.
+        The businesses that grow treat Facebook and their website as one cohesive system. The website is the <strong>home base</strong>: it holds the information, builds the trust, and gets found on <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google</a>. Facebook is the <strong>megaphone</strong>: it sends people to the home base.
       </p>
 
       <p class="mb-6">
@@ -1792,7 +1792,7 @@ export const articles: Article[] = [
       </h2>
 
       <p class="mb-6">
-        Before anyone books, they search. "Guest house Jeffreys Bay" on Google, or "B&B St Francis with sea view". What shows up is Google Maps, and the businesses that win that search are the ones with a complete, active Google Business Profile.
+        Before anyone books, they search. "Guest house Jeffreys Bay" on Google, or "B&B St Francis with sea view". What shows up is <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps</a>, and the businesses that win that search are the ones with a complete, active Google Business Profile.
       </p>
 
       <p class="mb-6">The basics sound boring and are non-negotiable:</p>
@@ -1884,7 +1884,7 @@ export const articles: Article[] = [
       </h2>
 
       <p class="mb-6">
-        Skip this and you're fighting with one hand tied. South Africans book on WhatsApp the way they order takeaways—instantly, mid-conversation, with zero friction.
+        Skip this and you're fighting with one hand tied. South Africans <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">book on WhatsApp</a> the way they order takeaways—instantly, mid-conversation, with zero friction.
       </p>
 
       <p class="mb-8">
@@ -1929,7 +1929,7 @@ export const articles: Article[] = [
   {
     slug: 'gym-website-design-guide',
     title: 'Gym Website Design South Africa: Timetables, Leads, Local Search',
-    metaTitle: 'Gym Website Design South Africa: Timetables, Leads, Local Search',
+    metaTitle: 'Gym Website Design SA: Timetables, Leads, Local Search',
     summary: 'What a gym or fitness studio website needs in SA — class timetables, membership pricing, lead forms, local SEO. Built to fill classes, not just look good.',
     metaDescription: 'What a gym or fitness studio website needs in SA — class timetables, membership pricing, lead forms, local SEO. Built to fill classes, not just look good.',
     date: 'Aug 14, 2026',

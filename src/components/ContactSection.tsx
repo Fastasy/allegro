@@ -54,7 +54,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
             </h2>
 
             <p className="text-zinc-300 text-base leading-relaxed">
-              Skip the long agency wait. We can have your custom website built, hosted, and ranking on Google Maps within 7 business days.
+              Skip the long agency wait. We can have your custom website built, hosted, and ranking on <a href="/articles/how-to-get-your-sa-business-on-google-maps" className="text-yellow-400 underline hover:text-yellow-300">Google Maps</a> within 7 business days.
             </p>
 
             {/* Direct Contact Cards */}
