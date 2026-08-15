@@ -7,7 +7,6 @@ import { NotificationBar } from '@/components/NotificationBar';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { BookingModal } from '@/components/BookingModal';
-import { CustomCursor } from '@/components/CustomCursor';
 import { Analytics } from '@vercel/analytics/react';
 import Lenis from 'lenis';
 import '../../instrumentation-client';
@@ -60,7 +59,6 @@ function AppLayoutInner({ children }: { children: React.ReactNode }) {
         initialIndustry={bookingIndustry}
         initialPlan={bookingPlan}
       />
-      <CustomCursor />
       <Analytics />
     </div>
   );

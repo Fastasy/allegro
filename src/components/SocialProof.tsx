@@ -1,6 +1,6 @@
 import React from 'react';
-import { PE_SUBURBS, PE_INDUSTRIES } from '../data/peData';
-import { ShieldCheck, MapPin, Wrench, Building2, Scale, HeartPulse, Trophy, Users, Clock, Zap } from 'lucide-react';
+import { PE_INDUSTRIES } from '../data/peData';
+import { ShieldCheck, Wrench, Building2, Scale, HeartPulse, Trophy, Users, Clock, Zap } from 'lucide-react';
 
 interface SocialProofProps {
   onOpenBooking: () => void;
@@ -20,22 +20,6 @@ export const SocialProof: React.FC<SocialProofProps> = ({ onOpenBooking }) => {
   return (
     <section id="social-proof" className="py-16 bg-black text-white relative overflow-hidden">
       
-      {/* Top Ticker: Suburbs Marquee */}
-      <div className="mb-14 overflow-hidden border-y border-zinc-800 bg-zinc-950 py-3">
-        <div className="flex items-center gap-3 animate-marquee whitespace-nowrap">
-          {PE_SUBURBS.concat(PE_SUBURBS).map((suburb, idx) => (
-            <div
-              key={idx}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black border border-zinc-800 text-xs font-semibold text-zinc-300"
-            >
-              <MapPin className="w-3.5 h-3.5 text-yellow-400" />
-              <span>{suburb}, Port Elizabeth</span>
-              <span className="text-yellow-400 font-mono text-[10px]">● Active</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
 
@@ -63,9 +47,6 @@ export const SocialProof: React.FC<SocialProofProps> = ({ onOpenBooking }) => {
 
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-xs font-bold text-yellow-400 uppercase tracking-wider">{ind.suburb}</span>
-                  <span className="text-[10px] bg-zinc-900 text-zinc-300 px-2 py-0.5 rounded border border-zinc-800">
-                    ~{ind.monthlySearchesPE} searches/mo
-                  </span>
                 </div>
 
                 <h4 className="text-lg font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors">

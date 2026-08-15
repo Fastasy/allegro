@@ -115,19 +115,19 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onOpenBooking 
                   ))}
                 </div>
 
-                {/* Local Search Volume & Revenue Potential */}
+                {/* Real conversion promises (no fabricated stats) */}
                 <div className="grid grid-cols-2 gap-3 pt-2">
                   <div className="bg-black p-3 rounded-xl border border-zinc-800 text-center">
-                    <span className="text-[10px] text-zinc-400 uppercase font-bold block">Monthly Searches PE</span>
+                    <span className="text-[10px] text-zinc-400 uppercase font-bold block">Website Launch</span>
                     <span className="text-lg font-extrabold text-white font-heading">
-                      {selectedIndustry.monthlySearchesPE.toLocaleString()}
+                      7 Business Days
                     </span>
                   </div>
 
                   <div className="bg-black p-3 rounded-xl border border-zinc-800 text-center">
-                    <span className="text-[10px] text-zinc-400 uppercase font-bold block">Avg Lead Value</span>
+                    <span className="text-[10px] text-zinc-400 uppercase font-bold block">Starting Price</span>
                     <span className="text-lg font-extrabold text-yellow-400 font-heading">
-                      R{selectedIndustry.avgLeadValue.toLocaleString()}
+                      R1,499 Once-Off
                     </span>
                   </div>
                 </div>
@@ -148,7 +148,7 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onOpenBooking 
                 </div>
 
                 <h3 className="text-2xl font-bold text-white">
-                  Why 72% of PE Small Businesses Lose Customers Every Single Day
+                  Why PE Small Businesses Lose Customers Every Single Day
                 </h3>
 
                 <div className="space-y-4 text-sm text-zinc-300">
@@ -223,7 +223,7 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onOpenBooking 
                   <div className="bg-zinc-900 p-2.5 rounded-xl border border-zinc-800 flex items-center justify-between text-xs">
                     <div className="flex items-center gap-1">
                       <span className="text-yellow-400 font-bold">★★★★★</span>
-                      <span className="text-white font-bold text-[11px]">4.9 (92 Reviews)</span>
+                      <span className="text-white font-bold text-[11px]">Google Reviews Ready</span>
                     </div>
                     <span className="text-yellow-400 text-[10px] font-mono font-bold">● Instant Booking</span>
                   </div>

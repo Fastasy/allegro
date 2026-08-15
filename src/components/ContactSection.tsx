@@ -1,48 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Phone, MapPin, MessageSquare, Clock, ArrowRight, ShieldCheck, Sparkles } from 'lucide-react';
-import { PE_SUBURBS } from '../data/peData';
-import confetti from 'canvas-confetti';
 import posthog from 'posthog-js';
 
 interface ContactSectionProps {
   onOpenBooking: () => void;
 }
 
+const WA_QUOTE =
+  'https://wa.me/27823006996?text=' +
+  encodeURIComponent(
+    "Hi Allegro Digital, I'd like a quote for my business website. I'm based in Port Elizabeth.",
+  );
+
 export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking }) => {
-  const [submitted, setSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    suburb: 'Walmer',
-    industry: 'Plumbing / Electrical / Trades',
-    message: ''
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    posthog.capture('quote_request_submitted', {
-      suburb: formData.suburb,
-      industry: formData.industry,
-      has_message: Boolean(formData.message.trim()),
-    });
-    confetti({
-      particleCount: 100,
-      spread: 70,
-      origin: { y: 0.7 }
-    });
-    setSubmitted(true);
-  };
-
   return (
     <section id="contact" className="py-20 text-white relative overflow-hidden">
-      
       {/* Glow */}
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-yellow-400/10 rounded-full blur-[140px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
           {/* Left 6 Cols: Local Office Contact Info */}
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-zinc-900 border border-yellow-500/30 text-yellow-400 text-xs font-bold uppercase tracking-wider">
@@ -84,7 +61,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
               </div>
 
               <div className="glass-panel p-4 rounded-2xl border border-zinc-800 flex items-center gap-4 hover:border-yellow-400/40 transition-all">
-                <div className="w-12 h-12 rounded-xl bg-black border border-zinc-700 text-yellow-400 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-xl bg-black border border-zinc-700 text-yellow-400 flex items-center justify-center flex-shrink-0 font-bold">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
@@ -102,118 +79,65 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
             </div>
           </div>
 
-          {/* Right 6 Cols: Quick Quote Request Form */}
-          <div className="lg:col-span-6 glass-panel p-8 rounded-3xl border border-zinc-800 shadow-2xl relative">
-            
-            {!submitted ? (
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="flex items-center justify-between pb-3 border-b border-zinc-800">
-                  <h3 className="text-xl font-extrabold text-white font-heading">
-                    Request 7-Day Web Quote
-                  </h3>
-                  <span className="text-[10px] bg-yellow-400 text-black font-black px-2.5 py-1 rounded-full uppercase">
-                    Free Consultation
-                  </span>
-                </div>
+          {/* Right 6 Cols: WhatsApp Quote CTA (replaces dead form — leads go straight to WhatsApp) */}
+          <div className="lg:col-span-6 glass-panel p-8 rounded-3xl border border-zinc-800 shadow-2xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-yellow-400 text-black text-[10px] font-black px-3 py-1 rounded-bl-2xl uppercase tracking-wider">
+              Free Consultation
+            </div>
 
-                <div>
-                  <label className="block text-xs font-bold text-zinc-300 mb-1">Your Name *</label>
-                  <input
-                    type="text"
-                    required
-                    placeholder="e.g. Sipho Dlamini"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-3 text-xs text-white outline-none focus:border-yellow-400"
-                  />
-                </div>
+            <div className="w-14 h-14 rounded-2xl bg-yellow-400 flex items-center justify-center text-black mb-5 shadow-lg">
+              <MessageSquare className="w-7 h-7" fill="currentColor" />
+            </div>
 
-                <div>
-                  <label className="block text-xs font-bold text-zinc-300 mb-1">Cell / WhatsApp Number *</label>
-                  <input
-                    type="tel"
-                    required
-                    placeholder="082 123 4567"
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-3 text-xs text-white outline-none focus:border-yellow-400"
-                  />
-                </div>
+            <h3 className="text-2xl font-extrabold text-white font-heading">
+              Request Your 7-Day Web Quote
+            </h3>
+            <p className="mt-2 text-sm text-zinc-300 leading-relaxed">
+              Skip the form — send us a WhatsApp message and get a direct reply
+              from our Port Elizabeth team, usually within the hour.
+            </p>
 
-                <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <label className="block text-xs font-bold text-zinc-300 mb-1">PE Suburb</label>
-                    <select
-                      value={formData.suburb}
-                      onChange={(e) => setFormData({ ...formData, suburb: e.target.value })}
-                      className="w-full bg-black border border-zinc-700 rounded-xl px-3 py-3 text-xs text-white outline-none focus:border-yellow-400"
-                    >
-                      {PE_SUBURBS.map((s) => (
-                        <option key={s} value={s}>{s}</option>
-                      ))}
-                    </select>
-                  </div>
+            <div className="mt-6 space-y-3">
+              <a
+                href={WA_QUOTE}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => posthog.capture('whatsapp_quote_clicked')}
+                className="w-full shimmer-btn text-black font-black text-sm py-4 rounded-xl shadow-xl flex items-center justify-center gap-2 cursor-pointer border border-yellow-300"
+              >
+                <MessageSquare className="w-4 h-4 text-black" />
+                <span>Get My Quote on WhatsApp</span>
+                <ArrowRight className="w-4 h-4 text-black" />
+              </a>
 
-                  <div>
-                    <label className="block text-xs font-bold text-zinc-300 mb-1">Industry</label>
-                    <input
-                      type="text"
-                      placeholder="e.g. Electrical / Legal"
-                      value={formData.industry}
-                      onChange={(e) => setFormData({ ...formData, industry: e.target.value })}
-                      className="w-full bg-black border border-zinc-700 rounded-xl px-3 py-3 text-xs text-white outline-none focus:border-yellow-400"
-                    />
-                  </div>
-                </div>
+              <a
+                href="tel:0823006996"
+                className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl border border-zinc-700 bg-zinc-900 hover:bg-zinc-800 text-white font-bold text-sm transition-colors"
+              >
+                <Phone className="w-4 h-4 text-yellow-400" />
+                <span>Or Call: 082 300 6996</span>
+              </a>
+            </div>
 
-                <div>
-                  <label className="block text-xs font-bold text-zinc-300 mb-1">Brief Description of Your Business</label>
-                  <textarea
-                    rows={3}
-                    placeholder="Tell us what services you offer and if you have an existing domain..."
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-2.5 text-xs text-white outline-none focus:border-yellow-400"
-                  />
-                </div>
+            <div className="mt-5 flex items-center gap-2 text-[11px] text-zinc-400">
+              <ShieldCheck className="w-3.5 h-3.5 text-yellow-400" />
+              <span>We keep your information 100% confidential. No spam ever.</span>
+            </div>
 
-                <button
-                  type="submit"
-                  className="w-full shimmer-btn text-black font-black text-sm py-4 rounded-xl shadow-xl flex items-center justify-center gap-2 cursor-pointer border border-yellow-300"
-                >
-                  <span>Submit For Free PE Web Analysis</span>
-                  <ArrowRight className="w-4 h-4 text-black" />
-                </button>
-
-                <div className="text-[10px] text-zinc-400 text-center flex items-center justify-center gap-1 font-medium">
-                  <ShieldCheck className="w-3.5 h-3.5 text-yellow-400" />
-                  <span>We keep your information 100% confidential. No spam ever.</span>
-                </div>
-              </form>
-            ) : (
-              <div className="py-12 text-center space-y-4">
-                <div className="w-16 h-16 bg-yellow-400 text-black rounded-full flex items-center justify-center mx-auto shadow-lg">
-                  <Sparkles className="w-8 h-8" />
-                </div>
-                <h4 className="text-2xl font-extrabold text-white font-heading">
-                  Request Received!
-                </h4>
-                <p className="text-sm text-zinc-300 max-w-sm mx-auto">
-                  Thank you <strong>{formData.name}</strong>. A Port Elizabeth growth strategist will review your suburb market ({formData.suburb}) and contact you shortly.
-                </p>
+            <div className="mt-6 pt-5 border-t border-zinc-800 flex items-center gap-2 text-xs text-zinc-400">
+              <Sparkles className="w-3.5 h-3.5 text-yellow-400" />
+              <span>
+                Prefer a scheduled call?{' '}
                 <button
                   onClick={onOpenBooking}
-                  className="shimmer-btn text-black font-black text-xs px-6 py-3 rounded-xl shadow cursor-pointer border border-yellow-300"
+                  className="text-yellow-400 font-bold underline hover:text-yellow-300 cursor-pointer"
                 >
-                  Or Schedule 15-Min Strategy Session Now
+                  Book a free 15-min strategy session
                 </button>
-              </div>
-            )}
-
+              </span>
+            </div>
           </div>
-
         </div>
-
       </div>
     </section>
   );
