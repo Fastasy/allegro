@@ -2179,5 +2179,214 @@ export const articles: Article[] = [
         answer: "The package includes custom mobile design, live class timetable layout, high-speed SSD hosting, Let's Encrypt SSL certificate, floating WhatsApp integration, Google Business Profile setup, and ongoing technical maintenance."
       }
     ]
+  },
+  {
+    slug: 'accountant-website-cost-south-africa',
+    title: 'How Much Does an Accountant or Bookkeeper Website Cost in South Africa in 2026?',
+    metaTitle: 'How Much Does an Accountant Website Cost in SA in 2026?',
+    summary: 'Accountant website prices in SA, from one agency\'s R15,000–R35,000 to what solo bookkeepers actually need. Honest numbers, no sales pitch.',
+    metaDescription: 'Accountant website prices in SA, from one agency\'s R15,000–R35,000 to what solo bookkeepers actually need. Honest numbers, no sales pitch.',
+    date: 'Aug 17, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '6 min read',
+    category: 'Pricing',
+    tags: ['accountant-website-cost-south-africa', 'website-design-for-accountants', 'bookkeeper-website-sa', 'professional-services-web-design', 'south-africa'],
+    imageUrl: '/images/accountant_website_cost_sa.jpg',
+    keyTakeaways: [
+      'The only public price anchor for accountant websites in SA is R15,000–R35,000 from one Cape Town studio — the top-end specialist rate, not a market standard.',
+      'Neutral SA market data puts the average five-page business site at R6,633 and a one-pager at R3,765, with monthly maintenance averaging R399.',
+      'A solo accountant or bookkeeper needs five answers on a website: who you are, what you do, what you charge, how to reach you, and why you can be trusted with financial data.',
+      'Allegro Digital publishes its pricing openly: R1,499 once-off build plus R800/mo for hosting, care and support.'
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Ask what an accountant website costs in South Africa and you'll mostly get silence. The general <em>"how much does a website cost"</em> question has twenty-odd published answers from agencies across the country. Ask the same question about accounting practices and the entire market offers exactly one public figure: R15,000–R35,000, published by a single Cape Town agency.
+      </p>
+
+      <p class="mb-6">
+        That's not a market, that's a gap — and this guide exists to fill it with honest numbers instead of a quote form.
+      </p>
+
+      <!-- Featured Snippet Answer Box -->
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">⚡ Quick Answer: How Much Does an Accountant Website Cost in SA? (2026)</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          In 2026, a solo accountant or bookkeeper in South Africa should expect a once-off build in line with the general small-business market — the five-page average is around <strong>R6,633</strong>, and the honest low end is <strong>R1,499</strong> for a focused build — plus a monthly care cost of a few hundred rand. A mid-size practice with partners and staff should budget <strong>R15,000–R35,000</strong> and expect a 4–6 week build.
+        </p>
+      </div>
+
+      <p class="mb-6">
+        The R15,000–R35,000 range comes from Whale Coast Web, a Durbanville studio that specialises in websites for accountants and bookkeepers. Their published price covers a 4–6 week build on WordPress: mobile-first design, Google Analytics and Search Console set up, and a training session. For the record, that's <em>their</em> price for <em>their</em> scope — a fairly substantial site for an established practice, not a market standard.
+      </p>
+
+      <p class="mb-8">
+        Nothing else public exists on the buyer side. JWD and Align Designs both publish solid advice pages for accounting firms, but neither names a price. So the R15k–R35k figure floats around looking like the going rate, when it's actually the top-end specialist rate. Nobody has written the honest version: what a solo practitioner needs, what a mid-size practice needs, and what each should actually budget. Compare this with our general <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Website Cost Guide</a> to see how accountant pricing sits relative to the wider market.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What the Wider Market Data Says
+      </h2>
+
+      <p class="mb-6">The closest thing to neutral data in the SA web design market is the 2026 SME Rocket survey of 56 South African designers and agencies:</p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Build Type</th>
+              <th class="p-4 font-bold text-white">Average SA Price (2026)</th>
+              <th class="p-4 font-bold text-white">Monthly Maintenance</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">One-pager</td>
+              <td class="p-4 text-zinc-300">R3,765</td>
+              <td class="p-4 text-zinc-400">R399 avg</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Five-page business site</td>
+              <td class="p-4 text-zinc-300">R6,633</td>
+              <td class="p-4 text-zinc-400">R399 avg</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Professional services (incl. accountants)</td>
+              <td class="p-4 text-zinc-300">R8,590 – R16,900</td>
+              <td class="p-4 text-zinc-400">Varies</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Specialist accountant studio</td>
+              <td class="p-4 text-zinc-300">R15,000 – R35,000</td>
+              <td class="p-4 text-zinc-400">4–6 week build</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        Lay those numbers next to Whale Coast's R15k–R35k and the picture sorts itself out: a solo bookkeeper should not be paying specialist-firm prices, and a mid-size practice with partners and staff probably should be. The spread isn't dishonesty. It's scope.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why the Range Is So Wide
+      </h2>
+
+      <p class="mb-6">The price is the scope. An accountant's website carries more weight than most small-business sites, because the client is handing over their financial data. That means more pages, more careful content, and more trust signals. But "more" is relative:</p>
+
+      <div class="space-y-6 my-8">
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-white mb-2">A Solo Practitioner</h3>
+          <p class="text-zinc-350 text-sm">Needs a site that answers five questions:</p>
+          <ul class="space-y-2 text-zinc-350 text-sm mt-3 list-disc pl-6">
+            <li><strong>Who are you and are you qualified?</strong> SAICA, SAIPA, SARS-registered tax practitioner — show it.</li>
+            <li><strong>What do you do?</strong> Individual returns, small business accounting, VAT, monthly bookkeeping.</li>
+            <li><strong>What do you charge?</strong> Even a rough "from R..." figure builds trust.</li>
+            <li><strong>How do I reach you?</strong> WhatsApp-first for most SA clients.</li>
+            <li><strong>Can I trust you with my numbers?</strong> A POPIA statement and privacy policy.</li>
+          </ul>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-white mb-2">A Mid-Size Practice</h3>
+          <p class="text-zinc-350 text-sm">Needs the same foundations plus team profiles, service pages that differentiate, a fees or FAQ page, a proper enquiry routing flow, and compliance documents. Clients want to know who's signing the work.</p>
+        </div>
+      </div>
+
+      <p class="mb-8">
+        That's the difference between a five-page build and a fifteen-page one. In the general market, five pages averages R6,633. The R15,000–R35,000 tier buys you the practice-level scope, content strategy and agency overhead on top.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Bookkeeper Sub-Niche Is Wide Open
+      </h2>
+
+      <p class="mb-6">
+        Search <em>"bookkeeper website design south africa"</em> and you won't find a single South African agency page on the first results page. What you get is directories, international firms and marketplaces. Nobody in SA is building websites specifically for bookkeepers — even though the demand is visible in the search data (<em>"bookkeeper near me quickbooks"</em>, <em>"bookkeeper near me xero"</em> are real, tool-aware queries).
+      </p>
+
+      <p class="mb-8">
+        The people asking are solo practitioners going out on their own. There are live threads on r/Accounting, r/Bookkeeping and r/taxpros from people leaving firms, starting practices, and shopping for a website. That's your market if you're a bookkeeper — and it's exactly the market the specialist agencies ignore, because a R15,000 quote is too big for someone who bills R4,000 a month per client.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Questions to Ask Before You Get Quoted
+      </h2>
+
+      <p class="mb-6">Before you ask "how much", ask these — the answers move the price more than anything else:</p>
+
+      <ol class="space-y-3 pl-6 list-decimal mb-8 text-zinc-350">
+        <li><strong>What exactly does the price include?</strong> Pages, copy, images, hosting, training?</li>
+        <li><strong>Who owns the domain and content after launch?</strong></li>
+        <li><strong>What happens when something breaks?</strong> That's the monthly care cost.</li>
+        <li><strong>Is the contact form POPIA-compliant?</strong> For a firm handling financial data, that's non-negotiable.</li>
+        <li><strong>Can you edit the site yourself,</strong> or does every change go through the agency?</li>
+      </ol>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">The Transparency Point</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-4">
+          Allegro Digital publishes its pricing openly: <strong>R1,499 once-off build plus R800/mo</strong> for hosting, care and support. For an accountant or bookkeeper, that typically covers the five pages above on a proper platform, with a human on WhatsApp when something needs changing. It is not the R15k specialist tier — and it doesn't pretend to be. It's the honest answer for the solo market the specialists don't serve, priced the way a solo practitioner can actually afford.
+        </p>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Bottom Line
+      </h2>
+
+      <p class="mb-6">
+        In 2026, a solo accountant or bookkeeper in South Africa should expect a once-off build in line with the general small-business market — the five-page average is R6,633, and the honest low end is R1,499 for a focused build — plus a monthly care cost of a few hundred rand. A mid-size practice should budget R15,000–R35,000 and expect a 4–6 week build.
+      </p>
+
+      <p class="mb-8">
+        The only real mistake is paying specialist prices for a solo site, or running a practice site on a R399 template with nobody to call when it breaks. Scope decides the price; the buyer's job is knowing which scope they need.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Accountant Website Price in 24 Hours</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, conversion-focused websites for SA accountants and bookkeepers — transparent R1,499 setup + R800/mo hosting, with a human on WhatsApp when you need a change. Explore our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">website package pricing</a> or get a straight answer on what your practice actually needs.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does an accountant website cost in South Africa in 2026?",
+        answer: "In 2026, a solo accountant or bookkeeper should expect a once-off build of roughly R1,499 to R8,590, with the general SA five-page average at R6,633. A mid-size practice with partners and staff should budget R15,000–R35,000 for a 4–6 week specialist build, plus a monthly care cost of a few hundred rand."
+      },
+      {
+        question: "Why do accountant websites cost more than standard small business sites?",
+        answer: "Because clients hand over financial data, an accountant's site needs more trust signals: qualification proof (SAICA, SAIPA, SARS registration), a POPIA-compliant contact form, service pages written in plain language, and often a privacy policy. That's more pages and more careful content — not an excuse to overcharge, just a reason scope matters."
+      },
+      {
+        question: "What should an accountant or bookkeeper's website include?",
+        answer: "Five things: who you are and your qualifications, what services you offer (individual returns, small business accounting, VAT, monthly bookkeeping), what you charge (even a rough 'from R...' figure), how to reach you (WhatsApp-first), and proof you can be trusted with financial data — including a POPIA statement."
+      },
+      {
+        question: "Is R1,499 + R800/month realistic for an accountant website?",
+        answer: "Yes, for a solo practitioner or small bookkeeper. The R1,499 covers a focused five-page build on a proper platform, and the R800/month covers hosting, security, care and support with a human on WhatsApp. It doesn't claim to be the R15k specialist tier — it's the honest option for the solo market."
+      },
+      {
+        question: "Do I need a POPIA-compliant contact form on my accounting firm's website?",
+        answer: "Yes. A practice handling financial data needs a privacy statement and a compliant contact form. POPIA compliance is a trust signal for clients, not just a legal tick-box — clients in a smaller market talk, and they notice when a firm handles their data properly."
+      },
+      {
+        question: "What does R15,000–R35,000 actually buy for an accounting practice?",
+        answer: "That range typically buys a substantial WordPress build from a specialist studio: mobile-first design, Google Analytics and Search Console setup, content strategy, team profiles, service pages, compliance documents, and a training session. It's the practice-level scope for an established firm with partners and staff."
+      },
+      {
+        question: "How long does it take to build an accountant website in South Africa?",
+        answer: "A focused five-page site for a solo practitioner typically takes 2 to 4 weeks with a small agency, longer if content is slow. A mid-size practice build at the R15,000–R35,000 level runs 4 to 6 weeks. If you're targeting tax season, start before the deadline — a site launched during the quiet months pays for itself much slower."
+      }
+    ]
   }
 ];
