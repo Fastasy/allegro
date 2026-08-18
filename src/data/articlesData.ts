@@ -3065,7 +3065,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        The only real mistake is paying specialist prices for a solo site, or running a practice site on a R399 template with nobody to call when it breaks. Scope decides the price; the buyer's job is knowing which scope they need.
+        The only real mistake is paying specialist prices for a solo site, or running a practice site on a R399 template with nobody to call when it breaks. Scope decides the price; the buyer's job is knowing which scope they need. And if you're in the middle of tax season right now, our <a href="/articles/tax-season-accounting-firm-online" class="text-yellow-400 underline hover:text-yellow-300">Tax Season 2026 guide</a> covers the quick wins that beat waiting for a full build.
       </p>
 
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
@@ -3317,6 +3317,18 @@ export const articles: Article[] = [
       {
         question: "Why is POPIA compliance important for an accountant's website?",
         answer: "Clients hand over sensitive financial information. Having a privacy policy and POPIA-compliant contact form serves as a crucial trust signal for prospective clients, showing that your firm takes data security seriously."
+      },
+      {
+        question: "How much does an accountant website cost in South Africa?",
+        answer: "Allegro Digital publishes transparent pricing: R1,499 once-off setup plus R800/month for hosting, care and support — a five-page lead-catcher built for solo practitioners and small practices. Specialist studios run R15,000–R35,000 for mid-size practice scope. See our accountant website cost guide for the full breakdown."
+      },
+      {
+        question: "Can a website actually win clients during tax season?",
+        answer: "Yes — tax season is exactly when \"accountant near me\" searches spike hardest. Practices that show up on Google with a claimed profile, service pages and a working WhatsApp button take the enquiries. Firms that are unfindable lose them to whoever bothered to be online."
+      },
+      {
+        question: "How do Google reviews help an accounting firm during tax season?",
+        answer: "In a local market, a handful of genuine Google reviews is both a trust signal and a ranking lever. Practices with reviews show up before practices without them, and clients read them before they call. Ask happy clients at the end of a good engagement — most are glad to."
       }
     ]
   }
