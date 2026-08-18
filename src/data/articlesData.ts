@@ -40,8 +40,7 @@ export const articles: Article[] = [
       'Combining an optimized Google Business Profile with a lightning-fast mobile website is the proven local SEO formula for PE.',
       'Allegro Digital offers a disruptive R1,499 setup + R800/mo hosting model built specifically for Gqeberha SMBs.'
     ],
-    content: `
-      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+    content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
         If you run a local service business in Gqeberha (Port Elizabeth)—whether you are an electrician in Walmer, a medical practice in Summerstrand, a builder in Lorraine, or an organic farm stall in the Baakens Valley—your potential clients are searching for <strong>web design and SEO in Port Elizabeth</strong> right now.
       </p>
 
@@ -137,6 +136,114 @@ export const articles: Article[] = [
       </div>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How Local SEO Actually Works in Gqeberha, Suburb by Suburb
+      </h2>
+
+      <p class="mb-6">
+        Local SEO in Gqeberha works because Google matches businesses to suburb-level searches: <em>"electrician Walmer,"</em> <em>"guesthouse Summerstrand,"</em> <em>"dentist Newton Park."</em> Google ranks local results on three documented factors: proximity, relevance, and prominence. Plainly: how close you are, how well your site matches the search, and how much evidence exists that people trust you.
+      </p>
+
+      <p class="mb-6">
+        Search <em>"plumber near me"</em> from Mill Park and Google shows the three closest businesses with complete profiles, not the biggest national brand. A small PE business with a claimed profile, fast website, and steady reviews can outrank a bigger competitor that set up none of it.
+      </p>
+
+      <p class="mb-4">Five examples of the suburb searches Gqeberha residents run, and what the person typing them wants:</p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Suburb</th>
+              <th class="p-4 font-bold text-white">Example Search</th>
+              <th class="p-4 font-bold text-white">What the Searcher Wants</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Walmer</td>
+              <td class="p-4 text-zinc-300">"electrician Walmer"</td>
+              <td class="p-4 text-zinc-400">An urgent job, usually a call within the hour</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Summerstrand</td>
+              <td class="p-4 text-zinc-300">"guesthouse Summerstrand"</td>
+              <td class="p-4 text-zinc-400">A room for tonight, booked from a phone</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Newton Park</td>
+              <td class="p-4 text-zinc-300">"dentist Newton Park"</td>
+              <td class="p-4 text-zinc-400">Opening hours and reviews before booking</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Lorraine</td>
+              <td class="p-4 text-zinc-300">"builder Lorraine"</td>
+              <td class="p-4 text-zinc-400">Quotes for work on a nearby home</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Kariega</td>
+              <td class="p-4 text-zinc-300">"locksmith Kariega"</td>
+              <td class="p-4 text-zinc-400">An emergency, willing to pay for speed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a Local Lead Engine Website Contains, Page by Page
+      </h2>
+
+      <p class="mb-6">
+        A local lead engine website is a small site built for one job: turning a Google search into a phone call or WhatsApp message. For most PE businesses that means one fast-loading page with clear sections, not a ten-page brochure. Every section answers a question the searcher already has.
+      </p>
+
+      <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span><strong>Hero:</strong> who you are, what you fix, and a call button in the first screen.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span><strong>Services:</strong> the jobs you take, described in plain language.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span><strong>Proof:</strong> photos of recent work and reviews pulled from your Google profile.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span><strong>Service areas:</strong> the suburbs you cover, named out loud: Walmer, Summerstrand, Newton Park, Lorraine, Kariega.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span><strong>Pricing:</strong> honest numbers if you can publish them; fixed quotes beat "request a quote" forms.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span><strong>Contact:</strong> click-to-call and WhatsApp buttons that stay visible while the visitor scrolls, plus a short privacy note for POPIA-conscious customers.</span>
+        </li>
+      </ul>
+
+      <p class="mb-8">
+        Allegro Digital builds this single-page engine for <strong>R1,499</strong> once-off plus <strong>R800/month</strong> for hosting, security, and updates, launched within 7 business days. Neutral 2026 SA market data puts the average five-page business site at <strong>R6,633</strong>. See our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Web Design Cost Guide</a> for the full breakdown.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Google Maps and Reviews Flywheel
+      </h2>
+
+      <p class="mb-6">
+        The flywheel works like this: more reviews lift your Google ranking, a higher ranking means more map visibility, more visibility means more calls, and every completed job is another chance at a review. Each loop makes the next one easier, which is why review volume separates the top three from the rest.
+      </p>
+
+      <p class="mb-6">
+        Start by claiming your Google Business Profile and collecting your first handful of genuine reviews from recent clients. Respond to every review within 24 hours. Google notices the activity, and so do searchers comparing you with the two businesses beside you in the map pack.
+      </p>
+
+      <p class="mb-8">
+        The simplest habit: ask happy customers for a review on WhatsApp while the job is still fresh. A one-line request with a direct link beats a printed card at payment time.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
         Why Allegro Digital is Gqeberha’s Leading Web Design & Local SEO Partner
       </h2>
 
@@ -159,11 +266,26 @@ export const articles: Article[] = [
       </div>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How to Measure Whether Your Local Lead Engine Is Working
+      </h2>
+
+      <p class="mb-6">
+        You measure a local lead engine by the leads it produces: phone calls, WhatsApp messages, and Google Business Profile actions like calls, directions, and website clicks. Page views matter less when one good job covers the monthly fee.
+      </p>
+
+      <p class="mb-6">
+        Your Google Business Profile dashboard shows views, calls, direction requests, and website clicks for your listing. Note the baseline in month one, then watch the trend after your first ten reviews.
+      </p>
+
+      <p class="mb-8">
+        On the website side, track WhatsApp button clicks and call button taps alongside your profile views. If calls stay flat after three months, the usual culprits are a thin review count, a slow page, or copy that never names the suburbs you serve. Fix those before touching the design.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
         Claim Your Competitive Edge in Web Design & SEO in Port Elizabeth
       </h2>
 
-      <p class="mb-8">Your competitors are already capturing customers who should be yours. It’s time to stop losing local revenue. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">affordable website packages</a> to start dominating local search in PE today.</p>
-    `,
+      <p class="mb-8">Your competitors are already capturing customers who should be yours. It’s time to stop losing local revenue. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">affordable website packages</a> to start dominating local search in PE today.</p>`,
     faqs: [
       {
         question: "Why is local SEO in Port Elizabeth different from standard SEO?",
@@ -201,8 +323,7 @@ export const articles: Article[] = [
       'Frictionless click-to-action paths (like WhatsApp buttons) are non-negotiable for SA local leads.',
       'A clean, single-page landing site drastically reduces costs while driving higher conversion rates.'
     ],
-    content: `
-      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+    content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
         Many South African small business owners fall into a dangerous trap: they believe that more is better.
       </p>
 
@@ -312,7 +433,126 @@ export const articles: Article[] = [
           At <strong>Allegro Digital</strong>, we build exactly what your business needs. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">pricing plans</a> to see how our base package is aggressively priced at just <strong>R1,499 upfront</strong> and <strong>R800/month</strong> hosting & maintenance.
         </p>
       </div>
-    `,
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Page-by-Page Blueprint: What Each Section Is For
+      </h2>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">Quick answer: do you need separate pages for home, about, services and contact?</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Not for most small SA businesses. You need those four jobs done, either as separate pages or as sections on one scrolling page. If a section cannot explain its job in one sentence, cut it.
+        </p>
+      </div>
+
+      <p class="mb-6">
+        Think of the site as a shop counter. Home is the greeting, services is the shelf, about is the handshake, contact is the till. Visitors arrive with a problem and want the shortest path to a solution.
+      </p>
+
+      <div class="overflow-x-auto my-8 rounded-2xl border border-zinc-800">
+        <table class="w-full text-sm text-left text-zinc-300">
+          <thead class="bg-zinc-900 text-yellow-400 font-bold">
+            <tr>
+              <th class="p-4 border-b border-zinc-800">Section</th>
+              <th class="p-4 border-b border-zinc-800">Its job</th>
+              <th class="p-4 border-b border-zinc-800">What to include</th>
+            </tr>
+          </thead>
+          <tbody class="bg-zinc-900/60">
+            <tr class="border-b border-zinc-800">
+              <td class="p-4 align-top font-semibold text-white">Home</td>
+              <td class="p-4 align-top">Holds attention and points to the next step</td>
+              <td class="p-4 align-top">Hero line, suburbs served, one clear call-to-action, two or three reviews</td>
+            </tr>
+            <tr class="border-b border-zinc-800">
+              <td class="p-4 align-top font-semibold text-white">Services</td>
+              <td class="p-4 align-top">Shows what you solve in plain language</td>
+              <td class="p-4 align-top">Three to six named services, response time, price range</td>
+            </tr>
+            <tr class="border-b border-zinc-800">
+              <td class="p-4 align-top font-semibold text-white">About</td>
+              <td class="p-4 align-top">Proves you are real, local and accountable</td>
+              <td class="p-4 align-top">Your name, years trading, CIPC registration number, areas covered</td>
+            </tr>
+            <tr>
+              <td class="p-4 align-top font-semibold text-white">Contact</td>
+              <td class="p-4 align-top">Removes every reason to leave before calling</td>
+              <td class="p-4 align-top">Phone, WhatsApp link, email, business hours, map embed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What to Write on Each Section (Real Examples)
+      </h2>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">Quick answer: what text actually goes on the page?</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Short, specific sentences that answer the customer's question within seconds. You do not need a copywriter. Write the way you talk when a client phones you about a burst pipe at 6pm on a Friday.
+        </p>
+      </div>
+
+      <p class="mb-6">
+        Take a plumber in Gqeberha (formerly Port Elizabeth). Their home section could read: "Emergency plumber in Gqeberha. We fix burst pipes, blocked drains and geysers, and we answer the phone." The services section lists each job with one plain sentence: "Geyser replacement: we drain, remove and install a new unit, usually in one visit."
+      </p>
+
+      <p class="mb-6">
+        A guest house in Summerstrand can do the same. Home: "Self-catering cottages in Summerstrand, a short walk from the beach." Services becomes "Rooms and rates", with three room types. About is one paragraph: who runs the place and since when. Contact carries the phone number, WhatsApp, check-in hours and a map pin.
+      </p>
+
+      <p class="mb-8">
+        Two rules keep this honest. Name real suburbs: Walmer, Newton Park, North End or Kariega if you service them. And only publish a price you can honour. A vague "affordable rates" convinces nobody.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How to Brief a Designer or AI Builder
+      </h2>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">Quick answer: how do you make sure the build delivers what you need?</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Give the person or tool a written brief with five things in it: who you serve, what you sell, where you operate, how you want to be contacted, and what you will not pay for. A vague conversation produces a vague website.
+        </p>
+      </div>
+
+      <ul class="space-y-4 my-8">
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">Your service area, in writing</strong>
+          <span class="text-zinc-350 text-sm">List the exact suburbs you want to rank for. "We cover Gqeberha and surrounds" is too vague. "Walmer, Newton Park, Lorraine and Kariega" gives Google something to match.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">Your contact truth</strong>
+          <span class="text-zinc-350 text-sm">One phone number, one WhatsApp number, one email, and real business hours. Use the same details on your Google Business Profile and Facebook page. Mismatched numbers across platforms cost you leads and confuse Google.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">The do-not list</strong>
+          <span class="text-zinc-350 text-sm">State it plainly: no auto-playing music, no "skip intro" splash pages, no visitor counters, no stock photos of people shaking hands. Small business sites lose trust when they borrow corporate theatre.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white block mb-1">Ownership, on paper</strong>
+          <span class="text-zinc-350 text-sm">Register the .co.za domain in your own name and keep the login. Get the hosting and admin passwords at handover, plus the final content in a plain document. If you can walk away with your domain and content, you are not locked in.</span>
+        </li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Launch-Week Checklist: Go Live the Right Way
+      </h2>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">Quick answer: what must you do in the seven days after launch?</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Five things: claim your Google Business Profile, connect analytics, put a POPIA privacy policy in place, test every button on a real phone, and make your WhatsApp number impossible to miss.
+        </p>
+      </div>
+
+      <ol class="list-decimal pl-6 space-y-2 text-zinc-350 mb-8">
+        <li><strong>Claim and verify your Google Business Profile.</strong> Add your website URL, service suburbs and working hours, then request verification. Our guide to <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">getting your SA business on Google Maps</a> covers this.</li>
+        <li><strong>Install analytics before you announce the site.</strong> A free analytics script shows which sections people read and where they give up, so the first month tells you what to fix.</li>
+        <li><strong>Handle POPIA.</strong> The Protection of Personal Information Act applies when your contact form collects names, numbers or emails. A short privacy policy that says what you collect, why, and how someone can ask you to delete it covers the basics. Have a lawyer review it if you store client details.</li>
+        <li><strong>Test on a real phone over mobile data.</strong> Click the WhatsApp button, submit the form, call the number. Ask a friend to do the same from a different network. Fix what breaks in week one, not month three.</li>
+        <li><strong>Keep your details identical everywhere.</strong> The phone number, address and hours on your site must match your Google Business Profile and Facebook page exactly. Small differences make Google less confident about which business is yours.</li>
+      </ol>`,
     faqs: [
       {
         question: "Why should I skip a multi-page website?",
@@ -602,8 +842,7 @@ export const articles: Article[] = [
       'Active weekly updates and systematic review solicitation build ranking prominence.',
       'Your website speed and authority directly affect where you rank on the Google Maps listing.'
     ],
-    content: `
-      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+    content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
         If you run a local business in South Africa—whether you are an auto mechanic in Port Elizabeth, a beauty salon in Durbanville, or a dentist in Sandton—there is one marketing tool that is more powerful than Facebook, Instagram, and TikTok combined.
       </p>
 
@@ -694,7 +933,117 @@ export const articles: Article[] = [
           We handle everything for you. We build lightning-fast, high-converting websites optimized for local Google Search and fully manage your Google Business Profile to keep you ranked in Gqeberha's top spot. Learn how our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Lead Integration</a> and <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Engine Strategy</a> drive real enquiries. Read more about our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">local lead packages</a>.
         </p>
       </div>
-    `,
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Part 4: Verification in South Africa, Compared
+      </h2>
+
+      <p class="mb-6">
+        <strong>How do you actually verify your profile in South Africa?</strong> Google offers four routes: postcard, phone call or SMS, email, or a short video. Most SA businesses get phone or SMS verification within days. Postcards still exist, and they are slow, so avoid them when you can.
+      </p>
+
+      <p class="mb-6">
+        Nothing goes live until verification clears, so finish it the same day you start. Google decides which methods it offers, so you might not get to choose.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Verification Method</th>
+              <th class="p-4 font-bold text-white">How It Works</th>
+              <th class="p-4 font-bold text-white">Typical Wait</th>
+              <th class="p-4 font-bold text-white">Best For</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Postcard</td>
+              <td class="p-4 text-zinc-300">Google posts a card with a PIN to your street address.</td>
+              <td class="p-4 text-zinc-300">2 to 6 weeks</td>
+              <td class="p-4 text-zinc-400">Physical shopfronts (cafes, salons, retail).</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Phone call or SMS</td>
+              <td class="p-4 text-zinc-300">Google calls or texts a verification code to your mobile number.</td>
+              <td class="p-4 text-zinc-300">Minutes</td>
+              <td class="p-4 text-zinc-400">Most SA businesses.</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Email</td>
+              <td class="p-4 text-zinc-300">Google sends a code to your business email address.</td>
+              <td class="p-4 text-zinc-300">Minutes</td>
+              <td class="p-4 text-zinc-400">Businesses with a company email address.</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Video</td>
+              <td class="p-4 text-zinc-300">Record your premises, signage, or equipment and upload it.</td>
+              <td class="p-4 text-zinc-300">A few days</td>
+              <td class="p-4 text-zinc-400">Home-based and service businesses without a shopfront.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-6">
+        The mistake that costs SA owners weeks: entering a physical address when you work from home. Choose Service Area Business (SAB) instead. Your residential address stays hidden and you list the suburbs you serve, like Walmer, Newton Park, or Sunridge Park. A P.O. Box address is an instant suspension risk.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Part 5: Categories and Services That Match How SA Customers Search
+      </h2>
+
+      <p class="mb-6">
+        <strong>Which category should you pick?</strong> The narrowest one that honestly describes what you do. Google matches it against the words people type, so a plumber who picks "Contractor" vanishes from "plumber near me" searches.
+      </p>
+
+      <p class="mb-6">
+        The steps above called the primary category the most critical choice. That is not an exaggeration. You get one primary category and up to nine additional ones. A plumbing business might run "Plumber" as primary with "Emergency Plumber Service," "Drain Cleaning Service," and "Water Heater Installation" as extras.
+      </p>
+
+      <p class="mb-6">
+        Think about how customers phrase things. They type "geyser repair near me" more often than "water heater maintenance," and some search in Afrikaans, so check for local category names where Google offers them. Use the Products and Services section the same way: list every service with a short description and price range. Customers who know your price are more likely to message you on WhatsApp.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Part 6: Photos That Get Clicks
+      </h2>
+
+      <p class="mb-6">
+        <strong>Do photos really move the needle?</strong> Yes. A profile with fresh, real photos beats an identical one with two grainy shots every time. Photos are the first thing a customer judges, and Google treats them as a prominence signal alongside reviews and website authority.
+      </p>
+
+      <p class="mb-6">
+        What to shoot: your shopfront from the street, your signage, the shop interior, your team at work, and finished jobs. A plumber posts a before-and-after of a geyser installation, a salon its reception area and completed styles (with the client's permission), a restaurant its menu board and dishes. Real phone photos beat stock images here, because customers trust them more.
+      </p>
+
+      <p class="mb-6">
+        Add photos at least once a week if you can manage it, and never let a month pass without one. Upload three to five at a time, and rotate the cover photo every few weeks. Google's own data shows that photo-heavy profiles earn around [SOURCE NEEDED] more clicks and direction requests than profiles with none.
+      </p>
+
+      <p class="mb-6">
+        One POPIA note: ask consent before posting photos where a customer's face is identifiable. A ten-second WhatsApp message keeps you on the right side of the Protection of Personal Information Act.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Part 7: Troubleshooting: Suspensions, Duplicates, and Hidden Addresses
+      </h2>
+
+      <p class="mb-6">
+        <strong>Your profile got suspended. What now?</strong> Fix the cause before you appeal, because reinstatement requests fail when the violation still exists. The usual culprits in SA: a business name stuffed with keywords, a P.O. Box address, two profiles for the same location, or a category that does not match what you do.
+      </p>
+
+      <p class="mb-6">
+        Read the suspension email first; it names the guideline you broke. Fix it, wait a few days, then request reinstatement from the dashboard. Most genuine businesses get restored.
+      </p>
+
+      <p class="mb-6">
+        Duplicates are more common than you think, especially after a name change or a move between suburbs. Search your exact business name on Google Maps before you create anything. If duplicates exist, claim the one that already has reviews, then use "Suggest an edit" to flag the others. Never run two profiles for the same physical location. Google treats that as spam and usually suspends both.
+      </p>
+
+      <p class="mb-6">
+        If your home address keeps showing, check that you selected Service Area Business instead of a physical address. You cannot hide an address and still list a shopfront. And if a competitor runs a fake listing, flag it with "Suggest an edit" or submit a redressal form to Google.
+      </p>`,
     faqs: [
       {
         question: "How long does Google Maps verification take in South Africa?",
@@ -740,8 +1089,7 @@ export const articles: Article[] = [
       'Access your tax compliance PIN for free via SARS eFiling to immediately pitch for corporate contracts.',
       'Launch a fast, single-page website to establish professional trust without high agency costs.'
     ],
-    content: `
-      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+    content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
         Starting a new business in South Africa is an incredibly exciting journey, but it can also feel like navigating a bureaucratic minefield.
       </p>
 
@@ -811,6 +1159,105 @@ export const articles: Article[] = [
         </div>
       </div>
 
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Step 5: Your First Month in Business (A Practical Checklist)
+      </h2>
+      <p class="mb-6">What should you actually do in the first 30 days after CIPC approves your registration? In short: sort your bank account, your tax status, and your website, in that order, so you can focus on finding clients instead of chasing paperwork.</p>
+      <p class="mb-6">Work through this list and the admin stays quiet while you hunt for customers:</p>
+      <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+        <li><strong>Week 1:</strong> Open your business bank account (see Step 2 above) and move any payments into it. Start a simple cashbook, even a spreadsheet, and log every expense from day one.</li>
+        <li><strong>Week 2:</strong> Log into SARS eFiling, confirm your tax number, and check your Tax Compliance Status. When you hire your first employee you must also register for PAYE, UIF, SDL, and COIDA.</li>
+        <li><strong>Week 3:</strong> Register your domain and get the website live. A clean one-pager beats no site at all when a client Googles you. See our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> for the features you actually need.</li>
+        <li><strong>Week 4:</strong> Claim your Google Business Profile (it is free) and add your WhatsApp number, working hours, and service area so local searches find you. Follow our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp Integration Guide</a> for the setup.</li>
+      </ul>
+      <p class="mb-8">
+        One date worth saving: your CIPC annual return is due every year on the anniversary of your registration. Filing late attracts penalties, so set the reminder now.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        One-Page Website vs 5-Page Website: Which Should a New Business Choose?
+      </h2>
+      <p class="mb-6">Should a new business start with a one-page website or a five-page site? Start with a single page when you offer one core service and need to win local clients fast, then expand to separate pages once you have several services or a portfolio worth showing.</p>
+      <p class="mb-6">Every page costs money to build and time to keep updated. Here is the comparison:</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-zinc-700">
+              <th class="py-3 pr-4 text-white font-bold">Comparison</th>
+              <th class="py-3 pr-4 text-white font-bold">One-page site</th>
+              <th class="py-3 pr-4 text-white font-bold">5-page site</th>
+            </tr>
+          </thead>
+          <tbody class="text-zinc-300">
+            <tr class="border-b border-zinc-800">
+              <td class="py-3 pr-4 font-semibold text-white">Best for</td>
+              <td class="py-3 pr-4">Sole traders and local services with one main offer</td>
+              <td class="py-3 pr-4">Businesses with several services or a portfolio</td>
+            </tr>
+            <tr class="border-b border-zinc-800">
+              <td class="py-3 pr-4 font-semibold text-white">Build cost</td>
+              <td class="py-3 pr-4">R1,499 once-off (Allegro base package)</td>
+              <td class="py-3 pr-4">Higher, depending on pages and features</td>
+            </tr>
+            <tr class="border-b border-zinc-800">
+              <td class="py-3 pr-4 font-semibold text-white">Launch speed</td>
+              <td class="py-3 pr-4">Live within days</td>
+              <td class="py-3 pr-4">Live within a few weeks</td>
+            </tr>
+            <tr class="border-b border-zinc-800">
+              <td class="py-3 pr-4 font-semibold text-white">Ongoing cost</td>
+              <td class="py-3 pr-4">R800/mo hosting and support</td>
+              <td class="py-3 pr-4">R800/mo and up as pages grow</td>
+            </tr>
+            <tr class="border-b border-zinc-800">
+              <td class="py-3 pr-4 font-semibold text-white">Search visibility</td>
+              <td class="py-3 pr-4">Ranks well for one or two local keywords</td>
+              <td class="py-3 pr-4">More pages, more keywords you can target</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-semibold text-white">When to expand</td>
+              <td class="py-3 pr-4">When a second service needs its own page</td>
+              <td class="py-3 pr-4">For a blog or portfolio as content grows</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mb-8">
+        Most startup owners we work with launch the one-pager first, then grow into more pages as revenue allows.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What Does Running a Website Really Cost Beyond the Build Fee?
+      </h2>
+      <p class="mb-6">How much does a business website cost in South Africa beyond the build fee? Plan for three recurring costs: the domain at R150 to R300 a year, hosting and support at R800 a month on a managed plan, and small extras like email and accounting tools.</p>
+      <p class="mb-6">The once-off build fee gets the attention, but the monthly numbers are what keep owners up at night:</p>
+      <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+        <li><strong>Domain:</strong> R150 to R300 per year for a .co.za address, renewed annually. Make sure it is registered in your name, not your designer's. Our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African Website Cost Guide</a> has the full picture.</li>
+        <li><strong>Hosting and support:</strong> R800 per month on the managed plan we recommend: hosting, security updates, backups, and someone to call when something breaks.</li>
+        <li><strong>Email:</strong> A mailbox on your own domain looks more professional than a Gmail address. Free mail forwarding covers the basics; paid mailboxes cost a small monthly fee per account. [SOURCE NEEDED]</li>
+        <li><strong>Accounting:</strong> QuickBooks Online and Xero run monthly subscriptions that start modest and scale with turnover. Until your invoices outgrow a spreadsheet, the spreadsheet is fine.</li>
+        <li><strong>POPIA compliance:</strong> If your site collects enquiries, you handle personal information. POPIA, in force since 1 July 2021, requires a privacy policy on your site and, for most businesses, a named Information Officer. Your web designer can include it in the build.</li>
+      </ul>
+      <p class="mb-8">
+        Add it up: a domain, managed hosting, and a professional site still land under the R3,500 total quoted at the top of this guide. The mistake is paying for extras you do not need yet.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Where to Find Free and Low-Cost Business Help in South Africa
+      </h2>
+      <p class="mb-6">Where can a new South African business get free help? Start with SEDA for free training and mentoring, SEFA for small business funding, and the NYDA if you are under 35, then add free tools like Google Business Profile and WhatsApp Business.</p>
+      <p class="mb-6">In South Africa you do not have to pay for the basics:</p>
+      <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+        <li><strong>SEDA</strong> (Small Enterprise Development Agency) offers free training, mentoring, and incubation support in every province. Book a session with your nearest branch early.</li>
+        <li><strong>SEFA</strong> (Small Enterprise Finance Agency) provides funding for small and emerging businesses that struggle to get bank loans. Applications take time, so start before you need the money.</li>
+        <li><strong>NYDA</strong> (National Youth Development Agency) runs training and funding programmes for entrepreneurs aged 18 to 35.</li>
+        <li><strong>Government portals:</strong> BizPortal and SARS eFiling, both covered earlier in this guide, are free to use. Your provincial economic development department can point you to local SMME programmes.</li>
+        <li><strong>Free digital tools:</strong> Google Business Profile, WhatsApp Business, and Canva's free tier cover the basics while your budget grows.</li>
+      </ul>
+      <p class="mb-8">
+        Your cheapest resource is your network. Past employers, suppliers, and fellow owners have already solved the problem you are facing today. Ask them for referrals and honest feedback; most will give it freely.
+      </p>
+
       <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
         <h4 class="text-yellow-400 font-extrabold text-lg mb-2">The Allegro Digital "Startup Starter Kit"</h4>
         <p class="text-zinc-300 text-sm mb-3">We are passionate about helping South African startups launch and scale sustainably. We understand that every Rand matters when you are building your runway. Check out our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300">Startup packages and pricing options</a>.</p>
@@ -819,8 +1266,7 @@ export const articles: Article[] = [
           <li>• <strong>Base Web Design & Launch:</strong> R1,499 once-off (custom-coded, ultra-fast single-page site).</li>
           <li>• <strong>Mandatory High-Speed Hosting & Support:</strong> R800/month.</li>
         </ul>
-      </div>
-    `,
+      </div>`,
     faqs: [
       {
         question: "How long does CIPC business registration take?",
@@ -866,8 +1312,7 @@ export const articles: Article[] = [
       'A fast, mobile-friendly landing site with frictionless call actions is essential to converting local clicks.',
       'Targeting specific local suburbs (e.g. Walmer, Lorraine) helps outrank larger, national competitors.'
     ],
-    content: `
-      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+    content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
         If you run a local service-based business in South Africa—whether you are a solar installer, an electrician, a private clinic, a lawyer, or an emergency plumber—your biggest daily headache is consistent cash flow.
       </p>
 
@@ -1013,6 +1458,107 @@ export const articles: Article[] = [
         For <strong>R1,499 upfront and R2,799/month</strong>, you get a fully managed, high-performing lead generation engine that places you directly in front of Gqeberha's highest-intent buyers. If you close just <strong>one mid-sized job per month</strong> (e.g., a geyser installation or a small inverter backup), the system has already paid for itself.
       </p>
 
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How the Local Lead Funnel Actually Works
+      </h2>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-6">
+        <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+          <strong class="text-white">What happens between a Google search and a paid job?</strong> Every job you win travels the same five steps: search, land, contact, follow-up, and repeat. A person searches, lands on your site, reaches you by call or WhatsApp, gets a follow-up, and then books again or sends someone your way. Your whole marketing job: make each step easier than the last.
+        </p>
+      </div>
+
+      <p class="mb-6">
+        The funnel starts with a search, something like <em>"inverter installer near me"</em> in Gqeberha. Then comes the landing page. A fast page with real photos, real reviews, and a visible phone number is usually enough to earn the call. In South Africa that contact is a call or a WhatsApp message rather than a form. The follow-up is where most owners drop the ball; the job goes to whoever answered first. Close the loop with one WhatsApp follow-up, then ask for the review and the referral. That last step is free.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Three Channels That Actually Work in South Africa
+      </h2>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-6">
+        <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+          <strong class="text-white">Which channels should a local service business actually run?</strong> Three, and they feed each other. Google Maps and local SEO catch people searching right now. WhatsApp carries the conversation once they reach you. Referrals bring the repeat and word-of-mouth work. Together they cover nearly every job a local service business wins; paid social is the one to skip.
+        </p>
+      </div>
+
+      <p class="mb-6">
+        Google Maps and local SEO form the foundation. Claiming your Google Business Profile is free, and the Allegro Digital managed add-on runs at <strong>R1,999/month</strong> if you'd rather hand it over. WhatsApp costs nothing extra on a number you already have, and it is where your clients already talk. Referrals cost your time, not money: ask one satisfied client per week to pass your name along.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Channel</th>
+              <th class="p-4 font-bold text-white">Cost</th>
+              <th class="p-4 font-bold text-white">Time to First Lead</th>
+              <th class="p-4 font-bold text-white">Best For</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Google Maps + Local SEO</td>
+              <td class="p-4 text-zinc-300">Free to claim; R1,999/mo managed</td>
+              <td class="p-4 text-zinc-300">Weeks to months</td>
+              <td class="p-4 text-zinc-400">Steady, search-driven enquiries from people ready to buy.</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">WhatsApp</td>
+              <td class="p-4 text-zinc-300">R0 on your existing number</td>
+              <td class="p-4 text-zinc-300">Immediate</td>
+              <td class="p-4 text-zinc-400">Fast quotes, follow-ups, and closing the deal.</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Referrals</td>
+              <td class="p-4 text-zinc-300">R0, just your time asking</td>
+              <td class="p-4 text-zinc-300">As often as you ask</td>
+              <td class="p-4 text-zinc-400">Repeat work and trust-based jobs in your community.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-6">
+        Google sends the searcher, WhatsApp closes the conversation, and a job done well turns that client into the next referral.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        A Weekly Lead Routine a Busy Owner Can Actually Keep
+      </h2>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-6">
+        <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+          <strong class="text-white">How much time does local lead generation take each week?</strong> Thirty minutes a day, five days a week. Answer every enquiry within the hour, reply to new reviews, post one photo of real work, and ask one happy client for a referral. That is the whole routine. Daily consistency beats occasional marathons and costs a fraction of monthly ad spend.
+        </p>
+      </div>
+
+      <p class="mb-6">
+        Fix the slot and stick to it. Enquiries first: the first owner to answer with a clear price usually holds the edge. Reviews next. Reply to every new Google review, then ask the last client for one while the job is fresh.
+      </p>
+
+      <p class="mb-6">
+        Post one real photo of a finished job, a geyser install or a solar array. No stock images. Under POPIA, keep a list of clients who agreed to hear from you, let them unsubscribe easily, and only message people who said yes.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What to Measure, and the Honest Timeline
+      </h2>
+
+      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-6">
+        <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
+          <strong class="text-white">How do you know local lead generation is working?</strong> Track three numbers each week: calls, WhatsApp messages, and form submits. Divide what you spend by the leads you receive to get your cost per lead. If one job covers a month of marketing, the system pays for itself. If it does not, fix the funnel before you spend another rand.
+        </p>
+      </div>
+
+      <p class="mb-6">
+        Your Google Business Profile shows how many people called or messaged you from the listing; your call log covers the rest. If your monthly spend is R2,799 and you receive ten enquiries, each lead cost you about R280. Compare that with what one job pays you.
+      </p>
+
+      <p class="mb-6">
+        Nothing dramatic happens in week one. Google watches how consistently you show up: new reviews, fresh photos, updated suburb content, fast replies. Rankings build month by month, and referrals behave the same way. Owners who stick with the routine for six months usually reach a point where enquiries arrive on their own. The exact month depends on your suburb and your competition, so be wary of anyone promising top rankings in 30 days.
+      </p>
+
       <p class="text-xl font-bold text-white mb-6 font-heading">
         Ready to stop chasing unqualified social media leads and start getting direct local phone calls?
       </p>
@@ -1054,160 +1600,267 @@ export const articles: Article[] = [
       'To maximize leads, place the button sticky in the bottom-right and pre-fill custom welcome messages.',
       'Allegro Digital includes optimized floating WhatsApp engines with every single web build.'
     ],
-    content: `
-      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
-        If you are running a business in South Africa, you need to understand one simple truth: South Africans do not like filling out contact forms, and they hate waiting for emails.
-      </p>
+    content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+  If you are running a business in South Africa, you need to understand one simple truth: South Africans do not like filling out contact forms, and they hate waiting for emails.
+</p>
 
-      <p class="mb-6">
-        Whether they are looking for a car mechanic, an emergency plumber, a tax consultant, or a local guest house, South African consumers want an immediate, frictionless response. If your website forces them to fill out a 5-field contact form and wait 24 to 48 hours for an email reply, they will simply bounce back to Google and find a competitor who replies faster.
-      </p>
+<p class="mb-6">
+  Whether they are looking for a car mechanic, an emergency plumber, a tax consultant, or a local guest house, South African consumers want an immediate, frictionless response. If your website forces them to fill out a 5-field contact form and wait 24 to 48 hours for an email reply, they will simply bounce back to Google and find a competitor who replies faster.
+</p>
 
-      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
-        <p class="text-yellow-300 font-bold text-base mb-1">👑 The King of Communication</p>
-        <p class="text-zinc-300 text-sm">
-          In South Africa, the absolute king of communication is <strong>WhatsApp</strong>.
-        </p>
-      </div>
+<div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+  <p class="text-yellow-300 font-bold text-base mb-1">👑 The King of Communication</p>
+  <p class="text-zinc-300 text-sm">
+    In South Africa, the absolute king of communication is <strong>WhatsApp</strong>.
+  </p>
+</div>
 
-      <p class="text-xl font-bold text-white mb-6 font-heading">
-        If you want to double your website's enquiry rates overnight without spending a single extra Cent on advertising, you must integrate a floating WhatsApp button directly into your website.
-      </p>
+<p class="text-xl font-bold text-white mb-6 font-heading">
+  If you want to double your website's enquiry rates overnight without spending a single extra Cent on advertising, you must integrate a floating WhatsApp button directly into your website.
+</p>
 
-      <p class="mb-8">
-        This guide explains the consumer psychology behind WhatsApp web conversions and how you can use this simple tool to turn cold website traffic into hot paying leads.
-      </p>
+<p class="mb-8">
+  This guide explains the consumer psychology behind WhatsApp web conversions and how you can use this simple tool to turn cold website traffic into hot paying leads.
+</p>
 
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        The Consumer Psychology of WhatsApp
-      </h2>
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  The Consumer Psychology of WhatsApp
+</h2>
 
-      <p class="mb-6">Why does a simple chat bubble out-convert traditional contact forms by up to 200% to 300%? It comes down to four critical factors:</p>
+<p class="mb-6">Why does a simple chat bubble out-convert traditional contact forms by up to 200% to 300%? It comes down to four critical factors:</p>
 
-      <div class="space-y-6 my-8">
-        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
-          <h3 class="text-xl font-bold text-yellow-400 mb-2">1. Zero Friction</h3>
-          <p class="text-zinc-300 text-sm leading-relaxed">
-            Filling out a contact form feels like "admin." Clicking a WhatsApp button feels like a natural extension of their daily habits. There are no fields to fill out, no Captcha hurdles to solve, and no typing of personal details. It is a single-click action.
-          </p>
-        </div>
+<div class="space-y-6 my-8">
+  <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+    <h3 class="text-xl font-bold text-yellow-400 mb-2">1. Zero Friction</h3>
+    <p class="text-zinc-300 text-sm leading-relaxed">
+      Filling out a contact form feels like "admin." Clicking a WhatsApp button feels like a natural extension of their daily habits. There are no fields to fill out, no Captcha hurdles to solve, and no typing of personal details. It is a single-click action.
+    </p>
+  </div>
 
-        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
-          <h3 class="text-xl font-bold text-yellow-400 mb-2">2. High Trust</h3>
-          <p class="text-zinc-300 text-sm leading-relaxed">
-            South Africans have high levels of skepticism due to online spam and unresponsive businesses. When a user sees a floating WhatsApp button, they know they are instantly connecting with a real human being, not a robotic info@ email address. This immediately builds trust.
-          </p>
-        </div>
+  <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+    <h3 class="text-xl font-bold text-yellow-400 mb-2">2. High Trust</h3>
+    <p class="text-zinc-300 text-sm leading-relaxed">
+      South Africans have high levels of skepticism due to online spam and unresponsive businesses. When a user sees a floating WhatsApp button, they know they are instantly connecting with a real human being, not a robotic info@ email address. This immediately builds trust.
+    </p>
+  </div>
 
-        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
-          <h3 class="text-xl font-bold text-yellow-400 mb-2">3. Immediate Gratification</h3>
-          <p class="text-zinc-300 text-sm leading-relaxed">
-            A WhatsApp message establishes an active, double-opt-in conversation. The customer knows their message has landed, they can see when it is read, and they expect a quick reply. Even if you take 15 minutes to respond, they will wait because the conversation is already sitting on their smartphone.
-          </p>
-        </div>
+  <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+    <h3 class="text-xl font-bold text-yellow-400 mb-2">3. Immediate Gratification</h3>
+    <p class="text-zinc-300 text-sm leading-relaxed">
+      A WhatsApp message establishes an active, double-opt-in conversation. The customer knows their message has landed, they can see when it is read, and they expect a quick reply. Even if you take 15 minutes to respond, they will wait because the conversation is already sitting on their smartphone.
+    </p>
+  </div>
 
-        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
-          <h3 class="text-xl font-bold text-yellow-400 mb-2">4. Direct Contact Information Capture</h3>
-          <p class="text-zinc-300 text-sm leading-relaxed">
-            When a client submits a contact form, they might write a fake email or phone number. When they click your WhatsApp button, you instantly capture their active mobile number and their real name. You now have a direct, high-value lead that you can follow up with, call, or message at any time.
-          </p>
-        </div>
-      </div>
+  <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+    <h3 class="text-xl font-bold text-yellow-400 mb-2">4. Direct Contact Information Capture</h3>
+    <p class="text-zinc-300 text-sm leading-relaxed">
+      When a client submits a contact form, they might write a fake email or phone number. When they click your WhatsApp button, you instantly capture their active mobile number and their real name. You now have a direct, high-value lead that you can follow up with, call, or message at any time.
+    </p>
+  </div>
+</div>
 
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        How to Set Up a High-Converting WhatsApp Button
-      </h2>
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  How to Set Up a High-Converting WhatsApp Button
+</h2>
 
-      <p class="mb-6">Simply throwing a generic WhatsApp link onto your website is not enough. To maximize your conversions, apply these three design rules:</p>
+<p class="mb-6">Simply throwing a generic WhatsApp link onto your website is not enough. To maximize your conversions, apply these three design rules:</p>
 
-      <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
-        <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
-          Rule A: Position It Sticky and Float It
-        </h3>
-        <p class="text-zinc-300 mb-4 text-sm sm:text-base">
-          The WhatsApp button must be positioned on the bottom right-hand corner of your website, as this is where the human thumb naturally rests when scrolling on a smartphone. It must float "sticky" on the screen, remaining visible as the user scrolls up and down your page.
-        </p>
-      </div>
+<div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
+  <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
+    Rule A: Position It Sticky and Float It
+  </h3>
+  <p class="text-zinc-300 mb-4 text-sm sm:text-base">
+    The WhatsApp button must be positioned on the bottom right-hand corner of your website, as this is where the human thumb naturally rests when scrolling on a smartphone. It must float "sticky" on the screen, remaining visible as the user scrolls up and down your page.
+  </p>
+</div>
 
-      <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
-        <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
-          Rule B: Use a Highly Engaging Call-To-Action (CTA) Tooltip
-        </h3>
-        <p class="text-zinc-300 mb-4 text-sm sm:text-base">
-          Do not just show a blank WhatsApp icon. Overlay a small, friendly message bubble right next to the icon.
-        </p>
-        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
-          <li class="flex items-start gap-2">
-            <span class="text-red-400 font-bold">✗</span>
-            <span><strong>Bad:</strong> No text, just an icon.</span>
-          </li>
-          <li class="flex items-start gap-2">
-            <span class="text-green-400 font-bold">✓</span>
-            <span><strong>Good:</strong> <em>"⚡ Live Chat: Speak to Ruan now"</em> or <em>"Got a question? Click to chat with our team."</em></span>
-          </li>
-        </ul>
-      </div>
+<div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
+  <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
+    Rule B: Use a Highly Engaging Call-To-Action (CTA) Tooltip
+  </h3>
+  <p class="text-zinc-300 mb-4 text-sm sm:text-base">
+    Do not just show a blank WhatsApp icon. Overlay a small, friendly message bubble right next to the icon.
+  </p>
+  <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+    <li class="flex items-start gap-2">
+      <span class="text-red-400 font-bold">✗</span>
+      <span><strong>Bad:</strong> No text, just an icon.</span>
+    </li>
+    <li class="flex items-start gap-2">
+      <span class="text-green-400 font-bold">✓</span>
+      <span><strong>Good:</strong> <em>"⚡ Live Chat: Speak to Ruan now"</em> or <em>"Got a question? Click to chat with our team."</em></span>
+    </li>
+  </ul>
+</div>
 
-      <div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
-        <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
-          Rule C: Configure a Pre-Filled Welcome Message
-        </h3>
-        <p class="text-zinc-300 mb-4 text-sm sm:text-base">
-          When a customer clicks your WhatsApp button, you do not want them to stare at a blank input box wondering what to write. You can pre-configure your WhatsApp link to automatically populate their text box with a high-intent prompt.
-        </p>
-        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
-          <li class="flex items-start gap-2">
-            <span class="text-yellow-400 font-bold">•</span>
-            <span><strong>Example for a plumber:</strong> <em>"Hi PE Plumbers, I need help with an emergency repair. Could you please give me a quick quote?"</em></span>
-          </li>
-          <li class="flex items-start gap-2">
-            <span class="text-yellow-400 font-bold">•</span>
-            <span><strong>Example for an accounting firm:</strong> <em>"Hi Allegro Accounting, I am interested in your startup bookkeeping package. Can we schedule a quick call?"</em></span>
-          </li>
-        </ul>
-        <p class="text-zinc-350 text-xs mt-4">This allows the user to simply click "Send" without having to think or type.</p>
-      </div>
+<div class="bg-zinc-900/90 border border-yellow-400/30 p-6 sm:p-8 rounded-3xl my-8">
+  <h3 class="text-2xl font-bold text-white font-heading mb-4 text-yellow-400">
+    Rule C: Configure a Pre-Filled Welcome Message
+  </h3>
+  <p class="text-zinc-300 mb-4 text-sm sm:text-base">
+    When a customer clicks your WhatsApp button, you do not want them to stare at a blank input box wondering what to write. You can pre-configure your WhatsApp link to automatically populate their text box with a high-intent prompt.
+  </p>
+  <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+    <li class="flex items-start gap-2">
+      <span class="text-yellow-400 font-bold">•</span>
+      <span><strong>Example for a plumber:</strong> <em>"Hi PE Plumbers, I need help with an emergency repair. Could you please give me a quick quote?"</em></span>
+    </li>
+    <li class="flex items-start gap-2">
+      <span class="text-yellow-400 font-bold">•</span>
+      <span><strong>Example for an accounting firm:</strong> <em>"Hi Allegro Accounting, I am interested in your startup bookkeeping package. Can we schedule a quick call?"</em></span>
+    </li>
+  </ul>
+  <p class="text-zinc-350 text-xs mt-4">This allows the user to simply click "Send" without having to think or type.</p>
+</div>
 
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        Transitioning From Chat to Cash Flow
-      </h2>
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  How the Floating WhatsApp Button Actually Works
+</h2>
 
-      <p class="mb-6">
-        Having a WhatsApp button is only the first step; your speed of response is what seals the deal. If a high-intent lead messages you at 2:00 PM on a Tuesday, you should aim to respond within 5 to 10 minutes.
-      </p>
+<div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+  <p class="text-yellow-300 font-bold text-base mb-1">💬 Short Answer</p>
+  <p class="text-zinc-300 text-sm">
+    How does a floating WhatsApp button actually work? Behind the icon sits a plain link: an anchor tag to a wa.me address with your business number and an optional pre-filled message. Tap it and WhatsApp opens with the chat already started.
+  </p>
+</div>
 
-      <p class="mb-6">
-        If you are on-site or busy, use WhatsApp Business App's automated "Away Messages" or "Quick Replies" to let them know you’ve received their request and will call them back in exactly X minutes.
-      </p>
+<p class="mb-6">
+  The technical side is simpler than most owners expect: no plugin, no database. The link looks like wa.me/27601234567: your full number, country code 27, leading zero dropped. On a phone it opens the app; on desktop, WhatsApp Web.
+</p>
 
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
-        Allegro Digital: Conversion-Focused Web Design
-      </h2>
+<p class="mb-8">
+  Pre-fill works by adding ?text= to the end of the link, with spaces encoded, like wa.me/27601234567?text=Hi%20PE%20Plumbers. The visitor lands with that sentence typed, ready to send. Because it happens inside WhatsApp, the click costs them almost nothing.
+</p>
 
-      <p class="mb-6">
-        At <strong>Allegro Digital</strong>, we don’t build websites just to look pretty. We build high-performance business assets designed to drive phone calls and WhatsApp enquiries directly to your smartphone. Pair this with our <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Generation Strategy</a> to capture top local rankings.
-      </p>
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  WhatsApp Button vs Contact Form vs Phone Call
+</h2>
 
-      <p class="mb-6">
-        Every single website we build—including our disruptive R1,499 upfront base package—comes with a custom-coded, mobile-optimized floating WhatsApp lead capture engine included by default. Compare options in our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> and <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website Cost Guide</a>. No plugins, no bloated third-party code—just blazingly fast, high-converting code.
-      </p>
+<div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+  <p class="text-yellow-300 font-bold text-base mb-1">💬 Short Answer</p>
+  <p class="text-zinc-300 text-sm">
+    Which contact method converts best in South Africa? The floating WhatsApp button usually wins. It uses a channel customers already live in, captures their real number, and lets you reply with text, photos, and price lists. Forms add friction; calls interrupt the day.
+  </p>
+</div>
 
-      <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-8">
-        <h4 class="text-yellow-400 font-extrabold text-lg mb-4">Our Direct Launch Model:</h4>
-        <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
-          <li>• <strong>Custom Web Design & Launch:</strong> <strong>R1,499</strong> (once-off)</li>
-          <li>• <strong>Mandatory High-Speed Hosting & Support:</strong> <strong>R800/month</strong></li>
-        </ul>
-      </div>
+<div class="overflow-x-auto my-8">
+  <table class="w-full text-left text-sm sm:text-base border-collapse">
+    <thead>
+      <tr class="bg-zinc-900 border border-zinc-800">
+        <th class="p-4 font-bold text-white">What matters</th>
+        <th class="p-4 font-bold text-yellow-400">WhatsApp button</th>
+        <th class="p-4 font-bold text-white">Contact form</th>
+        <th class="p-4 font-bold text-white">Phone call</th>
+      </tr>
+    </thead>
+    <tbody class="text-zinc-300">
+      <tr class="border border-zinc-800">
+        <td class="p-4 font-semibold text-white">Friction to send</td>
+        <td class="p-4">One tap, message pre-typed</td>
+        <td class="p-4">Fields to fill in</td>
+        <td class="p-4">One tap, then a call</td>
+      </tr>
+      <tr class="border border-zinc-800 bg-zinc-900/40">
+        <td class="p-4 font-semibold text-white">Lead info captured</td>
+        <td class="p-4">Real mobile number and name</td>
+        <td class="p-4">Whatever they type, often fake</td>
+        <td class="p-4">Number on caller ID</td>
+      </tr>
+      <tr class="border border-zinc-800">
+        <td class="p-4 font-semibold text-white">Works after hours</td>
+        <td class="p-4">Yes, the message waits</td>
+        <td class="p-4">Yes, but replies lag</td>
+        <td class="p-4">No, voicemail at best</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-      <p class="text-xl font-bold text-white mb-6 font-heading">
-        Ready to start turning passive website visitors into direct WhatsApp enquiries?
-      </p>
+<p class="mb-8">
+  Forms still earn their place: a client who needs a formal proposal will email. The point is to make WhatsApp the default path when a customer wants an answer now. In a market like Gqeberha, the first business to reply usually wins. South Africa ranks near the top of global WhatsApp usage charts [SOURCE NEEDED].
+</p>
 
-      <p class="mb-8">
-        Try Our Free <a href="/#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Port Elizabeth Suburb Lead Calculator</a> or view our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300 font-bold">managed website packages</a> to start turning passive web traffic into real WhatsApp enquiries.
-      </p>
-    `,
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  Transitioning From Chat to Cash Flow
+</h2>
+
+<p class="mb-6">
+  Having a WhatsApp button is only the first step; your speed of response is what seals the deal. If a high-intent lead messages you at 2:00 PM on a Tuesday, you should aim to respond within 5 to 10 minutes.
+</p>
+
+<p class="mb-6">
+  If you are on-site or busy, use WhatsApp Business App's automated "Away Messages" or "Quick Replies" to let them know you’ve received their request and will call them back in exactly X minutes.
+</p>
+
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  WhatsApp Business Features That Work With Your Website
+</h2>
+
+<div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+  <p class="text-yellow-300 font-bold text-base mb-1">💬 Short Answer</p>
+  <p class="text-zinc-300 text-sm">
+    Which WhatsApp Business features should you switch on with your website? The free WhatsApp Business app covers the lot: a catalog for browsing in chat, quick replies for common questions, labels for sorting leads, and automated messages for busy or closed times.
+  </p>
+</div>
+
+<p class="mb-6">
+  The catalog is the most underused feature. Upload your products or services once; when someone asks what you charge, send the catalog link rather than typing prices. Quick replies work the same way: save your rates, hours, and service areas as one-tap responses.
+</p>
+
+<p class="mb-8">
+  Labels keep your pipeline readable: new leads today, paid or no reply later in the week, so nothing falls between your website and your quote book. Add a greeting message for first-time chats and an away message with a call-back time. Under POPIA, remember the customer clicked first: that number is for their enquiry, not for marketing blasts.
+</p>
+
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  Common WhatsApp Button Mistakes to Avoid
+</h2>
+
+<div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+  <p class="text-yellow-300 font-bold text-base mb-1">💬 Short Answer</p>
+  <p class="text-zinc-300 text-sm">
+    What are the most common WhatsApp button mistakes? An unanswered number, the wrong number, no greeting, and a button nobody measures. Each one quietly kills leads: visitors click, get silence or the wrong person, and bounce back to Google. Fixing all four costs little.
+  </p>
+</div>
+
+<p class="mb-6">
+  The worst failure is the unanswered number. A button that rings into silence burns trust at the worst moment. Test your own button monthly, keep the phone charged, or point it at an answered second number.
+</p>
+
+<p class="mb-6">
+  Next, the wrong number and the blank greeting. Buttons hard-coded to an old SIM or a personal number nobody checks produce silence, and many sites still drop visitors into an empty chat box. Use the WhatsApp Business number and re-check the link after any SIM change.
+</p>
+
+<p class="mb-8">
+  Last is the button nobody measures. Compare clicks with messages that arrive. High clicks with low messages means the link is broken or the pre-fill is off. High messages with slow replies means the problem is on your side. A weekly count of messages plus your reply time runs the whole pipeline.
+</p>
+
+<h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+  Allegro Digital: Conversion-Focused Web Design
+</h2>
+
+<p class="mb-6">
+  At <strong>Allegro Digital</strong>, we don’t build websites just to look pretty. We build high-performance business assets designed to drive phone calls and WhatsApp enquiries directly to your smartphone. Pair this with our <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Local Lead Generation Strategy</a> to capture top local rankings.
+</p>
+
+<p class="mb-6">
+  Every single website we build—including our disruptive R1,499 upfront base package—comes with a custom-coded, mobile-optimized floating WhatsApp lead capture engine included by default. Compare options in our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Small Business Website Blueprint</a> and <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website Cost Guide</a>. No plugins, no bloated third-party code—just blazingly fast, high-converting code.
+</p>
+
+<div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl my-8">
+  <h4 class="text-yellow-400 font-extrabold text-lg mb-4">Our Direct Launch Model:</h4>
+  <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+    <li>• <strong>Custom Web Design & Launch:</strong> <strong>R1,499</strong> (once-off)</li>
+    <li>• <strong>Mandatory High-Speed Hosting & Support:</strong> <strong>R800/month</strong></li>
+  </ul>
+</div>
+
+<p class="text-xl font-bold text-white mb-6 font-heading">
+  Ready to start turning passive website visitors into direct WhatsApp enquiries?
+</p>
+
+<p class="mb-8">
+  Try Our Free <a href="/#calculator" class="text-yellow-400 underline hover:text-yellow-300 font-bold">Port Elizabeth Suburb Lead Calculator</a> or view our <a href="/#pricing" class="text-yellow-400 underline hover:text-yellow-300 font-bold">managed website packages</a> to start turning passive web traffic into real WhatsApp enquiries.
+</p>`,
     faqs: [
       {
         question: "Will a WhatsApp button slow down my website load time?",
@@ -1577,8 +2230,7 @@ export const articles: Article[] = [
       'A website is your own property that gets found on Google where high-intent customers search.',
       'The best strategy is using Facebook as a megaphone to send customers to your website home base.'
     ],
-    content: `
-      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+    content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
         Every week, small business owners in Port Elizabeth, Mthatha, and every town in between ask the same question: <em>"Do I really need a website, or is a Facebook page enough?"</em>
       </p>
 
@@ -1614,6 +2266,22 @@ export const articles: Article[] = [
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        When Facebook Is Genuinely Enough
+      </h2>
+
+      <p class="mb-6">
+        Let's be honest about the other side. For a small handful of businesses, a Facebook page really is enough, at least for now. The pattern is specific: you rely on referrals, your customers already know you, and they reach you by phone or WhatsApp without checking anything online first. A township spaza shop, a home-based seamstress, a part-time mechanic working weekends. Those businesses can run for years on a page and a phone number.
+      </p>
+
+      <p class="mb-6">
+        The moment that stops working is the moment a stranger needs to find you. The customer who heard your name from a friend will check before they call. If the only thing they find is a page with a last post from 2023, they assume you closed. A page with no website behind it also can't show up on Google Maps, and that's where the "near me" searches happen.
+      </p>
+
+      <p class="mb-8">
+        So the honest rule is: if every customer already knows where you are and how to reach you, Facebook can carry you for a while. If you want customers you haven't met yet, you need a home base they can find.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
         What a Facebook Page Can't Do
       </h2>
 
@@ -1643,6 +2311,59 @@ export const articles: Article[] = [
       </div>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Facebook vs Website, Side by Side
+      </h2>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left border border-zinc-800 rounded-2xl">
+          <thead>
+            <tr class="bg-zinc-900 text-white">
+              <th class="p-4 font-bold">What matters</th>
+              <th class="p-4 font-bold">Facebook page</th>
+              <th class="p-4 font-bold">Website</th>
+            </tr>
+          </thead>
+          <tbody class="text-zinc-300">
+            <tr class="border-t border-zinc-800">
+              <td class="p-4">Who owns it</td>
+              <td class="p-4">Facebook</td>
+              <td class="p-4">You</td>
+            </tr>
+            <tr class="border-t border-zinc-800">
+              <td class="p-4">Found on Google Maps</td>
+              <td class="p-4">No</td>
+              <td class="p-4">Yes</td>
+            </tr>
+            <tr class="border-t border-zinc-800">
+              <td class="p-4">Shows prices, hours, full service list</td>
+              <td class="p-4">Poorly</td>
+              <td class="p-4">Clearly</td>
+            </tr>
+            <tr class="border-t border-zinc-800">
+              <td class="p-4">Builds trust with new customers</td>
+              <td class="p-4">Weak</td>
+              <td class="p-4">Strong</td>
+            </tr>
+            <tr class="border-t border-zinc-800">
+              <td class="p-4">Cost to start</td>
+              <td class="p-4">R0</td>
+              <td class="p-4">From R1,499</td>
+            </tr>
+            <tr class="border-t border-zinc-800">
+              <td class="p-4">Good for sharing news and specials</td>
+              <td class="p-4">Excellent</td>
+              <td class="p-4">Average</td>
+            </tr>
+            <tr class="border-t border-zinc-800">
+              <td class="p-4">Survives an algorithm change</td>
+              <td class="p-4">No</td>
+              <td class="p-4">Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
         What a Website Does That Facebook Can't
       </h2>
 
@@ -1656,6 +2377,14 @@ export const articles: Article[] = [
 
       <p class="mb-8">
         A website also builds trust in a way a Facebook page can't. Anyone can make a Facebook page in ten minutes, and customers know it. A proper website says: this business is real, it's established, and it takes itself seriously. That matters a lot when someone is about to hand over their money or their car keys.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Real Cost Question
+      </h2>
+
+      <p class="mb-6">
+        Facebook looks free until you count what it costs in reach. To actually get your posts in front of people these days, most small businesses end up paying for boosted posts. That money goes to a platform that owns the audience and can change the rules at any time. A website has a fixed cost: in the SA market, a proper small business site runs roughly R5,000 to R9,000 once-off with hosting and care from R300 to R800 a month, and Allegro Digital publishes a <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">full breakdown of what websites cost in South Africa</a>. Spend the same money on a site you own and the asset keeps working for you, instead of renting reach you never control.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
@@ -1704,8 +2433,7 @@ export const articles: Article[] = [
 
       <p class="mb-8">
         <strong>Related reading:</strong> if you're early in the process, the <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">small business website blueprint</a> walks through what a starter site should include.
-      </p>
-    `,
+      </p>`,
     faqs: [
       {
         question: "Is a Facebook page really free for a South African small business?",
