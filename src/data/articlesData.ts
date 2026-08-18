@@ -3128,7 +3128,7 @@ export const articles: Article[] = [
     readTime: '5 min read',
     category: 'Content & Strategy',
     tags: ['tax-season', 'sars', 'accountant', 'local-seo', 'small-business', 'south-africa'],
-    imageUrl: '/images/accountant_website_cost_sa.jpg',
+    imageUrl: '/images/tax_season_2026_guide.jpg',
     keyTakeaways: [
       'SARS Filing Season 2026 non-provisional deadline is 23 October 2026, and provisional taxpayer deadline is 22 January 2027.',
       'Tax season produces the largest annual spike in "accountant near me" local searches in South Africa.',
