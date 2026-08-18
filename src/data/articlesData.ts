@@ -3116,5 +3116,209 @@ export const articles: Article[] = [
         answer: "A focused five-page site for a solo practitioner typically takes 2 to 4 weeks with a small agency, longer if content is slow. A mid-size practice build at the R15,000–R35,000 level runs 4 to 6 weeks. If you're targeting tax season, start before the deadline — a site launched during the quiet months pays for itself much slower."
       }
     ]
+  },
+  {
+    slug: 'tax-season-accounting-firm-online',
+    title: 'Tax Season 2026 Is Open: Can Clients Actually Find Your Accounting Firm Online?',
+    metaTitle: 'Tax Season 2026: Can Clients Find Your Firm Online?',
+    summary: "Filing Season 2026 is open — deadline 23 Oct. If clients can't find your firm online, they call your competitor. Fix it before the deadline.",
+    metaDescription: "Filing Season 2026 is open — deadline 23 Oct. If clients can't find your firm online, they call your competitor. Fix it before the deadline.",
+    date: 'Aug 17, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '5 min read',
+    category: 'Content & Strategy',
+    tags: ['tax-season', 'sars', 'accountant', 'local-seo', 'small-business', 'south-africa'],
+    imageUrl: '/images/accountant_website_cost_sa.jpg',
+    keyTakeaways: [
+      'SARS Filing Season 2026 non-provisional deadline is 23 October 2026, and provisional taxpayer deadline is 22 January 2027.',
+      'Tax season produces the largest annual spike in "accountant near me" local searches in South Africa.',
+      'Claiming your Google Business Profile, creating targeted service pages, and ensuring POPIA compliance are 5-minute to 1-week quick wins.',
+      'Allegro Digital builds POPIA-compliant, lead-generating accountant websites for R1,499 setup + R800/mo hosting and care.'
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        SARS Filing Season 2026 is open right now. If you run an accounting or tax practice, this is your biggest demand window of the year, and it's the exact moment most firms go quiet online. Every client who can't find you this month is finding someone else.
+      </p>
+
+      <p class="mb-6">
+        So the question isn't whether your practice is busy. It's whether the clients searching for help in your town can actually find you. Here's the honest version of what's happening and what to fix before the deadline.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The dates that matter (verified)
+      </h2>
+
+      <p class="mb-6">
+        SARS has published the Filing Season 2026 calendar on its own site:
+      </p>
+
+      <ul class="space-y-3 text-zinc-300 text-sm sm:text-base mb-6 pl-6 list-disc">
+        <li><strong>Auto-assessments:</strong> 1–12 July 2026</li>
+        <li><strong>Non-provisional individuals:</strong> 13 July – <strong>23 October 2026</strong></li>
+        <li><strong>Provisional taxpayers and trusts:</strong> 13 July 2026 – <strong>22 January 2027</strong></li>
+        <li><strong>Trusts specifically:</strong> 19 September 2026 – 22 January 2027</li>
+      </ul>
+
+      <p class="mb-8">
+        Filing is eFiling-only, the channel is tightening, and penalties for late filing are in force, confirmed by the Government Gazette notice and reported by IOL in May. Today is 17 August. That means the non-provisional deadline is roughly nine weeks away, and the provisional deadline is five months out. Both windows are open, and both are when the searching happens.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why this month matters more than the other eleven
+      </h2>
+
+      <p class="mb-6">
+        Tax season produces the biggest, most consistent spike in <em>"accountant near me"</em> searches of the entire year. That's not a guess. It's the pattern in every search data release, and it's the whole reason SARS deadlines become news. People don't shop for accountants in March. They shop in August, September and October, when the deadline stops being abstract.
+      </p>
+
+      <p class="mb-8">
+        The practice that shows up for that search wins the enquiry. The practice with an unclaimed Google listing, a dead website or no contact form doesn't lose the client to a better firm. It loses them to whoever bothered to be findable.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The five things to fix this week
+      </h2>
+
+      <p class="mb-6">
+        None of this is expensive. All of it is doable before the weekend.
+      </p>
+
+      <ol class="space-y-4 pl-6 list-decimal mb-8 text-zinc-300">
+        <li>
+          <strong>Claim and fix your Google Business Profile.</strong> Correct name, address, phone. Categories that match how clients search: "Accountant", "Tax Preparation Service", "Bookkeeping Service". Your suburb matters, because people search "accountant near me", and Google answers with what's nearby. Read our <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps ranking guide</a> to get this right.
+        </li>
+        <li>
+          <strong>Give your services their own pages.</strong> Clients search "tax returns", "VAT", "provisional tax help", "monthly bookkeeping", not "our services". One page per service, in plain language, saying who it's for and how it works.
+        </li>
+        <li>
+          <strong>Make the enquiry path obvious and answerable.</strong> A contact form or WhatsApp button on every page, and a human (or at least a same-day reply) on the other end. Most practices don't lose enquiries to competitors. They lose them to their own slow reply. Check our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration guide</a>.
+        </li>
+        <li>
+          <strong>Get POPIA right.</strong> A practice handling financial data without a privacy statement and a compliant contact form is asking for trouble, and clients notice. This isn't a tick-box for the website. It's a trust signal.
+        </li>
+        <li>
+          <strong>Publish a tax-calendar page.</strong> A simple "Filing Season 2026 deadlines" page with the dates above makes you the local authority and earns the informational traffic that converts later.
+        </li>
+      </ol>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The local angle
+      </h2>
+
+      <p class="mb-6">
+        Tax season demand is local. Right now, Google's own autocomplete for "accountant near me" in South Africa suggests "accountant port elizabeth" first. Real people in the Eastern Cape searching for help in their own city. If your listing doesn't say Port Elizabeth and your pages don't mention your suburb, you're invisible to that search, no matter how good your work is.
+      </p>
+
+      <p class="mb-8">
+        That works the other way too: a firm in Gqeberha with a claimed profile, suburb-based pages and a working WhatsApp button is competing against almost nobody, because very few SA agencies build local content for accounting practices at all. Learn more about <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">Port Elizabeth local SEO strategies</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The honest timeline
+      </h2>
+
+      <p class="mb-6">
+        Here's the part nobody in the industry says out loud: a proper website takes weeks to build, and the non-provisional deadline is nine weeks away. So do the quick wins now — profile, pages, forms, reviews — and if you don't have a site, start the build immediately rather than waiting for the season to pass. Every week of the season you're unfindable, enquiries you'd otherwise win go somewhere else, and the clients you do get cost more to win next year.
+      </p>
+
+      <p class="mb-8">
+        A five-page site with a clear service breakdown, a POPIA-compliant form and a WhatsApp button doesn't need to be fancy. It needs to exist, be findable, and be answered. That's the whole game this tax season. For transparent breakdown on setup costs, check our <a href="/articles/accountant-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Accountant Website Cost Guide in SA</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The mistakes that cost practices the season
+      </h2>
+
+      <p class="mb-6">
+        While you're fixing the five things above, avoid the traps that quietly kill the effort:
+      </p>
+
+      <div class="space-y-6 my-8">
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-red-400 mb-2">Relying on Facebook alone</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            A Facebook page is where clients keep up with you socially. It's not where they find you when they type "accountant near me" at 10pm the night before a deadline. Google answers that search with business profiles and websites, not pages. See our guide on <a href="/articles/website-vs-facebook-page-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website vs Facebook Page for SA Businesses</a>.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-red-400 mb-2">A brochure that buries the contact details</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            A website with the phone number only in the footer, no form, no WhatsApp button. The client has to work to reach you, so they don't. If reaching you takes two steps, half of them stop at one.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-red-400 mb-2">A wrong or unclaimed listing</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            The single cheapest fix in this article is also the most common failure: the Google profile exists, but nobody owns it, the phone number is outdated, or the address points somewhere wrong. Every day it stays wrong, enquiries get routed to whoever Google thinks you are instead.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl">
+          <h3 class="text-xl font-bold text-red-400 mb-2">No review habit</h3>
+          <p class="text-zinc-300 text-sm leading-relaxed">
+            In a local market, a handful of genuine Google reviews is a trust signal and a ranking lever. Practices with reviews show up before practices without them, and clients read them before they call. Ask happy clients at the end of a good engagement. Most are glad to.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What if you already have a website?
+      </h2>
+
+      <p class="mb-6">
+        Run the checklist against what you have before you commission anything new. Does it answer who you are and what you charge? Do the service pages match the way clients actually search, "tax returns", "VAT", "provisional tax", or are they written in firm-speak? Is the contact form POPIA-compliant, and does someone actually reply? Does the site mention your suburb anywhere? If the answer to two or more of those is no, the problem isn't the website. It's that the website was built as a brochure instead of a lead-catcher. That's a fix, not a rebuild.
+      </p>
+
+      <p class="mb-8">
+        And if your site is a template nobody maintains, treat it the same way: an unmaintained site is a liability during tax season, because clients who hit a broken form or a dead page don't come back.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        Filing Season 2026 is open, the deadline is closing in, and the search demand is peaking right now. The practices that win this window aren't the biggest. They're the findable ones. Fix the profile, write the pages, answer the enquiries, and if the website isn't there yet, that's the most urgent job you have this month. The clients are searching. The only question is whether they land on you.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Found This Tax Season</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build POPIA-compliant, high-speed lead engines for SA accounting and tax practices — transparent R1,499 setup + R800/mo hosting & support. Get your firm online and winning enquiries before the 23 October deadline.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "What are the SARS Filing Season 2026 deadlines?",
+        answer: "Auto-assessments run from 1–12 July 2026. The deadline for non-provisional individual taxpayers is 23 October 2026. For provisional taxpayers and trusts, the deadline is 22 January 2027 (with trust filing starting 19 September 2026)."
+      },
+      {
+        question: "Why do clients struggle to find accounting firms online during tax season?",
+        answer: "Many accounting practices rely on word-of-mouth or social media, lacking an active Google Business Profile or dedicated service pages (e.g. for tax returns, VAT, provisional tax). When clients search 'accountant near me' on Google, unoptimized practices remain invisible."
+      },
+      {
+        question: "What quick fixes should an accounting firm make during tax season?",
+        answer: "Claim and optimize your Google Business Profile, create individual service pages targeting real search queries, add a prominent contact form or WhatsApp button for fast responses, ensure POPIA compliance, and publish a tax calendar page with verified SARS dates."
+      },
+      {
+        question: "Why is POPIA compliance important for an accountant's website?",
+        answer: "Clients hand over sensitive financial information. Having a privacy policy and POPIA-compliant contact form serves as a crucial trust signal for prospective clients, showing that your firm takes data security seriously."
+      }
+    ]
   }
 ];
+
