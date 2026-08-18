@@ -2281,7 +2281,7 @@ export const articles: Article[] = [
             <li><strong>Who are you and are you qualified?</strong> SAICA, SAIPA, SARS-registered tax practitioner — show it.</li>
             <li><strong>What do you do?</strong> Individual returns, small business accounting, VAT, monthly bookkeeping.</li>
             <li><strong>What do you charge?</strong> Even a rough "from R..." figure builds trust.</li>
-            <li><strong>How do I reach you?</strong> WhatsApp-first for most SA clients.</li>
+            <li><strong>How do I reach you?</strong> <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp-first</a> for most SA clients.</li>
             <li><strong>Can I trust you with my numbers?</strong> A POPIA statement and privacy policy.</li>
           </ul>
         </div>
@@ -2304,7 +2304,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-8">
-        The people asking are solo practitioners going out on their own. There are live threads on r/Accounting, r/Bookkeeping and r/taxpros from people leaving firms, starting practices, and shopping for a website. That's your market if you're a bookkeeper — and it's exactly the market the specialist agencies ignore, because a R15,000 quote is too big for someone who bills R4,000 a month per client.
+        The people asking are solo practitioners going out on their own. There are live threads on r/Accounting, r/Bookkeeping and r/taxpros from people leaving firms, starting practices, and <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">shopping for a website</a>. That's your market if you're a bookkeeper — and it's exactly the market the specialist agencies ignore, because a R15,000 quote is too big for someone who bills R4,000 a month per client.
       </p>
 
       <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">

@@ -6,16 +6,16 @@ const SITE = 'https://www.allegrodigital.co.za';
 const OG_IMAGE = `${SITE}/images/og-allegro-default.jpg`;
 
 export const metadata: Metadata = {
-  title: 'Brand Color Studio | Allegro Digital',
-  description: 'Design your custom brand color palette in real-time and preview how your high-converting website will look instantly.',
+  title: 'Brand Color Studio: Preview Your Palette | Allegro Digital',
+  description: 'Preview your custom brand color palette live and see how a high-converting South African business website looks in your colours. Free, instant, no signup.',
   alternates: {
     canonical: `${SITE}/brand-studio`,
   },
   openGraph: {
     type: 'website',
     siteName: 'Allegro Digital',
-    title: 'Brand Color Studio | Allegro Digital',
-    description: 'Design your custom brand color palette in real-time and preview how your high-converting website will look instantly.',
+    title: 'Brand Color Studio: Preview Your Palette | Allegro Digital',
+    description: 'Preview your custom brand color palette live and see how a high-converting South African business website looks in your colours. Free, instant, no signup.',
     url: `${SITE}/brand-studio`,
     images: [
       {
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Brand Color Studio | Allegro Digital',
-    description: 'Design your custom brand color palette in real-time and preview how your high-converting website will look instantly.',
+    title: 'Brand Color Studio: Preview Your Palette | Allegro Digital',
+    description: 'Preview your custom brand color palette live and see how a high-converting South African business website looks in your colours. Free, instant, no signup.',
     images: [OG_IMAGE],
   },
 };

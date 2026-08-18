@@ -67,7 +67,7 @@ export default async function Page({ params }: Props) {
       '@id': articleUrl,
     },
     'datePublished': article.date,
-    'dateModified': '2026-08-11',
+    'dateModified': article.date,
     'author': {
       '@type': 'Organization',
       'name': article.author || 'Allegro Digital Team',
