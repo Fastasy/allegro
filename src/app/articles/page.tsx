@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { ArticlesList } from '@/views/ArticlesList';
+import { articles } from '@/data/articlesData';
 
 const SITE = 'https://www.allegrodigital.co.za';
 const OG_IMAGE = `${SITE}/images/og-allegro-default.jpg`;
@@ -35,5 +36,27 @@ export const metadata: Metadata = {
 };
 
 export default function ArticlesPage() {
-  return <ArticlesList />;
+  // ItemList JSON-LD makes the full article cluster machine-readable for AI engines
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    'name': 'Allegro Digital — Articles & Insights',
+    'description': 'Local SEO, web design and digital marketing guides for South African businesses.',
+    'itemListElement': articles.map((article, index) => ({
+      '@type': 'ListItem',
+      'position': index + 1,
+      'url': `https://www.allegrodigital.co.za/articles/${article.slug}`,
+      'name': article.title,
+    })),
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      <ArticlesList />
+    </>
+  );
 }

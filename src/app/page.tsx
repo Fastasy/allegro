@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { HomeClient } from './HomeClient';
+import { FAQS } from '@/data/peData';
 
 const SITE = 'https://www.allegrodigital.co.za';
 const OG_IMAGE = `${SITE}/images/og-allegro-default.jpg`;
@@ -35,5 +36,27 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  return <HomeClient />;
+  // FAQPage JSON-LD matches the VISIBLE FAQ section rendered by <Faq /> (src/data/peData.ts -> FAQS)
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': FAQS.map((faq) => ({
+      '@type': 'Question',
+      'name': faq.question,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': faq.answer,
+      },
+    })),
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <HomeClient />
+    </>
+  );
 }

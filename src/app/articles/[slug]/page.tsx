@@ -59,22 +59,28 @@ export default async function Page({ params }: Props) {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
+    '@id': articleUrl,
     'headline': article.title,
     'description': article.metaDescription,
     'url': articleUrl,
+    'inLanguage': 'en-ZA',
     'mainEntityOfPage': {
       '@type': 'WebPage',
       '@id': articleUrl,
     },
     'datePublished': article.date,
     'dateModified': article.date,
+    'keywords': article.tags ? article.tags.join(', ') : undefined,
+    'articleSection': article.category || undefined,
     'author': {
       '@type': 'Organization',
+      '@id': 'https://www.allegrodigital.co.za/#organization',
       'name': article.author || 'Allegro Digital Team',
       'url': 'https://www.allegrodigital.co.za',
     },
     'publisher': {
       '@type': 'Organization',
+      '@id': 'https://www.allegrodigital.co.za/#organization',
       'name': 'Allegro Digital',
       'logo': {
         '@type': 'ImageObject',
