@@ -74,17 +74,59 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'Organization',
+              '@type': ['LocalBusiness', 'ProfessionalService'],
               'name': 'Allegro Digital',
               'url': SITE,
               'logo': `${SITE}/logo.png`,
-              'description': 'Web design and local SEO agency in Port Elizabeth (Gqeberha) building high-converting websites for South African small businesses.',
+              'image': `${SITE}/images/og-allegro-default.jpg`,
+              'description': 'Leading web design and local SEO agency in Port Elizabeth (Gqeberha), building high-converting websites for South African small businesses with transparent pricing.',
+              'telephone': '+27823006996',
+              'priceRange': 'R1499 - R16900',
               'address': {
                 '@type': 'PostalAddress',
                 'addressLocality': 'Port Elizabeth',
                 'addressRegion': 'Eastern Cape',
                 'addressCountry': 'ZA',
               },
+              'geo': {
+                '@type': 'GeoCoordinates',
+                'latitude': -33.9608,
+                'longitude': 25.6022,
+              },
+              'areaServed': [
+                {
+                  '@type': 'City',
+                  'name': 'Port Elizabeth',
+                },
+                {
+                  '@type': 'City',
+                  'name': 'Gqeberha',
+                },
+                {
+                  '@type': 'AdministrativeArea',
+                  'name': 'Eastern Cape',
+                },
+                {
+                  '@type': 'Country',
+                  'name': 'South Africa',
+                },
+              ],
+              'knowsAbout': [
+                'Web Design Port Elizabeth',
+                'Local SEO Gqeberha',
+                'Google Business Profile Optimization',
+                'South Africa Small Business Web Design',
+                'WhatsApp Conversion Optimization',
+                'POPIA Compliant Lead Engine Websites',
+              ],
+              'openingHoursSpecification': [
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                  'opens': '08:00',
+                  'closes': '17:00',
+                },
+              ],
               'sameAs': ['https://www.facebook.com/allegrodigital'],
             }),
           }}
