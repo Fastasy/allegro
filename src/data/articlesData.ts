@@ -3338,7 +3338,7 @@ export const articles: Article[] = [
     metaTitle: 'Accountant in Port Elizabeth? How Local Clients Find You',
     summary: 'People in Gqeberha search "accountant Port Elizabeth" every week — most firms aren\'t findable. How PE accountants get local clients online.',
     metaDescription: 'People in Gqeberha search "accountant Port Elizabeth" every week — most firms aren\'t findable. How PE accountants get local clients online.',
-    date: 'Aug 17, 2026',
+    date: 'Aug 19, 2026',
     author: 'Allegro Digital Team',
     readTime: '6 min read',
     category: 'Content & Strategy',
