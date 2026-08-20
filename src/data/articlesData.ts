@@ -3539,7 +3539,7 @@ export const articles: Article[] = [
     readTime: '7 min read',
     category: 'Content & Strategy',
     tags: ['plumber', 'electrician', 'contractor', 'trades', 'whatsapp', 'local-seo', 'google-business-profile', 'south-africa'],
-    imageUrl: '/images/plumber_website_design.jpg',
+    imageUrl: '/images/plumber_trades_website_design.jpg',
     keyTakeaways: [
       "When a homeowner has a burst geyser at 7am they Google 'plumber near me' and WhatsApp the first result that looks legit. A small site plus a claimed profile wins the job.",
       "Your Google Business Profile is free and non-negotiable. The website backs it up: it is where the profile links, where reviews collect, where clients verify you.",
