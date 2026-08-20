@@ -3527,6 +3527,287 @@ export const articles: Article[] = [
         answer: "Referrals are critical, but when a client is recommended to your firm, the first thing they do is search your practice name online. A claimed profile and professional website validate the referral, while an unclaimed or missing profile creates hesitation."
       }
     ]
+  },
+  {
+    slug: 'plumber-website-design-south-africa',
+    title: "Plumber Website Design South Africa: Get Found, Get the Job",
+    metaTitle: "Plumber Website Design South Africa | Get Found, Get the Job",
+    summary: "Plumbers, electricians and contractors lose local jobs because homeowners cannot find them online. What a trades website needs, and what it costs in 2026.",
+    metaDescription: "What does a plumber website cost in South Africa in 2026? WhatsApp buttons, service-area pages and a Google Business Profile win local jobs. Real prices inside.",
+    date: 'Aug 20, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '7 min read',
+    category: 'Content & Strategy',
+    tags: ['plumber', 'electrician', 'contractor', 'trades', 'whatsapp', 'local-seo', 'google-business-profile', 'south-africa'],
+    imageUrl: '/images/plumber_website_design.jpg',
+    keyTakeaways: [
+      "When a homeowner has a burst geyser at 7am they Google 'plumber near me' and WhatsApp the first result that looks legit. A small site plus a claimed profile wins the job.",
+      "Your Google Business Profile is free and non-negotiable. The website backs it up: it is where the profile links, where reviews collect, where clients verify you.",
+      "A trades website does three jobs: get found, prove you are legit, and make it one tap to call or WhatsApp. Not forty pages, not a booking engine.",
+      "Honest 2026 pricing: R5,590 to R8,590 once-off for a proper 5 to 9 page trades site, plus R300 to R800/mo hosting and care. One extra job a month pays for the whole year."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        A plumber website design in South Africa does not need to be fancy. It needs to do three jobs: get found, prove you are legit, and make it one tap to call or WhatsApp. When a homeowner has a burst geyser at 7am, they do not phone the number on the old fridge magnet. They Google <em>"plumber near me"</em> and WhatsApp the first name that looks legit.
+      </p>
+
+      <p class="mb-8">
+        Most plumbers, electricians and contractors will tell you the phone never stops. For some of them, that is true. For the rest, the phone is quiet because of the same reason: word-of-mouth referrals get validated online before the call. A neighbour says "call Dave the electrician", and the homeowner checks Dave on Google first. If Dave has no profile, no reviews and no site, that recommendation starts to feel risky.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How the work actually comes in
+      </h2>
+
+      <p class="mb-6">
+        For most trades in South Africa, work arrives through three channels: word of mouth, Google, and WhatsApp. Referrals still matter, but they now get checked online before anyone phones. The website's job is to be the middleman that turns a Google search into a WhatsApp message, and to look solid enough that the homeowner chooses you over the three other results on screen. It is not complicated. It is just specific. For the full picture on turning local searches into paying jobs, read our <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">local lead generation strategy for SA businesses</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Google Business Profile first: it's free and it's the foundation
+      </h2>
+
+      <p class="mb-6">
+        Before you spend a cent on a website, claim and complete your Google Business Profile. It costs nothing, and it is how local searches actually work. The profile is what puts you on the map for <em>"plumber Gqeberha"</em> and <em>"electrician Port Elizabeth"</em> searches:
+      </p>
+
+      <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Your trade, your name, your phone number.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Your service areas, the suburbs and towns you cover.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Your hours, including "emergency callouts 24/7" if that is true for you.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Photos of actual work: the geyser install, the wiring board, the finished bathroom.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Reviews, which you ask for after every job.</span>
+        </li>
+      </ul>
+
+      <p class="mb-8">
+        The website then backs the profile up. It is where the profile links to, where the reviews are collected, and where a potential client can see what you actually do. Profile without a site works, but it is a half-setup. Site without a profile is invisible. They work together, and the profile alone can move the needle fast, so follow our step-by-step <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">Google Maps ranking guide for SA businesses</a> if yours is not set up yet.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a tradesman's website actually needs
+      </h2>
+
+      <p class="mb-6">
+        The design agencies that build for trades list the same feature set over and over. New Perspective Studio builds trades sites at R5,590 to R8,590 for a clean 5 to 9 page build, and Growth Pulse Media quotes R15,000 to R30,000 for a plumber at the higher end. A good trades site has six parts:
+      </p>
+
+      <div class="space-y-4 my-8">
+        <div class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <h3 class="text-lg font-bold text-yellow-400 mb-1">1. A home page that says what you are in one line</h3>
+          <p class="text-zinc-300 text-sm">"Emergency electrician in Gqeberha, same-day callouts." "Plumber serving Walmer, Newton Park and Summerstrand." The homeowner's search matches your first sentence, and they know in two seconds whether to keep reading.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <h3 class="text-lg font-bold text-yellow-400 mb-1">2. Service pages</h3>
+          <p class="text-zinc-300 text-sm">What you do, how you work, and honest pricing where you can give it. "Call-out fee R350, first hour included" beats "quote on request" every time. Plumbers, electricians, roofers and builders each have their own set, and each service gets its own page.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <h3 class="text-lg font-bold text-yellow-400 mb-1">3. An about page with a face</h3>
+          <p class="text-zinc-300 text-sm">The bakkie, the tools, the story, and proof you are registered and insured. Electricians and other certified trades should show their credentials. Whatever your trade's registration is, display it. A homeowner choosing between two identical quotes picks the one that looks real.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <h3 class="text-lg font-bold text-yellow-400 mb-1">4. Reviews</h3>
+          <p class="text-zinc-300 text-sm">Real ones, with names and towns. Three specific reviews, like "sorted our geyser at 6am on a Sunday", outperform a paragraph of claims.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <h3 class="text-lg font-bold text-yellow-400 mb-1">5. A contact page (and button) that makes it one tap</h3>
+          <p class="text-zinc-300 text-sm">Phone number and WhatsApp button on every page, especially on mobile. The form should ask for name, number, and what is wrong. Nothing else.</p>
+        </div>
+        <div class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <h3 class="text-lg font-bold text-yellow-400 mb-1">6. Service-area pages</h3>
+          <p class="text-zinc-300 text-sm">This is the part most trades sites skip. A page for each area you cover, Gqeberha, Walmer, Newton Park, Kabega, Bluewater Bay, or the towns around you, targeting the local search for that area. "Electrician in Walmer" searches find a page written for Walmer, not a generic home page. It is simple local SEO, and it is how a small site outranks a big one.</p>
+        </div>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        WhatsApp is the whole game
+      </h2>
+
+      <p class="mb-6">
+        South Africa runs on WhatsApp, and your customers already use it for everything. A trades client with a leak wants to send a photo of the problem and get an "on my way" back. That makes the WhatsApp button the point of the site, not a nice-to-have. See how it fits into the bigger picture in our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration guide for SA</a>.
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">💡 The quick-reply habit</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          The button should appear on every page, the number should be one a real person answers, and quick replies should confirm the call-out fee and expected arrival time. Tradesmen who send before-and-after photos of completed jobs through WhatsApp build the referral engine that keeps the phone ringing.
+        </p>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The trap: a website that never gets touched
+      </h2>
+
+      <p class="mb-6">
+        The classic trades site failure is launch-and-forget. The site goes live, nobody updates it, the specials stay up for four years, and the phone number changes without the site being told. A stale site is worse than no site. It tells the homeowner you do not care about details, which is exactly what they do not want in someone working on their roof.
+      </p>
+
+      <p class="mb-8">
+        That is why the monthly care cost matters as much as the build cost. Hosting and support typically run R100 to R300/mo, and a care package with updates and backups runs R300 to R800/mo, the same range the market survey shows for small-business sites. Budget for the site to be maintained, and it stays an asset instead of becoming an embarrassment.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What it costs, honestly
+      </h2>
+
+      <p class="mb-4">
+        Using the published 2026 market data, here is what a trades website actually costs in South Africa:
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Option</th>
+              <th class="p-4 font-bold text-white">What You Get</th>
+              <th class="p-4 font-bold text-white">Once-Off</th>
+              <th class="p-4 font-bold text-white">Monthly</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">One-page site</td>
+              <td class="p-4 text-zinc-300">Your number, a WhatsApp button, one screen of honest info</td>
+              <td class="p-4 text-zinc-300">R1,500 to R3,500</td>
+              <td class="p-4 text-zinc-400">R100 to R300 hosting</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Proper trades setup</td>
+              <td class="p-4 text-zinc-300">5 to 9 pages: services, service areas, reviews, WhatsApp-first contact</td>
+              <td class="p-4 text-zinc-300">R5,590 to R8,590</td>
+              <td class="p-4 text-zinc-400">R300 to R800 hosting and care</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Google Business Profile</td>
+              <td class="p-4 text-zinc-300">The map listing that makes "near me" searches find you</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-400">R0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        For a trade that pulls R500 to R1,500 per job, one extra job a month pays for the entire year's website. The question is not whether you can afford it. It is whether the phone is quiet because you cannot be found. For the full market breakdown, see our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">how much a website costs in South Africa guide</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The POPIA note (yes, it applies to you too)
+      </h2>
+
+      <p class="mb-6">
+        If your site has an enquiry form, you are collecting personal information, names and numbers, and POPIA applies to you. The fix is small: a one-page privacy policy that says what you collect and why, and a form that only asks for what you need. Do not ask a homeowner for their ID number to quote a geyser. The Information Regulator's guidance for small businesses is plain-language and free.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The trades website checklist
+      </h2>
+
+      <ul class="space-y-3 text-zinc-300 text-sm sm:text-base">
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Google Business Profile claimed, complete, with real photos and reviews.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>A home page that names your trade and service area in the first line.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Service pages that explain what you do and what it costs.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>An about page with your face, your bakkie, your credentials.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>A WhatsApp button on every page, answered by a real person.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Service-area pages targeting local searches.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>A privacy policy and a form that asks only what is needed.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-yellow-400 font-bold">•</span>
+          <span>Hosting and care budgeted for, so the site stays current.</span>
+        </li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        You do not need a fancy website. You need to be found, verified, and one tap away, and in 2026 that means a Google Business Profile, a small honest site, and a WhatsApp button that actually gets answered. Done right, the site is the quietest worker on your books: it never sleeps, never misses a call, and brings in the jobs while you are on the last one.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Trade Found Online</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, WhatsApp-first local lead engines for plumbers, electricians and contractors across South Africa, with transparent R1,499 setup plus R800/mo hosting and support. Let's get the phone ringing.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a plumber website cost in South Africa in 2026?",
+        answer: "A one-page mobile site with your number and a WhatsApp button runs roughly R1,500 to R3,500 once-off. A proper 5 to 9 page trades site with service pages, service-area pages and reviews runs R5,590 to R8,590 per published agency ranges, plus R300 to R800/mo for hosting and care."
+      },
+      {
+        question: "Why does a plumber need a website if work comes from word of mouth?",
+        answer: "Referrals get validated online before the phone call. When a neighbour recommends you, the homeowner checks you on Google first. If you have no profile, no reviews and no site, the recommendation starts to feel risky and the job goes to whoever looks legit."
+      },
+      {
+        question: "What is a Google Business Profile and why does it matter for plumbers?",
+        answer: "It is a free listing that puts you on Google Maps for local searches like 'plumber near me' or 'electrician Gqeberha'. It shows your number, hours, service areas, photos and reviews. It is the foundation of local work and it costs nothing."
+      },
+      {
+        question: "What pages should a plumber's website have?",
+        answer: "Six parts: a home page that names your trade and area in one line, service pages with honest pricing, an about page with your face and credentials, real reviews, a contact page with a one-tap phone and WhatsApp button, and service-area pages for each suburb you cover."
+      },
+      {
+        question: "Why is a WhatsApp button important on a trades website?",
+        answer: "South Africa runs on WhatsApp. A homeowner with a leak wants to send a photo of the problem and get an 'on my way' back. A WhatsApp button on every page makes contact one tap, and tradesmen who answer fast win the job."
+      },
+      {
+        question: "Does POPIA apply to a plumber's website?",
+        answer: "Yes. If your site has an enquiry form that collects names and numbers, you are processing personal information under POPIA. The fix is small: a one-page privacy policy and a form that only asks for what you need."
+      },
+      {
+        question: "Why do trades websites fail after launch?",
+        answer: "Mostly launch-and-forget. The site goes live, nobody updates it, the specials stay up for four years and the number changes without the site being told. A stale site tells homeowners you do not care about detail, so budget for hosting and care from day one."
+      }
+    ]
   }
 ];
 
