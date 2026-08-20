@@ -1,32 +1,92 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { articles } from '../data/articlesData';
-import { ArrowRight, BookOpen, Clock } from 'lucide-react';
+import { articles, Article } from '../data/articlesData';
+import { ArrowRight, BookOpen, Clock, Search, X } from 'lucide-react';
 
 export const ArticlesList: React.FC = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Sort articles descending by date (newest first)
+  const sortedArticles = useMemo(() => {
+    return [...articles].sort((a, b) => {
+      const dateA = new Date(a.date).getTime();
+      const dateB = new Date(b.date).getTime();
+      return dateB - dateA;
+    });
+  }, []);
+
+  // Filter articles based on search query (title, summary, tags, category)
+  const filteredArticles = useMemo(() => {
+    if (!searchQuery.trim()) return sortedArticles;
+    const query = searchQuery.toLowerCase().trim();
+    return sortedArticles.filter((article: Article) => {
+      const matchTitle = article.title.toLowerCase().includes(query);
+      const matchSummary = article.summary.toLowerCase().includes(query);
+      const matchCategory = article.category?.toLowerCase().includes(query);
+      const matchTags = article.tags?.some(tag => tag.toLowerCase().includes(query));
+      return matchTitle || matchSummary || matchCategory || matchTags;
+    });
+  }, [searchQuery, sortedArticles]);
+
   return (
     <div className="pt-32 pb-24 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white font-heading mb-4">
             Digital Growth <span className="text-yellow-400">Insights</span>
           </h1>
-          <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
+          <p className="text-zinc-400 text-lg max-w-2xl mx-auto mb-8">
             Strategies, tutorials, and local SEO secrets to help your Eastern Cape business dominate the local market.
           </p>
+
+          {/* Search Bar */}
+          <div className="max-w-xl mx-auto relative">
+            <div className="relative flex items-center">
+              <Search className="w-5 h-5 text-zinc-400 absolute left-4 pointer-events-none" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search articles by topic, keyword, or trade..."
+                className="w-full bg-zinc-900/90 text-white placeholder-zinc-500 pl-12 pr-10 py-3.5 rounded-2xl border border-zinc-800 focus:border-yellow-400 focus:outline-none focus:ring-1 focus:ring-yellow-400 text-sm transition-all shadow-lg"
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 text-zinc-400 hover:text-white p-1 rounded-full hover:bg-zinc-800 transition-colors"
+                  aria-label="Clear search"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              )}
+            </div>
+            {searchQuery && (
+              <p className="text-xs text-zinc-500 text-left mt-2 pl-2">
+                Showing {filteredArticles.length} {filteredArticles.length === 1 ? 'result' : 'results'} for "{searchQuery}"
+              </p>
+            )}
+          </div>
         </div>
 
-        {articles.length === 0 ? (
+        {filteredArticles.length === 0 ? (
           <div className="text-center py-16 bg-zinc-900/50 border border-zinc-800 rounded-3xl p-8 max-w-xl mx-auto">
             <BookOpen className="w-12 h-12 text-zinc-600 mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-white mb-2">No Articles Published Yet</h3>
-            <p className="text-zinc-400 text-sm">
-              We're preparing fresh local growth playbooks, SEO guides, and digital insights. Check back soon!
+            <h3 className="text-xl font-bold text-white mb-2">No Matching Articles Found</h3>
+            <p className="text-zinc-400 text-sm mb-6">
+              We couldn't find any articles matching "{searchQuery}". Try searching for terms like "SEO", "Port Elizabeth", "Tax", or "Cost".
             </p>
+            <button
+              onClick={() => setSearchQuery('')}
+              className="px-6 py-2.5 bg-yellow-400 text-black font-bold text-sm rounded-full hover:bg-yellow-300 transition-colors"
+            >
+              Clear Search
+            </button>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.map((article) => (
+            {filteredArticles.map((article) => (
               <Link 
                 key={article.slug} 
                 href={`/articles/${article.slug}`}
@@ -77,3 +137,4 @@ export const ArticlesList: React.FC = () => {
     </div>
   );
 };
+
