@@ -3820,7 +3820,7 @@ export const articles: Article[] = [
     readTime: '7 min read',
     category: 'Content & Strategy',
     tags: ['cleaning-company', 'commercial-cleaning', 'office-cleaning', 'whatsapp', 'local-seo', 'google-business-profile', 'south-africa'],
-    imageUrl: '/images/cleaning-company-website-design-south-africa.jpg',
+    imageUrl: '/images/cleaning_company_website_design.jpg',
     keyTakeaways: [
       "Commercial cleaning is a monthly contract business, and the contract goes to whoever answers fastest with a credible site. Insurance, vetted staff and an easy walkthrough booking win the meeting.",
       "A Facebook page ranks on Facebook; Google ranks websites. A website plus a claimed Google Business Profile is what shows up for 'cleaning company near me' searches with a budget behind them.",
