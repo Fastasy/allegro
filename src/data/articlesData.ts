@@ -4028,6 +4028,218 @@ export const articles: Article[] = [
         answer: "A site with service pages, written content, WhatsApp capture and Google Business Profile setup usually takes two to four weeks from brief to launch. Most of that time is content, which is where the rankings and the trust come from."
       }
     ]
+  },
+  {
+    slug: 'salon-website-design-south-africa',
+    title: "Salon Website Design South Africa: Fill Your Chairs Without the DMs",
+    metaTitle: "Salon Website Design South Africa: Bookings Without the DMs",
+    summary: "Most new clients find salons on Google Maps, not Instagram. A salon website with published prices, a booking page or pre-filled WhatsApp button, and a claimed Google Business Profile is how a studio gets found and fills its chairs.",
+    metaDescription: "Salon website design for South African salons and beauty studios. Get found on Google Maps, take bookings without the DMs and cut no-shows.",
+    date: 'Aug 22, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '7 min read',
+    category: 'Content & Strategy',
+    tags: ['salon-website-design', 'salon-booking', 'beauty-salon', 'local-seo', 'google-business-profile', 'whatsapp-booking', 'south-africa'],
+    imageUrl: '/images/salon_website_design.jpg',
+    keyTakeaways: [
+      "A website plus a claimed Google Business Profile is what shows up for 'hair salon near me' searches, and that is where new clients decide. Instagram reaches people who already know you; Google Maps reaches people who don't.",
+      "A booking page or a WhatsApp button pre-filled with the service and time turns a half-promise in a DM into a written appointment, and a written commitment is what cuts no-shows.",
+      "Publish your prices. Clients who know what a balayage costs book without asking, and the 'how much is a balayage?' message that eats your evenings mostly stops.",
+      "A monthly maintenance bundle, colour touch-up plus treatment plus trim at around R1,000, turns clients who return every six weeks into a standing appointment and recurring revenue."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Somewhere in Gqeberha or Cape Town, a client who just moved suburbs is doing the same search right now. She types 'hair salon near me' into Google Maps and books the first salon with a clean profile, visible prices and a booking button. Your salon runs on Instagram DMs and word of mouth, so it doesn't show up. That's the gap salon website design south africa closes: getting you found where new clients look, and turning that search into a booked chair.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why new clients can't find your salon
+      </h2>
+
+      <p class="mb-6">
+        Most new clients in your city never scroll Instagram looking for a stylist. They open Google Maps and pick from the salons shown there. If your Google Business Profile is unclaimed and you have no website behind it, you don't appear in that list, no matter how good your work is.
+      </p>
+
+      <p class="mb-6">
+        Dorasamy's Hair Studio by Taahira sits at 151 Cape Rd in Glendinningvale, Gqeberha, with 4.5 stars from 11 Google reviews and no website. The reviews are already doing the marketing. Rochelle N. writes: 'Hair was cut incorrectly by previous hairdresser and Taahira worked her magic and made me look and feel like a person again.' Deshani N. brought her daughter in and found Taahira 'made us very comfortable and had great ideas.' The reputation is documented in public. What's missing is an address on the internet where a stranger can find it and book it.
+      </p>
+
+      <p class="mb-8">
+        Claiming your profile is the first step and it costs nothing. The full sequence, from claiming to collecting reviews, is in our guide on <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>. The website is the second step, and it's the one that makes the profile rank.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        A booking page ends the DM ping-pong
+      </h2>
+
+      <p class="mb-6">
+        A salon booking website in South Africa does one job: it turns a half-promise in a DM into a written appointment. A booking page, or a WhatsApp button pre-filled with the service and time, means the client has typed their name next to a slot. That commitment is what cuts no-shows.
+      </p>
+
+      <p class="mb-6">
+        The current flow looks like this. A client messages, you reply between clients, you send screenshots of the price list, you agree on a Saturday, and then Saturday comes with nobody in the chair. Every salon owner in Gqeberha knows that feeling. A pre-filled WhatsApp link changes it. The client taps, the message already reads 'Hi, I'd like a balayage touch-up on Saturday at 10:00,' and all they do is press send. For clients who prefer a form, a simple booking page does the same job. Either way, the client has written the appointment down, and a written commitment holds better than a spoken one.
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">💡 The pre-filled message habit</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Build the WhatsApp button to open with the service and time already written: 'Hi, I'd like a balayage touch-up on Saturday at 10:00.' The client edits one word and taps send, and you get a written booking instead of a maybe.
+        </p>
+      </div>
+
+      <p class="mb-8">
+        For colour work, where one slot can run three hours, many salons take a small deposit at booking, so build the site to handle it. <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration</a> is the fastest path for most salons, because your clients already live in WhatsApp.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Publish your prices and let them do the selling
+      </h2>
+
+      <p class="mb-6">
+        Should a salon show prices on its website? Yes. Clients want to know what a service costs before they book, and a client who has to ask is a client who may never come back. A published price list filters for people who can afford you and stops the same quote being typed three times a day.
+      </p>
+
+      <p class="mb-8">
+        Prices in this area are simple. Colour services run roughly R550 to R750, a cut adds around R150, and a monthly maintenance bundle sits around R1,000. Put those numbers on the site and two things happen. Clients who already know the cost book without asking, and the 'how much is a balayage?' message that eats your evenings mostly stops. The price list also feeds your Google profile, which shows a price range to people browsing Maps.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The maintenance bundle your calendar is missing
+      </h2>
+
+      <p class="mb-6">
+        What keeps a salon busy in the quiet weeks? Repeat bookings. A monthly maintenance bundle, a colour touch-up plus a treatment plus a trim, gives regular clients a reason to rebook before they leave the chair. The bundle is recurring revenue most salons never sell.
+      </p>
+
+      <p class="mb-8">
+        A colour client who returns every six weeks is a client for the year. Bundle the touch-up, the treatment and the trim at around R1,000 a month, and each visit stops being a separate decision. That loyalty already shows in the reviews. Milah De K. left this for Dorasamy's: 'The only hairdresser I go to! I always go home happy. They definitely know their stuff, very professional.' A bundle is how you formalise that feeling into a standing appointment. Give it its own page, its own price and its own booking link, and it sells while you're cutting hair.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Instagram only, Google profile only, or a website too
+      </h2>
+
+      <p class="mb-6">
+        What's the difference between Instagram, a Google profile and a website? Each one reaches a different group. Instagram reaches people who already know you. Google Maps reaches people who don't. The website is the page that makes both work, and it's the difference between being found and being skipped.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">What matters</th>
+              <th class="p-4 font-bold text-white">Instagram only</th>
+              <th class="p-4 font-bold text-white">Google profile only</th>
+              <th class="p-4 font-bold text-white">Google profile + website</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Found by new clients who don't follow you</td>
+              <td class="p-4 text-zinc-300">No, they'd have to find your handle first</td>
+              <td class="p-4 text-zinc-300">Yes, in Maps results for nearby searches</td>
+              <td class="p-4 text-zinc-300">Yes, plus a page that ranks for 'hair salon Gqeberha'</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Booking without endless DMs</td>
+              <td class="p-4 text-zinc-300">No, booking happens in the DMs</td>
+              <td class="p-4 text-zinc-300">Partial, a phone call or a message</td>
+              <td class="p-4 text-zinc-300">Yes, a booking page or pre-filled WhatsApp button</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Price list visible</td>
+              <td class="p-4 text-zinc-300">Buried in captions and Stories</td>
+              <td class="p-4 text-zinc-300">Limited, via posts and profile info</td>
+              <td class="p-4 text-zinc-300">Full menu on its own page</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Reviews shown</td>
+              <td class="p-4 text-zinc-300">Comments, no star rating in Maps</td>
+              <td class="p-4 text-zinc-300">Yes, a star rating next to your name</td>
+              <td class="p-4 text-zinc-300">Yes, plus a link that turns happy clients into new reviews</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Ranks in the Maps 3-pack</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Possible, with a completed profile</td>
+              <td class="p-4 text-zinc-300">Strongest shot, because the two reinforce each other</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        Start with the profile if you have nothing, then add the site. A site built to pull local enquiries is exactly the <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">local lead engine we describe here</a>, and it's how salons in this market stop depending on referrals.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What salon website design south africa costs
+      </h2>
+
+      <p class="mb-6">
+        How much does a salon website cost in South Africa? In this market, expect R1,499 once-off for the build, plus R800 a month for hosting, care and updates. That's the whole cost, no surprise invoices. DIY builders look cheaper until you count your evenings and the subscriptions.
+      </p>
+
+      <p class="mb-8">
+        Website design for a salon is simpler than most owners expect. One page for services and prices, one for the booking path, one for your work and reviews. It must load fast on the phone in a client's hand, because that's where the search happens. Plan on two to four weeks from the day you send your prices, photos and opening hours. The <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">small business website blueprint</a> walks through everything an SA business site needs before you spend a rand.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        The pattern is simple. Claim the Google profile, publish your prices, put a booking path in front of them, and let the reviews you've already earned do the selling. The setup is a once-off fee plus a monthly retainer, live in two to four weeks. The clients who moved to your city last month are searching right now.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Salon Found Online</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, WhatsApp-first local lead engines for salons and beauty studios across South Africa, with transparent R1,499 setup plus R800/mo hosting and support. Let's get the chairs filled.
+        </p>
+
+        <div class="mt-4">
+          <a
+            href="https://wa.me/27823006996"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a salon website cost in South Africa?",
+        answer: "A typical salon site costs R1,499 once-off to set up, plus around R800 a month for hosting, care and updates. The monthly fee is what keeps the site maintained and secure, so it stays a working booking tool instead of a page that slowly dies."
+      },
+      {
+        question: "Does my salon need a website if I'm already busy on Instagram?",
+        answer: "Busy is not the same as full. Instagram fills chairs from people who already follow you. A website with a Google profile fills chairs from people searching Maps who have never heard of you. The two reach different groups, and most salons only have one of them working."
+      },
+      {
+        question: "How do I get my salon to show up on Google Maps?",
+        answer: "Claim your Google Business Profile, complete every field, add your address, hours and services, and ask happy clients to leave reviews. Link it to a website so Google has a page to rank. A completed profile plus a site is what puts a salon in the Maps results for 'hair salon near me.'"
+      },
+      {
+        question: "What should I put on my salon's website?",
+        answer: "Services with prices, your address and hours, a way to book or message you, your reviews and photos of your work. That's it. A salon site doesn't need fifteen pages. It needs a client to land, see the price and book in under a minute."
+      },
+      {
+        question: "How do I stop clients from no-showing appointments?",
+        answer: "Put the service and time in writing. A booking page, or a WhatsApp button that opens a pre-filled message, makes the client confirm the slot before they close the chat. For colour work, consider a small deposit at booking, and send a confirmation the day before."
+      },
+      {
+        question: "Can I take bookings through WhatsApp instead of a booking system?",
+        answer: "Yes, and for most South African salons it's the right first step. A WhatsApp button that opens a pre-filled message with the service and time means the client commits in writing without installing anything. Move to a full booking calendar when you're juggling more than a handful of appointments a day."
+      },
+      {
+        question: "How long does it take to get a salon website live?",
+        answer: "Plan on two to four weeks from the day you send your prices, photos and opening hours. The build is quick; the waiting is usually on the content. The site and the Google profile can both be live within a month."
+      }
+    ]
   }
 ];
 
