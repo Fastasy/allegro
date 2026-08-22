@@ -3808,6 +3808,226 @@ export const articles: Article[] = [
         answer: "Mostly launch-and-forget. The site goes live, nobody updates it, the specials stay up for four years and the number changes without the site being told. A stale site tells homeowners you do not care about detail, so budget for hosting and care from day one."
       }
     ]
+  },
+  {
+    slug: 'cleaning-company-website-design-south-africa',
+    title: "Cleaning Company Website Design South Africa: Turn Quotes Into Contracts",
+    metaTitle: "Cleaning Company Website Design SA: Quotes Into Contracts",
+    summary: "Office managers and estate agents search 'cleaning company near me' and message the one that looks like a real business. Service pages, named suburbs, WhatsApp quote capture and proof that turns quotes into contracts.",
+    metaDescription: "Website design for a cleaning company in South Africa: service pages, named suburbs, WhatsApp quote capture and proof that turns quotes into contracts.",
+    date: 'Aug 22, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '7 min read',
+    category: 'Content & Strategy',
+    tags: ['cleaning-company', 'commercial-cleaning', 'office-cleaning', 'whatsapp', 'local-seo', 'google-business-profile', 'south-africa'],
+    imageUrl: '/images/cleaning-company-website-design-south-africa.jpg',
+    keyTakeaways: [
+      "Commercial cleaning is a monthly contract business, and the contract goes to whoever answers fastest with a credible site. Insurance, vetted staff and an easy walkthrough booking win the meeting.",
+      "A Facebook page ranks on Facebook; Google ranks websites. A website plus a claimed Google Business Profile is what shows up for 'cleaning company near me' searches with a budget behind them.",
+      "One page per service, suburbs named in plain language, and a WhatsApp quote capture that brings requests in 24/7 with the suburb, service and schedule pre-filled.",
+      "Before-and-after photos and visible trust signals — insurance, background checks, references — are what pass commercial-client vetting before the walkthrough is even booked."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        An office manager needs a cleaner for a 400 m² office floor before month end, an estate agent needs a show house cleaned between viewings, and a homeowner wants the carpets done before the in-laws arrive. Each of them searches 'cleaning company near me', opens the first three results, and messages the one that looks like a real business. Website design for a cleaning company in South Africa decides which of those three gets the call, the walkthrough and the signed contract.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Cleaning contracts are won on trust and response speed
+      </h2>
+
+      <p class="mb-6">
+        A cleaning contract goes to whoever responds fastest with a credible site. Office managers and estate agents ask for three quotes, then pick the company that answers quickly, shows insurance and vetted staff, and makes the walkthrough easy to book. The website earns the meeting; the meeting earns the contract.
+      </p>
+
+      <p class="mb-8">
+        Commercial cleaning is a monthly contract business, and one signed office contract pays out every month. The facilities manager who signs it is not shopping for the cheapest quote. They are shopping for the least risky one, and they check insurance, background checks, references and whether your staff arrive in branded uniforms. Answer first with that evidence on your site and you are halfway through their checklist before the walkthrough starts.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        A Facebook page is not a cleaning company website
+      </h2>
+
+      <p class="mb-6">
+        Facebook pages rank on Facebook. Google ranks websites. When an office manager searches 'cleaning company near me', Google shows businesses with a website, a Google Business Profile and consistent details, not the busiest Facebook page. A Facebook page is where clients check you out after they find you, not where they find you.
+      </p>
+
+      <p class="mb-8">
+        Your page shows up for your followers. A website shows up for everyone searching, and a search for 'office cleaning Gqeberha' is a search with a budget behind it. When a commercial client does land on your Facebook page, what do they see? Photos of one-off jobs, no service list, no insurance details. That does not pass vetting.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">What it does for you</th>
+              <th class="p-4 font-bold text-white">Facebook page only</th>
+              <th class="p-4 font-bold text-white">Google profile only</th>
+              <th class="p-4 font-bold text-white">Website + Google profile</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Found when someone searches Google</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Partly</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Quotes received 24/7</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Passes commercial-client vetting</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Partly</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Shows a before-and-after portfolio</td>
+              <td class="p-4 text-zinc-300">Partly</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Ranks in the Maps 3-pack</td>
+              <td class="p-4 text-zinc-300">Rarely</td>
+              <td class="p-4 text-zinc-300">Partly</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        The Maps 3-pack is the block of three businesses that sits above the search results, and ranking there means a searcher sees your name, your rating and your number without scrolling. A Google Business Profile is free, and it is the fastest way into that map. The winning combination is the trifecta: a Google Business Profile, a stream of reviews and a website that backs both up. Most consumers read reviews before they choose a local service business, and those reviews belong on your profile and on your site. We walk through the full setup in <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a cleaning business website needs: one page per service
+      </h2>
+
+      <p class="mb-6">
+        A cleaning business website needs one page per service you sell, your service area named in plain language, and a quote request that works without a phone call. Office cleaning, deep cleaning, carpet and upholstery, window cleaning and post-construction clean-ups each get their own page, so every search lands on an answer.
+      </p>
+
+      <p class="mb-8">
+        If your site is one page that says 'professional cleaning services', the facilities manager looking for office cleaning has no reason to believe you do it properly, and Google has no reason to show you for 'office cleaning Gqeberha'. Each service page names the job, what it includes and who it is for. A carpet and upholstery page ranks for 'carpet cleaning near me' and answers the homeowner who needs a lounge suite done before the weekend. A post-construction page catches builders and estate agents in the week after handover, when a floor full of dust has to become a floor ready for photos. Same site, different buyers, one page each.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Name the suburbs you clean
+      </h2>
+
+      <p class="mb-6">
+        Google matches searches to page content. If you clean in Walmer, Summerstrand, Newton Park, Lorraine, Fairview, Mill Park and Kariega, your website needs to say those names. 'We service the whole Eastern Cape' matches no search. A page that names your suburbs matches every one of them.
+      </p>
+
+      <p class="mb-8">
+        The person searching 'cleaning company Newton Park' wants someone who will actually travel to Newton Park, and when your site names it, you answer that question before they ask. Put the suburb list on the home page, the contact page and every service page. This is where <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">web design that generates local leads</a> pays off: the right pages, named for the right places, catching the right searches.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Quote requests and WhatsApp capture, 24/7
+      </h2>
+
+      <p class="mb-6">
+        A quote form and a WhatsApp button with a pre-filled message mean quote requests arrive at 02:00 on a Saturday. The client taps, the message reads 'Hi, we need office cleaning in Newton Park twice a week, can you quote?', and it lands in your phone with their number attached.
+      </p>
+
+      <p class="mb-8">
+        Response speed is where cleaning quotes turn into contracts. When an office manager asks for three quotes, whoever answers first with a proper price gets the walkthrough. The pre-filled message captures the suburb, the service and the schedule before you say a word, so you already know whether the job is worth quoting. A contact form covers clients who prefer email, but the WhatsApp button is what actually gets used. Most local searches happen on mobile, which is exactly where a WhatsApp button belongs: one thumb, one tap, one message. We covered the mechanics in <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration in South Africa</a>.
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">💡 The pre-filled message habit</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Pre-fill the message with the suburb, the service and the schedule: 'Hi, we need office cleaning in Newton Park twice a week, can you quote?' The client edits one word and taps send, and you get a quote request you already understand, with their number attached.
+        </p>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Before-and-after photos are your strongest proof
+      </h2>
+
+      <p class="mb-6">
+        No trust signal beats a dirty bathroom next to the same bathroom clean. A before-and-after gallery shows the actual standard of your work, and it is the strongest proof a cleaning company can put on a website. New clients cannot inspect your work, so show them what it looks like.
+      </p>
+
+      <p class="mb-8">
+        Photograph every job you can: the greasy office kitchen restored, carpets lifted back to their original colour, a show house ready for its viewing. Keep the shots consistent, same angle and same light, and caption each one with the suburb and the service. Estate agents forward these photos to owners before they even phone you. Facilities managers scroll through them before booking a walkthrough. The gallery is the reason the walkthrough gets booked.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Trust signals that pass the commercial vetting
+      </h2>
+
+      <p class="mb-6">
+        Commercial clients check three things before signing: insurance, background checks and references. Put them on your site in plain sight. A facilities manager signing a monthly contract has to justify the choice to their boss, and your website is the evidence they copy into the report.
+      </p>
+
+      <p class="mb-8">
+        A page that states your insurance cover, your background-check process and your branded uniforms answers the questions a commercial client asks before they pick up the phone. Vetted staff matter for office cleaning where your team works after hours. Branded uniforms matter when your crew cleans a show house while agents work in the next room. References from current commercial clients matter most of all, so list the type of client and how long you have cleaned for them. And make the walkthrough easy to book: a facilities manager does not want a phone call, they want a button that offers a time to show you the floor. That is the natural next step for every page, and it is how a <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">local lead generation strategy</a> turns a monthly contract into a recurring line on your books.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        Your competitors are other cleaning companies, and most of them run on a Facebook page and a phone number. The gap is open right now: a site that names your services and suburbs, captures quote requests around the clock, shows before-and-after proof and passes commercial vetting. Two to four weeks of work puts that live. The next time an office manager asks for three quotes, the site that answers first is the one that books the walkthrough.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Cleaning Business Found Online</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, WhatsApp-first local lead engines for cleaning companies across South Africa, with transparent R1,499 setup plus R800/mo hosting and support. Let's get the quotes coming in.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a cleaning company website cost in South Africa?",
+        answer: "In this market, a working cleaning company website with service pages, WhatsApp quote capture and Google Business Profile setup runs about R1,499 once-off, plus R800 a month for hosting, care and updates. That covers the build and keeps the site maintained."
+      },
+      {
+        question: "Do I need a website if I have a Facebook page?",
+        answer: "A Facebook page is where regulars see your posts and where reviews accumulate, and it does not hurt to have one. It does not show up for 'cleaning company near me' searches on Google, which is where new clients look. Keep the page, and build the website that feeds it."
+      },
+      {
+        question: "What pages should a cleaning company website have?",
+        answer: "One page per service: domestic cleaning, office cleaning, deep cleaning, carpet and upholstery, window cleaning and post-construction clean-ups. Plus a home page naming your suburbs, a before-and-after gallery, a contact page with WhatsApp, and a page for insurance, vetting and references."
+      },
+      {
+        question: "How do quote requests arrive from my website?",
+        answer: "Clients tap a WhatsApp button that opens a chat with a pre-filled message, like 'Hi, we need office cleaning in Newton Park twice a week, can you quote?' The message lands in your phone with their number attached. A contact form does the same job for clients who prefer email."
+      },
+      {
+        question: "How do I get into the Google Maps 3-pack for cleaning?",
+        answer: "Claim your free Google Business Profile, fill in your services, suburbs, hours and photos, and collect reviews from every client. Then link the profile to your website. Google ranks the profile that matches a website with the same details and fresh reviews."
+      },
+      {
+        question: "What should my website show to win commercial cleaning contracts?",
+        answer: "Insurance, background checks, branded uniforms and references from current clients, plus a gallery and an easy way to book a walkthrough. Facilities managers check these before they sign a monthly contract, and your website is where they do the checking."
+      },
+      {
+        question: "How long does it take to get a cleaning company website live?",
+        answer: "A site with service pages, written content, WhatsApp capture and Google Business Profile setup usually takes two to four weeks from brief to launch. Most of that time is content, which is where the rankings and the trust come from."
+      }
+    ]
   }
 ];
 
