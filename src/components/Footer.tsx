@@ -98,13 +98,17 @@ export const Footer: React.FC = () => {
 
         {/* Local SA SEO Tag Cloud */}
         <div className="pt-8 border-t border-zinc-900 text-[11px] text-zinc-400 flex flex-wrap gap-x-4 gap-y-1.5 justify-center text-center">
-          <span>Web Design Port Elizabeth</span>
+          <a href="/articles/web-design-port-elizabeth-local-lead-engine" className="hover:text-yellow-400 transition-colors">Web Design Port Elizabeth</a>
           <span>•</span>
-          <span>Google SEO Gqeberha</span>
+          <a href="/articles/web-design-port-elizabeth-local-lead-engine" className="hover:text-yellow-400 transition-colors">Google SEO Gqeberha</a>
           <span>•</span>
-          <span>Plumber Website Design Walmer</span>
+          <a href="/articles/plumber-website-design-south-africa" className="hover:text-yellow-400 transition-colors">Plumber Website Design Walmer</a>
           <span>•</span>
-          <span>Guest House Web Design Summerstrand</span>
+          <a href="/articles/guest-house-direct-bookings" className="hover:text-yellow-400 transition-colors">Guest House Web Design Summerstrand</a>
+          <span>•</span>
+          <a href="/articles/accountant-port-elizabeth-local-clients" className="hover:text-yellow-400 transition-colors">Accountant Website Design Port Elizabeth</a>
+          <span>•</span>
+          <a href="/articles/website-vs-facebook-page-south-africa" className="hover:text-yellow-400 transition-colors">Website vs Facebook Page SA</a>
           <span>•</span>
           <span>Attorney SEO Newton Park</span>
           <span>•</span>

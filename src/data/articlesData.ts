@@ -24,10 +24,10 @@ export interface Article {
 export const articles: Article[] = [
   {
     slug: 'web-design-port-elizabeth-local-lead-engine',
-    title: 'Web Design & SEO Port Elizabeth: How Gqeberha Businesses Win Top Local Google Rankings',
-    metaTitle: 'Web Design & SEO Port Elizabeth | Allegro Digital',
-    summary: 'Looking for professional web design and SEO in Port Elizabeth? Discover why Gqeberha businesses are losing phone calls to competitors, and how our local SEO formula fixes it.',
-    metaDescription: 'Looking for web design & SEO in Port Elizabeth (Gqeberha)? Learn how local PE businesses rank #1 on Google Maps and win daily leads.',
+    title: 'Web Design Port Elizabeth: Local SEO That Wins Gqeberha Customers',
+    metaTitle: 'Web Design Port Elizabeth & SEO Port Elizabeth | Allegro Digital',
+    summary: 'Web design Port Elizabeth done right: fast websites and local SEO that put Gqeberha businesses on Google Maps and win daily leads. See Allegro Digital\'s formula.',
+    metaDescription: 'Web design Port Elizabeth & SEO Port Elizabeth: how local Gqeberha businesses win top Google Maps rankings and daily phone leads. R1,499 setup + R800/mo hosting.',
     date: 'Aug 11, 2026',
     author: 'Allegro Digital Team',
     readTime: '6 min read',
@@ -41,11 +41,11 @@ export const articles: Article[] = [
       'Allegro Digital offers a disruptive R1,499 setup + R800/mo hosting model built specifically for Gqeberha SMBs.'
     ],
     content: `<p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
-        If you run a local service business in Gqeberha (Port Elizabeth)—whether you are an electrician in Walmer, a medical practice in Summerstrand, a builder in Lorraine, or an organic farm stall in the Baakens Valley—your potential clients are searching for <strong>web design and SEO in Port Elizabeth</strong> right now.
+        If you run a local service business in Gqeberha (Port Elizabeth)—whether you are an electrician in Walmer, a medical practice in Summerstrand, a builder in Lorraine, or an organic farm stall in the Baakens Valley—your potential clients are searching for <strong>web design Port Elizabeth</strong> and <strong>SEO Port Elizabeth</strong> right now.
       </p>
 
       <p class="mb-6">
-        Every single day, hundreds of PE residents pull out their smartphones and type keywords like <em>"plumber near me,"</em> <em>"SEO Port Elizabeth,"</em> <em>"guesthouse in port elizabeth,"</em> or <em>"electrician gqeberha"</em> into Google Search.
+        Every single day, hundreds of PE residents pull out their smartphones and type keywords like <em>"plumber near me,"</em> <em>"SEO Port Elizabeth,"</em> <em><a href="/articles/guest-house-direct-bookings" class="text-yellow-400 underline hover:text-yellow-300">"guesthouse in port elizabeth"</a></em> or <em>"electrician gqeberha"</em> into Google Search.
       </p>
 
       <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
@@ -56,7 +56,7 @@ export const articles: Article[] = [
       </div>
 
       <p class="text-xl font-bold text-white mb-6 font-heading">
-        The question is: When they search for local services or Web Design & SEO in Port Elizabeth, are they finding you, or are they finding your closest competitors?
+        The question is: When they search for web design Port Elizabeth or SEO Port Elizabeth, are they finding you, or are they finding your closest competitors?
       </p>
 
       <p class="mb-8">
@@ -74,7 +74,7 @@ export const articles: Article[] = [
           <h3 class="text-xl font-bold text-red-400 mb-2">Mistake 1: The "No-Website" Ghost Town</h3>
           <p class="text-zinc-300 text-sm leading-relaxed">
             Many business owners rely entirely on a Facebook Page or a WhatsApp Business profile. While these are great supporting channels, they do not rank consistently on Google Search. 
-            When a resident in Mill Park has a burst pipe or needs an accountant, they don't search Facebook—they search Google. Read our guide on <a href="/articles/website-vs-facebook-page-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website vs Facebook Page for Business in SA</a> to see why owning your site is critical.
+            When a resident in Mill Park has a burst pipe or needs an <a href="/articles/accountant-port-elizabeth-local-clients" class="text-yellow-400 underline hover:text-yellow-300">accountant</a>, they don't search Facebook—they search Google. Read our guide on <a href="/articles/website-vs-facebook-page-south-africa" class="text-yellow-400 underline hover:text-yellow-300">Website vs Facebook Page for Business in SA</a> to see why owning your site is critical.
           </p>
         </div>
 
@@ -498,7 +498,7 @@ export const articles: Article[] = [
       </p>
 
       <p class="mb-6">
-        A guest house in Summerstrand can do the same. Home: "Self-catering cottages in Summerstrand, a short walk from the beach." Services becomes "Rooms and rates", with three room types. About is one paragraph: who runs the place and since when. Contact carries the phone number, WhatsApp, check-in hours and a map pin.
+        A guest house in Summerstrand can do the same. Home: "Self-catering cottages in Summerstrand, a short walk from the beach." Services becomes "Rooms and rates", with three room types. About is one paragraph: who runs the place and since when. Contact carries the phone number, WhatsApp, check-in hours and a map pin. For the full guest house formula, read our <a href="/articles/guest-house-direct-bookings" class="text-yellow-400 underline hover:text-yellow-300">Guest House Direct Bookings Guide</a>.
       </p>
 
       <p class="mb-8">
