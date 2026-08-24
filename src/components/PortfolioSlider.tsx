@@ -227,10 +227,13 @@ export function PortfolioSlider() {
                 type="button"
                 onClick={() => scrollToIndex(i)}
                 aria-label={`Go to slide ${i + 1}`}
-                className={`h-2 rounded-full transition-all ${
-                  i === active ? 'w-7 bg-yellow-400' : 'w-2 bg-white/20 hover:bg-white/40'
+                aria-pressed={i === active}
+                className={`flex items-center justify-center p-1.5 rounded-full transition-all ${
+                  i === active ? 'text-yellow-400' : 'text-white/20 hover:text-white/40'
                 }`}
-              />
+              >
+                <span className={`block h-2.5 rounded-full transition-all ${i === active ? 'w-7 bg-yellow-400' : 'w-2.5 bg-current'}`} />
+              </button>
             ))}
           </div>
           <div className="flex gap-3">

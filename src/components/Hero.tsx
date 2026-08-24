@@ -178,7 +178,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                         AP
                       </div>
                       <div>
-                        <h4 className="text-xs font-bold text-white leading-tight">Algoa Bay Emergency Plumbers</h4>
+                        <p className="text-xs font-bold text-white leading-tight">Algoa Bay Emergency Plumbers</p>
                         <p className="text-[10px] text-zinc-400 flex items-center gap-1">
                           <MapPin className="w-2.5 h-2.5 text-yellow-400" /> Walmer, PE • Open 24/7
                         </p>
@@ -197,15 +197,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                       className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
                       width={700}
                       height={176}
-                      priority
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent flex flex-col justify-end p-3">
                       <span className="bg-yellow-400 text-black text-[10px] font-black px-2 py-0.5 rounded w-max mb-1">
                         #1 Ranked in Port Elizabeth
                       </span>
-                      <h5 className="text-sm font-bold text-white leading-snug">
+                      <p className="text-sm font-bold text-white leading-snug">
                         Fast 30-Minute Geyser & Pipe Repair Across PE
-                      </h5>
+                      </p>
                       <p className="text-[11px] text-zinc-300 line-clamp-1">
                         Serving Walmer, Summerstrand, Lorraine, Newton Park & Fairview.
                       </p>
@@ -249,6 +248,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                       <input
                         type="text"
                         readOnly
+                        aria-label="Example demo form field"
                         value="Your Name (e.g. Sarah in Lorraine)"
                         className="w-full bg-black text-zinc-400 text-[11px] px-2.5 py-1.5 rounded border border-zinc-800 pointer-events-none"
                       />
@@ -275,7 +275,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onScrollToCalc }) => 
                   ⚡
                 </div>
                 <div>
-                  <h6 className="text-xs font-bold text-white">Fast Setup To Live</h6>
+                  <p className="text-xs font-bold text-white">Fast Setup To Live</p>
                   <p className="text-[10px] text-zinc-400">Zero tech stress for your business</p>
                 </div>
               </div>

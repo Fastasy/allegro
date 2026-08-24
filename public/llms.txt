@@ -1,6 +1,6 @@
 # Allegro Digital
 
-Allegro Digital is a web design and local SEO agency in Port Elizabeth (Gqeberha), South Africa. We build high-converting websites for South African small businesses, with transparent pricing and a focus on local search visibility.
+> Allegro Digital is a web design and local SEO agency in Port Elizabeth (Gqeberha), South Africa. We build high-converting websites for South African small businesses, with transparent pricing and a focus on local search visibility.
 
 ## Who we help
 - Small businesses in Port Elizabeth / Gqeberha and the Eastern Cape
@@ -22,23 +22,28 @@ Allegro Digital is a web design and local SEO agency in Port Elizabeth (Gqeberha
 - Hosting + care + support: R800/month
 - SEO add-on: R1,999/month (on top of an existing website)
 - Typical small business site: R5,000 - R9,000 once-off plus R300 - R800/month
-- See /pricing.md for the full machine-readable breakdown
+- See [pricing.md](https://www.allegrodigital.co.za/pricing.md) for the full machine-readable breakdown
 
 ## Contact
-- WhatsApp: https://wa.me/27823006996
+- [WhatsApp](https://wa.me/27823006996)
 - Email: info@allegrodigital.co.za
 - Website: https://www.allegrodigital.co.za
 
 ## Key pages
-- Home: https://www.allegrodigital.co.za/
-- Articles: https://www.allegrodigital.co.za/articles
-- Pricing: https://www.allegrodigital.co.za/pricing.md
-- Brand Color Studio: https://www.allegrodigital.co.za/brand-studio
-- Portfolio (client work): embedded on the homepage
+- [Home](https://www.allegrodigital.co.za/)
+- [Articles](https://www.allegrodigital.co.za/articles)
+- [Pricing](https://www.allegrodigital.co.za/pricing.md)
+- [Brand Color Studio](https://www.allegrodigital.co.za/brand-studio)
+
+## Portfolio (client work, embedded on the homepage)
+- Kannjane Consultants: https://www.kannjaneconsultants.co.za
+- Vault Electronix & Electricals: https://vaultelectronics.vercel.app
+- Dorasamy's Hair Studio: https://dorasamy-s-hair-studio.vercel.app
+- HelpMyFinances: https://www.helpmyfinances.co.za
 
 ## Popular articles
-- How Much Does a Website Cost in South Africa: https://www.allegrodigital.co.za/articles/how-much-does-a-website-cost-south-africa
-- Web Design & SEO Port Elizabeth: https://www.allegrodigital.co.za/articles/web-design-port-elizabeth-local-lead-engine
-- How to Get Your SA Business on Google Maps: https://www.allegrodigital.co.za/articles/how-to-get-your-sa-business-on-google-maps
-- How Much Does an Accountant Website Cost: https://www.allegrodigital.co.za/articles/accountant-website-cost-south-africa
-- WhatsApp Website Integration: https://www.allegrodigital.co.za/articles/whatsapp-website-integration-south-africa
+- [How Much Does a Website Cost in South Africa](https://www.allegrodigital.co.za/articles/how-much-does-a-website-cost-south-africa)
+- [Web Design & SEO Port Elizabeth](https://www.allegrodigital.co.za/articles/web-design-port-elizabeth-local-lead-engine)
+- [How to Get Your SA Business on Google Maps](https://www.allegrodigital.co.za/articles/how-to-get-your-sa-business-on-google-maps)
+- [How Much Does an Accountant Website Cost](https://www.allegrodigital.co.za/articles/accountant-website-cost-south-africa)
+- [WhatsApp Website Integration](https://www.allegrodigital.co.za/articles/whatsapp-website-integration-south-africa)

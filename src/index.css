@@ -128,6 +128,7 @@
   filter: blur(130px);
   pointer-events: none;
   z-index: 0;
+  will-change: transform;
 }
 
 /* Animations */
@@ -153,12 +154,14 @@
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
+  will-change: transform;
 }
 
 .animate-marquee {
   display: flex;
   width: 200%;
   animation: marquee 25s linear infinite;
+  will-change: transform;
 }
 
 @keyframes floatSlow {
@@ -168,6 +171,7 @@
 
 .animate-float-slow {
   animation: floatSlow 3s ease-in-out infinite;
+  will-change: transform;
 }
 
 @keyframes autoScroll {
@@ -177,6 +181,7 @@
 
 .animate-auto-scroll {
   animation: autoScroll 8s ease-in-out infinite;
+  will-change: transform;
 }
 
 .animate-marquee:hover {
@@ -195,6 +200,7 @@
 
 .animate-drift {
   animation: drift linear infinite forwards;
+  will-change: transform;
 }
 
 @keyframes fadeScaleIn {

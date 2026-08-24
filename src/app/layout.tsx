@@ -6,14 +6,12 @@ import { Providers } from './providers';
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
   variable: '--font-sans',
-  weight: ['300', '400', '500', '600', '700', '800'],
   display: 'swap',
 });
 
 const outfit = Outfit({
   subsets: ['latin'],
   variable: '--font-heading',
-  weight: ['400', '500', '600', '700', '800'],
   display: 'swap',
 });
 

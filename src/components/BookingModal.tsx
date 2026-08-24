@@ -211,10 +211,11 @@ export const BookingModal: React.FC<BookingModalProps> = ({
         {step === 2 && (
           <form onSubmit={handleNextStep} className="space-y-4">
             <div>
-              <label className="block text-xs font-bold text-zinc-300 mb-1">
+              <label htmlFor="booking-name" className="block text-xs font-bold text-zinc-300 mb-1">
                 Full Name *
               </label>
               <input
+                id="booking-name"
                 type="text"
                 required
                 placeholder="e.g. Johan van Zyl"
@@ -225,10 +226,11 @@ export const BookingModal: React.FC<BookingModalProps> = ({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-zinc-300 mb-1">
+              <label htmlFor="booking-business" className="block text-xs font-bold text-zinc-300 mb-1">
                 Business Name or Trade *
               </label>
               <input
+                id="booking-business"
                 type="text"
                 required
                 placeholder="e.g. Algoa Plumbing & Solar"
@@ -239,10 +241,11 @@ export const BookingModal: React.FC<BookingModalProps> = ({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-zinc-300 mb-1">
+              <label htmlFor="booking-phone" className="block text-xs font-bold text-zinc-300 mb-1">
                 Cell / WhatsApp Number (for reminder SMS) *
               </label>
               <input
+                id="booking-phone"
                 type="tel"
                 required
                 placeholder="082 123 4567"
@@ -254,10 +257,11 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
             <div className="grid grid-cols-2 gap-2">
               <div>
-                <label className="block text-xs font-bold text-zinc-300 mb-1">
+                <label htmlFor="booking-suburb" className="block text-xs font-bold text-zinc-300 mb-1">
                   Port Elizabeth Suburb
                 </label>
                 <select
+                  id="booking-suburb"
                   value={suburb}
                   onChange={(e) => setSuburb(e.target.value)}
                   className="w-full bg-black border border-zinc-700 rounded-xl px-3 py-2.5 text-xs text-white outline-none focus:border-yellow-400"
@@ -269,10 +273,11 @@ export const BookingModal: React.FC<BookingModalProps> = ({
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-zinc-300 mb-1">
+                <label htmlFor="booking-industry" className="block text-xs font-bold text-zinc-300 mb-1">
                   Industry
                 </label>
                 <input
+                  id="booking-industry"
                   type="text"
                   value={industry}
                   onChange={(e) => setIndustry(e.target.value)}
@@ -282,10 +287,11 @@ export const BookingModal: React.FC<BookingModalProps> = ({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-zinc-300 mb-1">
+              <label htmlFor="booking-notes" className="block text-xs font-bold text-zinc-300 mb-1">
                 Anything specific you want to ask? (Optional)
               </label>
               <textarea
+                id="booking-notes"
                 rows={2}
                 placeholder="e.g. Need WhatsApp quote button & Google Maps setup in Walmer"
                 value={notes}

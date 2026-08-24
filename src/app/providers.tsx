@@ -1,15 +1,20 @@
 'use client';
 
 import React, { useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import { BookingProvider, useBooking } from '@/context/BookingContext';
 import { AnimatedBackground } from '@/components/AnimatedBackground';
 import { NotificationBar } from '@/components/NotificationBar';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
-import { BookingModal } from '@/components/BookingModal';
 import { Analytics } from '@vercel/analytics/react';
 import Lenis from 'lenis';
 import '../../instrumentation-client';
+
+// BookingModal (and its canvas-confetti dep) only loads when the modal is actually opened.
+const BookingModal = dynamic(() => import('@/components/BookingModal').then((m) => m.BookingModal), {
+  ssr: false,
+});
 
 function AppLayoutInner({ children }: { children: React.ReactNode }) {
   const {
@@ -48,7 +53,7 @@ function AppLayoutInner({ children }: { children: React.ReactNode }) {
       <NotificationBar onOpenBooking={handleOpenBooking} />
       <Navbar onOpenBooking={handleOpenBooking} />
 
-      {children}
+      <main>{children}</main>
 
       <Footer />
 
