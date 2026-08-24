@@ -58,9 +58,9 @@ export const Faq: React.FC = () => {
         {/* Still Have Questions Box */}
         <div className="mt-12 text-center bg-zinc-900 p-6 rounded-2xl border border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left">
-            <h4 className="text-sm font-bold text-white flex items-center gap-2">
+            <p className="text-sm font-bold text-white flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-yellow-400" /> Have a specific question about your PE business?
-            </h4>
+            </p>
             <p className="text-xs text-zinc-400 mt-0.5">
               Speak directly with our local Port Elizabeth strategist on phone or WhatsApp.
             </p>
