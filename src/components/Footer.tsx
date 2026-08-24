@@ -97,22 +97,22 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Local SA SEO Tag Cloud */}
-        <div className="pt-8 border-t border-zinc-900 text-[11px] text-zinc-400 flex flex-wrap gap-x-4 gap-y-1.5 justify-center text-center">
-          <a href="/articles/web-design-port-elizabeth-local-lead-engine" className="hover:text-yellow-400 transition-colors">Web Design Port Elizabeth</a>
-          <span>•</span>
-          <a href="/articles/web-design-port-elizabeth-local-lead-engine" className="hover:text-yellow-400 transition-colors">Google SEO Gqeberha</a>
-          <span>•</span>
-          <a href="/articles/plumber-website-design-south-africa" className="hover:text-yellow-400 transition-colors">Plumber Website Design Walmer</a>
-          <span>•</span>
-          <a href="/articles/guest-house-direct-bookings" className="hover:text-yellow-400 transition-colors">Guest House Web Design Summerstrand</a>
-          <span>•</span>
-          <a href="/articles/accountant-port-elizabeth-local-clients" className="hover:text-yellow-400 transition-colors">Accountant Website Design Port Elizabeth</a>
-          <span>•</span>
-          <a href="/articles/website-vs-facebook-page-south-africa" className="hover:text-yellow-400 transition-colors">Website vs Facebook Page SA</a>
-          <span>•</span>
-          <span>Attorney SEO Newton Park</span>
-          <span>•</span>
-          <span>Local Lead Generation Eastern Cape</span>
+        <div className="pt-8 border-t border-zinc-900 text-[11px] text-zinc-400 flex flex-wrap gap-x-4 gap-y-1 justify-center text-center">
+          <a href="/articles/web-design-port-elizabeth-local-lead-engine" className="inline-block py-1.5 hover:text-yellow-400 transition-colors">Web Design Port Elizabeth</a>
+          <span className="py-1.5">•</span>
+          <a href="/articles/web-design-port-elizabeth-local-lead-engine" className="inline-block py-1.5 hover:text-yellow-400 transition-colors">Google SEO Gqeberha</a>
+          <span className="py-1.5">•</span>
+          <a href="/articles/plumber-website-design-south-africa" className="inline-block py-1.5 hover:text-yellow-400 transition-colors">Plumber Website Design Walmer</a>
+          <span className="py-1.5">•</span>
+          <a href="/articles/guest-house-direct-bookings" className="inline-block py-1.5 hover:text-yellow-400 transition-colors">Guest House Web Design Summerstrand</a>
+          <span className="py-1.5">•</span>
+          <a href="/articles/accountant-port-elizabeth-local-clients" className="inline-block py-1.5 hover:text-yellow-400 transition-colors">Accountant Website Design Port Elizabeth</a>
+          <span className="py-1.5">•</span>
+          <a href="/articles/website-vs-facebook-page-south-africa" className="inline-block py-1.5 hover:text-yellow-400 transition-colors">Website vs Facebook Page SA</a>
+          <span className="py-1.5">•</span>
+          <span className="py-1.5">Attorney SEO Newton Park</span>
+          <span className="py-1.5">•</span>
+          <span className="py-1.5">Local Lead Generation Eastern Cape</span>
         </div>
 
         {/* Bottom copyright */}

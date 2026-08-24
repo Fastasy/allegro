@@ -210,9 +210,9 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onOpenBooking 
                       <span className="bg-yellow-400 text-black text-[10px] font-black px-2 py-0.5 rounded w-max mb-1 uppercase">
                         ★ Verified Google Top Rank
                       </span>
-                      <h4 className="text-sm font-bold text-white leading-tight">
+                      <p className="text-sm font-bold text-white leading-tight">
                         {selectedIndustry.headline}
-                      </h4>
+                      </p>
                       <p className="text-[10px] text-zinc-300 flex items-center gap-1 mt-0.5">
                         <MapPin className="w-2.5 h-2.5 text-yellow-400" /> {selectedIndustry.suburb}
                       </p>
@@ -263,7 +263,7 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onOpenBooking 
                   <div className="w-12 h-12 rounded-full bg-black text-yellow-400 flex items-center justify-center mb-3 border border-zinc-700">
                     <AlertTriangle className="w-6 h-6" />
                   </div>
-                  <h5 className="text-sm font-bold text-white mb-1">Error: 404 Website Not Found</h5>
+                  <p className="text-sm font-bold text-white mb-1">Error: 404 Website Not Found</p>
                   <p className="text-xs text-zinc-400 mb-4">
                     Or old non-responsive site with broken layouts and no phone buttons.
                   </p>

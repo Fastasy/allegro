@@ -24,6 +24,12 @@ if (!projectToken) {
       capture_unhandled_rejections: true,
       capture_console_errors: false,
     },
+    // Performance: keep core analytics, drop the heavy optional sub-modules
+    // (recorder.js ~60KB, surveys.js ~33KB, dead-clicks ~7KB were auto-loading
+    // and adding a ~380ms main-thread task on page load).
+    disable_session_recording: true,
+    disable_surveys: true,
+    capture_dead_clicks: false,
     debug: process.env.NODE_ENV === 'development',
   });
 }

@@ -65,10 +65,11 @@ export const RevenueCalculator: React.FC<RevenueCalculatorProps> = ({ onOpenBook
                 
                 {/* Suburb Selector */}
                 <div>
-                  <label className="block text-xs font-bold text-zinc-300 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                  <label htmlFor="calc-suburb" className="block text-xs font-bold text-zinc-300 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                     <MapPin className="w-4 h-4 text-yellow-400" /> Select Your Port Elizabeth Suburb:
                   </label>
                   <select
+                    id="calc-suburb"
                     value={selectedSuburb}
                     onChange={(e) => setSelectedSuburb(e.target.value)}
                     className="w-full bg-black border border-zinc-700 focus:border-yellow-400 text-white rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-yellow-400/30 outline-none transition-all cursor-pointer"
@@ -83,10 +84,11 @@ export const RevenueCalculator: React.FC<RevenueCalculatorProps> = ({ onOpenBook
 
                 {/* Industry Selector */}
                 <div>
-                  <label className="block text-xs font-bold text-zinc-300 uppercase tracking-wider mb-2">
+                  <label htmlFor="calc-industry" className="block text-xs font-bold text-zinc-300 uppercase tracking-wider mb-2">
                     Industry / Business Type:
                   </label>
                   <select
+                    id="calc-industry"
                     value={industry}
                     onChange={(e) => setIndustry(e.target.value)}
                     className="w-full bg-black border border-zinc-700 focus:border-yellow-400 text-white rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-yellow-400/30 outline-none transition-all cursor-pointer"
@@ -109,6 +111,7 @@ export const RevenueCalculator: React.FC<RevenueCalculatorProps> = ({ onOpenBook
                   </div>
                   <input
                     type="range"
+                    aria-label="Average Value Per Customer or Job"
                     min="500"
                     max="15000"
                     step="250"
@@ -131,6 +134,7 @@ export const RevenueCalculator: React.FC<RevenueCalculatorProps> = ({ onOpenBook
                   </div>
                   <input
                     type="range"
+                    aria-label="Estimated Missed Google Calls or Enquiries Per Week"
                     min="2"
                     max="20"
                     step="1"

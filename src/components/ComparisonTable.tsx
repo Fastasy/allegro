@@ -155,9 +155,9 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({ onOpenBooking 
           {/* Table Footer Banner */}
           <div className="bg-zinc-900 p-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-center sm:text-left">
-              <h4 className="text-sm sm:text-base font-bold text-white">
+              <p className="text-sm sm:text-base font-bold text-white">
                 Don't waste 3 months waiting for an agency that delivers zero leads.
-              </h4>
+              </p>
               <p className="text-xs text-zinc-400">
                 Get your Port Elizabeth business online and ranking on Google with a fast turnaround time.
               </p>
