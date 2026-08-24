@@ -4240,6 +4240,434 @@ export const articles: Article[] = [
         answer: "Plan on two to four weeks from the day you send your prices, photos and opening hours. The build is quick; the waiting is usually on the content. The site and the Google profile can both be live within a month."
       }
     ]
+  },
+  {
+    slug: 'driving-school-port-elizabeth',
+    title: "Driving School Port Elizabeth: Why Learners Can't Find You",
+    metaTitle: "Driving School Port Elizabeth: Why Learners Can't Find You",
+    summary: "Learners search 'driving school port elizabeth' by price, code 14 and open now, and most PE schools have no website to answer them. A booking-ready site with published prices, WhatsApp booking and a claimed Google profile is how a school gets found and gets the bookings.",
+    metaDescription: "Learners search 'driving school port elizabeth' by price, code 14 and 'open now'. Most schools have no website to answer. What a booking-ready site looks like.",
+    date: 'Aug 24, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '7 min read',
+    category: 'Content & Strategy',
+    tags: ['driving-school-website', 'driving-school-port-elizabeth', 'learners-licence', 'code-14', 'local-seo', 'google-business-profile', 'whatsapp-booking'],
+    imageUrl: '/images/driving_school_port_elizabeth.jpg',
+    keyTakeaways: [
+      "Learners search 'driving school port elizabeth' with 'prices', 'code 14' and 'open now' attached. The schools that answer those three questions on their own websites are the ones that get the bookings.",
+      "A booking-ready school site needs five things: clear pricing, booking without a phone call, your codes and vehicles, location and test-centre knowledge, and proof you're real.",
+      "Your Google Business Profile is the free half. Set the category to Driving School, put your suburb in the name and description, and collect reviews. A school with forty reviews beats a school with a better website and no profile.",
+      "A solid five-page driving school site fits the standard SA small-business band, roughly R6,633 average, and takes two to four weeks with a small agency."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        A learner with a learners licence test coming up doesn't ask around like they used to. They open Google and type 'driving school port elizabeth'. Google's own suggestions, live in August 2026, finish the sentence for them: 'prices', 'code 14', 'open now'. The demand in Port Elizabeth is real, specific, and right now. The problem is that most of the city's driving schools have no website to answer it.
+      </p>
+
+      <p class="mb-8">
+        This is a greenfield in the truest sense. Search 'driving school website design' in South Africa and you will not find a single agency page aimed at driving schools. The schools that show up at all do so through directory listings and Facebook pages, most of them with the same missing information.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What learners actually search for
+      </h2>
+
+      <p class="mb-6">
+        The autocomplete data for 'driving school port elizabeth' breaks down into three clear intentions: price, code 14, and open now. Each one is a learner who is ready to book but needs a number, a vehicle, or a way to reach you today. Your website either answers those three questions in seconds, or loses the learner to the school down the road that does.
+      </p>
+
+      <p class="mb-6">
+        <strong>Price.</strong> Learners want a number before they commit. Driving lessons are a real expense, and parents are usually the ones paying. 'Driving school port elizabeth prices' is one of the first suggestions Google offers. A school that states its lesson rate, its package prices, and its learners licence or code 14 fees on its website answers the question before the phone call.
+      </p>
+
+      <p class="mb-6">
+        <strong>Code 14.</strong> Heavy vehicle licences are a Port Elizabeth specialty. The harbour and the logistics corridor mean there's steady demand for code 14 training, and learners search for it specifically. If you teach code 14, that needs to be on your site, on its own section, with its own price. A school that buries its truck licence offering in a general 'we teach all codes' line is invisible to the learner who specifically needs code 14.
+      </p>
+
+      <p class="mb-8">
+        <strong>Open now.</strong> 'Driving school port elizabeth open now' shows learners want a school they can contact today, not one that answers emails next week. A WhatsApp button and stated operating hours answer this directly. Learners also search 'learners licence port elizabeth' and get 'booking online' and 'price' as suggestions, which means they want to book the test or the lessons without a phone call during business hours.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">What learners search</th>
+              <th class="p-4 font-bold text-white">What they're really asking</th>
+              <th class="p-4 font-bold text-white">What answers it on your site</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">'driving school port elizabeth prices'</td>
+              <td class="p-4 text-zinc-300">How much do lessons actually cost?</td>
+              <td class="p-4 text-zinc-300">Published lesson rate, package prices, learners licence and code 14 fees</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">'driving school port elizabeth code 14'</td>
+              <td class="p-4 text-zinc-300">Do you teach heavy vehicles, and in what?</td>
+              <td class="p-4 text-zinc-300">A dedicated code 14 section with its own price and its own trucks</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">'driving school port elizabeth open now'</td>
+              <td class="p-4 text-zinc-300">Can I contact you today?</td>
+              <td class="p-4 text-zinc-300">WhatsApp button, stated hours, and a booking form that gets confirmed fast</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Searches for one specific school by name</td>
+              <td class="p-4 text-zinc-300">Is this school real, and what do they charge?</td>
+              <td class="p-4 text-zinc-300">Registration details, real photos and genuine learner reviews</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The named-school search that should worry you
+      </h2>
+
+      <p class="mb-6">
+        When learners search for driving schools in Port Elizabeth, Google doesn't only suggest generic terms. It suggests the names of actual local schools. Learners who were told 'go to so-and-so driving school' type the name straight in, looking for prices, hours, and confirmation that the school is real.
+      </p>
+
+      <p class="mb-8">
+        If that school has no website, the search lands on a directory listing with an old phone number, or nothing. The recommendation that brought the learner to Google evaporates. That exact search behaviour is happening in Port Elizabeth right now, for real schools, and most of them can't catch it. A site catches it; a Facebook page doesn't. The difference between the two is worth reading before you decide: <a href="/articles/website-vs-facebook-page-south-africa" class="text-yellow-400 underline hover:text-yellow-300">website vs a Facebook page for your business</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a booking-ready school website looks like
+      </h2>
+
+      <p class="mb-6">
+        You don't need a portal. You need five things that answer the learner's questions in seconds: clear pricing, booking without a phone call, your codes and vehicles, your location and test-centre knowledge, and proof you're real. Each one removes a reason for the learner to phone a competitor instead.
+      </p>
+
+      <ul class="space-y-4 my-8">
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Clear pricing.</strong> <span class="text-zinc-300">Lesson rate, package prices, learners licence fee, code 14 price. If you need deposits, say so. Learners compare schools on price before anything else, and the school that shows the number wins the comparison.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Booking without a phone call.</strong> <span class="text-zinc-300">A WhatsApp button and a simple 'book a lesson' form. The learner who has to leave a voicemail and wait is the learner who books the school down the road. If you take bookings online, say how soon they get confirmed.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Your codes and your vehicles.</strong> <span class="text-zinc-300">Which codes you teach: code 08, code 10, code 14. What you drive: dual-control cars, bakkies, trucks. A learner doing their code 14 in a truck wants to know you have the truck.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Location and test-centre knowledge.</strong> <span class="text-zinc-300">Where you operate from, which suburbs you cover, and whether you know the local testing centre. 'We train around the Newton Park and Walmer test routes' beats a map pin with no context.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Proof you're real.</strong> <span class="text-zinc-300">Your driving school registration details, how long you've been operating, real photos of your cars and your instructors, and genuine learner reviews. A school that passes learners and has the reviews to show it is the school that gets the next learner.</span>
+        </li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The free half: your Google Business Profile
+      </h2>
+
+      <p class="mb-6">
+        The website is one half of the answer. The free half is your Google Business Profile, and for a driving school it does more heavy lifting than for most businesses, because learners search 'driving school near me' and Google answers with a map, not a list of websites.
+      </p>
+
+      <p class="mb-6">
+        If your profile is unclaimed, or claimed with the wrong number, or set to the wrong category, you don't exist in that map answer. Three fixes matter most. Set your category to Driving School, put your suburb in your business name and description (Newton Park, Walmer, Korsten, whichever you actually operate from in Gqeberha), and make sure the phone number goes straight to WhatsApp if that's how you take bookings. Add real photos of your cars and instructors, ask every learner who passes to leave a review, and keep your hours honest. A school with forty reviews and a claimed profile beats a school with a better website and no profile, every single time. The full sequence, from claiming to collecting reviews, is in our guide on <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>.
+      </p>
+
+      <p class="mb-8">
+        The profile and the website feed each other. The profile gets the learner to tap through, and the website answers the price and booking questions that decide whether they actually call. Build both, and you own the search in your suburbs.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What it should cost (honestly)
+      </h2>
+
+      <p class="mb-6">
+        There is no published South African price specifically for driving school websites, and anyone who gives you a precise 'driving school websites cost R...' figure is inventing it. The honest anchors are the general small-business averages: about R6,633 for a five-page site, and R8,590 to R16,900 for professional-services sites from premium national agencies.
+      </p>
+
+      <p class="mb-8">
+        A basic but solid driving school site fits in that band, and a small local agency will beat the premium national options on both price and turnaround. Treat any claim of a special 'driving school website' rate with suspicion and ask for a straight quote. The full breakdown of what a business website actually costs in South Africa, and where the money goes, is in <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">our cost guide</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The honest timeline
+      </h2>
+
+      <p class="mb-6">
+        The free fixes work immediately: claim your Google Business Profile, put your suburb and hours on it, add real learner reviews, and make sure your phone number is correct everywhere it appears. The website itself, five pages, pricing, codes, WhatsApp booking, is a two to four week project with a decent small agency, or faster if you have your lesson prices ready to hand over.
+      </p>
+
+      <p class="mb-8">
+        For the booking side, a <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration</a> is the fastest path for a driving school, because your learners already live in WhatsApp and the button works from the first day.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        Port Elizabeth learners are typing 'driving school port elizabeth' with 'prices', 'code 14' and 'open now' attached to it. The schools that answer those three questions on their own websites are the ones that get the bookings. Claim the profile, publish the prices, put booking on WhatsApp, and the search in your suburbs becomes yours.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Driving School Found Online</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, WhatsApp-first local lead engines for driving schools across South Africa, with transparent R1,499 setup plus R800/mo hosting and support. Let's get your learners booking directly.
+        </p>
+
+        <div class="mt-4">
+          <a
+            href="https://wa.me/27823006996"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a driving school website cost in South Africa?",
+        answer: "There's no published rate specific to driving schools, so treat any special 'driving school website' price with suspicion. A standard five-page small business site in SA averages around R6,633, and a small local agency typically quotes from about R1,499 once-off plus a monthly care fee. Ask for a straight quote."
+      },
+      {
+        question: "Do driving schools really need a website if they're already on Facebook?",
+        answer: "A Facebook page reaches people who already follow you. Learners searching 'driving school port elizabeth' are strangers who have never heard of you, and Google answers them with a map and a list of websites. The schools that show up at all do so through directories and Facebook pages with the same missing information: prices, hours, codes."
+      },
+      {
+        question: "Why do learners search 'driving school port elizabeth open now'?",
+        answer: "They want a school they can contact today, not one that answers emails next week. An 'open now' search usually ends in a phone call or a WhatsApp message, so a visible WhatsApp button and honest operating hours answer it directly and turn the search into a booking."
+      },
+      {
+        question: "Should a driving school publish its lesson prices online?",
+        answer: "Yes. Price is the first thing learners search for, and parents are usually the ones paying. A school that states its lesson rate, package prices, and learners licence or code 14 fees answers the question before the phone call, and the school that shows the number wins the comparison."
+      },
+      {
+        question: "What should a code 14 driving school put on its website?",
+        answer: "A dedicated section with its own price and its own vehicles. Heavy vehicle licences are a Port Elizabeth specialty, and learners search for code 14 specifically. A school that buries its truck licence offering in a general 'we teach all codes' line is invisible to the learner who specifically needs code 14."
+      },
+      {
+        question: "How long does it take to get a driving school website live?",
+        answer: "Plan on two to four weeks with a decent small agency, or faster if your lesson prices are ready to hand over. Five pages, home, pricing, codes and vehicles, bookings, reviews, is a quick build; the waiting is usually on the content."
+      },
+      {
+        question: "How do I get my driving school to show up for 'driving school near me'?",
+        answer: "Claim your Google Business Profile, set the category to Driving School, put your suburb in the business name and description, make sure the phone number goes straight to WhatsApp, and ask every learner who passes to leave a review. The profile and the website feed each other; build both and you own the search in your suburbs."
+      }
+    ]
+  },
+  {
+    slug: 'dentist-port-elizabeth-local-search',
+    title: "Dentist Port Elizabeth: Why Patients Search by Suburb First",
+    metaTitle: "Dentist Port Elizabeth: Why Patients Search by Suburb First",
+    summary: "PE patients search dentists by suburb, price and Saturday hours before they call. A practice that names its suburb, shows its price and books on WhatsApp wins its suburb's search results.",
+    metaDescription: "Patients search 'dentist port elizabeth' by suburb, price and Saturday hours before they call. How a Port Elizabeth practice gets found online.",
+    date: 'Aug 24, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '7 min read',
+    category: 'Content & Strategy',
+    tags: ['dentist-port-elizabeth', 'dentist-website', 'dental-practice-website', 'local-seo', 'google-business-profile', 'whatsapp-booking', 'gqeberha'],
+    imageUrl: '/images/dentist_port_elizabeth_local_search.jpg',
+    keyTakeaways: [
+      "Patients in Port Elizabeth don't search 'best dentist in South Africa'. They search 'dentist port elizabeth walmer', 'dentist port elizabeth prices' and 'dentist open on saturday'. Suburb-level detail is the difference between being in that answer and being invisible to it.",
+      "If your practice is in Walmer and your Google Business Profile says 'Port Elizabeth', you've handed the search to the practice down the road that bothered to say 'Walmer'.",
+      "Show your consultation fee or a from-price, say loudly if you work Saturdays, and put a WhatsApp button in front of patients. The patient who has to phone to discover the price is the patient who also phones your competitor.",
+      "The gap is local. Nobody in the national dentist-website list answers 'dentist port elizabeth walmer'. You can own your suburb's search results with a claimed profile and a simple five-page website."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        A patient with a toothache at 9pm doesn't phone around. They open Google and type 'dentist port elizabeth'. What happens next tells you how Port Elizabeth patients actually choose a practice, and it has very little to do with how good your dentistry is.
+      </p>
+
+      <p class="mb-8">
+        Google's own suggestions for that search, pulled live in August 2026, go straight to suburbs: Newton Park, Walmer, Motherwell, Korsten, Summerstrand, New Brighton. Then prices. Then Saturday hours. Patients in this city don't search 'best dentist in South Africa'. They search 'dentist port elizabeth walmer', 'dentist port elizabeth prices', or 'dentist open on saturday'. They're not browsing. They have a problem, they want it fixed nearby, and they want to know what it costs before they pick up the phone.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What the suburb chain means for your practice
+      </h2>
+
+      <p class="mb-6">
+        The list of suburbs isn't random. It's the demand map of Port Elizabeth. Newton Park and Walmer come first because that's where the practices are; Motherwell and New Brighton appear because people there are searching too, and too few practices answer them properly. Suburb-level detail is the difference between being in that answer and being invisible to it.
+      </p>
+
+      <p class="mb-8">
+        Here's the uncomfortable part: if your practice is in Walmer and your Google Business Profile says 'Port Elizabeth', you've handed the search to the practice down the road that bothered to say 'Walmer'. The patient searching 'dentist port elizabeth walmer' isn't looking for a city. They're looking for someone they can reach in ten minutes, with parking, whose rooms they can picture.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Patients search by price and by hours
+      </h2>
+
+      <p class="mb-6">
+        The same live suggestions show two more behaviours worth building your whole online presence around: price and Saturday hours. Patients want a number before they commit to a consultation, and working parents want to know if they can be seen on a Saturday. Both answers belong on your Google profile and on the first screenful of your website.
+      </p>
+
+      <p class="mb-6">
+        <strong>Price.</strong> 'dentist port elizabeth prices' is a real, recurring search. Patients want a number before they commit to a consultation. A practice that shows its consultation fee, or at least a 'from R...' range on its website, answers the question the patient came with. A practice that hides pricing makes the patient phone, and the patient who has to phone to discover the price is the patient who also phones your competitor.
+      </p>
+
+      <p class="mb-8">
+        <strong>Saturday hours.</strong> 'dentist open on saturday' appears in the suggestions for 'dentist port elizabeth' and for 'dentist near me' nationally. If you're open on Saturdays, say so loudly, on your Google profile and on your website, and put it in the first screenful. That single line wins you the working parent who would otherwise assume you're closed and book the emergency clinic.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">What patients search</th>
+              <th class="p-4 font-bold text-white">What they're really asking</th>
+              <th class="p-4 font-bold text-white">What answers it on your site</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">'dentist port elizabeth walmer'</td>
+              <td class="p-4 text-zinc-300">Is there a dentist in my suburb I can reach quickly?</td>
+              <td class="p-4 text-zinc-300">A Google profile and website that name your actual suburb</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">'dentist port elizabeth prices'</td>
+              <td class="p-4 text-zinc-300">What will a consultation cost me?</td>
+              <td class="p-4 text-zinc-300">Consultation fee or a 'from R...' range on your site</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">'dentist open on saturday'</td>
+              <td class="p-4 text-zinc-300">Can I be seen this Saturday?</td>
+              <td class="p-4 text-zinc-300">Saturday hours on your profile and in the first screenful of your site</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Direct searches for a practice's name</td>
+              <td class="p-4 text-zinc-300">Is this practice real, and where is it?</td>
+              <td class="p-4 text-zinc-300">A website with your HPCSA number, address, photos and reviews</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        People even search your practice by name
+      </h2>
+
+      <p class="mb-6">
+        One of the top suggestions for 'dentist gqeberha' is the name of a specific local practice. Patients who were referred to a practice by name type that name straight into Google, looking for hours, direction and confirmation that the practice is real.
+      </p>
+
+      <p class="mb-8">
+        If that practice had a proper website, the search would land on it. Instead it lands on directory listings, a Facebook page from years ago, or nothing. The recommendation that brought that patient to the search evaporates the moment they can't verify the practice. This is happening in Port Elizabeth right now, for real practices, with real patients doing the searching.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a Port Elizabeth dentist needs online
+      </h2>
+
+      <p class="mb-6">
+        Keep it simple. Five things cover almost everything: a Google Business Profile that names your suburb, a website that answers the local questions, booking without a phone call during office hours, proof you're real, and reviews. Each one removes a reason for the patient to phone the practice down the road instead.
+      </p>
+
+      <ul class="space-y-4 my-8">
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">A Google Business Profile that names your suburb.</strong> <span class="text-zinc-300">Category: Dentist. Location: your actual suburb, not just the city. Hours, including Saturday if you work Saturdays. This is free, and it's the single biggest lever for 'dentist port elizabeth' searches.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">A website that answers the local questions.</strong> <span class="text-zinc-300">Your consultation fee or a from-price, your hours, your address with a map link, the medical aids you accept, and the services you offer (general dentistry, fillings, crowns, root canals, teeth whitening, emergency slots). Patients don't want to phone for any of this.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Booking without a phone call during office hours.</strong> <span class="text-zinc-300">A WhatsApp button or a simple form that gets answered within a working day. The patient with a throbbing tooth at 9pm will message at 9pm. Make sure that message lands somewhere it gets seen in the morning.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Proof you're real.</strong> <span class="text-zinc-300">Your HPCSA registration number, your qualifications, real photos of your rooms and your team. Stock photos of people shaking hands build zero trust. A photo of your actual reception desk says more than a paragraph.</span>
+        </li>
+        <li class="bg-zinc-900 border border-zinc-800 p-5 rounded-2xl">
+          <strong class="text-white">Reviews.</strong> <span class="text-zinc-300">Real Google reviews from real patients. For a local practice, a handful of honest reviews outweighs any amount of copywriting.</span>
+        </li>
+      </ul>
+
+      <p class="mb-8">
+        The full sequence, from claiming to collecting reviews, is in our guide on <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>, and a <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration</a> is the fastest booking path for a practice, because your patients already live in WhatsApp.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The local-only strategy
+      </h2>
+
+      <p class="mb-6">
+        There's no shortage of South African agencies that build dentist websites. Search 'dental practice website design south africa' and you'll find a dozen of them, most of them generalists selling the same template to everyone. That's not where the gap is, and it's not where you should compete.
+      </p>
+
+      <p class="mb-8">
+        The gap is local. Nobody in that national list answers 'dentist port elizabeth walmer' or 'dentist open on saturday in PE' or 'dentist port elizabeth prices'. Those searches belong to the practices that name their suburb, state their hours, show their price and let patients book on WhatsApp. You can own your suburb's search results with a claimed profile and a simple five-page website, while the national agencies keep competing for the same generic term. A site built to pull local enquiries is exactly the <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">local lead engine we describe here</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The honest version
+      </h2>
+
+      <p class="mb-6">
+        The free fixes, your Google Business Profile, correct hours, correct suburb, a handful of reviews, can be done this week, and they show results quickly. A proper small website, five pages, from around R1,499 once-off in this market plus a monthly care cost, takes two to four weeks with a decent small agency, or a bit longer if the content drags.
+      </p>
+
+      <p class="mb-8">
+        For what that money buys, and where the extras usually hide, <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">our guide to what a business website costs in South Africa</a> breaks down the whole picture before you spend a rand.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        That's the whole plan. Claim the profile, name the suburb, show the price and the Saturday hours, let patients book on WhatsApp, and keep it current. Port Elizabeth patients are typing your suburb into Google right now. The practice that answers them in their own suburb's terms is the one that gets the call.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Practice Found in Its Suburb</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, WhatsApp-first local lead engines for dental practices across South Africa, with transparent R1,499 setup plus R800/mo hosting and support. Let's get your suburb's patients booking directly.
+        </p>
+
+        <div class="mt-4">
+          <a
+            href="https://wa.me/27823006996"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a dentist website cost in South Africa?",
+        answer: "In this market, a proper five-page practice site runs from around R1,499 once-off plus a monthly care cost of about R800 for hosting, updates and support, and takes two to four weeks with a decent small agency. National agencies will quote far more for the same pages."
+      },
+      {
+        question: "Why do patients search 'dentist port elizabeth walmer' instead of just 'dentist'?",
+        answer: "Because they're not looking for a city. They're looking for someone they can reach in ten minutes, with parking, whose rooms they can picture. The suburb chain in Google's suggestions, Newton Park, Walmer, Motherwell, Korsten, Summerstrand, New Brighton, is the demand map of Port Elizabeth."
+      },
+      {
+        question: "Should a dentist show prices on the website?",
+        answer: "Yes. 'Dentist port elizabeth prices' is a real, recurring search, and patients want a number before they commit to a consultation. Show your consultation fee or a 'from R...' range. A practice that hides pricing makes the patient phone, and the patient who has to phone to discover the price is the patient who also phones your competitor."
+      },
+      {
+        question: "How can my practice get more Saturday bookings?",
+        answer: "If you're open on Saturdays, say so loudly, on your Google profile and on your website, in the first screenful. 'Dentist open on saturday' is one of the top suggestions for Port Elizabeth searches, and that single line wins you the working parent who would otherwise book the emergency clinic."
+      },
+      {
+        question: "Do I need a website if I already have a Google Business Profile?",
+        answer: "Yes. The profile gets the patient to tap through; the website answers the price, hours and booking questions that decide whether they actually call. The two feed each other, and a practice with a claimed profile but no site loses the patient who lands on the profile and finds nowhere to verify the practice or book."
+      },
+      {
+        question: "What should a Port Elizabeth dentist's website include?",
+        answer: "Your consultation fee or a from-price, your hours, your address with a map link, the medical aids you accept, and your services: general dentistry, fillings, crowns, root canals, whitening, emergency slots. Plus your HPCSA registration number, real photos of your rooms and team, and a WhatsApp button or booking form."
+      },
+      {
+        question: "How do patients find a dentist by name?",
+        answer: "Referred patients type the practice name straight into Google, looking for hours, direction and confirmation that the practice is real. A proper website catches that search and verifies you. A directory listing or an old Facebook page evaporates the recommendation that brought them there."
+      }
+    ]
   }
 ];
 
