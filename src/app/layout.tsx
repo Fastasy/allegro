@@ -48,6 +48,11 @@ export const metadata: Metadata = {
     description: 'Get a high-converting, professional website in Port Elizabeth for just R1,499 upfront and R800/mo. Fast turnaround, mobile-optimized, and local SEO ready.',
     images: [OG_IMAGE],
   },
+  verification: {
+    other: {
+      'msvalidate.01': '4993F85F53B352A0A919F8D83AFCED4D',
+    },
+  },
 };
 
 export default function RootLayout({
@@ -58,6 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en-ZA" className={`${plusJakartaSans.variable} ${outfit.variable}`}>
       <head>
+        <meta name="msvalidate.01" content="4993F85F53B352A0A919F8D83AFCED4D" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
