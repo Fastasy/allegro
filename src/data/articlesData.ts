@@ -4668,7 +4668,242 @@ export const articles: Article[] = [
         answer: "Referred patients type the practice name straight into Google, looking for hours, direction and confirmation that the practice is real. A proper website catches that search and verifies you. A directory listing or an old Facebook page evaporates the recommendation that brought them there."
       }
     ]
+  },
+  {
+    slug: 'electrician-website-design-south-africa',
+    title: "Electrician Website Design South Africa: Win the Job Before You Quote",
+    metaTitle: "Electrician Website Design SA: Win the Job Before You Quote",
+    summary: "Homeowners searching 'electrician near me' call whoever looks real first. Service pages, named suburbs, WhatsApp quote capture and COC content that win the call-out before you quote.",
+    metaDescription: "Website design for electricians in South Africa: service pages, named suburbs, WhatsApp quote capture and COC content that wins call-outs before you quote.",
+    date: 'Aug 25, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '7 min read',
+    category: 'Content & Strategy',
+    tags: ['electrician-website', 'sa-trades', 'local-seo', 'whatsapp', 'google-business-profile', 'south-africa'],
+    imageUrl: '/images/electrician_website_design.jpg',
+    keyTakeaways: [
+      "An electrician wins the job the moment a homeowner decides the name is worth calling — a decision made in the first seconds of an 'electrician near me' search, usually on a phone, usually after hours.",
+      "A Facebook page ranks on Facebook; Google ranks websites. A website plus a claimed Google Business Profile is what shows up for electrician searches with a live job behind them.",
+      "One page per service, suburbs named in plain language, and a WhatsApp quote capture that works at 19:00 on a Sunday with the suburb and the problem pre-filled.",
+      "COC, EFC and SANS 10222 content ranks for searches with buying intent and positions you as the contractor who knows the regulations."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        When a homeowner's DB board trips at 19:00 on a Sunday, they do not phone around. They open their phone, type 'electrician near me', and call whoever looks real first. If your name does not come up, or your page looks like a hobby, the job goes to someone else before you ever get to quote. That is what website design for electricians in South Africa comes down to: winning the call-out.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The job is won before the quote goes out
+      </h2>
+
+      <p class="mb-6">
+        An electrician wins a job the moment a homeowner decides your name is worth calling. That decision happens in the first few seconds of a Google search, usually on a phone, usually after hours. Your website is what makes that decision go your way, so the call-out is the product and the quote is the sale.
+      </p>
+
+      <p class="mb-8">
+        A DB board tripping at 19:00 is an emergency. A COC needed before a transfer goes through is a deadline you can see coming. In both cases the homeowner reaches for a phone. They call the result that looks like a proper business, and that first call happens before any price gets mentioned.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        A Facebook page does not rank for "electrician near me"
+      </h2>
+
+      <p class="mb-6">
+        Facebook pages rank on Facebook. Google ranks websites, and when someone searches 'electrician near me', Google shows the businesses it trusts: ones with a website, a Google Business Profile, and consistent information across both. A Facebook page alone rarely makes that list, no matter how active it is.
+      </p>
+
+      <p class="mb-8">
+        A Facebook page is where customers check you out after they find you: job photos, reviews, regulars. It is not where new customers find you, because the person searching for an electrician in Walmer or Gqeberha is searching Google, not Facebook. Your page shows up for your followers. A website shows up for everyone.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">What it does for you</th>
+              <th class="p-4 font-bold text-white">No website</th>
+              <th class="p-4 font-bold text-white">Facebook page only</th>
+              <th class="p-4 font-bold text-white">Proper website</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Shows up in Google Maps</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Partly</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Ranks for "electrician near me"</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Rarely</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Captures after-hours emergency call-outs</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Partly</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Quote requests arrive 24/7</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Looks credible to insurance and municipal clients</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Partly</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        Start with a free Google Business Profile so your map listing exists, then give Google a reason to trust it. We walk through that in <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>. The same gap shows up in every trade; <a href="/articles/plumber-website-design-south-africa" class="text-yellow-400 underline hover:text-yellow-300">plumber website design South Africa</a> covers the identical problem.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a website for electricians needs to win call-outs
+      </h2>
+
+      <p class="mb-6">
+        A website for electricians needs three things: one page per service you do, your service area named in plain language, and a way for a homeowner to send a quote request without picking up the phone. Everything else is polish. Those three things win call-outs.
+      </p>
+
+      <p class="mb-8">
+        Most electrical contractors in the Eastern Cape do far more than wiring: solar, CCTV, gate automation, electric fencing, air conditioning, access control, networking and smart home setups. If your site is one page that says 'electrical services', the homeowner with a broken gate motor has no reason to believe you fix gate motors. Each service gets its own page, so every search lands on a page that answers it.
+      </p>
+
+      <p class="mb-8">
+        A site that does all of this stays well inside the numbers in our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African website cost guide</a>. Electrician website design in South Africa works the same way in every town: match the search, answer the question, capture the request.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Name your suburbs, every single one
+      </h2>
+
+      <p class="mb-6">
+        Google matches search terms to page content. When someone in Walmer searches 'electrician Walmer', Google looks for a page that mentions Walmer. If your site names every suburb you work in, you give Google the exact words it needs to connect you to the search.
+      </p>
+
+      <p class="mb-8">
+        If you work from Kariega to Summerstrand, say so: Walmer, Newton Park, Lorraine, Fairview, Mill Park, Summerstrand, Kariega. 'We service the whole Eastern Cape' is a vague line. A page that lists Mthatha, East London, Butterworth and King William's Town is a statement of reach a client can verify. Put those names on the home page, the contact page and every service page, so a homeowner in Fairview sees Fairview and knows you come to them.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        WhatsApp quote capture: quotes that arrive at 19:00
+      </h2>
+
+      <p class="mb-6">
+        The best lead capture for a South African tradesman is a WhatsApp button that opens a chat with a pre-filled message. The homeowner taps, the message reads 'Hi, my DB board is tripping in Walmer, can you help?', and the request lands in your phone with their number attached.
+      </p>
+
+      <p class="mb-8">
+        The pre-filled message matters more than people realise. It captures the suburb and the problem before you answer a word, so you already know whether this is a 20-minute trip or a two-day rewire. The request sits in your pocket the moment they tap. A contact form does the same job for customers who prefer email, but the WhatsApp button is what gets used at 19:00 on a Sunday. We covered the mechanics in <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration in South Africa</a>.
+      </p>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">💡 The pre-filled message habit</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Pre-fill the message with the suburb and the problem: 'Hi, my DB board is tripping in Walmer, can you help?' The homeowner edits one word and taps send, and you get an emergency call-out request you already understand, with their number attached.
+        </p>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Proof: branches, partner brands and reviews
+      </h2>
+
+      <p class="mb-6">
+        Nobody hires an electrician who looks risky. A homeowner comparing two names at 19:00 picks the one with branches, partner brands and reviews, because proof is what makes a stranger's number feel safe to call. Your website is where that proof lives.
+      </p>
+
+      <p class="mb-8">
+        Insurance companies and municipal clients check before they sign. A contractor who installs major brands has a page that says so. Branches get listed with their towns, and reviews go where a sceptical visitor can find them. None of this is decoration; it is the difference between being called and being skipped.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        COC, EFC certificates and SANS 10222: content that answers before the call
+      </h2>
+
+      <p class="mb-6">
+        A Certificate of Compliance (COC) is the document that proves an electrical installation complies with South African wiring standards, and it is required when a property changes hands. Homeowners search for what a COC is and who can issue one before they search for an electrician to do the work.
+      </p>
+
+      <p class="mb-8">
+        Write the pages that answer those questions. Explain what a COC covers and when you need an EFC, the Electric Fence Certificate, for a fence installation. Explain that electric fencing must comply with SANS 10222, and what happens during an inspection. Each page ranks for a search with buying intent and positions you as the person who knows the regulations. COC demand spikes in January and through the property-sale season, because that is when transfers happen.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What this looks like: Vault Electronix & Electricals
+      </h2>
+
+      <p class="mb-6">
+        Vault Electronix & Electricals is an Eastern Cape electrical contractor with branches in Mthatha, East London, Butterworth and King William's Town. Their new build runs on a nine-service-page architecture with WhatsApp lead capture and per-service FAQ content.
+      </p>
+
+      <p class="mb-8">
+        Every service, electrical, solar, CCTV, gate automation, electric fencing, air conditioning, access control, networking and smart home, has its own page with its own FAQ underneath. A customer searching for a gate motor lands on a page about that exact service and sends a WhatsApp message with their suburb pre-filled. The brand names the company installs (Centurion, MultiChoice, Hikvision, Nemtek and Lux Power) sit on those pages, and the branch towns appear throughout the site. A website does not win every job. It wins the chance to quote, and that is most of the job.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        Your competitors are other electricians, and most of them have no website at all. The gap is open right now: a site that names your services, your suburbs and your branches, captures WhatsApp quote requests around the clock, and explains COCs and certificates properly. Two to four weeks of work puts that live before the next January spike. When their DB board trips at 19:00, your name is the one that comes up.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Electrical Business Found Online</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, WhatsApp-first local lead engines for electricians across South Africa, with transparent R1,499 setup plus R800/mo hosting and support. Let's get the call-outs coming in.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a website for an electrician cost in South Africa?",
+        answer: "In this market, a working electrician website with service pages, WhatsApp quote capture and Google Business Profile setup runs about R1,499 once-off, plus R800 a month for hosting, care and updates. That covers the build and keeps the site maintained."
+      },
+      {
+        question: "Do I need a website if I have a Facebook page?",
+        answer: "A Facebook page is good for posting job photos and keeping regulars informed. It does not rank for 'electrician near me' searches on Google, where new customers find tradesmen. Keep the page, and build the website that brings people to it."
+      },
+      {
+        question: "What pages should an electrician's website have?",
+        answer: "One page per service: electrical, solar, CCTV, gate automation, electric fencing, air conditioning, access control, networking and smart home. Plus a home page naming your suburbs and branches, a contact page with your number and WhatsApp, and an about page with your certificates and brands."
+      },
+      {
+        question: "How do people request quotes from my website?",
+        answer: "They tap a WhatsApp button that opens a chat with a pre-filled message, like 'Hi, my DB board is tripping in Walmer, can you help?' You get the message with their number attached. A simple contact form does the same job for people who prefer email."
+      },
+      {
+        question: "What is a COC and why should my website explain it?",
+        answer: "A COC is the Certificate of Compliance that proves an electrical installation complies with South African wiring standards. Property sales need one before transfer. If your site explains what a COC covers and when it is needed, you rank for people who need one this week."
+      },
+      {
+        question: "How do I capture after-hours emergency call-outs?",
+        answer: "Put your emergency number on the home page and every service page, with a WhatsApp button that works at any hour. The pre-filled message tells you the suburb and the problem, so you can decide before you answer whether the call-out is worth taking."
+      },
+      {
+        question: "How long does it take to get an electrician website live?",
+        answer: "A nine-page site with written content, WhatsApp capture and Google Business Profile setup usually takes two to four weeks from brief to launch. The bulk of that time is the content, where the rankings and the trust come from."
+      }
+    ]
   }
+
 ];
-
-
