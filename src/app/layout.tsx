@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Plus_Jakarta_Sans, Outfit } from 'next/font/google';
 import '../index.css';
 import { Providers } from './providers';
@@ -182,6 +183,11 @@ export default function RootLayout({
       </head>
       <body>
         <Providers>{children}</Providers>
+        {/* Zoho PageSense (sitewide) — added 2026-08-27 */}
+        <Script
+          src="https://cdn.pagesense.io/js/allegrodigital/246163d4c6684621aec18998cbb9e643.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
