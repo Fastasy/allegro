@@ -4904,6 +4904,461 @@ export const articles: Article[] = [
         answer: "A nine-page site with written content, WhatsApp capture and Google Business Profile setup usually takes two to four weeks from brief to launch. The bulk of that time is the content, where the rankings and the trust come from."
       }
     ]
-  }
+  },
 
+  {
+    slug: 'bookkeeper-website-design-south-africa',
+    title: "Bookkeeper Website Design South Africa: The Trust Signal Solo Bookkeepers Miss",
+    metaTitle: "Bookkeeper Website Design South Africa: The Trust Signal",
+    summary: "Clients type 'how much do bookkeepers charge' before they call. A solo bookkeeper website is the trust signal that wins the client: services, a price page, SAIPA/SARS proof and WhatsApp capture.",
+    metaDescription: "Bookkeeper website design South Africa: the five pages a solo practice needs to win the trust check, answer the price question and turn referrals into clients.",
+    date: 'Aug 28, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '7 min read',
+    category: 'Content & Strategy',
+    tags: ['bookkeeper-website', 'accountant', 'tax-practitioner', 'small-business', 'trust', 'south-africa'],
+    imageUrl: '/images/bookkeeper_website_design.jpg',
+    keyTakeaways: [
+      "Clients type 'how much do bookkeepers charge' into Google before they phone anyone; a website that answers that question wins the enquiry before the call.",
+      "The trust check happens online first: SAIPA, SAIT or SARS registration, real reviews and a price page are the digital version of the certificate on your wall.",
+      "Five pages are enough: home, services, price, legitimacy and contact with WhatsApp and a POPIA-compliant form.",
+      "The gap is open: no South African agency targets 'bookkeeper website design south africa', so the niche is claimable now."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Type "bookkeeper port elizabeth" into Google and watch what it finishes for you: "how does a bookkeeper charge", "how much do bookkeepers charge", "how much should a bookkeeper charge". That is not a coincidence. It is what real clients in South Africa type before they phone anyone. The person asking that question is your ideal client, and right now, most solo bookkeepers have no website for them to land on. Bookkeeper website design in South Africa is really the design of trust: a site that answers the price question before the call.
+      </p>
+
+      <p class="mb-6">
+        Here is the uncomfortable part. If you run a solo bookkeeping practice and a potential client searches "how much do bookkeepers charge", they will not find you. They will find articles written by accounting software companies, forum threads, and a handful of bigger firms. Your name will not come up, because you have no online presence to come up in. The client never learns you exist, and the work goes to someone who bothered to be findable.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The search data says the gap is wide open
+      </h2>
+
+      <p class="mb-6">
+        Two verified facts from August 2026 make this worth acting on now.
+      </p>
+
+      <p class="mb-6">
+        First, local clients search in price terms. "bookkeeper port elizabeth" autocompletes to the charge questions above. Even the newer term "bookkeeper gqeberha" shows the same early-mover pattern: barely anyone is using it yet, which means whoever claims it now owns it while it grows.
+      </p>
+
+      <p class="mb-8">
+        Second, the supply side is empty. Search "bookkeeper website design south africa" and you will not find a single South African agency page aimed at bookkeepers. The results are Upwork, international firms, and a Western Cape accountant's page that happens to mention bookkeeping. No SA agency is writing to you, and none is competing for that search. It is a genuine gap, and it will not stay open forever.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The trust problem is bigger than the visibility problem
+      </h2>
+
+      <p class="mb-6">
+        A bookkeeper handles money. Before a small business owner hands over their invoices, their payroll, their SARS submissions, they need to trust you. That trust used to form over the phone and through referrals. Now it forms online, before you ever speak.
+      </p>
+
+      <p class="mb-8">
+        Here is what the client does: they get your name from a friend, or they search "bookkeeper near me", and then they check. Does this person have a real practice? Are they registered? What do they charge? Do other people vouch for them? If that check turns up a Facebook page from 2019, or nothing at all, the referral starts to feel risky. Not because you are bad at your job. Because the client cannot verify you.
+      </p>
+
+      <p class="mb-8">
+        A website is the cheapest trust infrastructure a solo bookkeeper can buy. It does not need to be fancy. It needs to answer the questions that make a stranger trust you with their numbers.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a solo bookkeeper's website actually needs
+      </h2>
+
+      <p class="mb-6">
+        Keep it to five pages, and keep each page boring and honest:
+      </p>
+
+      <p class="mb-6">
+        <strong class="text-white">A home page that says what you do and who you serve.</strong> "Monthly bookkeeping and VAT for small businesses in Port Elizabeth." One or two lines. Your phone number and WhatsApp button visible without scrolling.
+      </p>
+
+      <p class="mb-6">
+        <strong class="text-white">A services page that names the work.</strong> Monthly bookkeeping, VAT returns, payroll, SARS submissions, tax clearance. One service per section, plain language, no jargon. The client should be able to read it and know which one they need.
+      </p>
+
+      <p class="mb-6">
+        <strong class="text-white">A price page, or at least a "from R..." figure.</strong> This is the one most bookkeepers skip, and it is the one that answers the client's actual search. You do not have to publish a full rate card. A starting monthly rate for a small business, stated plainly, answers "how much do bookkeepers charge" before the client has to ask. If you price per transaction, say that, and give a realistic range for a typical client.
+      </p>
+
+      <p class="mb-6">
+        <strong class="text-white">A page that proves you are legitimate.</strong> Your SAIPA, SAIT or SARS registration number, how long you have been practising, who you actually are. For a solo practice this page matters more than any other. It is the digital version of the certificate on your wall.
+      </p>
+
+      <p class="mb-8">
+        <strong class="text-white">A contact page with WhatsApp and a POPIA-compliant form.</strong> South African small business owners follow up on WhatsApp, not email forms. A WhatsApp button that lands in your phone, answered within a working day, wins the enquiry every time. And because you handle financial data, a short privacy statement matters. POPIA compliance is a trust signal, not admin.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The price question you will face either way
+      </h2>
+
+      <p class="mb-6">
+        Two price conversations happen in this niche, and they are different.
+      </p>
+
+      <p class="mb-6">
+        One is what bookkeepers charge their clients. That is your business, and you should own it on your site, because the client is searching for it before they call.
+      </p>
+
+      <p class="mb-8">
+        The other is what a bookkeeper's own website costs. Here is the honest market picture: the only SA firm that publishes a bookkeeping-specific price is Whale Coast Web, at R15,000 to R35,000 for a website taking four to six weeks. That is their published range, current as of June 2026, and it is at the premium end. A working five-page site in this market runs from around R1,499 once-off plus a monthly care cost with a small local agency, which is well within reach of a practice that bills monthly retainers. There are options in between. The point is not to overspend; the point is to have something that answers the trust check.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white">Bookkeeper website options</th>
+              <th class="p-4 font-bold text-white">No website</th>
+              <th class="p-4 font-bold text-white">Premium agency</th>
+              <th class="p-4 font-bold text-white">Local agency care</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Once-off build</td>
+              <td class="p-4 text-zinc-300">R0, but invisible</td>
+              <td class="p-4 text-zinc-300">R15,000–R35,000 (Whale Coast Web's published range, June 2026)</td>
+              <td class="p-4 text-zinc-300">From R1,499</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly care</td>
+              <td class="p-4 text-zinc-300">—</td>
+              <td class="p-4 text-zinc-300">Usually quoted separately</td>
+              <td class="p-4 text-zinc-300">From R800, all in</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Build time</td>
+              <td class="p-4 text-zinc-300">—</td>
+              <td class="p-4 text-zinc-300">4–6 weeks</td>
+              <td class="p-4 text-zinc-300">2–4 weeks</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Answers "how much do bookkeepers charge"</td>
+              <td class="p-4 text-zinc-300">No</td>
+              <td class="p-4 text-zinc-300">Only if the content does</td>
+              <td class="p-4 text-zinc-300">Yes, on your price page</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Fits a solo practice</td>
+              <td class="p-4 text-zinc-300">Never</td>
+              <td class="p-4 text-zinc-300">Rarely</td>
+              <td class="p-4 text-zinc-300">Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-6 rounded-r-2xl my-8">
+        <p class="text-yellow-300 font-bold text-base mb-1">💡 The page most bookkeepers skip</p>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          The price page. You do not need a full rate card, just a starting monthly rate for a small business, stated plainly. It answers "how much do bookkeepers charge" before the client has to ask, and it is the page that turns a referral into a call.
+        </p>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The honest timeline
+      </h2>
+
+      <p class="mb-6">
+        A solo bookkeeper website is a small project. A good five-page site realistically takes two to four weeks with an agency, less if you have your copy ready. The free parts, a claimed Google Business Profile and a few genuine client reviews, can happen this week and start working immediately. We walk through the profile setup in <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>.
+      </p>
+
+      <p class="mb-6">
+        If you are already getting referrals, a website does not replace them. It does something better: it makes every referral cheaper to keep. When someone recommends you, the first thing the client does is look you up. A clean, honest site confirms the recommendation. No site quietly undermines it.
+      </p>
+
+      <p class="mb-8">
+        The clients are out there typing "how much do bookkeepers charge" into Google right now. The solo bookkeepers who answer that question on their own websites are the ones who will get the call. The same trust logic runs through the <a href="/articles/accountant-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">accountant website cost guide</a>, and the budget side of the ledger is covered in our <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African website cost guide</a>.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Your Bookkeeping Practice Found Online</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build fast, WhatsApp-first trust sites for solo bookkeepers across South Africa, with transparent R1,499 setup plus R800/mo hosting and support. Let's get the price question answered before the call.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a bookkeeper website cost in South Africa?",
+        answer: "In this market, a working five-page bookkeeper website runs from about R1,499 once-off with a small local agency, plus around R800 a month for hosting, care and updates. At the premium end, Whale Coast Web publishes R15,000 to R35,000 as their range for bookkeeping-specific sites."
+      },
+      {
+        question: "Why does a bookkeeper need a website?",
+        answer: "Because clients check before they call. A small business owner who gets your name searches for you online to verify you exist, check your registration and see what you charge. No website, or an old Facebook page, makes a referral feel risky."
+      },
+      {
+        question: "What pages should a bookkeeper website have?",
+        answer: "Five: a home page that says what you do and who you serve, a services page that names the work, a price page with a from-R figure, a page proving you are registered (SAIPA, SAIT or SARS) and a contact page with WhatsApp and a POPIA-compliant form."
+      },
+      {
+        question: "How much do bookkeepers charge their clients in South Africa?",
+        answer: "Rates vary by scope: monthly bookkeeping and VAT for a small business, payroll, or SARS submissions each price differently, and some bookkeepers charge per transaction. Publish a starting monthly rate on your site; that is the number clients search for before they call."
+      },
+      {
+        question: "How do bookkeepers get new clients?",
+        answer: "Referrals and local search. A claimed Google Business Profile, a few genuine reviews and a website that answers the trust check make every referral easier to keep, and let new clients find you when they search for a bookkeeper in their area."
+      },
+      {
+        question: "How long does it take to build a bookkeeper website?",
+        answer: "A good five-page site realistically takes two to four weeks with an agency, less if you have your copy ready. The free parts, a claimed Google Business Profile and genuine reviews, can happen this week and start working immediately."
+      },
+      {
+        question: "Is a Facebook page enough for a bookkeeping practice?",
+        answer: "No. A Facebook page ranks on Facebook; the trust check happens on Google. When a client searches 'how much do bookkeepers charge' or 'bookkeeper near me', Google shows websites and Google Business Profiles, not Facebook pages. Keep the page, and build the website that brings people to it."
+      }
+    ],
+  },
+  {
+    slug: 'website-maintenance-cost-south-africa',
+    title: "Website Maintenance Cost South Africa: The Real Monthly Price in 2026",
+    metaTitle: "Website Maintenance Cost South Africa: Real 2026 Prices",
+    summary: "What website maintenance really costs in South Africa in 2026: hosting from R30 a month, the care layer on top, what your money buys, and when you can skip the retainer.",
+    metaDescription: "Website maintenance cost South Africa in 2026: hosting from R30 a month, a full care layer around R800, what your money buys, and when a static site can skip the retainer.",
+    date: 'Aug 28, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '9 min read',
+    category: 'Content & Strategy',
+    tags: ['website-maintenance', 'website-maintenance-cost', 'web-hosting-south-africa', 'sa-small-business', 'south-africa'],
+    imageUrl: '/images/website_maintenance_cost.jpg',
+    keyTakeaways: [
+      "Hosting is the cheap part: from about R30 a month for entry shared plans, with most small business sites landing between R50 and R250. The maintenance layer sits on top of that.",
+      "A fully looked-after site runs about R800 a month in this market, after a once-off setup, and that buys updates, tested backups, monitoring, edits, SSL renewal and a person who answers.",
+      "A static brochure site that changes once a year can skip the monthly retainer: hosting, a domain renewal reminder and an annual once-over are enough.",
+      "A site that takes payments, books jobs or collects enquiries needs monthly care. The three options, DIY, budget hosting and agency care, differ most in who is accountable when things break."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Pay a monthly website bill in South Africa and you have probably asked what it really buys. Hosting is the cheap part. The real cost sits in the upkeep: security updates for the platform and plugins, backups, uptime monitoring, content edits, SSL renewal, and someone to call when the site goes down. That is where the website maintenance cost in South Africa lands in 2026, and it varies more than you would think.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What does website maintenance cost per month in South Africa?
+      </h2>
+
+      <p class="mb-6">
+        Registerdomain.co.za's pricing breakdown puts entry shared hosting at about R30 a month, with most small business sites landing between R50 and R250 for hosting alone. The maintenance layer sits on top of that. In this market, a fully looked-after site runs about R800 a month, after a once-off setup of R1,499.
+      </p>
+
+      <p class="mb-8">
+        A small business site can be hosted for less than the price of a coffee a week. That cheapness makes the maintenance bill look like a rip-off until the site stops working and nobody answers. The build cost is a separate budget; our breakdown of <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">how much a website costs in South Africa</a> covers that side of the ledger.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why hosting is the cheap part
+      </h2>
+
+      <p class="mb-6">
+        Hosting is a server slot, and server slots are cheap. HostAfrica's entry shared hosting starts at R99 a month. HostKing lists plans from R34.50 a month on annual billing. Registerdomain.co.za's breakdown starts at about R30. That bill keeps your site on the internet. It does not keep it updated, backed up or secure.
+      </p>
+
+      <p class="mb-8">
+        Renting a shop in Newton Park gets you a space with a door. It does not get you stock, a till, or someone to open up every morning. Hosting is the rent. Everything that makes the site work for your business is added on top.
+      </p>
+
+      <p class="mb-8">
+        A 99.9% uptime promise sounds bulletproof until you do the maths: that is still more than 40 minutes a month when nobody can reach you. And uptime says nothing about whether the site is safe to visit.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What your maintenance money pays for
+      </h2>
+
+      <p class="mb-6">
+        A maintenance retainer pays for six things: security updates for your platform and plugins, backups that run and get tested, uptime monitoring, small content edits, SSL certificate renewal, and a person who answers when the site breaks. Each one is cheap on its own. Together they are a job.
+      </p>
+
+      <p class="mb-6">
+        On WordPress, the core software and every plugin need updating, and updates sometimes break things, so someone has to test them rather than just click update. That is the boring work that stops your site being used to send spam from your domain.
+      </p>
+
+      <p class="mb-6">
+        A backup you have never restored is a hope, not a plan. The routine is automated backups, off-site copies, and a test restore now and then, so that when the site dies you are back online in hours, not weeks.
+      </p>
+
+      <p class="mb-6">
+        Uptime monitoring tells someone the moment the site stops responding, often before any customer notices. In South Africa, that someone answers a WhatsApp message, not a ticket auto-reply.
+      </p>
+
+      <p class="mb-8">
+        Then there is the steady drip of small changes: a price that moved, a staff member who left, a service you stopped offering. Left alone, a site slowly becomes wrong, and a wrong site costs you enquiries.
+      </p>
+
+      <p class="mb-8">
+        SSL certificates expire, and when yours lapses Chrome shows visitors a "not secure" warning. Renewal is a two-minute job that costs you a customer when it is missed.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The real cost of not maintaining your site
+      </h2>
+
+      <p class="mb-6">
+        A site without maintenance does not fail loudly. It drifts: plugins go stale, backups stop running, and eventually something breaks or gets broken into. Then Chrome shows visitors Google's "this site may be compromised" warning, or the site drops dead in your busiest month.
+      </p>
+
+      <p class="mb-6">
+        A hacked site is rarely dramatic. More often it is serving spam from your domain, or a checkout page that has been swapped for a fake one that collects card details. By the time Google flags it, visitors who see the warning and click away are customers you have lost.
+      </p>
+
+      <p class="mb-6">
+        Downtime is easier to measure. A site that is down on a Saturday in December, when the enquiries are coming in fastest, is money gone. For a site built as a <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">local lead engine</a>, the kind that pulls enquiries from Gqeberha and the wider Eastern Cape, an hour of downtime is an hour of calls that went to your competitor.
+      </p>
+
+      <p class="mb-8">
+        The sneakiest cost is content drift. Your prices went up in January and the site still quotes last year's. Customers do not argue with the old price, they just do not phone back. Outdated prices kill enquiries, and nobody tells you.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        When you can skip the monthly retainer
+      </h2>
+
+      <p class="mb-6">
+        A static brochure site that changes once a year is the clearest case: it needs hosting, a domain renewal and an occasional security check, but a monthly retainer is overkill. If your site never takes payments, never collects enquiries and rarely changes, skip the monthly plan.
+      </p>
+
+      <p class="mb-6">
+        Ask what the site does for you. If it takes orders, books jobs, collects enquiries or holds customer data, it needs monthly care. If it is an online business card you update twice a year, you are fine with hosting, an annual once-over and a reminder for the domain renewal. That renewal is the one thing nobody skips safely: let the domain lapse and someone else can register it, and your business name, email and site all point at a stranger.
+      </p>
+
+      <p class="mb-8">
+        If you are not sure what your site needs, our <a href="/articles/small-business-website-blueprint-south-africa" class="text-yellow-400 underline hover:text-yellow-300">small business website blueprint</a> walks through what an SA business site should have from day one.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        DIY hosting vs cheap shared hosting vs agency care
+      </h2>
+
+      <p class="mb-6">
+        Three ways to run a site in South Africa: do it all yourself on entry hosting, pay a budget host and manage the site yourself, or pay an agency to look after it. The cheapest monthly number is rarely the cheapest outcome, because the three differ most in who is accountable when things go wrong.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white"></th>
+              <th class="p-4 font-bold text-white">DIY hosting</th>
+              <th class="p-4 font-bold text-white">Cheap shared hosting</th>
+              <th class="p-4 font-bold text-white">Agency care</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly cost</td>
+              <td class="p-4 text-zinc-300">From about R30 (registerdomain.co.za)</td>
+              <td class="p-4 text-zinc-300">R50 to R250 for most small business sites</td>
+              <td class="p-4 text-zinc-300">About R800, all in, after a once-off setup</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who does security updates</td>
+              <td class="p-4 text-zinc-300">You, when you remember</td>
+              <td class="p-4 text-zinc-300">The host patches the server; the site's own software is still yours</td>
+              <td class="p-4 text-zinc-300">The agency, on a schedule, tested before it goes live</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Backups</td>
+              <td class="p-4 text-zinc-300">You, if you have set any up</td>
+              <td class="p-4 text-zinc-300">Usually automated by the host, but restoring is your job</td>
+              <td class="p-4 text-zinc-300">Automated, off-site, and restore-tested</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Content changes</td>
+              <td class="p-4 text-zinc-300">You, in raw files or a builder</td>
+              <td class="p-4 text-zinc-300">You, in whatever dashboard the host gives you</td>
+              <td class="p-4 text-zinc-300">You send the change, they publish it</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who you call when it breaks</td>
+              <td class="p-4 text-zinc-300">You, usually after a customer mentions it</td>
+              <td class="p-4 text-zinc-300">The host's ticket queue</td>
+              <td class="p-4 text-zinc-300">One person who knows your site</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">What happens when it goes down</td>
+              <td class="p-4 text-zinc-300">Stays down until you figure it out</td>
+              <td class="p-4 text-zinc-300">Down until the ticket gets answered</td>
+              <td class="p-4 text-zinc-300">Monitoring catches it before customers do</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        Notice what the table leaves out: the cost of your time, and the cost of being wrong. DIY only looks free if your hours are worth nothing and nothing ever breaks. The middle column is the realistic minimum for most businesses: a proper host, with you handling the site. Agency care buys accountability. Someone's job depends on your site working.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-6">
+        Budget the monthly bill before you build. Hosting lands between R50 and R250 a month for most small business sites, per registerdomain.co.za, and the care layer on top keeps the site secure, current and online. A static brochure site can skip the retainer; a site that takes payments or enquiries cannot. If enquiries are the point of the site, pair reliable hosting with a <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">local lead generation strategy</a>, because a site that runs but gets no visitors is its own kind of waste. That is the bill you will still be paying in year three, when nobody remembers the launch.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Keep Your Website Fast, Secure and Online</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build and care for websites across South Africa with transparent R1,499 setup plus R800/mo hosting, care and support. If you are not sure your site is being looked after, let's check it together.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does website maintenance cost in South Africa per month?",
+        answer: "Hosting alone runs from about R30 a month for entry shared plans, and most small business sites land between R50 and R250, according to registerdomain.co.za's breakdown. The maintenance layer sits on top: updates, backups and support. That is where the real monthly cost lands, around R800 all in for a fully looked-after site."
+      },
+      {
+        question: "What does website maintenance include?",
+        answer: "Security updates for your platform and plugins, backups that run and get tested, uptime monitoring, small content edits, SSL certificate renewal, and someone to call when the site breaks. Ask what is in yours before you sign."
+      },
+      {
+        question: "Do I have to pay for website maintenance every month?",
+        answer: "No. A static brochure site that changes once a year does not need a monthly retainer; hosting, domain renewal and an annual check are enough. If your site takes payments, collects enquiries or holds customer data, monthly care is usually the cheaper option over a few years."
+      },
+      {
+        question: "Why does my hosting cost R99 but maintenance costs more?",
+        answer: "Hosting is a server slot; maintenance is a job. R99 a month rents disk space and bandwidth, but it does not patch your site's software, test backups or answer your calls. The host keeps the server running."
+      },
+      {
+        question: "What happens if I stop maintaining my website?",
+        answer: "Security usually goes first. Stale plugins are a common way sites get broken into, and a hacked site shows Google's 'this site may be compromised' warning to visitors. After that comes the slow decline: outdated prices, broken links, and a site that stops working for you."
+      },
+      {
+        question: "Is a static website cheaper to maintain than a WordPress site?",
+        answer: "Usually, yes. A static site has no database and no plugins, so there is less to update and less to break. If your content barely changes, static is a genuine way to cut the monthly bill."
+      },
+      {
+        question: "How much should I budget for website costs after my site launches?",
+        answer: "Plan for two bills: hosting at R50 to R250 a month for most small business sites, and a maintenance layer on top if the site needs regular updates. Work the monthly figure out before you build; it decides what you can afford to keep running."
+      }
+    ],
+  }
 ];
