@@ -34,6 +34,8 @@ export const metadata: Metadata = {
   },
 };
 
+export const dynamic = 'force-dynamic';
+
 export default function BrandStudioPage() {
   return (
     <Suspense fallback={<div className="pt-32 text-center text-zinc-400">Loading Brand Studio...</div>}>
