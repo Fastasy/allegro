@@ -5360,5 +5360,415 @@ export const articles: Article[] = [
         answer: "Plan for two bills: hosting at R50 to R250 a month for most small business sites, and a maintenance layer on top if the site needs regular updates. Work the monthly figure out before you build; it decides what you can afford to keep running."
       }
     ],
+  },
+
+  {
+    slug: 'plumber-port-elizabeth-local-search',
+    title: "Plumber Port Elizabeth: How Customers Actually Find You (and Why a Facebook Page Isn't a Website)",
+    metaTitle: "Plumber Port Elizabeth: How Customers Find You",
+    summary: "Port Elizabeth customers search plumber plus suburb, price and open now. How a plumber gets found and wins the job, and why a Facebook page isn't a website.",
+    metaDescription: "Port Elizabeth customers search plumber plus suburb, price and open now. How a plumber gets found and wins the job, and why a Facebook page isn't a website.",
+    date: 'Sep 4, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '8 min read',
+    category: 'Content & Strategy',
+    tags: ["plumber", "port-elizabeth", "gqeberha", "local-seo", "google-business-profile", "whatsapp", "trades"],
+    imageUrl: '/images/plumber_port_elizabeth_local_search.jpg',
+    keyTakeaways: [
+      "Port Elizabeth customers search plumber plus suburb, price and open now; Google's own suggestions show Walmer, Newton Park, prices, contact number and emergency.",
+      "Name the suburbs you actually work in on your website and Google Business Profile, or you hand the 'plumber newton park' search to the plumber down the road who did.",
+      "A Facebook page is where regulars check you out; it does not rank on Google. A website plus a complete profile is what makes a stranger trust you enough to call at 11pm.",
+      "The free fixes, profile, hours, suburbs and reviews, can be done this week. A proper five-page site takes two to four weeks, and most of your competitors have not started.",
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        When a Walmer homeowner's geyser starts leaking at 7am, they do not phone around. They open Google and type "plumber port elizabeth", then add their suburb, "prices" or "open now" before they pick a name to call. That search behaviour is live in Port Elizabeth right now, and it decides which plumbers get the job and which ones stay quiet.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How customers in Port Elizabeth actually search
+      </h2>
+
+      <p class="mb-8">
+        Google's own suggestions for "plumber port elizabeth" finish the search for the customer: prices, contact number, open now, emergency. Suburbs come next, Walmer and Newton Park among the first. People searching for a plumber in this city are not browsing. They have a problem, they want it fixed nearby, and they want a number they can call.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Suburbs decide who gets the call
+      </h2>
+
+      <p class="mb-6">
+        The suburb is the first filter. A customer in Newton Park searches "plumber newton park", not "plumber port elizabeth", because they want someone at their door in twenty minutes. If your Google Business Profile and your website say only "Port Elizabeth", you hand that search to the plumber down the road who bothered to say Newton Park.
+      </p>
+
+      <p class="mb-8">
+        Walmer and Newton Park appear in Google's suggestions because those are the suburbs where people are searching and where the plumbers are. There are more suburbs in the list, and the pattern repeats across the city. The lesson is the same everywhere: name the places you actually work. If you cover Lorraine, Fairview, Mill Park, Kabega or Bluewater Bay, say so on your website and your profile. A customer who sees their own suburb on your page assumes you know their area, and they are usually right.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Prices and contact numbers come next
+      </h2>
+
+      <p class="mb-6">
+        "plumbers port elizabeth prices" and "plumbers port elizabeth contact number" are live, recurring suggestions. Customers want a number and a call-out fee before they phone. A plumber who states a call-out price on the website answers both before the ring. The plumber who hides pricing makes the customer phone around, and that customer usually calls a competitor next.
+      </p>
+
+      <p class="mb-8">
+        You do not need to publish every job price. A simple line, "call-out fee R350, first hour included", or "quotes free within Walmer and Newton Park", answers the question that brought the customer to the search. If you charge more after hours, say that too. Emergency customers are not shopping for the cheapest option, they are looking for someone who answers, but they still want to know what the call will cost before they commit.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why a Facebook page is not a website
+      </h2>
+
+      <p class="mb-6">
+        A Facebook page is where customers check you out after they find you. It is not where new customers find you, because the person searching for a plumber in Walmer is searching Google, and Google ranks websites, not Facebook pages. The first page for "plumber port elizabeth" belongs to plumbers with websites. Facebook-only plumbers rank through Facebook.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white"></th>
+              <th class="p-4 font-bold text-white">Facebook page only</th>
+              <th class="p-4 font-bold text-white">Website plus Google Business Profile</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Setup cost</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R1,499 once-off</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly cost</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R800 for hosting and care</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Custom features</td>
+              <td class="p-4 text-zinc-300">Limited to posts and messages</td>
+              <td class="p-4 text-zinc-300">Own pages, WhatsApp button, service pages</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">SEO done</td>
+              <td class="p-4 text-zinc-300">None</td>
+              <td class="p-4 text-zinc-300">On-page SEO plus a complete profile</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who maintains</td>
+              <td class="p-4 text-zinc-300">You</td>
+              <td class="p-4 text-zinc-300">You or your agency</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">What happens</td>
+              <td class="p-4 text-zinc-300">Followers see posts, Google does not rank you</td>
+              <td class="p-4 text-zinc-300">Local searches land on your site</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        The table is not about Facebook being useless. It is about the job each tool does. Facebook keeps your regulars close and shows off recent jobs. The website plus profile is what makes a stranger trust you enough to call at 11pm. The successful plumbers in this city run both: Facebook for the community, website and profile for the search.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        People search plumbers by name too
+      </h2>
+
+      <p class="mb-6">
+        One of the live suggestions for "plumber newton park" is the name of a local plumber. Customers who were referred to a plumber by name type that name into Google to check the number, the reviews and whether the business is real. If that plumber has no website, the search lands on a directory listing, and the recommendation evaporates.
+      </p>
+
+      <p class="mb-8">
+        This is the same pattern we cover in <a href="/articles/web-design-port-elizabeth-local-lead-engine" class="text-yellow-400 underline hover:text-yellow-300">dominating local leads in Port Elizabeth</a>. A customer is told about a business, they go to Google to verify it, and the business with no website loses the sale it was already given. The fix is simple: make sure your name, your number and your reviews are findable the moment someone searches your business name.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a Port Elizabeth plumber needs online
+      </h2>
+
+      <p class="mb-6">
+        Five things cover almost everything: a Google Business Profile that names your suburbs, a website that answers the local questions, a WhatsApp button that gets answered, proof you are real, and reviews. The profile gets you on the map, the website backs it up, and the reviews decide which of two similar names gets called first.
+      </p>
+
+      <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+          <li>A Google Business Profile with the right category, your suburbs in the description, your real hours, and "emergency callouts" if that is true for you.</li>
+          <li>A website with a home page that says what you do in one line, a page per service, and your suburbs named throughout.</li>
+          <li>A WhatsApp button on every page, answered by a real person.</li>
+          <li>Proof you are registered, insured and real: photos of your bakkie, your tools and finished jobs.</li>
+          <li>Reviews, collected after every job, because a handful of honest reviews beats a paragraph of claims.</li>
+      </ul>
+
+      <p class="mb-8">
+        The profile is the free half of the setup, and we walk through it step by step in <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>. The website is the paid half, and the same formula applies whether you work alone or run a team of ten. For the full trades version, see our <a href="/articles/plumber-website-design-south-africa" class="text-yellow-400 underline hover:text-yellow-300">plumber website design South Africa</a> guide.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The honest version
+      </h2>
+
+      <p class="mb-6">
+        The free fixes, your Google Business Profile, correct hours, correct suburb, a handful of reviews, can be done this week. A proper small website, five pages, takes two to four weeks with a decent small agency. Most of the plumbers you compete with in this city have not done any of it yet. If you are wondering what the paid half actually costs in this market, our <a href="/articles/plumber-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">plumber website cost South Africa</a> guide breaks down the models side by side.
+      </p>
+
+      <p class="mb-8">
+        The longer you wait, the more the plumbers who did it first collect the reviews and the rankings that are hard to catch. Port Elizabeth customers are typing your suburb into Google right now, and the ones who answer in their own suburb's terms are the ones who get the call. Start with the free fixes this week, and treat the website as the next job on the list.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-8">
+        Port Elizabeth customers find plumbers through Google, by suburb, by price and by urgency. The plumbers who answer with a named suburb, a stated call-out fee and an emergency number get the call. A Facebook page alone does not do that job. Claim your profile, name your suburbs, show the price and the hours, and let customers reach you on WhatsApp. That is the whole plan, and most of your competitors have not started it.
+      </p>
+
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Found by Port Elizabeth Customers</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build and care for plumber websites across South Africa with transparent R1,499 setup plus R800/mo hosting, care and support. If customers cannot find you when they search your suburb, let's fix that together.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How do Port Elizabeth customers find a plumber?",
+        answer: "They open Google and search 'plumber port elizabeth', then add their suburb, 'prices' or 'open now'. The suggestions show Walmer, Newton Park, prices, contact number and emergency. Customers pick the result that looks real and answers their question fast."
+      },
+      {
+        question: "Why doesn't my Facebook page bring in plumbing jobs?",
+        answer: "Facebook pages rank on Facebook. Google ranks websites, and local searches like 'plumber port elizabeth' show the businesses Google trusts: ones with a website and a complete Google Business Profile. Keep the page for your regulars, and build the website that brings new customers."
+      },
+      {
+        question: "What suburbs should a plumber's website name?",
+        answer: "Every suburb you actually work in. Walmer, Newton Park, Lorraine, Fairview, Mill Park, Kabega, Bluewater Bay, wherever you go. Name them on the home page, the contact page and the service pages, so a customer who searches 'plumber walmer' lands on a page that says Walmer."
+      },
+      {
+        question: "Do I need to show prices on my plumber website?",
+        answer: "Show your call-out fee and a line about your service area. 'Call-out fee R350, first hour included' answers the price search before the phone rings. Customers who have to phone to discover the price are the same customers who phone your competitor next."
+      },
+      {
+        question: "How do I capture emergency call-outs?",
+        answer: "Put your emergency number on the home page and every service page, with a WhatsApp button that works at any hour. Say what you charge after hours. The customer with a burst geyser at 11pm wants a number that answers, not a form they will hear about tomorrow."
+      },
+      {
+        question: "How much does a plumber website cost in Port Elizabeth?",
+        answer: "In this market, a working plumber website with service pages, WhatsApp capture and Google Business Profile setup runs about R1,499 once-off, plus R800 a month for hosting, care and updates. That covers the build and keeps the site maintained."
+      },
+      {
+        question: "How long does it take to get a plumber website live?",
+        answer: "A five-page site with written content, WhatsApp capture and Google Business Profile setup usually takes two to four weeks from brief to launch. Most of that time is the content, and that is where the rankings and the trust come from."
+      }
+    ],
+  },
+  {
+    slug: 'plumber-website-cost-south-africa',
+    title: "How Much Does a Plumber Website Cost in South Africa?",
+    metaTitle: "How Much Does a Plumber Website Cost in SA?",
+    summary: "What a plumber website costs in South Africa in 2026: subscription vs once-off build, what the monthly fee covers, and an honest breakdown for plumbers.",
+    metaDescription: "What a plumber website costs in South Africa in 2026: subscription vs once-off build, what the monthly fee covers, and an honest breakdown for plumbers.",
+    date: 'Sep 4, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '8 min read',
+    category: 'Content & Strategy',
+    tags: ["plumber-website", "website-cost", "south-africa", "subscription-vs-once-off", "local-seo", "gqeberha"],
+    imageUrl: '/images/plumber_website_cost.jpg',
+    keyTakeaways: [
+      "A plumber website in South Africa in 2026 costs from R250 a month on a subscription to R35,000 once-off, with a solid five-page small-agency build around R6,633 plus hosting.",
+      "Compare total cost over a few years, not the sticker price: R500 a month for five years is R30,000, more than most once-off builds, and the subscription site comes down when you stop paying.",
+      "The Webster publishes R250 a month website-only and R500 a month website plus Google Business Profile; their review counts and totals are their own claims, not market data.",
+      "A once-off build needs a care budget from day one, or the site goes stale. For a Port Elizabeth plumber, a local build with care plus a free Google Business Profile does the job.",
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        The honest answer to how much does a plumber website cost in South Africa in 2026 is: it depends on the model you pick. You can pay a monthly subscription of a few hundred rand, or a once-off build that runs into the tens of thousands, and both can be legitimate. What matters is what you get for the money, and most plumbers only hear one side of the story.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The short answer
+      </h2>
+
+      <p class="mb-8">
+        A plumber website in South Africa in 2026 costs from R250 a month on a subscription to R35,000 once-off. The middle of the market, a solid five-page site from a small local agency, lands around R6,633 once-off plus hosting. The comparison that matters is not the sticker price. It is what you own and who keeps it current.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The three models you actually see in South Africa
+      </h2>
+
+      <p class="mb-8">
+        In 2026, three models dominate the market: a monthly subscription where the provider hosts and maintains everything, a once-off agency build that you own, and a local build with a monthly care fee. Each one changes what you pay upfront, what you own, and what happens when you stop paying. The table below puts them side by side.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white"></th>
+              <th class="p-4 font-bold text-white">Monthly subscription</th>
+              <th class="p-4 font-bold text-white">Once-off agency build</th>
+              <th class="p-4 font-bold text-white">Local build with care</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Setup cost</td>
+              <td class="p-4 text-zinc-300">R0, no setup fee</td>
+              <td class="p-4 text-zinc-300">R6,000 to R35,000</td>
+              <td class="p-4 text-zinc-300">R1,499 once-off</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly cost</td>
+              <td class="p-4 text-zinc-300">R250 to R500</td>
+              <td class="p-4 text-zinc-300">R100 to R300 hosting</td>
+              <td class="p-4 text-zinc-300">R800 hosting and care</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Custom features</td>
+              <td class="p-4 text-zinc-300">Built on the provider's platform</td>
+              <td class="p-4 text-zinc-300">Fully custom</td>
+              <td class="p-4 text-zinc-300">Fully custom, WhatsApp-first</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">SEO done</td>
+              <td class="p-4 text-zinc-300">On-page basics</td>
+              <td class="p-4 text-zinc-300">On-page</td>
+              <td class="p-4 text-zinc-300">On-page plus local SEO</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who maintains</td>
+              <td class="p-4 text-zinc-300">The provider</td>
+              <td class="p-4 text-zinc-300">You or your agency</td>
+              <td class="p-4 text-zinc-300">Your agency</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">What happens</td>
+              <td class="p-4 text-zinc-300">You pay while you use it</td>
+              <td class="p-4 text-zinc-300">You own it, you keep it current</td>
+              <td class="p-4 text-zinc-300">It stays current every month</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The subscription model: pay while you use it
+      </h2>
+
+      <p class="mb-6">
+        The most visible new option is the monthly subscription. The Webster, a Durban-based provider, publishes R250 a month for a website-only package and R500 a month for website plus Google Business Profile management, with no setup fee and a five to seven day turnaround. Their e-commerce packages start at R455. You pay for as long as you use the service.
+      </p>
+
+      <p class="mb-8">
+        That price is their published price, and it is the cheapest answer to "plumber website cost south africa" you will find. The trade-off is ownership: the site lives on their platform, and the fee continues for as long as you want the site to exist. Stop paying and the site comes down. For a plumber who wants to test the water, that is a low-risk start. For a plumber who wants an asset that ranks and grows reviews in Port Elizabeth, the monthly model gets expensive. R500 a month for five years is R30,000, more than most once-off builds. Their marketing numbers, like the review counts and website totals on their site, are their own claims, not third-party figures. Treat them as advertising, not market data.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The once-off agency build: you own it, you keep it current
+      </h2>
+
+      <p class="mb-6">
+        The traditional model is a once-off build from an agency. Published SA figures for small business sites put the average five-page build around R6,633, with professional services sites ranging from R8,590 to R16,900. Whale Coast Web, one of the few agencies that publishes plumber pricing, quotes R15,000 to R35,000 for their builds. You own the site when it is done.
+      </p>
+
+      <p class="mb-8">
+        What the once-off price does not include is the keeping-it-current part. Hosting runs R100 to R300 a month, and someone has to update the site, renew the domain and keep the reviews and photos fresh. Most plumbers who buy a once-off site never touch it again, and a stale site loses the trust it was built to create. Budget a care fee or a maintenance retainer from day one. Our <a href="/articles/website-maintenance-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">website maintenance cost in South Africa</a> guide breaks down what that really costs, and the <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African website cost guide</a> covers every business type if you want the full picture.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What the monthly number hides
+      </h2>
+
+      <p class="mb-6">
+        Every website has a monthly number, whether it is called hosting, care, maintenance or a subscription. A once-off build still needs hosting and updates, and a subscription bundles them into one fee. R500 a month for five years is R30,000, while a R6,000 build with R300 a month in care is R24,000 over the same period.
+      </p>
+
+      <p class="mb-8">
+        The numbers favour the once-off model on paper, but only if the site actually gets maintained. The cheapest monthly option rarely includes the local work that wins plumbers jobs in a city like Port Elizabeth: suburb targeting, an emergency line, WhatsApp capture and review collection. That is where a local builder earns the fee, and it is the difference between a brochure and a lead machine.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The Port Elizabeth option: local build with care
+      </h2>
+
+      <p class="mb-6">
+        For a plumber working Port Elizabeth, the practical option is a local build with a monthly care fee. You get a site built for your trade, your suburbs and your emergency line, and the agency keeps it current. That is the model this guide recommends, and it is the one the cost breakdown in the questions below uses.
+      </p>
+
+      <p class="mb-8">
+        You already know the local version of the pricing story from the rest of this site. What you actually pay depends on scope, pages, and how much content you hand over ready. Get two or three straight quotes from small local agencies, ask what the monthly fee covers, and ask what happens to the site if you cancel. The agency that answers those questions clearly is the one to work with. For the features that matter on the page itself, our <a href="/articles/plumber-website-design-south-africa" class="text-yellow-400 underline hover:text-yellow-300">plumber website design South Africa</a> guide is the checklist. And if you work Port Elizabeth specifically, <a href="/articles/plumber-port-elizabeth-local-search" class="text-yellow-400 underline hover:text-yellow-300">how customers find a plumber in Port Elizabeth</a> covers the search side of the equation.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-8">
+        The cheapest plumber website is the one that pays for itself in one job. Compare total cost over a few years, not the sticker price. Ask what you own, who keeps the site current, and what happens when you stop paying. Then pick the model that matches how you win work. For a Port Elizabeth plumber, that usually means a local build with care, with the free Google Business Profile doing half the work from day one.
+      </p>
+
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get an Honest Plumber Website Quote</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build and care for plumber websites across South Africa with transparent R1,499 setup plus R800/mo hosting, care and support. Tell us what your plumber business needs and we will show you the total cost, no surprises.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does a plumber website cost in South Africa?",
+        answer: "In this market, a working plumber website with service pages, WhatsApp capture and Google Business Profile setup runs about R1,499 once-off, plus R800 a month for hosting, care and updates. That covers the build and keeps the site maintained."
+      },
+      {
+        question: "Is R500 a month for a plumber website a good price?",
+        answer: "The Webster publishes R250 a month for a website-only package and R500 a month for website plus Google Business Profile management, with no setup fee. That is their published pricing, verified in August 2026. It is the cheapest option on the market, and you pay it for as long as you use the service."
+      },
+      {
+        question: "Do I own my website on a subscription plan?",
+        answer: "On a subscription, the site is built on the provider's platform and you pay for as long as you use it. Stop paying and the site comes down. With a once-off build, you own the site and the content, and you pay separately for hosting and updates."
+      },
+      {
+        question: "What does the monthly fee cover?",
+        answer: "On a subscription it covers hosting, the platform and basic maintenance. On a local build with care, it covers hosting, updates, backups and small content changes. On a once-off build, hosting and updates are separate costs you pay to whoever looks after the site."
+      },
+      {
+        question: "Why is the once-off price so much higher?",
+        answer: "A once-off build pays for strategy, copywriting, design and development up front, and you own the result. A subscription spreads a smaller fee over years, but you never own the asset. The higher once-off price buys ownership and a site built around your local market."
+      },
+      {
+        question: "Does a plumber website need e-commerce?",
+        answer: "Rarely. A plumber sells a call-out, not a product. A booking or quote request button and a WhatsApp button do the job. E-commerce makes sense only if you also sell parts or maintenance plans, and it adds cost, so skip it unless the jobs actually need it."
+      },
+      {
+        question: "How long does it take to get a plumber website live?",
+        answer: "A subscription site can be live in five to seven days, because it uses a template. A once-off build with custom content usually takes two to four weeks. The extra time buys pages written for your suburbs, your services and your emergency line."
+      }
+    ],
   }
 ];
