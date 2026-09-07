@@ -5770,5 +5770,416 @@ export const articles: Article[] = [
         answer: "A subscription site can be live in five to seven days, because it uses a template. A once-off build with custom content usually takes two to four weeks. The extra time buys pages written for your suburbs, your services and your emergency line."
       }
     ],
+  },
+  {
+    slug: 'electrician-port-elizabeth-local-search',
+    title: "Electrician Port Elizabeth: How the 2am Call Goes to Someone Else",
+    metaTitle: "Electrician Port Elizabeth: Where the 2am Call Goes",
+    summary: "Port Elizabeth homeowners search electrician plus suburb, 24 hour and contact number. How an electrician gets found and wins the call, and why a Facebook page isn't a website.",
+    metaDescription: "Port Elizabeth homeowners search electrician plus suburb, 24 hour and contact number. How an electrician gets found and wins the call, and why a Facebook page isn't a website.",
+    date: 'Sep 7, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '8 min read',
+    category: 'Content & Strategy',
+    tags: ["electrician", "port-elizabeth", "gqeberha", "local-seo", "google-business-profile", "whatsapp", "trades"],
+    imageUrl: '/images/electrician_port_elizabeth_local_search.jpg',
+    keyTakeaways: [
+      "Port Elizabeth homeowners search electrician plus suburb, 24 hour and contact number; Google's own suggestions show Walmer, residential, 24 hour and contact number.",
+      "Name the suburbs you actually work in on your website and Google Business Profile, or you hand the 'electrician walmer' search to the electrician who bothered to say Walmer.",
+      "A Facebook page is where customers check you out after they find you; it does not rank on Google. A website plus a complete profile is what makes a stranger call you at 2am.",
+      "The free fixes, profile, hours, suburbs and reviews, can be done this week. A proper five-page site takes two to four weeks, and most of your competitors have not started.",
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        When a Walmer homeowner's DB board trips at 2am, they do not phone around. They open Google and type "electrician port elizabeth", then add "24 hour", "contact number" or their suburb before they pick a name to call. That search behaviour is live in this city right now, and it decides which electrician answers and which one stays dark.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        How Port Elizabeth homeowners search for an electrician
+      </h2>
+
+      <p class="mb-6">
+        Google's own suggestions for "electrician port elizabeth" finish the search for the customer: contact number, Walmer, residential, 24 hour. People searching for an electrician in this city are not browsing. They have a problem, often in the middle of the night, and they want a number they can call now.
+      </p>
+
+      <p class="mb-8">
+        The electrician whose name answers that pattern gets the call.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Suburbs decide who gets the call
+      </h2>
+
+      <p class="mb-6">
+        The suburb is the first filter. A customer in Walmer searches "electrician walmer", not "electrician port elizabeth", because they want someone at their door fast. If your Google Business Profile and your website say only "Port Elizabeth", you hand that search to the electrician who bothered to say Walmer.
+      </p>
+
+      <p class="mb-8">
+        Name every suburb you actually work: Walmer, Newton Park, Summerstrand, Lorraine, Fairview, Mill Park, Kabega, Bluewater Bay. A customer who sees their own suburb on your page assumes you know their area, and they are usually right.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a 24 hour electrician needs to win the 2am search
+      </h2>
+
+      <p class="mb-6">
+        "24 hour electrician port elizabeth" and "emergency electrician port elizabeth" are live, recurring searches. The first page today is two ageing exact-match domains, a run of directory listings and a Facebook page. None of those answer the 2am question the way a real business can: a number, a suburb, proof of registration, and an answer after hours.
+      </p>
+
+      <p class="mb-8">
+        The electrician who publishes an emergency number on a proper website skips the queue entirely.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why a Facebook page is not enough for emergency work
+      </h2>
+
+      <p class="mb-6">
+        A Facebook page is where customers check you out after they find you. It is not where new customers find you, because the person searching for an electrician at 2am is searching Google, and Google ranks websites, not Facebook pages.
+      </p>
+
+      <p class="mb-8">
+        Facebook-only electricians get found inside Facebook, by people who already know them. At 2am, the caller has never heard of you.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white"></th>
+              <th class="p-4 font-bold text-white">Facebook page only</th>
+              <th class="p-4 font-bold text-white">Website plus Google Business Profile</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Setup cost</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R1,499 once-off</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly cost</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R800 hosting and care</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Custom features</td>
+              <td class="p-4 text-zinc-300">Limited to posts and messages</td>
+              <td class="p-4 text-zinc-300">Own pages, WhatsApp button, service pages</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">SEO done</td>
+              <td class="p-4 text-zinc-300">None</td>
+              <td class="p-4 text-zinc-300">On-page SEO plus a complete profile</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who maintains</td>
+              <td class="p-4 text-zinc-300">You</td>
+              <td class="p-4 text-zinc-300">You or your agency</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">What happens</td>
+              <td class="p-4 text-zinc-300">Followers see posts, Google does not rank you</td>
+              <td class="p-4 text-zinc-300">The 2am search lands on your site</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Answer the hourly rate question before the phone rings
+      </h2>
+
+      <p class="mb-6">
+        Under "electrician walmer", Google's suggestions include "how much is the electrician per hour". That is a buyer asking about price before they call. You do not need to publish a full tariff, and a simple rate line answers the question before the phone rings.
+      </p>
+
+      <p class="mb-8">
+        A line that says "hourly rate quoted upfront, call-out fee confirmed before we start, after-hours rates stated on the phone" answers the question that brought them to the search. Emergency customers are not shopping for the cheapest option, they are looking for someone who answers, but they still want to know what the call will cost before they commit. Saying it on the page beats defending it on the phone at 2am.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What a residential electrician in Port Elizabeth needs online
+      </h2>
+
+      <p class="mb-8">
+        Five things cover almost everything, and they work in the same order every time: a Google Business Profile that names your suburbs, a website that answers the local questions, a WhatsApp button that gets answered, proof you are real, and reviews that decide between two similar names.
+      </p>
+
+      <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+          <li>A Google Business Profile with the right category, residential electrician if that is your work, your suburbs in the description, your real hours, and "emergency callouts" if that is true for you.</li>
+          <li>A website with a home page that says what you do in one line, a page per service, and your suburbs named throughout.</li>
+          <li>A WhatsApp button on every page, answered by a real person, with the suburb and the fault in the pre-filled message.</li>
+          <li>Proof you are registered, insured and compliant: your certificate number, your COC work, photos of your bakkie and finished installations.</li>
+          <li>Reviews, collected after every job, because a handful of honest reviews beats a paragraph of claims.</li>
+      </ul>
+
+      <p class="mb-8">
+        The profile is the free half of the setup, and we walk through it step by step in <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>. The website is the paid half, and the same formula applies whether you work alone or run a team of ten. For the full trades version, see our <a href="/articles/electrician-website-design-south-africa" class="text-yellow-400 underline hover:text-yellow-300">electrician website design South Africa</a> guide. Port Elizabeth plumbers were in exactly this position a month ago, and the pattern is the same; the <a href="/articles/plumber-port-elizabeth-local-search" class="text-yellow-400 underline hover:text-yellow-300">plumber version of this guide</a> shows how it plays out in the same city.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The honest version
+      </h2>
+
+      <p class="mb-6">
+        The free fixes, your Google Business Profile, correct hours, correct suburb, a handful of reviews, can all be done this week. A proper small website, five pages with written content, takes two to four weeks with a decent small agency.
+      </p>
+
+      <p class="mb-8">
+        Most of the electricians you compete with in this city have not done any of it yet, and the ones who did it first are the ones collecting the after-hours calls and the reviews that are hard to catch later. If you are weighing up the paid half of the plan, our <a href="/articles/electrician-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">electrician website cost South Africa</a> guide breaks down the models side by side.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-8">
+        Port Elizabeth homeowners find electricians through Google, by suburb, by price and by urgency, often at 2am. The electricians who answer with a named suburb, a stated rate, an emergency number and a WhatsApp button get the call. A Facebook page alone does not do that job. Claim your profile, name your suburbs, show the price and the hours, and let customers reach you on WhatsApp. That is the whole plan, and most of your competitors have not started it.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get Found by Port Elizabeth Customers</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build and care for electrician websites across South Africa with transparent R1,499 setup plus R800/mo hosting, care and support. If customers cannot find you when they search your suburb, let's fix that together.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How do Port Elizabeth homeowners find an electrician?",
+        answer: "They open Google and search 'electrician port elizabeth', then add '24 hour', 'contact number' or their suburb. The live suggestions show Walmer, contact number, residential and 24 hour. Customers pick the result that looks real, names their area and answers fast."
+      },
+      {
+        question: "Why does a Facebook page not bring in emergency calls?",
+        answer: "Facebook pages rank on Facebook. Google ranks websites, and searches like '24 hour electrician port elizabeth' show the businesses Google trusts: ones with a website and a complete Google Business Profile. A Facebook page serves people who already follow you, not strangers searching at 2am."
+      },
+      {
+        question: "Which suburbs should an electrician's website name?",
+        answer: "Every suburb you actually work in: Walmer, Newton Park, Summerstrand, Lorraine, Fairview, Mill Park, Kabega, Bluewater Bay, wherever you go. Name them on the home page, the contact page and the service pages, so a customer who searches 'electrician walmer' lands on a page that says Walmer."
+      },
+      {
+        question: "Do I need to publish my hourly rate?",
+        answer: "Show a rate line and your service area. 'Hourly rate from R400' or 'call-out fee quoted before we start' answers the price search that shows up under 'electrician walmer'. Customers who have to phone to discover the price are the same customers who phone your competitor next."
+      },
+      {
+        question: "How do I capture after-hours and 24 hour call-outs?",
+        answer: "Put your emergency number on the home page and every service page, with a WhatsApp button that works at any hour. Say what you charge after hours. The customer with a tripping DB board at 2am wants a number that answers, not a form they will hear about tomorrow."
+      },
+      {
+        question: "How much does an electrician website cost in Port Elizabeth?",
+        answer: "In this market, a working electrician website with service pages, WhatsApp capture and Google Business Profile setup runs about R1,499 once-off, plus R800 a month for hosting, care and updates. That covers the build and keeps the site maintained."
+      },
+      {
+        question: "How long does it take to get an electrician website live?",
+        answer: "A five-page site with written content, WhatsApp capture and Google Business Profile setup usually takes two to four weeks from brief to launch. Most of that time is the content, and that is where the rankings and the trust come from."
+      }
+    ],
+  },
+  {
+    slug: 'electrician-website-cost-south-africa',
+    title: "How Much Does an Electrician Website Cost in South Africa?",
+    metaTitle: "How Much Does an Electrician Website Cost in SA?",
+    summary: "What an electrician website costs in South Africa in 2026: subscription vs once-off build, what the monthly fee covers, and an honest breakdown for trades.",
+    metaDescription: "What an electrician website costs in South Africa in 2026: subscription vs once-off build, what the monthly fee covers, and an honest breakdown for trades.",
+    date: 'Sep 7, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '8 min read',
+    category: 'Content & Strategy',
+    tags: ["electrician-website", "website-cost", "south-africa", "subscription-vs-once-off", "local-seo", "trades"],
+    imageUrl: '/images/electrician_website_cost.jpg',
+    keyTakeaways: [
+      "An electrician website in South Africa in 2026 costs from R250 a month on a subscription to R35,000 once-off, with a solid five-page small-agency build around R6,633 plus hosting.",
+      "Compare total cost over a few years, not the sticker price: R500 a month for five years is R30,000, more than most once-off builds, and the subscription site comes down when you stop paying.",
+      "The Webster publishes R250 a month website-only and R500 a month website plus Google Business Profile; their review counts and totals are their own claims, not market data.",
+      "A once-off build needs a care budget from day one, or the site goes stale. For an Eastern Cape electrician, a local build with care plus a free Google Business Profile does the job.",
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        The honest answer to how much does an electrician website cost in South Africa in 2026 is: it depends on the model you pick. You can pay a monthly subscription of a few hundred rand, or a once-off build that runs into the tens of thousands, and both can be legitimate. What matters is what you get for the money, and most electricians only hear one side of the story.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The short answer
+      </h2>
+
+      <p class="mb-8">
+        An electrician website in South Africa in 2026 costs from R250 a month on a subscription to R35,000 once-off. The middle of the market, a solid five-page site from a small local agency, lands around R6,633 once-off plus hosting. The comparison that matters is not the sticker price. It is what you own and who keeps it current.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The three models you actually see in South Africa
+      </h2>
+
+      <p class="mb-8">
+        In 2026, three models dominate the market: a monthly subscription where the provider hosts and maintains everything, a once-off agency build that you own, and a local build with a monthly care fee. Each one changes what you pay upfront, what you own, and what happens when you stop paying. The table below puts them side by side.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white"></th>
+              <th class="p-4 font-bold text-white">Monthly subscription</th>
+              <th class="p-4 font-bold text-white">Once-off agency build</th>
+              <th class="p-4 font-bold text-white">Local build with care</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Setup cost</td>
+              <td class="p-4 text-zinc-300">R0, no setup fee</td>
+              <td class="p-4 text-zinc-300">R6,000 to R35,000</td>
+              <td class="p-4 text-zinc-300">R1,499 once-off</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly cost</td>
+              <td class="p-4 text-zinc-300">R250 to R500</td>
+              <td class="p-4 text-zinc-300">R100 to R300 hosting</td>
+              <td class="p-4 text-zinc-300">R800 hosting and care</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Custom features</td>
+              <td class="p-4 text-zinc-300">Built on the provider's platform</td>
+              <td class="p-4 text-zinc-300">Fully custom</td>
+              <td class="p-4 text-zinc-300">Fully custom, WhatsApp-first</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">SEO done</td>
+              <td class="p-4 text-zinc-300">On-page basics</td>
+              <td class="p-4 text-zinc-300">On-page</td>
+              <td class="p-4 text-zinc-300">On-page plus local SEO</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who maintains</td>
+              <td class="p-4 text-zinc-300">The provider</td>
+              <td class="p-4 text-zinc-300">You or your agency</td>
+              <td class="p-4 text-zinc-300">Your agency</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">What happens</td>
+              <td class="p-4 text-zinc-300">You pay while you use it</td>
+              <td class="p-4 text-zinc-300">You own it, you keep it current</td>
+              <td class="p-4 text-zinc-300">It stays current every month</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The subscription model: pay while you use it
+      </h2>
+
+      <p class="mb-6">
+        The most visible new option is the monthly subscription. The Webster, a Durban-based provider, publishes R250 a month for a website-only package and R500 a month for website plus Google Business Profile management on its trade pages, with no setup fee and a five to seven day turnaround. You pay for as long as you use the service.
+      </p>
+
+      <p class="mb-8">
+        That price is their published price, and it is the cheapest answer to "electrician website cost south africa" you will find. Their e-commerce packages start at R455. The trade-off is ownership: the site lives on their platform, and the fee continues for as long as you want the site to exist. Stop paying and the site comes down. For an electrician who wants to test the water, that is a low-risk start. For an electrician who wants an asset that ranks and grows reviews in Port Elizabeth or East London, the monthly model gets expensive. R500 a month for five years is R30,000, more than most once-off builds. Their marketing numbers, like the review counts and website totals on their site, are their own claims, not third-party figures. Treat them as advertising, not market data.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The once-off agency build: you own it, you keep it current
+      </h2>
+
+      <p class="mb-6">
+        The traditional model is a once-off build from an agency. Published SA figures for small business sites put the average five-page build around R6,633, with professional services sites ranging from R8,590 to R16,900. You own the site when it is done.
+      </p>
+
+      <p class="mb-8">
+        What the once-off price does not include is the keeping-it-current part. Hosting runs R100 to R300 a month, and someone has to update the site, renew the domain and keep the reviews and photos fresh. Most electricians who buy a once-off site never touch it again, and a stale site loses the trust it was built to create. Budget a care fee or a maintenance retainer from day one. Our <a href="/articles/website-maintenance-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">website maintenance cost in South Africa</a> guide breaks down what that really costs, and the <a href="/articles/how-much-does-a-website-cost-south-africa" class="text-yellow-400 underline hover:text-yellow-300">South African website cost guide</a> covers every business type if you want the full picture.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What the monthly number hides
+      </h2>
+
+      <p class="mb-6">
+        Every website has a monthly number, whether it is called hosting, care, maintenance or a subscription. A once-off build still needs hosting and updates, and a subscription bundles them into one fee. R500 a month for five years is R30,000, while a R6,000 build with R300 a month in care is R24,000 over the same period.
+      </p>
+
+      <p class="mb-8">
+        The numbers favour the once-off model on paper, but only if the site actually gets maintained. The cheapest monthly option rarely includes the local work that wins electricians jobs in a city like Port Elizabeth or East London: suburb targeting, an emergency line, WhatsApp capture and review collection. That is where a local builder earns the fee, and it is the difference between a brochure and a lead machine.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The electrician option: local build with care
+      </h2>
+
+      <p class="mb-6">
+        For an electrician working the Eastern Cape, the practical option is a local build with a monthly care fee. You get a site built for your trade, your suburbs and your emergency line, and the agency keeps it current. That is the model this guide recommends, and it is the one the cost breakdown in the questions below uses.
+      </p>
+
+      <p class="mb-8">
+        You already know the local version of the pricing story from the rest of this site. What you actually pay depends on scope, pages, and how much content you hand over ready. Get two or three straight quotes from small local agencies, ask what the monthly fee covers, and ask what happens to the site if you cancel. The agency that answers those questions clearly is the one to work with. For the features that matter on the page itself, our <a href="/articles/electrician-website-design-south-africa" class="text-yellow-400 underline hover:text-yellow-300">electrician website design South Africa</a> guide is the checklist. And if you work Port Elizabeth specifically, <a href="/articles/electrician-port-elizabeth-local-search" class="text-yellow-400 underline hover:text-yellow-300">how customers find an electrician in Port Elizabeth</a> covers the search side of the equation.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-8">
+        The cheapest electrician website is the one that pays for itself in one job. Compare total cost over a few years, not the sticker price. Ask what you own, who keeps the site current, and what happens when you stop paying. Then pick the model that matches how you win work. For an Eastern Cape electrician, that usually means a local build with care, with the free Google Business Profile doing half the work from day one.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h4 class="text-yellow-400 font-extrabold text-lg mb-2">Get an Honest Electrician Website Quote</h4>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build and care for electrician websites across South Africa with transparent R1,499 setup plus R800/mo hosting, care and support. Tell us what your electrician business needs and we will show you the total cost, no surprises.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How much does an electrician website cost in South Africa?",
+        answer: "In this market, a working electrician website with service pages, WhatsApp capture and Google Business Profile setup runs about R1,499 once-off, plus R800 a month for hosting, care and updates. That covers the build and keeps the site maintained."
+      },
+      {
+        question: "Is R500 a month for an electrician website a good price?",
+        answer: "The Webster publishes R250 a month for a website-only package and R500 a month for website plus Google Business Profile management, with no setup fee. That is their published pricing, verified in August 2026. It is the cheapest option on the market, and you pay it for as long as you use the service."
+      },
+      {
+        question: "Do I own my website on a subscription plan?",
+        answer: "On a subscription, the site is built on the provider's platform and you pay for as long as you use it. Stop paying and the site comes down. With a once-off build, you own the site and the content, and you pay separately for hosting and updates."
+      },
+      {
+        question: "What does the monthly fee cover?",
+        answer: "On a subscription it covers hosting, the platform and basic maintenance. On a local build with care, it covers hosting, updates, backups and small content changes. On a once-off build, hosting and updates are separate costs you pay to whoever looks after the site."
+      },
+      {
+        question: "Why is the once-off price so much higher?",
+        answer: "A once-off build pays for strategy, copywriting, design and development up front, and you own the result. A subscription spreads a smaller fee over years, but you never own the asset. The higher once-off price buys ownership and a site built around your local market."
+      },
+      {
+        question: "Does an electrician website need e-commerce?",
+        answer: "Rarely. An electrician sells a call-out, not a product. A WhatsApp button and a quote request form do the job. E-commerce makes sense only if you also sell parts or maintenance plans, and it adds cost, so skip it unless the jobs actually need it."
+      },
+      {
+        question: "How long does it take to get an electrician website live?",
+        answer: "A subscription site can be live in five to seven days, because it uses a template. A once-off build with custom content usually takes two to four weeks. The extra time buys pages written for your suburbs, your services and your emergency line."
+      }
+    ],
   }
 ];
