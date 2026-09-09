@@ -1,12 +1,16 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import { articles, Article } from '../data/articlesData';
-import { ArrowRight, BookOpen, Clock, Search, X } from 'lucide-react';
+import { ArrowRight, BookOpen, ChevronLeft, ChevronRight, Clock, Search, X } from 'lucide-react';
+
+const ARTICLES_PER_PAGE = 6;
 
 export const ArticlesList: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const resultsRef = useRef<HTMLDivElement>(null);
 
   // Sort articles descending by date (newest first)
   const sortedArticles = useMemo(() => {
@@ -30,6 +34,29 @@ export const ArticlesList: React.FC = () => {
     });
   }, [searchQuery, sortedArticles]);
 
+  const totalPages = Math.max(1, Math.ceil(filteredArticles.length / ARTICLES_PER_PAGE));
+  // Safety clamp: search resets the page, but keep rendering valid if results shrink unexpectedly
+  const page = Math.min(currentPage, totalPages);
+  const startIndex = (page - 1) * ARTICLES_PER_PAGE;
+  const endIndex = Math.min(startIndex + ARTICLES_PER_PAGE, filteredArticles.length);
+  const pagedArticles = filteredArticles.slice(startIndex, endIndex);
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+    setCurrentPage(1);
+  };
+
+  const clearSearch = () => {
+    setSearchQuery('');
+    setCurrentPage(1);
+  };
+
+  const goToPage = (targetPage: number) => {
+    if (targetPage < 1 || targetPage > totalPages || targetPage === page) return;
+    setCurrentPage(targetPage);
+    resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <div className="pt-32 pb-24 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,13 +75,13 @@ export const ArticlesList: React.FC = () => {
               <input
                 type="text"
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={handleSearchChange}
                 placeholder="Search articles by topic, keyword, or trade..."
                 className="w-full bg-zinc-900/90 text-white placeholder-zinc-500 pl-12 pr-10 py-3.5 rounded-2xl border border-zinc-800 focus:border-yellow-400 focus:outline-none focus:ring-1 focus:ring-yellow-400 text-sm transition-all shadow-lg"
               />
               {searchQuery && (
                 <button
-                  onClick={() => setSearchQuery('')}
+                  onClick={clearSearch}
                   className="absolute right-3 text-zinc-400 hover:text-white p-1 rounded-full hover:bg-zinc-800 transition-colors"
                   aria-label="Clear search"
                 >
@@ -78,63 +105,114 @@ export const ArticlesList: React.FC = () => {
               We couldn't find any articles matching "{searchQuery}". Try searching for terms like "SEO", "Port Elizabeth", "Tax", or "Cost".
             </p>
             <button
-              onClick={() => setSearchQuery('')}
+              onClick={clearSearch}
               className="px-6 py-2.5 bg-yellow-400 text-black font-bold text-sm rounded-full hover:bg-yellow-300 transition-colors"
             >
               Clear Search
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredArticles.map((article) => (
-              <Link 
-                key={article.slug} 
-                href={`/articles/${article.slug}`}
-                className="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-yellow-400/50 transition-all group flex flex-col shadow-xl"
-              >
-                {article.imageUrl ? (
-                  <div className="h-48 overflow-hidden relative">
-                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent z-10" />
-                    <img 
-                      src={article.imageUrl} 
-                      alt={article.title} 
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                  </div>
-                ) : (
-                  <div className="h-48 bg-zinc-800 flex items-center justify-center">
-                    <BookOpen className="w-12 h-12 text-zinc-600" />
-                  </div>
-                )}
-                
-                <div className="p-6 flex-1 flex flex-col">
-                  <div className="flex items-center gap-4 text-xs font-bold text-zinc-500 mb-3">
-                    <span>{article.date}</span>
-                    <div className="flex items-center gap-1">
-                      <Clock className="w-3.5 h-3.5" />
-                      <span>{article.readTime}</span>
+          <div ref={resultsRef} className="scroll-mt-32">
+            {totalPages > 1 && (
+              <p className="text-sm text-zinc-500 mb-6">
+                Showing <span className="text-zinc-300 font-semibold">{startIndex + 1}–{endIndex}</span> of{' '}
+                <span className="text-zinc-300 font-semibold">{filteredArticles.length}</span>{' '}
+                {filteredArticles.length === 1 ? 'article' : 'articles'}
+              </p>
+            )}
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {pagedArticles.map((article) => (
+                <Link 
+                  key={article.slug} 
+                  href={`/articles/${article.slug}`}
+                  className="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-yellow-400/50 transition-all group flex flex-col shadow-xl"
+                >
+                  {article.imageUrl ? (
+                    <div className="h-48 overflow-hidden relative">
+                      <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent z-10" />
+                      <img 
+                        src={article.imageUrl} 
+                        alt={article.title} 
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                    </div>
+                  ) : (
+                    <div className="h-48 bg-zinc-800 flex items-center justify-center">
+                      <BookOpen className="w-12 h-12 text-zinc-600" />
+                    </div>
+                  )}
+                  
+                  <div className="p-6 flex-1 flex flex-col">
+                    <div className="flex items-center gap-4 text-xs font-bold text-zinc-500 mb-3">
+                      <span>{article.date}</span>
+                      <div className="flex items-center gap-1">
+                        <Clock className="w-3.5 h-3.5" />
+                        <span>{article.readTime}</span>
+                      </div>
+                    </div>
+                    
+                    <h3 className="text-xl font-bold text-white font-heading mb-3 group-hover:text-yellow-400 transition-colors">
+                      {article.title}
+                    </h3>
+                    
+                    <p className="text-zinc-400 text-sm mb-6 flex-1">
+                      {article.summary}
+                    </p>
+                    
+                    <div className="flex items-center gap-2 text-yellow-400 text-sm font-bold mt-auto group-hover:translate-x-1 transition-transform">
+                      Read Article <ArrowRight className="w-4 h-4" />
                     </div>
                   </div>
-                  
-                  <h3 className="text-xl font-bold text-white font-heading mb-3 group-hover:text-yellow-400 transition-colors">
-                    {article.title}
-                  </h3>
-                  
-                  <p className="text-zinc-400 text-sm mb-6 flex-1">
-                    {article.summary}
-                  </p>
-                  
-                  <div className="flex items-center gap-2 text-yellow-400 text-sm font-bold mt-auto group-hover:translate-x-1 transition-transform">
-                    Read Article <ArrowRight className="w-4 h-4" />
-                  </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              ))}
+            </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <nav className="mt-12 flex flex-wrap items-center justify-center gap-2" aria-label="Article pages">
+                <button
+                  onClick={() => goToPage(page - 1)}
+                  disabled={page === 1}
+                  aria-label="Previous page"
+                  className="flex items-center justify-center h-10 w-10 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-300 hover:border-yellow-400/50 hover:text-white disabled:opacity-40 disabled:pointer-events-none transition-colors"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNumber) => {
+                  const isActive = pageNumber === page;
+                  return (
+                    <button
+                      key={pageNumber}
+                      onClick={() => goToPage(pageNumber)}
+                      aria-label={`Page ${pageNumber}`}
+                      aria-current={isActive ? 'page' : undefined}
+                      className={`h-10 w-10 rounded-xl border text-sm font-bold transition-colors ${
+                        isActive
+                          ? 'bg-yellow-400 border-yellow-400 text-black'
+                          : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:border-yellow-400/50 hover:text-white'
+                      }`}
+                    >
+                      {pageNumber}
+                    </button>
+                  );
+                })}
+
+                <button
+                  onClick={() => goToPage(page + 1)}
+                  disabled={page === totalPages}
+                  aria-label="Next page"
+                  className="flex items-center justify-center h-10 w-10 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-300 hover:border-yellow-400/50 hover:text-white disabled:opacity-40 disabled:pointer-events-none transition-colors"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </nav>
+            )}
           </div>
         )}
       </div>
     </div>
   );
 };
-
