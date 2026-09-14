@@ -6181,5 +6181,445 @@ export const articles: Article[] = [
         answer: "A subscription site can be live in five to seven days, because it uses a template. A once-off build with custom content usually takes two to four weeks. The extra time buys pages written for your suburbs, your services and your emergency line."
       }
     ],
+  },
+
+  {
+    slug: 'emergency-plumber-port-elizabeth',
+    title: "Emergency Plumber Port Elizabeth: 3 Website Moves That Win the Call",
+    metaTitle: "Emergency Plumber Port Elizabeth: 3 Site Moves",
+    summary: "A blocked drain at 11pm is a Google search with money attached. Three website moves that win emergency plumbing jobs in Port Elizabeth, explained plainly.",
+    metaDescription: "A blocked drain at 11pm is a Google search with money attached. Three website moves that win emergency plumbing jobs in Port Elizabeth, explained plainly.",
+    date: 'Sep 14, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '8 min read',
+    category: 'Content & Strategy',
+    tags: ["emergency-plumber", "port-elizabeth", "whatsapp", "lead-capture", "local-seo", "trades"],
+    imageUrl: '/images/emergency_plumber_port_elizabeth.jpg',
+    keyTakeaways: [
+      "An 11pm blocked drain in Port Elizabeth is a Google search with money attached: live suggestions show 'open now', 'contact number' and 'within 1.6 km', and that customer is comparing response times, not prices.",
+      "Put your emergency number on your Google Business Profile and at the top of every page, with hours that reflect when you genuinely answer the phone.",
+      "Answer the four questions an emergency customer asks before they call: do you work 24 hours, which suburbs do you cover, what does an after-hours call-out cost, and how fast can you get there.",
+      "A Facebook page alone ranks on Facebook, not on Google, so a stranger at 11pm never finds it. A website with a one-tap WhatsApp button is what turns that search into a job."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Someone in Port Elizabeth with a blocked drain at 11pm does not search "emergency plumber port elizabeth" because they are curious. They are standing in water, or their geyser is pouring onto the kitchen floor, and they want a number that answers now. Google's own suggestions, live in August 2026, confirm it: "open now", "contact number", "within 1.6 km", "24 hour plumber port elizabeth". The customer is not comparing prices. They are comparing response times.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The 11pm search is the whole market
+      </h2>
+
+      <p class="mb-6">
+        Emergency work is where a plumber website pays for itself fastest, because the customer who searches at 11pm is ready to pay a premium for someone who answers. The plumbers who own the first page all lead with an emergency line and 24 hour messaging. The plumbers who only have a Facebook page cannot capture that search.
+      </p>
+
+      <p class="mb-8">
+        The demand side is verified. Autocomplete for "plumber near me" adds "open now", "prices" and "contact number", and "24 hour plumber port elizabeth" returns "24/7 plumbing near me" and "24hr plumbing service near me". Customers are searching for the plumber who is reachable this minute. The website's job is to be that plumber.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Move 1: put your number where the search happens
+      </h2>
+
+      <p class="mb-6">
+        The first move is the simplest: your emergency number on your Google Business Profile and at the top of every page. The customer at 11pm does not read your about page. They scan for a number and a sign that someone will answer. A visible number wins the search before the site is scrolled.
+      </p>
+
+      <p class="mb-8">
+        Set the Google Business Profile hours to reflect real availability, add the "open now" attribute if you genuinely answer after hours, and make sure the phone number is the one a human answers. The firms that already rank for emergency searches in Port Elizabeth all do this. It costs nothing, and it is the difference between being in the answer and being skipped. We walk through the full setup in <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Move 2: answer the questions an emergency customer asks
+      </h2>
+
+      <p class="mb-6">
+        The second move is content that answers the emergency questions before the call: do you work 24 hours, which suburbs do you cover, what does an after-hours call-out cost, how fast can you get here. Someone types each of those at 11pm. Put the answers on one page and the customer knows you handle their situation before they tap call.
+      </p>
+
+      <p class="mb-8">
+        There is no verified national figure for emergency call-out fees in South Africa, so do not copy a number from another city's website. Publish your own call-out fee and after-hours rate, or say "call for the after-hours rate". A straight answer builds more trust than a price list that looks copied. And put the word "emergency" and your suburbs on that page, because that is the search you are answering.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Move 3: make the next step one tap
+      </h2>
+
+      <p class="mb-6">
+        The third move is the WhatsApp button with a pre-filled message. The customer taps, the chat opens with "Hi, my drain is blocked in Walmer, can you help?", and the request lands in your pocket with their number attached. At 11pm nobody fills in a form. One tap to a real conversation is what turns a search into a job.
+      </p>
+
+      <p class="mb-8">
+        We walk through the mechanics in our <a href="/articles/whatsapp-website-integration-south-africa" class="text-yellow-400 underline hover:text-yellow-300">WhatsApp website integration in South Africa</a> guide. The detail that matters for emergencies is quick replies. Set the chat to confirm the call-out fee, the expected arrival window and your service area before you even type. The customer who gets "on my way, ETA 25 minutes" stays with you. The customer who gets silence phones the next name on the list.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What the site-owning firms in PE already do
+      </h2>
+
+      <p class="mb-6">
+        Look at who ranks for emergency plumbing searches in Port Elizabeth and the pattern is consistent: a dedicated website, an emergency number at the top, 24 hour messaging, and WhatsApp. The firms that only have Facebook pages rank through Facebook, where an 11pm customer never looks. The gap is not technical. It is a number, an answer and a button.
+      </p>
+
+      <p class="mb-8">
+        That is the whole competitive picture. Your competitors are not agencies with fancy marketing. They are plumbers in the same city, most of them with no website at all. The ones who own the search did one simple thing: they made it easy to call them at 11pm. That is a small project with a big return, and it is the reason our <a href="/articles/plumber-website-design-south-africa" class="text-yellow-400 underline hover:text-yellow-300">plumber website design South Africa</a> guide starts with the emergency line, not the logo.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The honest cost of being findable after hours
+      </h2>
+
+      <p class="mb-6">
+        The free half is your Google Business Profile: hours, an emergency number, the open-now attribute and real reviews, all at no cost. The paid half is a small website with the three moves above. The total sits well inside the normal band for small business websites in South Africa, and one after-hours job usually covers the year.
+      </p>
+
+      <p class="mb-8">
+        The pricing detail is in the questions below, but the principle is simple: the site should pay for itself in the first emergency call it captures. There is no verified national call-out fee to quote here, so treat any "average call-out price" you see with suspicion. Publish your own rates, and let the reviews prove the service. If you want the ranking side of this mapped out properly, our <a href="/articles/seo-port-elizabeth" class="text-yellow-400 underline hover:text-yellow-300">SEO Port Elizabeth guide</a> covers the seven local strategies that get a PE trade business found in the first place.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white"></th>
+              <th class="p-4 font-bold text-white">No website</th>
+              <th class="p-4 font-bold text-white">Facebook page only</th>
+              <th class="p-4 font-bold text-white">Website with emergency line</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Setup cost</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R1,499 once-off</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly cost</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R0</td>
+              <td class="p-4 text-zinc-300">R800 for hosting and care</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Custom features</td>
+              <td class="p-4 text-zinc-300">None</td>
+              <td class="p-4 text-zinc-300">Posts and messages only</td>
+              <td class="p-4 text-zinc-300">Emergency line, WhatsApp, service pages</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">SEO done</td>
+              <td class="p-4 text-zinc-300">None</td>
+              <td class="p-4 text-zinc-300">None</td>
+              <td class="p-4 text-zinc-300">Local SEO for your suburbs</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who maintains it</td>
+              <td class="p-4 text-zinc-300">Nobody</td>
+              <td class="p-4 text-zinc-300">You</td>
+              <td class="p-4 text-zinc-300">You or your agency</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">What happens</td>
+              <td class="p-4 text-zinc-300">Search finds your competitor</td>
+              <td class="p-4 text-zinc-300">Found, but not trusted after hours</td>
+              <td class="p-4 text-zinc-300">Found, trusted, and called</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line
+      </h2>
+
+      <p class="mb-8">
+        At 11pm, a blocked drain is a Google search with money attached. The plumber who answers with a visible emergency number, a page that answers the urgent questions, and a one-tap WhatsApp button wins the job before anyone compares prices. Start with the free Google Business Profile this week, and add the website as the next job on the list. The phone will do the rest.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h3 class="text-yellow-400 font-extrabold text-lg mb-2">Get Found Before the Next Emergency</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          We build and care for plumber websites across South Africa with transparent R1,499 setup plus R800/mo hosting, care and support. If an 11pm search is finding your competitor instead of you, let's fix that.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How do I win emergency plumbing jobs online in Port Elizabeth?",
+        answer: "Put your emergency number on your Google Business Profile and at the top of your website, answer the questions an 11pm customer asks, and give them a WhatsApp button that opens a pre-filled message. The customer who gets a straight answer and one tap calls you first."
+      },
+      {
+        question: "Should a plumber put a cellphone number on the website?",
+        answer: "Yes, if you answer it. An emergency customer does not want to leave a voicemail. If you take after-hours calls on your cell, say so and put the number at the top of every page. If you only work office hours, say that instead and let the site capture the message."
+      },
+      {
+        question: "What does 'open now' mean on Google?",
+        answer: "It is the attribute that shows a business is currently open, based on the hours on the Google Business Profile. Emergency customers filter for it. If you genuinely answer after hours, set your hours and add the open-now attribute so your listing appears in that search."
+      },
+      {
+        question: "Do I need a 24 hour answering service for plumbing?",
+        answer: "Only if you can back it up. A 24 hour line that goes to voicemail is worse than honest hours. Many plumbers set the profile to their real hours and let the WhatsApp button capture after-hours messages, then answer first thing. The customer still feels heard, and you did not invent availability."
+      },
+      {
+        question: "How much does it cost to be findable after hours?",
+        answer: "In this market, a small plumber website with an emergency line, WhatsApp capture and Google Business Profile setup runs about R1,499 once-off, plus R800 a month for hosting, care and updates. The profile itself is free, and one after-hours job usually covers the year."
+      },
+      {
+        question: "Will a website get me calls at 11pm?",
+        answer: "It gets you the call if the number is visible and answered. The website's job is to be the credible option in the search results, and the WhatsApp button is the capture point. No website answers phones, but a good one makes sure the phone rings instead of your competitor's."
+      },
+      {
+        question: "How long before a plumber website starts bringing in calls?",
+        answer: "The Google Business Profile fixes work within days, and a small website can go live in two to four weeks. Reviews take longer, so ask after every job from day one. The plumbers who rank now started months ago, so the best time to start was last month, and the second best is this week."
+      }
+    ],
+  },
+  {
+    slug: 'seo-port-elizabeth',
+    title: "SEO Port Elizabeth: How to Rank #1 in PE in 2026 (7 Local Strategies)",
+    metaTitle: "SEO Port Elizabeth: Rank #1 in PE in 2026 (7 Strategies)",
+    summary: "Rank on page 1 in Port Elizabeth: 7 local SEO strategies for PE businesses in 2026, covering Google Maps, reviews, citations, speed and content. Honest, practical, local.",
+    metaDescription: "Rank on page 1 in Port Elizabeth: 7 local SEO strategies for PE businesses in 2026, covering Google Maps, reviews, citations, speed and content. Honest, practical, local.",
+    date: 'Sep 14, 2026',
+    author: 'Allegro Digital Team',
+    readTime: '8 min read',
+    category: 'SEO & Marketing',
+    tags: ["seo", "local-seo", "port-elizabeth", "gqeberha", "google-maps", "google-business-profile"],
+    imageUrl: '/images/seo_port_elizabeth_guide.jpg',
+    keyTakeaways: [
+      "Local search in Port Elizabeth is suburb-by-suburb: 'plumber in Walmer' and 'plumber in Summerstrand' are different searches with different winners, so you only need to beat your patch, not the country.",
+      "Your Google Business Profile is the single most important local ranking asset. Complete it first, because a complete profile outranks an incomplete one in the same suburb every time.",
+      "Reviews decide both the ranking and the click. Ask on the job, make it one tap, and reply to every review within days.",
+      "Local SEO takes three to six months to show real movement and it compounds. Anyone promising page one in two weeks is selling something that does not exist."
+    ],
+    content: `
+      <p class="text-lg text-zinc-300 leading-relaxed font-sans mb-8">
+        Here is a question for every business in Port Elizabeth: when someone searches "electrician near me" or "best restaurant in Gqeberha" on their phone, are you on that first page? Not the first page of results you get when you search your own business name. The first page someone sees when they search for what you sell, without knowing you exist. That is the difference between a business that grows and one that waits for word of mouth.
+      </p>
+
+      <p class="mb-8">
+        Local SEO is the discipline of getting found in those searches, and in a city like PE it is more winnable than business owners think. This guide breaks down the seven strategies that actually move the needle for local businesses in Port Elizabeth in 2026, the same ones we use at Allegro Digital when we take on a client's search rankings.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Why local SEO in PE is different
+      </h2>
+
+      <p class="mb-8">
+        Port Elizabeth is a mid-sized metro with tight neighbourhoods, and each one searches differently. Walmer, Summerstrand, Newton Park, Kariega, the townships and the suburbs all have their own patterns: "plumber in Walmer" and "plumber in Summerstrand" are different searches with different winners. That is good news. You do not need to outrank every business in the country, just the ones in your patch. And the patch is where the money is, because the "near me" and city-plus-service queries are the highest-intent searches there are. Someone typing "emergency electrician Port Elizabeth" at 8pm is not browsing. They are buying.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Strategy 1: own your Google Business Profile
+      </h2>
+
+      <p class="mb-6">
+        Your Google Business Profile, the thing people call the "Google Maps listing", is the single most important ranking asset a local business owns. If it is incomplete, unverified or abandoned, nothing else you do matters as much. A complete profile outranks an incomplete one in the same suburb, every time.
+      </p>
+
+      <ul <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+          <li>Every field filled in: categories, services, hours, phone, website, photos.</li>
+          <li>Categories chosen carefully, because the primary category is a ranking signal on its own.</li>
+          <li>Regular posts: offers, new stock, behind-the-scenes work. Activity keeps the profile healthy.</li>
+          <li>Questions answered in the Q&amp;A section, before customers ask them.</li>
+          <li>Photo updates monthly, even if it is just the shop front.</li>
+      </ul>
+
+      <p class="mb-8">
+        Google's own guidelines set out exactly what "complete" means, and we walk through the setup step by step in <a href="/articles/how-to-get-your-sa-business-on-google-maps" class="text-yellow-400 underline hover:text-yellow-300">how to get your SA business on Google Maps</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Strategy 2: reviews are the ranking lever nobody buys
+      </h2>
+
+      <p class="mb-6">
+        Reviews do double duty: they decide the ranking, and they decide the click. A business with 80 reviews and a 4.8 rating beats a business with 12 reviews and a 5.0 in most cases, because Google reads both volume and recency.
+      </p>
+
+      <ul <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+          <li>Ask every happy customer at the moment they are happiest: on the job, at checkout, right after delivery.</li>
+          <li>Make it a one-tap ask. "Mind leaving us a quick Google review?" Most people say yes.</li>
+          <li>Reply to every review, good or bad, within days. It signals you are active, and it converts readers.</li>
+          <li>Never fake reviews. Google is better at spotting them than you think, and the penalty is brutal.</li>
+      </ul>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Strategy 3: citations, be consistent everywhere
+      </h2>
+
+      <p class="mb-8">
+        A citation is any mention of your business name, address and phone number on the web: directories, business listings, your Facebook page, industry sites. The game here is consistency. "23 Main Rd" on your website, "23 Main Road" on one directory and "23 Main Rd." on another tells Google you are sloppy, and sloppy businesses do not get ranked. Do one clean pass: pick the top five directories that matter for your industry, Brabys, Yellow Pages SA and Snupit for trades, HelloPeter, your industry body, make every listing identical, and check twice a year. Consistency compounds quietly.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Strategy 4: a fast, mobile-first website
+      </h2>
+
+      <p class="mb-6">
+        Your website can be perfect in every other way and still lose, because Google ranks on mobile experience first. In South Africa the majority of local searches happen on phones over mobile data, and a site that takes eight seconds to load on a loaded network gets punished twice: once by Google's speed ranking, and once by the human who gives up and calls your competitor.
+      </p>
+
+      <ul <ul class="space-y-4 my-8 pl-6 list-disc text-zinc-350">
+          <li>Loads in under three seconds on a mid-range phone.</li>
+          <li>Tap-to-call phone number, visible on every page.</li>
+          <li>Your address linking to Google Maps.</li>
+          <li>No pop-ups that cover the screen on mobile.</li>
+          <li>Service pages that answer the questions people search.</li>
+      </ul>
+
+      <p class="mb-8">
+        This is where cheap "build it once and forget it" websites fail hardest. A slow, bloated site built on a heavy template is not just ugly. It is actively costing you rankings.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Strategy 5: content that matches how PE searches
+      </h2>
+
+      <p class="mb-8">
+        Google ranks pages that answer questions. When someone searches "how much does a new geyser cost in PE" or "best schools in Westering", the businesses that rank are the ones with a page that answers it properly, not a homepage that says "We're the best." You do not need a blog empire. You need five to ten genuinely useful pages that match real searches in your area. One great page titled "Borehole Drilling Cost in the Eastern Cape" will outrank a hundred generic posts. Think like your customer: what would you type into Google? Write that page.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Strategy 6: the pages that matter most
+      </h2>
+
+      <p class="mb-8">
+        Most small business websites rank for one or two pages, and it is usually not the homepage. The pages that rank are the ones that answer a specific question: "Roof Repairs Gqeberha", "Guest House Jeffreys Bay", "Wedding Photographer PE". Each of those pages needs a clear title, honest content and one obvious action: call, WhatsApp or a booking form. The best local pages go further and match the moment the customer is in, which is why a page written for the 11pm emergency search is worth more than any amount of homepage copy. Our <a href="/articles/emergency-plumber-port-elizabeth" class="text-yellow-400 underline hover:text-yellow-300">emergency plumber Port Elizabeth</a> breakdown shows the pattern end to end. If your website buries your services in a generic "What We Do" page, you are making Google do the work of figuring out what you sell. Give every service its own page, with the suburb in the title where it makes sense.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        Strategy 7: patience, the honest timeline
+      </h2>
+
+      <p class="mb-8">
+        The part no SEO agency wants to say out loud: local SEO takes three to six months to show real movement, and it compounds. The business that starts today is ahead of the one that starts in December, but neither gets results this week. Anyone promising page-one rankings in two weeks is selling you something that does not exist. What you should see if it is working: profile views and calls from Google within the first month, review growth by month two, and meaningful ranking movement on your target searches by month three to six.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        What SEO actually costs in South Africa
+      </h2>
+
+      <p class="mb-6">
+        Let's be straight about money, because the SEO industry in South Africa is full of R500-a-month miracle workers and R15,000-a-month agencies that deliver the same thing. Realistic range for a small business: R1,500 to R5,000 a month for genuine, ongoing local SEO, covering profile management, reviews, citations, content and technical fixes. Anything below that is either a bot or a person doing nothing.
+      </p>
+
+      <div class="overflow-x-auto my-8 border border-zinc-800 rounded-2xl bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-zinc-850 bg-zinc-900">
+              <th class="p-4 font-bold text-white"></th>
+              <th class="p-4 font-bold text-white">Do it yourself</th>
+              <th class="p-4 font-bold text-white">Genuine local SEO, hired</th>
+              <th class="p-4 font-bold text-white">Leave it alone</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850">
+            <tr>
+              <td class="p-4 text-white font-bold">Monthly cost</td>
+              <td class="p-4 text-zinc-300">R0 cash, a few hours a week</td>
+              <td class="p-4 text-zinc-300">R1,500 to R5,000</td>
+              <td class="p-4 text-zinc-300">R0 in cash, R0 in ranking</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Who does the work</td>
+              <td class="p-4 text-zinc-300">You, or someone on your team</td>
+              <td class="p-4 text-zinc-300">A provider who reports monthly</td>
+              <td class="p-4 text-zinc-300">Nobody</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Time to first movement</td>
+              <td class="p-4 text-zinc-300">3 to 6 months, slower if you skip weeks</td>
+              <td class="p-4 text-zinc-300">3 to 6 months, compounding</td>
+              <td class="p-4 text-zinc-300">Never</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">What happens</td>
+              <td class="p-4 text-zinc-300">Cheap, but the work stops when you get busy</td>
+              <td class="p-4 text-zinc-300">You rank in your suburbs and the calls follow</td>
+              <td class="p-4 text-zinc-300">Competitors take the searches you should own</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-white font-bold">Watch out for</td>
+              <td class="p-4 text-zinc-300">The months you skip</td>
+              <td class="p-4 text-zinc-300">Guarantees of #1, bought links, a year paid upfront</td>
+              <td class="p-4 text-zinc-300">Waiting for word of mouth in 2026</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mb-8">
+        Our own managed local SEO add-on is R1,999 a month on top of an existing website, and it covers the honest stuff: profile optimisation, review systems, citation fixes and one piece of ranking content a month. The wider campaign picture, from a site that converts to lead handling, is in our <a href="/articles/local-lead-generation-strategy-south-africa" class="text-yellow-400 underline hover:text-yellow-300">local lead generation strategy for South African service businesses</a>.
+      </p>
+
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white font-heading mt-12 mb-6 border-b border-zinc-800 pb-3">
+        The bottom line for PE businesses
+      </h2>
+
+      <p class="mb-8">
+        Local SEO in Port Elizabeth is winnable, and it is the cheapest growth channel most businesses in this city are ignoring. The seven strategies, profile, reviews, citations, speed, content, pages, patience, are not secret. They are just work, done consistently, for months. If you would rather spend your time running your business while this gets handled properly, that is what we do: book a free 15-minute call and we will tell you honestly whether your business can win the searches that matter, and what it would take. No jargon, no long-term contracts hidden in the fine print. Just a straight answer for a PE business owner.
+      </p>
+
+      <div class="bg-zinc-900 border border-yellow-400/30 p-6 rounded-2xl my-8">
+        <h3 class="text-yellow-400 font-extrabold text-lg mb-2">Rank for the Searches That Matter</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+          Website builds run at R1,499 setup plus R800/mo hosting and care, and the managed local SEO add-on is R1,999/mo: Google Business Profile, reviews, citations and one ranking page a month. No guarantees, no jargon, just honest reporting on what moved.
+        </p>
+
+        <div class="mt-4">
+          <a 
+            href="https://wa.me/27823006996" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3.5 bg-yellow-400 text-black font-extrabold rounded-xl hover:bg-yellow-300 transition-all shadow-[0_0_25px_rgba(250,204,21,0.3)] text-sm sm:text-base"
+          >
+            Chat With Us on WhatsApp →
+          </a>
+        </div>
+      </div>
+    `,
+    faqs: [
+      {
+        question: "How long does local SEO take to work in Port Elizabeth?",
+        answer: "Expect three to six months for meaningful ranking movement, and faster signals in the meantime: Google profile views and calls within the first month, review growth by month two. Local SEO compounds, so the business that starts today is ahead of the one that starts in December."
+      },
+      {
+        question: "Where do I start with local SEO for a PE business?",
+        answer: "Claim and complete your Google Business Profile: correct primary category, real hours, phone, website, photos, services and a Q&A section. It is free and it carries more weight than anything else you can do locally. Reviews and citations come next, then the website work."
+      },
+      {
+        question: "How important are Google reviews for ranking in Port Elizabeth?",
+        answer: "Very. Reviews decide both the ranking and the click, and Google reads volume and recency, not just the star average. A business with 80 reviews at 4.8 usually beats one with 12 reviews at 5.0. Ask after every job, make it one tap, and reply to every review within days."
+      },
+      {
+        question: "What does local SEO cost in South Africa?",
+        answer: "Genuine, ongoing local SEO for a small business runs about R1,500 to R5,000 a month, covering profile management, reviews, citations, content and technical fixes. Anything far below that is either a bot or a person doing nothing. Our own managed add-on is R1,999 a month on top of a website."
+      },
+      {
+        question: "Do I need a website for local SEO, or is a Google Business Profile enough?",
+        answer: "You need both, and the profile is the free half. The profile wins the map results, while your website is what ranks in the normal search results and converts the visit into a call or a WhatsApp. A profile with no website behind it loses the customer who wants to check you are real."
+      },
+      {
+        question: "Which suburbs should a Port Elizabeth business target?",
+        answer: "The ones you actually work in: Walmer, Summerstrand, Newton Park, Kariega, Lorraine, Fairview, Mill Park, Kabega or whichever patch is yours. Name them on your home page, service pages and Google Business Profile, because 'plumber in Walmer' and 'plumber in Summerstrand' are different searches."
+      },
+      {
+        question: "Can I do local SEO myself instead of paying an agency?",
+        answer: "Yes, and plenty of PE businesses do. The work is not secret: complete the profile, collect reviews every week, fix your citations, keep the site fast, publish pages that answer real searches. It takes a few hours a week and it stops the moment you get busy, which is the honest trade-off."
+      }
+    ],
   }
 ];
